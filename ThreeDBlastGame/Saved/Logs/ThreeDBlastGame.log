@@ -2750,3 +2750,59 @@ Sampler Limit: 32
 [2025.10.30-14.41.25:986][522]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
 [2025.10.30-14.41.25:987][522]AssetCheck: /Game/TopDown/Lvl_TopDown Validating asset
 [2025.10.30-14.41.26:024][522]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/SourceControl/UncontrolledChangelists.json
+[2025.10.30-14.41.59:538][626]LogUObjectHash: Compacting FUObjectHashTables data took   0.31ms
+[2025.10.30-14.41.59:540][626]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/TopDown/Lvl_TopDown' took 0.021
+[2025.10.30-14.41.59:540][626]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Colours/Green] ([1] browsable assets)...
+[2025.10.30-14.41.59:540][626]OBJ SavePackage: Finished generating thumbnails for package [/Game/Colours/Green]
+[2025.10.30-14.41.59:546][626]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Colours/Green_Auto2
+[2025.10.30-14.41.59:546][626]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/Green_Auto2478D184C47D459E1AB2AFA8971CC669F.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/Autosaves/Game/Colours/Green_Auto2.uasset'
+[2025.10.30-14.41.59:548][626]LogFileHelpers: Auto-saving content packages took 0.008
+[2025.10.30-14.42.18:173][927]LogShaderCompilers: Display: ================================================
+[2025.10.30-14.42.18:173][927]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.10.30-14.42.18:173][927]LogShaderCompilers: Display: Total job queries 2,884, among them cache hits 862 (29.89%), DDC hits 1,851 (64.18%), Duplicates 105 (3.64%)
+[2025.10.30-14.42.18:173][927]LogShaderCompilers: Display: Tracking 1,917 distinct input hashes that result in 1,237 distinct outputs (64.53%)
+[2025.10.30-14.42.18:173][927]LogShaderCompilers: Display: RAM used: 12.43 MiB of 6.40 GiB budget. Usage: 0.19%
+[2025.10.30-14.42.18:173][927]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.10.30-14.42.18:173][927]LogShaderCompilers: Display: Shaders Compiled: 66
+[2025.10.30-14.42.18:174][927]LogShaderCompilers: Display: Jobs assigned 66, completed 66 (100%)
+[2025.10.30-14.42.18:174][927]LogShaderCompilers: Display: Average time worker was idle: 129.23 s
+[2025.10.30-14.42.18:174][927]LogShaderCompilers: Display: Time job spent in pending queue: average 0.06 s, longest 0.11 s
+[2025.10.30-14.42.18:174][927]LogShaderCompilers: Display: Job execution time: average 1.38 s, max 3.18 s
+[2025.10.30-14.42.18:174][927]LogShaderCompilers: Display: Job life time (pending + execution): average 1.44 s, max 3.22
+[2025.10.30-14.42.18:174][927]LogShaderCompilers: Display: Shader code size: total 689.453 KiB, numShaders 66, average 10.445 KiB, min 4.289 KiB, max 19.195 KiB
+[2025.10.30-14.42.18:174][927]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 29.54 s
+[2025.10.30-14.42.18:174][927]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.18%
+[2025.10.30-14.42.18:174][927]LogShaderCompilers: Display: Jobs were issued in 66 batches (only local compilation was used), average 1.00 jobs/batch
+[2025.10.30-14.42.18:174][927]LogShaderCompilers: Display: Average processing rate: 2.23 jobs/sec
+[2025.10.30-14.42.18:174][927]LogShaderCompilers: Display: Total thread time: 68.777 s
+[2025.10.30-14.42.18:174][927]LogShaderCompilers: Display: Total thread preprocess time: 48.843 s
+[2025.10.30-14.42.18:174][927]LogShaderCompilers: Display: Percentage time preprocessing: 71.02%
+[2025.10.30-14.42.18:174][927]LogShaderCompilers: Display: Effective parallelization: 2.33 (times faster than compiling all shaders on one thread). Compare with number of workers: 8 - 0.290992
+[2025.10.30-14.42.18:174][927]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.10.30-14.42.18:174][927]LogShaderCompilers: Display:                                 TBasePassCSFNoLightMapPolicy (compiled    3 times, average 2.45 sec, max 2.58 sec, min 2.35 sec)
+[2025.10.30-14.42.18:174][927]LogShaderCompilers: Display:                         TBasePassCSFNoLightMapPolicySkylight (compiled    3 times, average 2.44 sec, max 2.57 sec, min 2.36 sec)
+[2025.10.30-14.42.18:174][927]LogShaderCompilers: Display:                                                 FLumenCardCS (compiled    3 times, average 1.99 sec, max 2.10 sec, min 1.93 sec)
+[2025.10.30-14.42.18:174][927]LogShaderCompilers: Display:                   TMaterialCHSFNoLightMapPolicyFAnyHitShader (compiled    1 times, average 1.43 sec, max 1.43 sec, min 1.43 sec)
+[2025.10.30-14.42.18:174][927]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy (compiled   14 times, average 1.26 sec, max 2.00 sec, min 0.86 sec)
+[2025.10.30-14.42.18:174][927]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.10.30-14.42.18:174][927]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy - 25.66% of total time (compiled   14 times, average 1.26 sec, max 2.00 sec, min 0.86 sec)
+[2025.10.30-14.42.18:174][927]LogShaderCompilers: Display:                                      FPathTracingMaterialCHS - 13.88% of total time (compiled    8 times, average 1.19 sec, max 1.94 sec, min 0.76 sec)
+[2025.10.30-14.42.18:174][927]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 11.86% of total time (compiled   13 times, average 0.63 sec, max 0.88 sec, min 0.46 sec)
+[2025.10.30-14.42.18:174][927]LogShaderCompilers: Display:                                 TBasePassCSFNoLightMapPolicy - 10.70% of total time (compiled    3 times, average 2.45 sec, max 2.58 sec, min 2.35 sec)
+[2025.10.30-14.42.18:174][927]LogShaderCompilers: Display:                         TBasePassCSFNoLightMapPolicySkylight - 10.65% of total time (compiled    3 times, average 2.44 sec, max 2.57 sec, min 2.36 sec)
+[2025.10.30-14.42.18:174][927]LogShaderCompilers: Display: === Material stats ===
+[2025.10.30-14.42.18:174][927]LogShaderCompilers: Display: Materials Cooked:        0
+[2025.10.30-14.42.18:174][927]LogShaderCompilers: Display: Materials Translated:    190
+[2025.10.30-14.42.18:174][927]LogShaderCompilers: Display: Material Total Translate Time: 0.17 s
+[2025.10.30-14.42.18:174][927]LogShaderCompilers: Display: Material Translation Only: 0.06 s (36%)
+[2025.10.30-14.42.18:174][927]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (0%)
+[2025.10.30-14.42.18:174][927]LogShaderCompilers: Display: Material Cache Hits: 0 (0%)
+[2025.10.30-14.42.18:174][927]LogShaderCompilers: Display: ================================================
+[2025.10.30-14.46.16:379][327]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2044.101685
+[2025.10.30-14.46.17:378][330]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.30-14.46.17:378][330]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2044.768921, Update Interval: 352.789093
+[2025.10.30-14.48.33:120][737]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.30-14.48.33:241][737]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2025.10.30-14.48.33:266][737]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2025.10.30-14.48.33:289][737]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2025.10.30-14.48.33:303][737]LogFileHelpers: InternalPromptForCheckoutAndSave took 182.722 ms (total: 2.96 sec)
