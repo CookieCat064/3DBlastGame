@@ -2130,3 +2130,623 @@ Sampler Limit: 32
 [2025.10.30-14.20.42:727][909]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
 [2025.10.30-14.20.42:727][909]AssetCheck: /Game/TopDown/Lvl_TopDown Validating asset
 [2025.10.30-14.20.42:763][909]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/SourceControl/UncontrolledChangelists.json
+[2025.10.30-14.21.17:834][ 39]LogShaderCompilers: Display: ================================================
+[2025.10.30-14.21.17:834][ 39]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.10.30-14.21.17:834][ 39]LogShaderCompilers: Display: Total job queries 2,768, among them cache hits 780 (28.18%), DDC hits 1,851 (66.87%), Duplicates 92 (3.32%)
+[2025.10.30-14.21.17:834][ 39]LogShaderCompilers: Display: Tracking 1,896 distinct input hashes that result in 1,216 distinct outputs (64.14%)
+[2025.10.30-14.21.17:834][ 39]LogShaderCompilers: Display: RAM used: 12.17 MiB of 6.40 GiB budget. Usage: 0.19%
+[2025.10.30-14.21.17:834][ 39]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.10.30-14.21.17:834][ 39]LogShaderCompilers: Display: Shaders Compiled: 45
+[2025.10.30-14.21.17:834][ 39]LogShaderCompilers: Display: Jobs assigned 45, completed 45 (100%)
+[2025.10.30-14.21.17:834][ 39]LogShaderCompilers: Display: Average time worker was idle: 46.21 s
+[2025.10.30-14.21.17:834][ 39]LogShaderCompilers: Display: Time job spent in pending queue: average 0.07 s, longest 0.11 s
+[2025.10.30-14.21.17:834][ 39]LogShaderCompilers: Display: Job execution time: average 0.99 s, max 2.21 s
+[2025.10.30-14.21.17:834][ 39]LogShaderCompilers: Display: Job life time (pending + execution): average 1.06 s, max 2.29
+[2025.10.30-14.21.17:834][ 39]LogShaderCompilers: Display: Shader code size: total 383.148 KiB, numShaders 45, average 8.514 KiB, min 4.289 KiB, max 13.438 KiB
+[2025.10.30-14.21.17:834][ 39]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 17.83 s
+[2025.10.30-14.21.17:834][ 39]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.19%
+[2025.10.30-14.21.17:835][ 39]LogShaderCompilers: Display: Jobs were issued in 45 batches (only local compilation was used), average 1.00 jobs/batch
+[2025.10.30-14.21.17:835][ 39]LogShaderCompilers: Display: Average processing rate: 2.52 jobs/sec
+[2025.10.30-14.21.17:835][ 39]LogShaderCompilers: Display: Total thread time: 32.821 s
+[2025.10.30-14.21.17:835][ 39]LogShaderCompilers: Display: Total thread preprocess time: 46.731 s
+[2025.10.30-14.21.17:835][ 39]LogShaderCompilers: Display: Percentage time preprocessing: 142.38%
+[2025.10.30-14.21.17:835][ 39]LogShaderCompilers: Display: Effective parallelization: 1.84 (times faster than compiling all shaders on one thread). Compare with number of workers: 8 - 0.230078
+[2025.10.30-14.21.17:835][ 39]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.10.30-14.21.17:835][ 39]LogShaderCompilers: Display:                   TMaterialCHSFNoLightMapPolicyFAnyHitShader (compiled    1 times, average 1.43 sec, max 1.43 sec, min 1.43 sec)
+[2025.10.30-14.21.17:835][ 39]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy (compiled   10 times, average 1.09 sec, max 1.51 sec, min 0.86 sec)
+[2025.10.30-14.21.17:835][ 39]LogShaderCompilers: Display:                                             FDebugViewModePS (compiled    4 times, average 0.88 sec, max 0.92 sec, min 0.84 sec)
+[2025.10.30-14.21.17:835][ 39]LogShaderCompilers: Display:                                      FPathTracingMaterialCHS (compiled    4 times, average 0.79 sec, max 0.84 sec, min 0.76 sec)
+[2025.10.30-14.21.17:835][ 39]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled   12 times, average 0.64 sec, max 0.88 sec, min 0.46 sec)
+[2025.10.30-14.21.17:835][ 39]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.10.30-14.21.17:835][ 39]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy - 33.30% of total time (compiled   10 times, average 1.09 sec, max 1.51 sec, min 0.86 sec)
+[2025.10.30-14.21.17:835][ 39]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 23.27% of total time (compiled   12 times, average 0.64 sec, max 0.88 sec, min 0.46 sec)
+[2025.10.30-14.21.17:835][ 39]LogShaderCompilers: Display:                                             FDebugViewModePS - 10.71% of total time (compiled    4 times, average 0.88 sec, max 0.92 sec, min 0.84 sec)
+[2025.10.30-14.21.17:835][ 39]LogShaderCompilers: Display:                                      FPathTracingMaterialCHS - 9.68% of total time (compiled    4 times, average 0.79 sec, max 0.84 sec, min 0.76 sec)
+[2025.10.30-14.21.17:835][ 39]LogShaderCompilers: Display:                                                 FLumenCardPS - 7.78% of total time (compiled    7 times, average 0.36 sec, max 0.50 sec, min 0.32 sec)
+[2025.10.30-14.21.17:835][ 39]LogShaderCompilers: Display: === Material stats ===
+[2025.10.30-14.21.17:835][ 39]LogShaderCompilers: Display: Materials Cooked:        0
+[2025.10.30-14.21.17:835][ 39]LogShaderCompilers: Display: Materials Translated:    176
+[2025.10.30-14.21.17:835][ 39]LogShaderCompilers: Display: Material Total Translate Time: 0.16 s
+[2025.10.30-14.21.17:835][ 39]LogShaderCompilers: Display: Material Translation Only: 0.06 s (36%)
+[2025.10.30-14.21.17:835][ 39]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (0%)
+[2025.10.30-14.21.17:835][ 39]LogShaderCompilers: Display: Material Cache Hits: 0 (0%)
+[2025.10.30-14.21.17:835][ 39]LogShaderCompilers: Display: ================================================
+[2025.10.30-14.21.19:704][ 61]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.10.30-14.21.21:903][200]LogActorFactory: Loading ActorFactory Class /Script/Engine.LevelInstance
+[2025.10.30-14.21.29:798][841]Cmd: TRANSACTION UNDO
+[2025.10.30-14.21.29:798][841]LogEditorTransaction: Undo Place Objects
+[2025.10.30-14.21.33:901][143]Cmd: TRANSACTION UNDO
+[2025.10.30-14.21.33:901][143]LogEditorTransaction: Undo Place Objects
+[2025.10.30-14.21.35:740][251]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.10.30-14.21.50:001][239]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.10.30-14.22.01:604][971]LogContentBrowser: Deferred new asset file creation: Brown1
+[2025.10.30-14.22.01:683][971]LogContentBrowser: Creating deferred item: Brown1
+[2025.10.30-14.22.01:701][972]LogContentBrowser: Renaming the item being created (Deferred Item: Brown1).
+[2025.10.30-14.22.01:899][988]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.10.30-14.22.06:775][329]LogContentBrowser: Attempting asset rename: Brown1 -> DarkBrown
+[2025.10.30-14.22.06:778][329]LogContentBrowser: End creating deferred item Brown1
+[2025.10.30-14.22.07:810][388]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/Colours/DarkBrown.DarkBrown
+[2025.10.30-14.22.07:813][388]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_9
+[2025.10.30-14.22.08:451][388]MaterialEditorStats: Texture samplers: 0/16
+[2025.10.30-14.22.08:451][388]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2025.10.30-14.22.08:451][388]MaterialEditorStats: Shader Count: 0
+[2025.10.30-14.22.08:451][388]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.10.30-14.22.08:606][390]MaterialEditorStats: Base pass shader: 173 instructions
+Stats: Resources Used: 4
+Resource Limit: 64
+Samplers Used: 1
+Sampler Limit: 32
+
+[2025.10.30-14.22.08:606][390]MaterialEditorStats: Base pass vertex shader: 148 instructions
+Stats: Resources Used: 4
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2025.10.30-14.22.08:606][390]MaterialEditorStats: Texture samplers: 1/16
+[2025.10.30-14.22.08:606][390]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2025.10.30-14.22.08:606][390]MaterialEditorStats: Shader Count: 5
+[2025.10.30-14.22.08:606][390]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.10.30-14.22.13:613][434]LogSlate: Window 'Color Picker' being destroyed
+[2025.10.30-14.22.18:696][543]LogSlate: Window 'Message' being destroyed
+[2025.10.30-14.22.18:702][543]Message dialog closed, result: Yes, title: Message, text: Would you like to apply the changes of the modified material to the original material?
+/Game/Colours/DarkBrown.DarkBrown
+(Selecting 'No' will cause all changes to be lost!)
+[2025.10.30-14.22.18:960][543]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2025.10.30-14.22.20:169][543]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2025.10.30-14.22.20:189][543]LogSlate: Window 'DarkBrown' being destroyed
+[2025.10.30-14.22.20:192][543]LogSlate: Window 'DarkBrown' being destroyed
+[2025.10.30-14.22.20:223][543]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2025.10.30-14.22.20:223][543]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.30-14.22.20:370][543]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2025.10.30-14.22.22:057][652]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/Colours/Brown.Brown
+[2025.10.30-14.22.22:060][652]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_10
+[2025.10.30-14.22.22:592][652]MaterialEditorStats: Texture samplers: 0/16
+[2025.10.30-14.22.22:592][652]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2025.10.30-14.22.22:592][652]MaterialEditorStats: Shader Count: 0
+[2025.10.30-14.22.22:592][652]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.10.30-14.22.22:726][654]MaterialEditorStats: Base pass shader: 173 instructions
+Stats: Resources Used: 4
+Resource Limit: 64
+Samplers Used: 1
+Sampler Limit: 32
+
+[2025.10.30-14.22.22:726][654]MaterialEditorStats: Base pass vertex shader: 148 instructions
+Stats: Resources Used: 4
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2025.10.30-14.22.22:726][654]MaterialEditorStats: Texture samplers: 1/16
+[2025.10.30-14.22.22:726][654]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2025.10.30-14.22.22:726][654]MaterialEditorStats: Shader Count: 5
+[2025.10.30-14.22.22:726][654]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.10.30-14.22.27:318][794]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.10.30-14.22.37:850][601]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.10.30-14.22.48:811][454]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.10.30-14.23.05:749][685]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.10.30-14.23.19:901][589]LogMaterial: Display: Material /Game/Colours/Brown.Brown needed to have new flag set bUsedWithNanite !
+[2025.10.30-14.23.19:901][589]LogMaterial: Display: Material /Engine/Transient.PreviewMaterial_0 needed to have new flag set bUsedWithNanite !
+[2025.10.30-14.23.19:993][589]MaterialEditorStats: Texture samplers: 0/16
+[2025.10.30-14.23.19:993][589]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2025.10.30-14.23.19:993][589]MaterialEditorStats: Shader Count: 0
+[2025.10.30-14.23.19:993][589]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.10.30-14.23.20:093][590]MaterialEditorStats: Base pass shader: 173 instructions
+Stats: Resources Used: 4
+Resource Limit: 64
+Samplers Used: 1
+Sampler Limit: 32
+
+[2025.10.30-14.23.20:093][590]MaterialEditorStats: Base pass vertex shader: 148 instructions
+Stats: Resources Used: 4
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2025.10.30-14.23.20:093][590]MaterialEditorStats: Texture samplers: 1/16
+[2025.10.30-14.23.20:093][590]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2025.10.30-14.23.20:093][590]MaterialEditorStats: Shader Count: 11
+[2025.10.30-14.23.20:093][590]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.10.30-14.23.20:516][601]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.10.30-14.23.23:253][775]MaterialEditorStats: Base pass shader: 173 instructions
+Stats: Resources Used: 4
+Resource Limit: 64
+Samplers Used: 1
+Sampler Limit: 32
+
+[2025.10.30-14.23.23:253][775]MaterialEditorStats: Base pass vertex shader: 148 instructions
+Stats: Resources Used: 4
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2025.10.30-14.23.23:253][775]MaterialEditorStats: Nanite Compute Shader: 801 instructions
+Stats: Resources Used: 9
+Resource Limit: 64
+Samplers Used: 1
+Sampler Limit: 32
+
+[2025.10.30-14.23.23:253][775]MaterialEditorStats: Texture samplers: 1/16
+[2025.10.30-14.23.23:253][775]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2025.10.30-14.23.23:253][775]MaterialEditorStats: Shader Count: 17
+[2025.10.30-14.23.23:253][775]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.10.30-14.23.29:374][201]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 677.078552
+[2025.10.30-14.23.29:542][213]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.30-14.23.29:543][213]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 677.230286, Update Interval: 314.925385
+[2025.10.30-14.23.32:077][466]Cmd: TRANSACTION UNDO
+[2025.10.30-14.23.32:077][466]LogEditorTransaction: Undo Clicking on Elements
+[2025.10.30-14.23.35:763][728]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.10.30-14.23.46:924][517]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.10.30-14.24.05:762][904]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.10.30-14.24.16:943][754]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.10.30-14.24.17:839][824]LogShaderCompilers: Display: ================================================
+[2025.10.30-14.24.17:839][824]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.10.30-14.24.17:839][824]LogShaderCompilers: Display: Total job queries 2,846, among them cache hits 838 (29.44%), DDC hits 1,851 (65.04%), Duplicates 101 (3.55%)
+[2025.10.30-14.24.17:839][824]LogShaderCompilers: Display: Tracking 1,907 distinct input hashes that result in 1,227 distinct outputs (64.34%)
+[2025.10.30-14.24.17:839][824]LogShaderCompilers: Display: RAM used: 12.29 MiB of 6.40 GiB budget. Usage: 0.19%
+[2025.10.30-14.24.17:839][824]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.10.30-14.24.17:839][824]LogShaderCompilers: Display: Shaders Compiled: 56
+[2025.10.30-14.24.17:839][824]LogShaderCompilers: Display: Jobs assigned 56, completed 56 (100%)
+[2025.10.30-14.24.17:839][824]LogShaderCompilers: Display: Average time worker was idle: 57.47 s
+[2025.10.30-14.24.17:839][824]LogShaderCompilers: Display: Time job spent in pending queue: average 0.06 s, longest 0.11 s
+[2025.10.30-14.24.17:839][824]LogShaderCompilers: Display: Job execution time: average 1.15 s, max 3.18 s
+[2025.10.30-14.24.17:839][824]LogShaderCompilers: Display: Job life time (pending + execution): average 1.21 s, max 3.22
+[2025.10.30-14.24.17:839][824]LogShaderCompilers: Display: Shader code size: total 520.447 KiB, numShaders 56, average 9.293 KiB, min 4.289 KiB, max 19.195 KiB
+[2025.10.30-14.24.17:839][824]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 23.49 s
+[2025.10.30-14.24.17:839][824]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.18%
+[2025.10.30-14.24.17:839][824]LogShaderCompilers: Display: Jobs were issued in 56 batches (only local compilation was used), average 1.00 jobs/batch
+[2025.10.30-14.24.17:839][824]LogShaderCompilers: Display: Average processing rate: 2.38 jobs/sec
+[2025.10.30-14.24.17:839][824]LogShaderCompilers: Display: Total thread time: 47.922 s
+[2025.10.30-14.24.17:839][824]LogShaderCompilers: Display: Total thread preprocess time: 48.107 s
+[2025.10.30-14.24.17:839][824]LogShaderCompilers: Display: Percentage time preprocessing: 100.39%
+[2025.10.30-14.24.17:839][824]LogShaderCompilers: Display: Effective parallelization: 2.04 (times faster than compiling all shaders on one thread). Compare with number of workers: 8 - 0.255052
+[2025.10.30-14.24.17:839][824]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.10.30-14.24.17:839][824]LogShaderCompilers: Display:                                 TBasePassCSFNoLightMapPolicy (compiled    1 times, average 2.58 sec, max 2.58 sec, min 2.58 sec)
+[2025.10.30-14.24.17:839][824]LogShaderCompilers: Display:                         TBasePassCSFNoLightMapPolicySkylight (compiled    1 times, average 2.57 sec, max 2.57 sec, min 2.57 sec)
+[2025.10.30-14.24.17:840][824]LogShaderCompilers: Display:                                                 FLumenCardCS (compiled    1 times, average 2.10 sec, max 2.10 sec, min 2.10 sec)
+[2025.10.30-14.24.17:840][824]LogShaderCompilers: Display:                   TMaterialCHSFNoLightMapPolicyFAnyHitShader (compiled    1 times, average 1.43 sec, max 1.43 sec, min 1.43 sec)
+[2025.10.30-14.24.17:840][824]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy (compiled   12 times, average 1.15 sec, max 2.00 sec, min 0.86 sec)
+[2025.10.30-14.24.17:840][824]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.10.30-14.24.17:840][824]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy - 28.91% of total time (compiled   12 times, average 1.15 sec, max 2.00 sec, min 0.86 sec)
+[2025.10.30-14.24.17:840][824]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 17.02% of total time (compiled   13 times, average 0.63 sec, max 0.88 sec, min 0.46 sec)
+[2025.10.30-14.24.17:840][824]LogShaderCompilers: Display:                                      FPathTracingMaterialCHS - 12.29% of total time (compiled    6 times, average 0.98 sec, max 1.94 sec, min 0.76 sec)
+[2025.10.30-14.24.17:840][824]LogShaderCompilers: Display:                                             FDebugViewModePS - 9.16% of total time (compiled    5 times, average 0.88 sec, max 0.92 sec, min 0.84 sec)
+[2025.10.30-14.24.17:840][824]LogShaderCompilers: Display:                                                 FLumenCardPS - 6.10% of total time (compiled    8 times, average 0.37 sec, max 0.50 sec, min 0.32 sec)
+[2025.10.30-14.24.17:840][824]LogShaderCompilers: Display: === Material stats ===
+[2025.10.30-14.24.17:840][824]LogShaderCompilers: Display: Materials Cooked:        0
+[2025.10.30-14.24.17:840][824]LogShaderCompilers: Display: Materials Translated:    188
+[2025.10.30-14.24.17:840][824]LogShaderCompilers: Display: Material Total Translate Time: 0.16 s
+[2025.10.30-14.24.17:840][824]LogShaderCompilers: Display: Material Translation Only: 0.06 s (36%)
+[2025.10.30-14.24.17:840][824]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (0%)
+[2025.10.30-14.24.17:840][824]LogShaderCompilers: Display: Material Cache Hits: 0 (0%)
+[2025.10.30-14.24.17:840][824]LogShaderCompilers: Display: ================================================
+[2025.10.30-14.24.34:755][265]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.10.30-14.24.47:836][306]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.10.30-14.25.05:938][620]LogMaterial: Display: Material /Game/Colours/Red.Red needed to have new flag set bUsedWithNanite !
+[2025.10.30-14.25.07:862][732]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.10.30-14.25.09:414][829]Cmd: TRANSACTION UNDO
+[2025.10.30-14.25.09:414][829]LogEditorTransaction: Undo Clicking on Elements
+[2025.10.30-14.25.13:905][129]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.30-14.25.14:023][129]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2025.10.30-14.25.14:045][129]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2025.10.30-14.25.14:066][129]LogUObjectHash: Compacting FUObjectHashTables data took   0.29ms
+[2025.10.30-14.25.14:072][129]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/D/TN/J8PE4ALQWEWU593C7UDNSJ
+[2025.10.30-14.25.14:074][129]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/J8PE4ALQWEWU593C7UDNSJA5645F4C4AA1707E9CC133B95CAE777E.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/D/TN/J8PE4ALQWEWU593C7UDNSJ.uasset'
+[2025.10.30-14.25.14:082][129]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/C/JP/N516WEO9OQIOAUFQZUAC9A
+[2025.10.30-14.25.14:084][129]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/N516WEO9OQIOAUFQZUAC9AE648DF6C4F939C2CB18E86BABDBAB0D1.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/C/JP/N516WEO9OQIOAUFQZUAC9A.uasset'
+[2025.10.30-14.25.14:091][129]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/5/JM/PFWDGSSX94S77H972LEWOU
+[2025.10.30-14.25.14:094][129]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/PFWDGSSX94S77H972LEWOU0BD34A3547C3ACD847C0268DB770A419.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/5/JM/PFWDGSSX94S77H972LEWOU.uasset'
+[2025.10.30-14.25.14:102][129]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/A/DO/H6PRRDGPS0PIL1H2OR51OT
+[2025.10.30-14.25.14:104][129]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/H6PRRDGPS0PIL1H2OR51OT96F18C8D4B4A38D5F4641E8CE0636B5C.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/A/DO/H6PRRDGPS0PIL1H2OR51OT.uasset'
+[2025.10.30-14.25.14:111][129]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/C/JE/YLDF8646AK596X360PPYFQ
+[2025.10.30-14.25.14:113][129]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/YLDF8646AK596X360PPYFQ0327FAE746B842FFE46EA2A380CF6B9D.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/C/JE/YLDF8646AK596X360PPYFQ.uasset'
+[2025.10.30-14.25.14:121][129]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/D/TB/2VL2GSN3774BA2APV460AK
+[2025.10.30-14.25.14:123][129]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/2VL2GSN3774BA2APV460AKAB3DC3A24E37CD87C6018598C447AE64.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/D/TB/2VL2GSN3774BA2APV460AK.uasset'
+[2025.10.30-14.25.14:130][129]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/1/Z6/AGQ04C819CIZ97QC8R0WBS
+[2025.10.30-14.25.14:132][129]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/AGQ04C819CIZ97QC8R0WBS8F69C0BF42CD8CDD81ECB2B28A6540D1.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/1/Z6/AGQ04C819CIZ97QC8R0WBS.uasset'
+[2025.10.30-14.25.14:140][129]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/1/CF/RLAOJK0K7XWEZ67OY6F8OY
+[2025.10.30-14.25.14:142][129]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/RLAOJK0K7XWEZ67OY6F8OY102A21724E9572AB981F3F93A04F2B03.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/1/CF/RLAOJK0K7XWEZ67OY6F8OY.uasset'
+[2025.10.30-14.25.14:149][129]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/4/7B/HWF6PH5WJ6NV78TPRULCLD
+[2025.10.30-14.25.14:152][129]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/HWF6PH5WJ6NV78TPRULCLDC737B25746877A68F6F5B19F61A58F58.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/4/7B/HWF6PH5WJ6NV78TPRULCLD.uasset'
+[2025.10.30-14.25.14:159][129]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/3/MN/CURTN2T1P0JCXWOSX5QW5M
+[2025.10.30-14.25.14:161][129]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/CURTN2T1P0JCXWOSX5QW5MC5AA48704DEC4B00B65507A3F4C6130E.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/3/MN/CURTN2T1P0JCXWOSX5QW5M.uasset'
+[2025.10.30-14.25.14:170][129]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/D/9X/38Z58NPRZBUELDO6LGDIJI
+[2025.10.30-14.25.14:172][129]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/38Z58NPRZBUELDO6LGDIJIBB5C130548DE24265AAE2E80F894D447.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/D/9X/38Z58NPRZBUELDO6LGDIJI.uasset'
+[2025.10.30-14.25.14:179][129]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/6/0M/M3H8YG3IIN74YWEKXLZ8IA
+[2025.10.30-14.25.14:181][129]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/M3H8YG3IIN74YWEKXLZ8IAEE0A5D294E31432EFEE1298325F85EE0.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/6/0M/M3H8YG3IIN74YWEKXLZ8IA.uasset'
+[2025.10.30-14.25.14:188][129]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/2/FV/2LN2RENZ7JEEMZJNR6T4KX
+[2025.10.30-14.25.14:190][129]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/2LN2RENZ7JEEMZJNR6T4KXB4422D4447774B114FA2A982F30D68DB.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/2/FV/2LN2RENZ7JEEMZJNR6T4KX.uasset'
+[2025.10.30-14.25.14:198][129]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/1/4M/3W509DEI5127NOTJF8WMF4
+[2025.10.30-14.25.14:200][129]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/3W509DEI5127NOTJF8WMF4CED310C342FDE3487856FF96A70CE1B7.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/1/4M/3W509DEI5127NOTJF8WMF4.uasset'
+[2025.10.30-14.25.14:207][129]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/D/0O/4JAIBILW4I5I8HL07BC2OB
+[2025.10.30-14.25.14:209][129]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/4JAIBILW4I5I8HL07BC2OB9C80CD454FE50DBC4D08F28152932FA3.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/D/0O/4JAIBILW4I5I8HL07BC2OB.uasset'
+[2025.10.30-14.25.14:217][129]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/2/D4/DRX1AEVYHZZPQRHOV3GYE6
+[2025.10.30-14.25.14:219][129]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/DRX1AEVYHZZPQRHOV3GYE6052333D54CD0A3C9CD5BE885B6BAA4B3.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/2/D4/DRX1AEVYHZZPQRHOV3GYE6.uasset'
+[2025.10.30-14.25.14:226][129]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/B/5Q/31CNHI6M5QQ5HPCQO19C0V
+[2025.10.30-14.25.14:228][129]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/31CNHI6M5QQ5HPCQO19C0V406726704455C8AD13FB699201CAC260.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/B/5Q/31CNHI6M5QQ5HPCQO19C0V.uasset'
+[2025.10.30-14.25.14:236][129]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/5/R3/54MU3HJ2VQ2WH05DWGJ3VO
+[2025.10.30-14.25.14:238][129]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/54MU3HJ2VQ2WH05DWGJ3VO61ED13CD4EF637080D624094A1C984E1.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/5/R3/54MU3HJ2VQ2WH05DWGJ3VO.uasset'
+[2025.10.30-14.25.14:246][129]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/2/MM/JC19BDIVS1A0LQCUJSBEG4
+[2025.10.30-14.25.14:248][129]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/JC19BDIVS1A0LQCUJSBEG453E464A5402E69E8ABA013A503DAAC38.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/2/MM/JC19BDIVS1A0LQCUJSBEG4.uasset'
+[2025.10.30-14.25.14:256][129]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/7/T6/WEZ8R4QXJ5M8NYPH7F8GCE
+[2025.10.30-14.25.14:258][129]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/WEZ8R4QXJ5M8NYPH7F8GCE3DCE7DD04D9DFDA587D0A6BAFC0FE38C.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/7/T6/WEZ8R4QXJ5M8NYPH7F8GCE.uasset'
+[2025.10.30-14.25.14:265][129]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/4/Y1/MDDFIPJA0LQAD91HI9VF65
+[2025.10.30-14.25.14:267][129]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/MDDFIPJA0LQAD91HI9VF65EBC486474AD283F764A751800BC40FA9.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/4/Y1/MDDFIPJA0LQAD91HI9VF65.uasset'
+[2025.10.30-14.25.14:275][129]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/E/ZH/657NZTKBN8LGVNYCI3VO7Y
+[2025.10.30-14.25.14:277][129]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/657NZTKBN8LGVNYCI3VO7YDB90C4864F204F02D43A06BF4B940185.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/E/ZH/657NZTKBN8LGVNYCI3VO7Y.uasset'
+[2025.10.30-14.25.14:284][129]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/D/OI/IKU9I0PU6ZLJ6HMYQMN1YI
+[2025.10.30-14.25.14:286][129]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/IKU9I0PU6ZLJ6HMYQMN1YI642DDF494BAB80EFD61588840F97C2EB.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/D/OI/IKU9I0PU6ZLJ6HMYQMN1YI.uasset'
+[2025.10.30-14.25.14:295][129]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/C/SD/2RZVL75ZPGPA61C6S27IG0
+[2025.10.30-14.25.14:297][129]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/2RZVL75ZPGPA61C6S27IG08B404A064A4E47C78AC843B1A39A9D62.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/C/SD/2RZVL75ZPGPA61C6S27IG0.uasset'
+[2025.10.30-14.25.14:304][129]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/4/O9/KHMWK4DOPN4C0DD11KK05I
+[2025.10.30-14.25.14:306][129]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/KHMWK4DOPN4C0DD11KK05I01ECD5EE45D0BC909EB4ED8A95A7946F.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/4/O9/KHMWK4DOPN4C0DD11KK05I.uasset'
+[2025.10.30-14.25.14:313][129]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/1/2Q/BYZKGXJUDAVP6B2MKZF9PH
+[2025.10.30-14.25.14:315][129]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/BYZKGXJUDAVP6B2MKZF9PH389A49BB492F53928F55839CAD4B9FE7.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/1/2Q/BYZKGXJUDAVP6B2MKZF9PH.uasset'
+[2025.10.30-14.25.14:322][129]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/D/I5/VC14K810ZX1FAP4HCKQI3F
+[2025.10.30-14.25.14:324][129]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/VC14K810ZX1FAP4HCKQI3F980CAB224D2F3C9D4C0A8385D0DD6629.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/D/I5/VC14K810ZX1FAP4HCKQI3F.uasset'
+[2025.10.30-14.25.14:334][129]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/4/SS/JKYFUCULN787LNMRE6D6K3
+[2025.10.30-14.25.14:336][129]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/JKYFUCULN787LNMRE6D6K376925C0B41545C4B359ADAA00AFA1348.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/4/SS/JKYFUCULN787LNMRE6D6K3.uasset'
+[2025.10.30-14.25.14:344][129]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/1/NN/H9KNAOIQUM4JN3GGSJLQ58
+[2025.10.30-14.25.14:346][129]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/H9KNAOIQUM4JN3GGSJLQ58B483528B4741822FEC50D88160479D6B.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/1/NN/H9KNAOIQUM4JN3GGSJLQ58.uasset'
+[2025.10.30-14.25.14:353][129]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/B/KB/9UZJH7O11MYHSBWV74W3JH
+[2025.10.30-14.25.14:355][129]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/9UZJH7O11MYHSBWV74W3JHAF2AF43F4981E7EE464E08A8FD927B25.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/B/KB/9UZJH7O11MYHSBWV74W3JH.uasset'
+[2025.10.30-14.25.14:362][129]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/2/5W/6K8XRSCIQM9BP6DMINEO7C
+[2025.10.30-14.25.14:365][129]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/6K8XRSCIQM9BP6DMINEO7C37A84F514E072CCCCCFDCBA873B1E302.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/2/5W/6K8XRSCIQM9BP6DMINEO7C.uasset'
+[2025.10.30-14.25.14:375][129]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/5/AL/2T7L7XJP3JGIC4VSFHJE6S
+[2025.10.30-14.25.14:377][129]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/2T7L7XJP3JGIC4VSFHJE6S44B9F8E94338808FFE6EFE80C7C9CBCE.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/5/AL/2T7L7XJP3JGIC4VSFHJE6S.uasset'
+[2025.10.30-14.25.14:384][129]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/4/UC/PEJZULCW6P1SWVBHBDG329
+[2025.10.30-14.25.14:386][129]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/PEJZULCW6P1SWVBHBDG329A7C7DC2D407410AC4A0BB99590336CB7.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/4/UC/PEJZULCW6P1SWVBHBDG329.uasset'
+[2025.10.30-14.25.14:393][129]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/D/TO/IE55Y7Y4BSY3K5GKZ415WI
+[2025.10.30-14.25.14:395][129]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/IE55Y7Y4BSY3K5GKZ415WIF162D1504E904C1E7C65098A078DAC3E.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/D/TO/IE55Y7Y4BSY3K5GKZ415WI.uasset'
+[2025.10.30-14.25.14:420][129]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/7/BA/6V2VL868271PTVET21KK7Q
+[2025.10.30-14.25.14:423][129]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/6V2VL868271PTVET21KK7Q6FA205114B759478B36905A13D48D065.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/7/BA/6V2VL868271PTVET21KK7Q.uasset'
+[2025.10.30-14.25.14:430][129]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/8/ZT/OGZOL790Q7ZR9Q6MTZOAFC
+[2025.10.30-14.25.14:432][129]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/OGZOL790Q7ZR9Q6MTZOAFC3A1272BD4047E549F6F4D09C36166B40.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/8/ZT/OGZOL790Q7ZR9Q6MTZOAFC.uasset'
+[2025.10.30-14.25.14:440][129]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/2/6S/VME15C8HDV0M4I1XMDS0FK
+[2025.10.30-14.25.14:442][129]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/VME15C8HDV0M4I1XMDS0FK5C6FC2B2436E1C9A64DFD6937131DED2.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/2/6S/VME15C8HDV0M4I1XMDS0FK.uasset'
+[2025.10.30-14.25.14:450][129]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/6/4N/RJOHI1JMA786K9MA555EYR
+[2025.10.30-14.25.14:452][129]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/RJOHI1JMA786K9MA555EYR5D3AE4564FDE1084C06E0B8158EEC7B6.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/6/4N/RJOHI1JMA786K9MA555EYR.uasset'
+[2025.10.30-14.25.14:461][129]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/5/YM/96JD9RAMHS4JG2HGU7BPUO
+[2025.10.30-14.25.14:463][129]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/96JD9RAMHS4JG2HGU7BPUO23DAEED848581F58D28CF880B9EAF938.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/5/YM/96JD9RAMHS4JG2HGU7BPUO.uasset'
+[2025.10.30-14.25.14:470][129]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/C/OO/U1G8C94RPR5BM441QP1BKP
+[2025.10.30-14.25.14:472][129]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/U1G8C94RPR5BM441QP1BKP58AD32FB491690295F94308E3E76B11A.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/C/OO/U1G8C94RPR5BM441QP1BKP.uasset'
+[2025.10.30-14.25.14:480][129]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/B/SD/6LM3WE5JBIGUBWKRA9A5E3
+[2025.10.30-14.25.14:482][129]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/6LM3WE5JBIGUBWKRA9A5E3E79E6DDC4B529319CDDA548104E8DC5C.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/B/SD/6LM3WE5JBIGUBWKRA9A5E3.uasset'
+[2025.10.30-14.25.14:518][129]LogFileHelpers: InternalPromptForCheckoutAndSave took 612.499 ms (total: 1.82 sec)
+[2025.10.30-14.25.14:612][129]LogContentValidation: Display: Starting to validate 41 assets
+[2025.10.30-14.25.14:612][129]LogContentValidation: Enabled validators:
+[2025.10.30-14.25.14:612][129]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.30-14.25.14:612][129]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.30-14.25.14:612][129]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.30-14.25.14:612][129]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.30-14.25.14:612][129]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.30-14.25.14:612][129]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.30-14.25.14:612][129]AssetCheck: /Game/TopDown/Lvl_TopDown Validating asset
+[2025.10.30-14.25.20:536][571]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.10.30-14.25.43:866][359]LogUObjectHash: Compacting FUObjectHashTables data took   0.30ms
+[2025.10.30-14.25.43:867][359]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/TopDown/Lvl_TopDown' took 0.019
+[2025.10.30-14.25.43:868][359]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Colours/Blue] ([1] browsable assets)...
+[2025.10.30-14.25.43:911][359]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Colours/Blue.Blue]
+[2025.10.30-14.25.43:911][359]OBJ SavePackage: Finished generating thumbnails for package [/Game/Colours/Blue]
+[2025.10.30-14.25.43:917][359]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Colours/Blue_Auto1
+[2025.10.30-14.25.43:917][359]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/Blue_Auto1736929E24B53F45FF4AA478B0907F38A.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/Autosaves/Game/Colours/Blue_Auto1.uasset'
+[2025.10.30-14.25.43:918][359]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Colours/Green] ([1] browsable assets)...
+[2025.10.30-14.25.43:926][359]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Colours/Green.Green]
+[2025.10.30-14.25.43:926][359]OBJ SavePackage: Finished generating thumbnails for package [/Game/Colours/Green]
+[2025.10.30-14.25.43:932][359]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Colours/Green_Auto1
+[2025.10.30-14.25.43:932][359]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/Green_Auto12EF8CF8A4DEFEA6FE09737AF8A302091.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/Autosaves/Game/Colours/Green_Auto1.uasset'
+[2025.10.30-14.25.43:933][359]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Colours/Brown] ([1] browsable assets)...
+[2025.10.30-14.25.43:941][359]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Colours/Brown.Brown]
+[2025.10.30-14.25.43:941][359]OBJ SavePackage: Finished generating thumbnails for package [/Game/Colours/Brown]
+[2025.10.30-14.25.43:948][359]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Colours/Brown_Auto1
+[2025.10.30-14.25.43:948][359]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/Brown_Auto107C31C404DF8F770B10683A58BBB9936.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/Autosaves/Game/Colours/Brown_Auto1.uasset'
+[2025.10.30-14.25.43:949][359]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Colours/Red] ([1] browsable assets)...
+[2025.10.30-14.25.43:957][359]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Colours/Red.Red]
+[2025.10.30-14.25.43:957][359]OBJ SavePackage: Finished generating thumbnails for package [/Game/Colours/Red]
+[2025.10.30-14.25.43:963][359]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Colours/Red_Auto1
+[2025.10.30-14.25.43:963][359]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/Red_Auto1278414DA47C87CC66F6097BE835E497B.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/Autosaves/Game/Colours/Red_Auto1.uasset'
+[2025.10.30-14.25.43:965][359]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Colours/DarkBrown] ([1] browsable assets)...
+[2025.10.30-14.25.43:974][359]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Colours/DarkBrown.DarkBrown]
+[2025.10.30-14.25.43:974][359]OBJ SavePackage: Finished generating thumbnails for package [/Game/Colours/DarkBrown]
+[2025.10.30-14.25.43:979][359]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Colours/DarkBrown_Auto1
+[2025.10.30-14.25.43:979][359]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/DarkBrown_Auto182F080B145B71E0CF7A6BCB6393EAC03.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/Autosaves/Game/Colours/DarkBrown_Auto1.uasset'
+[2025.10.30-14.25.43:980][359]LogFileHelpers: Auto-saving content packages took 0.114
+[2025.10.30-14.25.50:781][881]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.10.30-14.26.11:801][560]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.10.30-14.26.30:395][ 42]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2025.10.30-14.26.35:783][477]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.10.30-14.26.49:771][594]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.10.30-14.27.11:808][342]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.10.30-14.27.17:841][827]LogShaderCompilers: Display: ================================================
+[2025.10.30-14.27.17:841][827]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.10.30-14.27.17:841][827]LogShaderCompilers: Display: Total job queries 2,865, among them cache hits 850 (29.67%), DDC hits 1,851 (64.61%), Duplicates 103 (3.60%)
+[2025.10.30-14.27.17:841][827]LogShaderCompilers: Display: Tracking 1,912 distinct input hashes that result in 1,232 distinct outputs (64.44%)
+[2025.10.30-14.27.17:841][827]LogShaderCompilers: Display: RAM used: 12.36 MiB of 6.40 GiB budget. Usage: 0.19%
+[2025.10.30-14.27.17:841][827]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.10.30-14.27.17:842][827]LogShaderCompilers: Display: Shaders Compiled: 61
+[2025.10.30-14.27.17:842][827]LogShaderCompilers: Display: Jobs assigned 61, completed 61 (100%)
+[2025.10.30-14.27.17:842][827]LogShaderCompilers: Display: Average time worker was idle: 61.63 s
+[2025.10.30-14.27.17:842][827]LogShaderCompilers: Display: Time job spent in pending queue: average 0.06 s, longest 0.11 s
+[2025.10.30-14.27.17:842][827]LogShaderCompilers: Display: Job execution time: average 1.27 s, max 3.18 s
+[2025.10.30-14.27.17:842][827]LogShaderCompilers: Display: Job life time (pending + execution): average 1.34 s, max 3.22
+[2025.10.30-14.27.17:842][827]LogShaderCompilers: Display: Shader code size: total 604.935 KiB, numShaders 61, average 9.916 KiB, min 4.289 KiB, max 19.195 KiB
+[2025.10.30-14.27.17:842][827]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 26.56 s
+[2025.10.30-14.27.17:842][827]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.18%
+[2025.10.30-14.27.17:842][827]LogShaderCompilers: Display: Jobs were issued in 61 batches (only local compilation was used), average 1.00 jobs/batch
+[2025.10.30-14.27.17:842][827]LogShaderCompilers: Display: Average processing rate: 2.30 jobs/sec
+[2025.10.30-14.27.17:842][827]LogShaderCompilers: Display: Total thread time: 58.421 s
+[2025.10.30-14.27.17:842][827]LogShaderCompilers: Display: Total thread preprocess time: 48.481 s
+[2025.10.30-14.27.17:842][827]LogShaderCompilers: Display: Percentage time preprocessing: 82.99%
+[2025.10.30-14.27.17:842][827]LogShaderCompilers: Display: Effective parallelization: 2.20 (times faster than compiling all shaders on one thread). Compare with number of workers: 8 - 0.274944
+[2025.10.30-14.27.17:842][827]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.10.30-14.27.17:842][827]LogShaderCompilers: Display:                                 TBasePassCSFNoLightMapPolicy (compiled    2 times, average 2.50 sec, max 2.58 sec, min 2.43 sec)
+[2025.10.30-14.27.17:842][827]LogShaderCompilers: Display:                         TBasePassCSFNoLightMapPolicySkylight (compiled    2 times, average 2.48 sec, max 2.57 sec, min 2.40 sec)
+[2025.10.30-14.27.17:842][827]LogShaderCompilers: Display:                                                 FLumenCardCS (compiled    2 times, average 2.02 sec, max 2.10 sec, min 1.93 sec)
+[2025.10.30-14.27.17:842][827]LogShaderCompilers: Display:                   TMaterialCHSFNoLightMapPolicyFAnyHitShader (compiled    1 times, average 1.43 sec, max 1.43 sec, min 1.43 sec)
+[2025.10.30-14.27.17:842][827]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy (compiled   13 times, average 1.21 sec, max 2.00 sec, min 0.86 sec)
+[2025.10.30-14.27.17:842][827]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.10.30-14.27.17:842][827]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy - 26.98% of total time (compiled   13 times, average 1.21 sec, max 2.00 sec, min 0.86 sec)
+[2025.10.30-14.27.17:842][827]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 13.97% of total time (compiled   13 times, average 0.63 sec, max 0.88 sec, min 0.46 sec)
+[2025.10.30-14.27.17:842][827]LogShaderCompilers: Display:                                      FPathTracingMaterialCHS - 13.22% of total time (compiled    7 times, average 1.10 sec, max 1.94 sec, min 0.76 sec)
+[2025.10.30-14.27.17:842][827]LogShaderCompilers: Display:                                 TBasePassCSFNoLightMapPolicy - 8.57% of total time (compiled    2 times, average 2.50 sec, max 2.58 sec, min 2.43 sec)
+[2025.10.30-14.27.17:842][827]LogShaderCompilers: Display:                         TBasePassCSFNoLightMapPolicySkylight - 8.50% of total time (compiled    2 times, average 2.48 sec, max 2.57 sec, min 2.40 sec)
+[2025.10.30-14.27.17:842][827]LogShaderCompilers: Display: === Material stats ===
+[2025.10.30-14.27.17:842][827]LogShaderCompilers: Display: Materials Cooked:        0
+[2025.10.30-14.27.17:842][827]LogShaderCompilers: Display: Materials Translated:    189
+[2025.10.30-14.27.17:842][827]LogShaderCompilers: Display: Material Total Translate Time: 0.16 s
+[2025.10.30-14.27.17:842][827]LogShaderCompilers: Display: Material Translation Only: 0.06 s (36%)
+[2025.10.30-14.27.17:842][827]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (0%)
+[2025.10.30-14.27.17:842][827]LogShaderCompilers: Display: Material Cache Hits: 0 (0%)
+[2025.10.30-14.27.17:842][827]LogShaderCompilers: Display: ================================================
+[2025.10.30-14.27.26:810][545]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.10.30-14.28.20:817][874]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.10.30-14.28.35:818][ 69]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.10.30-14.28.48:718][104]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 996.427185
+[2025.10.30-14.28.48:893][119]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.30-14.28.48:893][119]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 996.590942, Update Interval: 317.626282
+[2025.10.30-14.28.56:827][752]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.10.30-14.29.26:827][179]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.10.30-14.30.26:834][ 35]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.10.30-14.31.14:191][843]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.10.30-14.34.19:470][737]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1327.186890
+[2025.10.30-14.34.19:590][747]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.30-14.34.19:590][747]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1327.293823, Update Interval: 313.090607
+[2025.10.30-14.35.23:369][913]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.10.30-14.35.34:008][774]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.10.30-14.35.44:370][611]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.10.30-14.36.08:375][564]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.10.30-14.36.23:378][788]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.10.30-14.36.38:392][  3]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.10.30-14.37.20:360][384]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.10.30-14.38.23:411][176]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.10.30-14.39.41:417][908]LogMaterial: Display: Material /Game/Colours/Green.Green needed to have new flag set bUsedWithNanite !
+[2025.10.30-14.40.00:089][218]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1667.805786
+[2025.10.30-14.40.00:220][229]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.30-14.40.00:220][229]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1667.923462, Update Interval: 326.966766
+[2025.10.30-14.40.29:906][582]Cmd: DELETE
+[2025.10.30-14.40.29:907][582]Cmd: ACTOR DELETE
+[2025.10.30-14.40.29:911][582]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.10.30-14.40.29:934][582]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2025.10.30-14.40.29:937][582]LogEditorActor: Deleted 1 Actors (0.031 secs)
+[2025.10.30-14.40.31:210][667]Cmd: DELETE
+[2025.10.30-14.40.31:210][667]Cmd: ACTOR DELETE
+[2025.10.30-14.40.31:212][667]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.10.30-14.40.31:233][667]LogUObjectHash: Compacting FUObjectHashTables data took   0.30ms
+[2025.10.30-14.40.31:235][667]LogEditorActor: Deleted 1 Actors (0.026 secs)
+[2025.10.30-14.40.31:870][705]Cmd: DELETE
+[2025.10.30-14.40.31:870][705]Cmd: ACTOR DELETE
+[2025.10.30-14.40.31:873][705]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.10.30-14.40.31:898][705]LogUObjectHash: Compacting FUObjectHashTables data took   0.31ms
+[2025.10.30-14.40.31:900][705]LogEditorActor: Deleted 1 Actors (0.030 secs)
+[2025.10.30-14.40.32:545][743]Cmd: DELETE
+[2025.10.30-14.40.32:545][743]Cmd: ACTOR DELETE
+[2025.10.30-14.40.32:548][743]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.10.30-14.40.32:567][743]LogUObjectHash: Compacting FUObjectHashTables data took   0.35ms
+[2025.10.30-14.40.32:569][743]LogEditorActor: Deleted 1 Actors (0.024 secs)
+[2025.10.30-14.40.33:280][787]Cmd: DELETE
+[2025.10.30-14.40.33:280][787]Cmd: ACTOR DELETE
+[2025.10.30-14.40.33:283][787]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.10.30-14.40.33:302][787]LogUObjectHash: Compacting FUObjectHashTables data took   0.29ms
+[2025.10.30-14.40.33:304][787]LogEditorActor: Deleted 1 Actors (0.024 secs)
+[2025.10.30-14.40.38:245][173]Cmd: DUPLICATE
+[2025.10.30-14.40.38:245][173]Cmd: ACTOR DUPLICATE
+[2025.10.30-14.40.42:219][478]Cmd: DUPLICATE
+[2025.10.30-14.40.42:219][478]Cmd: ACTOR DUPLICATE
+[2025.10.30-14.40.47:071][857]Cmd: DUPLICATE
+[2025.10.30-14.40.47:071][857]Cmd: ACTOR DUPLICATE
+[2025.10.30-14.40.49:056][ 11]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.10.30-14.40.53:829][334]Cmd: DUPLICATE
+[2025.10.30-14.40.53:829][334]Cmd: ACTOR DUPLICATE
+[2025.10.30-14.41.03:120][ 18]Cmd: DUPLICATE
+[2025.10.30-14.41.03:120][ 18]Cmd: ACTOR DUPLICATE
+[2025.10.30-14.41.24:914][522]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.30-14.41.24:994][522]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2025.10.30-14.41.25:015][522]LogUObjectHash: Compacting FUObjectHashTables data took   0.29ms
+[2025.10.30-14.41.25:036][522]LogUObjectHash: Compacting FUObjectHashTables data took   0.30ms
+[2025.10.30-14.41.25:046][522]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/A/TW/NFH7N5ZYZJLCB67O68LQ87
+[2025.10.30-14.41.25:048][522]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/NFH7N5ZYZJLCB67O68LQ87FC9FD6C847D962FD041C6B9396D8A8DD.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/A/TW/NFH7N5ZYZJLCB67O68LQ87.uasset'
+[2025.10.30-14.41.25:055][522]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/3/CL/AIPDLADJUNA6E5QCVIXAEQ
+[2025.10.30-14.41.25:058][522]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/AIPDLADJUNA6E5QCVIXAEQFB026C654129342EE3728AB438A7F665.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/3/CL/AIPDLADJUNA6E5QCVIXAEQ.uasset'
+[2025.10.30-14.41.25:065][522]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/E/26/X4SJR02UIW1VBUZ0RMRNFL
+[2025.10.30-14.41.25:067][522]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/X4SJR02UIW1VBUZ0RMRNFL51ABEDB545E93D5A0AABDCBB1BA99FC4.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/E/26/X4SJR02UIW1VBUZ0RMRNFL.uasset'
+[2025.10.30-14.41.25:081][522]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/0/DH/LSM5AKVLPKZK6H9JZIYCBZ
+[2025.10.30-14.41.25:084][522]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/LSM5AKVLPKZK6H9JZIYCBZ171FF47542B3313E9967C796F454DF00.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/0/DH/LSM5AKVLPKZK6H9JZIYCBZ.uasset'
+[2025.10.30-14.41.25:091][522]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/2/SW/G7UALC808BGR8U0QWWF6II
+[2025.10.30-14.41.25:093][522]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/G7UALC808BGR8U0QWWF6II81BD671B4F66D05F6E2DBB8FAE0258EA.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/2/SW/G7UALC808BGR8U0QWWF6II.uasset'
+[2025.10.30-14.41.25:100][522]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/1/C9/D1AZGM8RZSDIJN6YNERIOR
+[2025.10.30-14.41.25:102][522]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/D1AZGM8RZSDIJN6YNERIORE1A9080E4E992595A512ACBDDDA32161.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/1/C9/D1AZGM8RZSDIJN6YNERIOR.uasset'
+[2025.10.30-14.41.25:110][522]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/4/J5/BHT5PVST1E70EMRACAG5AP
+[2025.10.30-14.41.25:112][522]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/BHT5PVST1E70EMRACAG5APD5B6C6C94250CCA63D716692E079F8FC.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/4/J5/BHT5PVST1E70EMRACAG5AP.uasset'
+[2025.10.30-14.41.25:119][522]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/E/99/L8VH7HSSD3KVA3HM2VQ20R
+[2025.10.30-14.41.25:121][522]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/L8VH7HSSD3KVA3HM2VQ20RB63CFC854086F09E55FC20923CC4B233.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/E/99/L8VH7HSSD3KVA3HM2VQ20R.uasset'
+[2025.10.30-14.41.25:129][522]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/2/ND/4M4XUW3TDZT4ILLTOKZO48
+[2025.10.30-14.41.25:131][522]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/4M4XUW3TDZT4ILLTOKZO48B49D370B49F2CA16AFEB7FA878C4F57C.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/2/ND/4M4XUW3TDZT4ILLTOKZO48.uasset'
+[2025.10.30-14.41.25:145][522]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/2/VB/58K9RH5TIPVOWLJTE13TS5
+[2025.10.30-14.41.25:147][522]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/58K9RH5TIPVOWLJTE13TS5637A4E7A4A7B753CEC1EA586B5CF60AC.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/2/VB/58K9RH5TIPVOWLJTE13TS5.uasset'
+[2025.10.30-14.41.25:154][522]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/C/7I/O2ES49EVY3D1R4SRIALN5E
+[2025.10.30-14.41.25:157][522]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/O2ES49EVY3D1R4SRIALN5E86D77CFA4D7F6528771F0B900CAB46E5.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/C/7I/O2ES49EVY3D1R4SRIALN5E.uasset'
+[2025.10.30-14.41.25:166][522]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/2/05/MIWII4317DQ5J7YIVPFQ6D
+[2025.10.30-14.41.25:168][522]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/MIWII4317DQ5J7YIVPFQ6DFF001E284AF20840F03F6ABC77AA550A.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/2/05/MIWII4317DQ5J7YIVPFQ6D.uasset'
+[2025.10.30-14.41.25:176][522]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/5/Z1/FX7LNFU0D6V9YN8MPB5BGX
+[2025.10.30-14.41.25:178][522]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/FX7LNFU0D6V9YN8MPB5BGX9647AEAA4E70D05272D9E9A5EC548B4C.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/5/Z1/FX7LNFU0D6V9YN8MPB5BGX.uasset'
+[2025.10.30-14.41.25:185][522]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/1/7P/W75E6R4VLISEE58RNWHXXB
+[2025.10.30-14.41.25:187][522]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/W75E6R4VLISEE58RNWHXXB22A51DBF43D01454FB22E8BD31875A1E.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/1/7P/W75E6R4VLISEE58RNWHXXB.uasset'
+[2025.10.30-14.41.25:195][522]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/0/WE/GFLGVT7J23XDQKRDDXN9SK
+[2025.10.30-14.41.25:197][522]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/GFLGVT7J23XDQKRDDXN9SK49CBEA6040211A903976A59147C54F2F.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/0/WE/GFLGVT7J23XDQKRDDXN9SK.uasset'
+[2025.10.30-14.41.25:205][522]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/E/5Q/RI8D2K2CACAF61K61UWOCE
+[2025.10.30-14.41.25:207][522]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/RI8D2K2CACAF61K61UWOCE0F8BCF4A4E08DC6EEED6C493D89D2E4F.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/E/5Q/RI8D2K2CACAF61K61UWOCE.uasset'
+[2025.10.30-14.41.25:215][522]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/1/NO/4QT7VGBMR2Q7C0ZH8CZFFE
+[2025.10.30-14.41.25:216][522]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/4QT7VGBMR2Q7C0ZH8CZFFEB501A6C44CE1579280C5918F21A8DFCA.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/1/NO/4QT7VGBMR2Q7C0ZH8CZFFE.uasset'
+[2025.10.30-14.41.25:232][522]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/6/W0/KJIVQE1ZVI8D4DKYMYYCV4
+[2025.10.30-14.41.25:244][522]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/KJIVQE1ZVI8D4DKYMYYCV42D1981FA4583D0E414E1A2A92FAB6320.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/6/W0/KJIVQE1ZVI8D4DKYMYYCV4.uasset'
+[2025.10.30-14.41.25:252][522]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/5/1T/O5X3ODS3XHJPUOTDOFM5LE
+[2025.10.30-14.41.25:254][522]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/O5X3ODS3XHJPUOTDOFM5LE0A83C10A4530983129B18294C698ECDA.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/5/1T/O5X3ODS3XHJPUOTDOFM5LE.uasset'
+[2025.10.30-14.41.25:262][522]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/3/MF/8RQ7KDNQG30VO2YSOLYFXJ
+[2025.10.30-14.41.25:264][522]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/8RQ7KDNQG30VO2YSOLYFXJ2AA89C4B41BEC48B4C5EFC82D2A7A6B5.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/3/MF/8RQ7KDNQG30VO2YSOLYFXJ.uasset'
+[2025.10.30-14.41.25:270][522]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/7/JW/FUNA8D4AHHZAZ0BN0H6FIV
+[2025.10.30-14.41.25:272][522]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/FUNA8D4AHHZAZ0BN0H6FIVAAF4DB934B933DA25BB494A807633921.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/7/JW/FUNA8D4AHHZAZ0BN0H6FIV.uasset'
+[2025.10.30-14.41.25:280][522]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/5/O8/OE6FPIN8ZWN3VOJT7JBR2T
+[2025.10.30-14.41.25:282][522]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/OE6FPIN8ZWN3VOJT7JBR2TB4945F324B69BCD5FE0010AB4E1BE44B.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/5/O8/OE6FPIN8ZWN3VOJT7JBR2T.uasset'
+[2025.10.30-14.41.25:289][522]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/B/M7/J7DNO8MUE5INY71WNPC9UM
+[2025.10.30-14.41.25:291][522]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/J7DNO8MUE5INY71WNPC9UMCD5E94B44BCC8AEC4DFF1E95F5C50D93.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/B/M7/J7DNO8MUE5INY71WNPC9UM.uasset'
+[2025.10.30-14.41.25:299][522]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/4/QH/7XAZP4FRHU09SH39UNAWHN
+[2025.10.30-14.41.25:301][522]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/7XAZP4FRHU09SH39UNAWHN8235C1FF477429E7945C06A1130CCD3B.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/4/QH/7XAZP4FRHU09SH39UNAWHN.uasset'
+[2025.10.30-14.41.25:308][522]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/8/26/1ISJ38GZMRDTGQ5QQSEG80
+[2025.10.30-14.41.25:310][522]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/1ISJ38GZMRDTGQ5QQSEG807A33509043E74DD6BFD18FB02B3C54D6.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/8/26/1ISJ38GZMRDTGQ5QQSEG80.uasset'
+[2025.10.30-14.41.25:317][522]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/E/VU/M05K41P7XRGZ7QCAD1CJOL
+[2025.10.30-14.41.25:319][522]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/M05K41P7XRGZ7QCAD1CJOL1AA463834BA08AE604E085B427065D9B.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/E/VU/M05K41P7XRGZ7QCAD1CJOL.uasset'
+[2025.10.30-14.41.25:327][522]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/1/8T/AW0PH6CK83JJR0CY7KEB28
+[2025.10.30-14.41.25:329][522]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/AW0PH6CK83JJR0CY7KEB28A24469E843612018B6BB8EA546D23B73.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/1/8T/AW0PH6CK83JJR0CY7KEB28.uasset'
+[2025.10.30-14.41.25:336][522]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/5/7V/LIBUFEPTONF8QCC17UVB8D
+[2025.10.30-14.41.25:339][522]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/LIBUFEPTONF8QCC17UVB8DE1AE453C4DDB17598628459E5B07962D.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/5/7V/LIBUFEPTONF8QCC17UVB8D.uasset'
+[2025.10.30-14.41.25:347][522]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/B/AY/7OPWUTUCL5QY9ODLSULJUG
+[2025.10.30-14.41.25:349][522]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/7OPWUTUCL5QY9ODLSULJUG7E86DF8D4386B7A2D2025EBC07F22F5C.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/B/AY/7OPWUTUCL5QY9ODLSULJUG.uasset'
+[2025.10.30-14.41.25:356][522]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/3/0U/DC31VCDJ59FUP44CIU4NWR
+[2025.10.30-14.41.25:358][522]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/DC31VCDJ59FUP44CIU4NWRB3B508E54CBA3EFAAA3433B1ED93CAFE.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/3/0U/DC31VCDJ59FUP44CIU4NWR.uasset'
+[2025.10.30-14.41.25:367][522]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/4/A4/DY7TT45MEFY2XEENUT6H1O
+[2025.10.30-14.41.25:368][522]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/DY7TT45MEFY2XEENUT6H1OD58CDBE247485260804AE8837E95E147.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/4/A4/DY7TT45MEFY2XEENUT6H1O.uasset'
+[2025.10.30-14.41.25:375][522]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/9/7Z/3PGVSL3FGR7VBXM5O0S7T5
+[2025.10.30-14.41.25:377][522]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/3PGVSL3FGR7VBXM5O0S7T54E2CA81748C702CC7FE07CB6D0B044E4.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/9/7Z/3PGVSL3FGR7VBXM5O0S7T5.uasset'
+[2025.10.30-14.41.25:385][522]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/4/NQ/F4YKEZH6XVZPLL69DSUQ1W
+[2025.10.30-14.41.25:387][522]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/F4YKEZH6XVZPLL69DSUQ1WCBCA8F4F43232C2E541ACDA1A9D11ED4.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/4/NQ/F4YKEZH6XVZPLL69DSUQ1W.uasset'
+[2025.10.30-14.41.25:395][522]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/8/S5/ZXAH3HO727584MB8W436OL
+[2025.10.30-14.41.25:397][522]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/ZXAH3HO727584MB8W436OL33961C274A08CC5D445817840350031C.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/8/S5/ZXAH3HO727584MB8W436OL.uasset'
+[2025.10.30-14.41.25:404][522]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/B/YV/WTF5RFGUXV2PE0SMIE7G84
+[2025.10.30-14.41.25:406][522]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/WTF5RFGUXV2PE0SMIE7G84409074C14911CBFE8C596FB90583F4DB.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/B/YV/WTF5RFGUXV2PE0SMIE7G84.uasset'
+[2025.10.30-14.41.25:414][522]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/C/Q2/O4EYAYILT1NOGMRKV9AW8B
+[2025.10.30-14.41.25:416][522]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/O4EYAYILT1NOGMRKV9AW8BEC5BBBF74A21C0B317CCA49CD27D412A.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/C/Q2/O4EYAYILT1NOGMRKV9AW8B.uasset'
+[2025.10.30-14.41.25:422][522]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/E/FT/R7J5HDPLCM9ZPVGEHITBCM
+[2025.10.30-14.41.25:424][522]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/R7J5HDPLCM9ZPVGEHITBCM63968F5A4D8D8A027F0E8FA459A131F0.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/E/FT/R7J5HDPLCM9ZPVGEHITBCM.uasset'
+[2025.10.30-14.41.25:432][522]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/8/JC/3EC5XRX35GEV3A8J5PIFIL
+[2025.10.30-14.41.25:434][522]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/3EC5XRX35GEV3A8J5PIFIL9C6783FC4A6FDE5E83A8A4BA98B9A898.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/8/JC/3EC5XRX35GEV3A8J5PIFIL.uasset'
+[2025.10.30-14.41.25:442][522]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/B/E6/LBEGP1L0Y4RX0KD48JV9T0
+[2025.10.30-14.41.25:444][522]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/LBEGP1L0Y4RX0KD48JV9T068044FC44A90DE4753FBDCA58B0EAFB4.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/B/E6/LBEGP1L0Y4RX0KD48JV9T0.uasset'
+[2025.10.30-14.41.25:450][522]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/6/JM/V7Y2R1CTHUSS132MO57T6Q
+[2025.10.30-14.41.25:452][522]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/V7Y2R1CTHUSS132MO57T6QB9C0808740E3E1DAC174C2AFD00C07E3.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/6/JM/V7Y2R1CTHUSS132MO57T6Q.uasset'
+[2025.10.30-14.41.25:461][522]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/3/SU/GS62EAIN269VH8JJ7B0LPV
+[2025.10.30-14.41.25:463][522]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/GS62EAIN269VH8JJ7B0LPV6D0CA58B443C452CFE29F48E7BEBFDCE.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/3/SU/GS62EAIN269VH8JJ7B0LPV.uasset'
+[2025.10.30-14.41.25:471][522]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/3/26/RFHEEGT26C0LJOFT6M4VOO
+[2025.10.30-14.41.25:488][522]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/RFHEEGT26C0LJOFT6M4VOO2EA3A3DE498F6CB147D34FBF3E066EB8.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/3/26/RFHEEGT26C0LJOFT6M4VOO.uasset'
+[2025.10.30-14.41.25:496][522]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/8/D1/2FJCX0I3H9CHU11I4M8TTB
+[2025.10.30-14.41.25:498][522]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/2FJCX0I3H9CHU11I4M8TTB24A1C4224C749B9FB5251DB5FB2106BE.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/8/D1/2FJCX0I3H9CHU11I4M8TTB.uasset'
+[2025.10.30-14.41.25:506][522]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/C/4N/Z5VBGOH11S3VL5KPVDC6TJ
+[2025.10.30-14.41.25:508][522]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/Z5VBGOH11S3VL5KPVDC6TJ2775FC0248119163E92411A13B3901AC.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/C/4N/Z5VBGOH11S3VL5KPVDC6TJ.uasset'
+[2025.10.30-14.41.25:515][522]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/5/9K/UWZ68KB0TK4DHBAV3Q6MM5
+[2025.10.30-14.41.25:529][522]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/UWZ68KB0TK4DHBAV3Q6MM55F6A9C274ED13B9168AE64BACE4721D2.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/5/9K/UWZ68KB0TK4DHBAV3Q6MM5.uasset'
+[2025.10.30-14.41.25:537][522]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/6/CR/V91Y3ZBZ9JPGPIQLCDXM7H
+[2025.10.30-14.41.25:539][522]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/V91Y3ZBZ9JPGPIQLCDXM7H1ECB58634DE3E6DD33FF76BCE4E0CDA1.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/6/CR/V91Y3ZBZ9JPGPIQLCDXM7H.uasset'
+[2025.10.30-14.41.25:547][522]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/B/56/D50A1GZDQ3EFWNU3XP8OPE
+[2025.10.30-14.41.25:549][522]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/D50A1GZDQ3EFWNU3XP8OPE5CA118824B04495664441FBF98B1E49E.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/B/56/D50A1GZDQ3EFWNU3XP8OPE.uasset'
+[2025.10.30-14.41.25:556][522]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/B/CC/IM6KZ67E28QAS5TPLJFP0B
+[2025.10.30-14.41.25:558][522]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/IM6KZ67E28QAS5TPLJFP0BD2BDA7F5443C308CD5DCF6A6EDDB32B8.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/B/CC/IM6KZ67E28QAS5TPLJFP0B.uasset'
+[2025.10.30-14.41.25:568][522]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/0/TP/T46LEYUUOAJYYX1LSLIKM5
+[2025.10.30-14.41.25:569][522]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/T46LEYUUOAJYYX1LSLIKM52F70681646BCE8720C3D67B85B9C357B.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/0/TP/T46LEYUUOAJYYX1LSLIKM5.uasset'
+[2025.10.30-14.41.25:577][522]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/4/ET/LJCZD17GE34GFLXU5GNAK5
+[2025.10.30-14.41.25:579][522]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/LJCZD17GE34GFLXU5GNAK5C5AC782448130F7FDA073980D082A733.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/4/ET/LJCZD17GE34GFLXU5GNAK5.uasset'
+[2025.10.30-14.41.25:586][522]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/7/ZZ/9TAY2117QNWXN1MG3COHC7
+[2025.10.30-14.41.25:588][522]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/9TAY2117QNWXN1MG3COHC78D33E42741E49F403F4BCDB69FDB97AF.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/7/ZZ/9TAY2117QNWXN1MG3COHC7.uasset'
+[2025.10.30-14.41.25:596][522]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/E/73/WYTFMWBCETIZKNZR33ROPG
+[2025.10.30-14.41.25:598][522]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/WYTFMWBCETIZKNZR33ROPGF9546A76490CEBD04736ACA429D5F098.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/E/73/WYTFMWBCETIZKNZR33ROPG.uasset'
+[2025.10.30-14.41.25:605][522]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/A/VN/H4Z9UDU3BXDMTG6JJXVL6U
+[2025.10.30-14.41.25:607][522]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/H4Z9UDU3BXDMTG6JJXVL6UED404850438A8DF649210CB771A7B88E.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/A/VN/H4Z9UDU3BXDMTG6JJXVL6U.uasset'
+[2025.10.30-14.41.25:615][522]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/E/RW/0NMWS4L5AQVIZ43YENKPRQ
+[2025.10.30-14.41.25:617][522]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/0NMWS4L5AQVIZ43YENKPRQBEBBE0EC47D75734F917198A8D19EE95.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/E/RW/0NMWS4L5AQVIZ43YENKPRQ.uasset'
+[2025.10.30-14.41.25:624][522]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/3/KW/W4ONCG3D3B11DZ64QJ95YU
+[2025.10.30-14.41.25:626][522]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/W4ONCG3D3B11DZ64QJ95YU4C8762D2497BF27D8216048163DE30BF.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/3/KW/W4ONCG3D3B11DZ64QJ95YU.uasset'
+[2025.10.30-14.41.25:634][522]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/B/JG/P18QXXLD86MV05E0IFUFR9
+[2025.10.30-14.41.25:636][522]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/P18QXXLD86MV05E0IFUFR9FFFC8FEC48FCB21C8597A698DD8F46A9.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/B/JG/P18QXXLD86MV05E0IFUFR9.uasset'
+[2025.10.30-14.41.25:644][522]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/6/LP/97YEDEA86UYLREV9DJF6R9
+[2025.10.30-14.41.25:645][522]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/97YEDEA86UYLREV9DJF6R9C20A985747FD18858EB094B21C9A6255.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/6/LP/97YEDEA86UYLREV9DJF6R9.uasset'
+[2025.10.30-14.41.25:652][522]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/B/TV/TXWATO5BD1LCRMA1499T6D
+[2025.10.30-14.41.25:654][522]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/TXWATO5BD1LCRMA1499T6D631062FC4B5A9DDE8B323AB741688D81.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/B/TV/TXWATO5BD1LCRMA1499T6D.uasset'
+[2025.10.30-14.41.25:662][522]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/6/ZM/7HQPYY1CFQ78XYVCQMUZZ8
+[2025.10.30-14.41.25:664][522]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/7HQPYY1CFQ78XYVCQMUZZ881B2A4F24A740EE8DDB6A1B98599EBCB.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/6/ZM/7HQPYY1CFQ78XYVCQMUZZ8.uasset'
+[2025.10.30-14.41.25:671][522]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/0/GO/TDYC8CKTI7R5X14FAIBAIJ
+[2025.10.30-14.41.25:674][522]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/TDYC8CKTI7R5X14FAIBAIJC3FAEFD74B6E43A0EAA5ABA84E05C239.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/0/GO/TDYC8CKTI7R5X14FAIBAIJ.uasset'
+[2025.10.30-14.41.25:681][522]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/3/YI/PKN8UXFBIHVHQQR112JFS3
+[2025.10.30-14.41.25:683][522]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/PKN8UXFBIHVHQQR112JFS37A9CC118453C538FE1AF50B6D9F7CA8F.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/3/YI/PKN8UXFBIHVHQQR112JFS3.uasset'
+[2025.10.30-14.41.25:691][522]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/B/ZZ/ZIETNQ1WOCO95JVMWTCTEJ
+[2025.10.30-14.41.25:694][522]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/ZIETNQ1WOCO95JVMWTCTEJ55510CC144FC90E8E9B98BA9BDCD3C13.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/B/ZZ/ZIETNQ1WOCO95JVMWTCTEJ.uasset'
+[2025.10.30-14.41.25:701][522]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/6/4P/5ZGVLCCZ7URC6YUOC3Q54B
+[2025.10.30-14.41.25:703][522]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/5ZGVLCCZ7URC6YUOC3Q54B76CD254740A99BD03E98CDAF86FF23D3.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/6/4P/5ZGVLCCZ7URC6YUOC3Q54B.uasset'
+[2025.10.30-14.41.25:711][522]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/D/7U/CFGH0D7GYX06225WP9DSU7
+[2025.10.30-14.41.25:723][522]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/CFGH0D7GYX06225WP9DSU77A2F3C814D4B11BB75CBEF88AE7904EC.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/D/7U/CFGH0D7GYX06225WP9DSU7.uasset'
+[2025.10.30-14.41.25:731][522]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/3/JV/8QFZZT3Z26S06JIY2W6LNJ
+[2025.10.30-14.41.25:734][522]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/8QFZZT3Z26S06JIY2W6LNJ1D7DC35B49B8DCE738F6A88CD7004153.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/3/JV/8QFZZT3Z26S06JIY2W6LNJ.uasset'
+[2025.10.30-14.41.25:742][522]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/7/1V/M8V31WJHM28CLZ2RENXXIE
+[2025.10.30-14.41.25:744][522]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/M8V31WJHM28CLZ2RENXXIEF39B1CD94B48A2E8753060AD55D429BE.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/7/1V/M8V31WJHM28CLZ2RENXXIE.uasset'
+[2025.10.30-14.41.25:751][522]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/5/CI/C4HUTK73H4IDOJVE1ZU01C
+[2025.10.30-14.41.25:753][522]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/C4HUTK73H4IDOJVE1ZU01CB0E23E2A48063D6194B9A99751971633.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/5/CI/C4HUTK73H4IDOJVE1ZU01C.uasset'
+[2025.10.30-14.41.25:760][522]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/3/YL/NMT5RKKLH8HZACMGU3CL27
+[2025.10.30-14.41.25:762][522]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/NMT5RKKLH8HZACMGU3CL27C6FF7B0643DBC944FF9270AE29981C1C.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/3/YL/NMT5RKKLH8HZACMGU3CL27.uasset'
+[2025.10.30-14.41.25:771][522]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/9/LC/L5M20FH9IZ1AGTM1FGA74Z
+[2025.10.30-14.41.25:773][522]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/L5M20FH9IZ1AGTM1FGA74Z6EDABE2B46862C50BC6D52BF895A01FD.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/9/LC/L5M20FH9IZ1AGTM1FGA74Z.uasset'
+[2025.10.30-14.41.25:781][522]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/A/7P/09ZLIDFGELCJ7G89804M6O
+[2025.10.30-14.41.25:783][522]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/09ZLIDFGELCJ7G89804M6OA3C5F79B4C06CF53B2183298D398016C.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/A/7P/09ZLIDFGELCJ7G89804M6O.uasset'
+[2025.10.30-14.41.25:790][522]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/A/95/CEDSFZ9LTG160PSNYQLGPN
+[2025.10.30-14.41.25:792][522]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/CEDSFZ9LTG160PSNYQLGPNC6B583E8463F89D6E935EAB75B07B1D4.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/A/95/CEDSFZ9LTG160PSNYQLGPN.uasset'
+[2025.10.30-14.41.25:800][522]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/1/VL/M38VPOUYVID27AZIX0JLJH
+[2025.10.30-14.41.25:802][522]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/M38VPOUYVID27AZIX0JLJHE38A77814E2793486BA690A762A5C8A1.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/1/VL/M38VPOUYVID27AZIX0JLJH.uasset'
+[2025.10.30-14.41.25:809][522]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/6/XM/KIBVUMFXPV8XFNS8AJKREU
+[2025.10.30-14.41.25:811][522]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/KIBVUMFXPV8XFNS8AJKREUAC41F53A4520DE7835F239A767CD4211.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/6/XM/KIBVUMFXPV8XFNS8AJKREU.uasset'
+[2025.10.30-14.41.25:819][522]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/A/DY/BWUPADTQ67VVJM9U46NWA6
+[2025.10.30-14.41.25:819][522]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/BWUPADTQ67VVJM9U46NWA6F5D4B540470583569C53C0BA91644414.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/A/DY/BWUPADTQ67VVJM9U46NWA6.uasset'
+[2025.10.30-14.41.25:826][522]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/1/LH/1YGHXLE8DE0OOQQIJ1VNES
+[2025.10.30-14.41.25:826][522]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/1YGHXLE8DE0OOQQIJ1VNESD406C0DC46FE1A0BF2DD0A8D5177A2BA.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/1/LH/1YGHXLE8DE0OOQQIJ1VNES.uasset'
+[2025.10.30-14.41.25:839][522]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/6/NE/P67T0JM5JCAMC4RHJHFOQW
+[2025.10.30-14.41.25:839][522]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/P67T0JM5JCAMC4RHJHFOQW50F811034F4951E68AD756ADEF147FE9.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/6/NE/P67T0JM5JCAMC4RHJHFOQW.uasset'
+[2025.10.30-14.41.25:847][522]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/A/64/6OYCC3HLUJ5TVVDOXMZR1A
+[2025.10.30-14.41.25:847][522]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/6OYCC3HLUJ5TVVDOXMZR1AD8AC89E546F35122FAE16392ADFCCE15.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/A/64/6OYCC3HLUJ5TVVDOXMZR1A.uasset'
+[2025.10.30-14.41.25:854][522]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/4/GW/71HRF81VGBJSFOHPN7CDAU
+[2025.10.30-14.41.25:854][522]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/71HRF81VGBJSFOHPN7CDAUF2EDADC543350E4A30E8FBA27F23F471.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/4/GW/71HRF81VGBJSFOHPN7CDAU.uasset'
+[2025.10.30-14.41.25:868][522]LogFileHelpers: InternalPromptForCheckoutAndSave took 953.719 ms (total: 2.78 sec)
+[2025.10.30-14.41.25:986][522]LogContentValidation: Display: Starting to validate 78 assets
+[2025.10.30-14.41.25:986][522]LogContentValidation: Enabled validators:
+[2025.10.30-14.41.25:986][522]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.30-14.41.25:986][522]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.30-14.41.25:986][522]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.30-14.41.25:986][522]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.30-14.41.25:986][522]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.30-14.41.25:986][522]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.30-14.41.25:987][522]AssetCheck: /Game/TopDown/Lvl_TopDown Validating asset
+[2025.10.30-14.41.26:024][522]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/SourceControl/UncontrolledChangelists.json
