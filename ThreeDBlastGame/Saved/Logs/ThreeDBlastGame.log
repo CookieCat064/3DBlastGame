@@ -7397,3 +7397,787 @@ Sampler Limit: 32
 [2025.11.06-18.29.24:774][892]LogAudioMixer: Display: StopRunningNullDevice() called, InstanceID=41
 [2025.11.06-18.29.24:780][892]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
 [2025.11.06-18.29.24:817][893]LogPlayLevel: Display: Destroying online subsystem :Context_63
+[2025.11.06-18.29.45:015][ 70]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.11.06-18.29.45:024][ 70]LogContentBundle: [Lvl_TopDown(Editor)] Generating Streaming for 0 Content Bundles.
+[2025.11.06-18.29.45:024][ 70]LogWorldPartition: Display: GenerateStreaming for 'Lvl_TopDown' started...
+[2025.11.06-18.29.45:026][ 70]LogWorldPartition: Display: GenerateStreaming for 'Lvl_TopDown' took 1.402 ms (total: 53.891 ms)
+[2025.11.06-18.29.45:062][ 70]LogFMOD: Display: Loaded bank lookup
+[2025.11.06-18.29.45:062][ 70]LogFMOD: Error: Failed to load asset lookup
+[2025.11.06-18.29.45:065][ 70]LogFMOD: Error: 'lowLevelSystem->getDriverInfo(DriverIndex, nullptr, 0, nullptr, &SystemSampleRate, nullptr, nullptr)' returned 'An invalid parameter was passed to this function.'
+[2025.11.06-18.29.45:065][ 70]LogFMOD: Default sample rate = 48000
+[2025.11.06-18.29.45:065][ 70]LogFMOD: System sample rate = 0
+[2025.11.06-18.29.45:065][ 70]LogFMOD: CallbackHandler not set.
+[2025.11.06-18.29.45:065][ 70]LogFMOD: Warning: C:\buildagent2\work\c1c3f17eb167c494\core_api\src\fmod_systemi.cpp(2909) - No output sound devices found - switching output mode to FMOD_OUTPUTTYPE_NOSOUND
+
+[2025.11.06-18.29.45:077][ 70]LogFMOD: Warning: Master bank (Master.bank) not found.
+[2025.11.06-18.29.45:093][ 70]LogFMOD: Warning: C:\buildagent2\work\c1c3f17eb167c494\core_api\src\fmod_os_net_winsock.cpp(273) - Cannot listen for connections, port 9264 is currently in use.
+
+[2025.11.06-18.29.45:114][ 70]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.11.06-18.29.45:114][ 70]LogPlayLevel: Creating play world package: /Game/TopDown/UEDPIE_0_Lvl_TopDown
+[2025.11.06-18.29.45:132][ 70]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2025.11.06-18.29.45:137][ 70]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 5.178 ms (total: 219.074 ms)
+[2025.11.06-18.29.45:137][ 70]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023595s)
+[2025.11.06-18.29.45:137][ 70]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDown/Lvl_TopDown.Lvl_TopDown to /Game/TopDown/UEDPIE_0_Lvl_TopDown.Lvl_TopDown (0.023637s)
+[2025.11.06-18.29.45:165][ 70]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2025.11.06-18.29.45:167][ 70]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_TopDown
+[2025.11.06-18.29.45:169][ 70]LogWorldPartition: ULevel::OnLevelLoaded(Lvl_TopDown)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.11.06-18.29.45:169][ 70]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.11.06-18.29.45:169][ 70]LogWorldPartition: UWorldPartition::Initialize : World = /Game/TopDown/UEDPIE_0_Lvl_TopDown.Lvl_TopDown, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.11.06-18.29.45:169][ 70]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.11.06-18.29.45:173][ 70]LogWorldPartition: Display: WorldPartition initialize took 4.558 ms (total: 808.964 ms)
+[2025.11.06-18.29.45:173][ 70]LogPlayLevel: PIE: World Init took: (0.006393s)
+[2025.11.06-18.29.45:174][ 70]LogAudio: Display: Creating Audio Device:                 Id: 42, Scope: Unique, Realtime: True
+[2025.11.06-18.29.45:174][ 70]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.11.06-18.29.45:174][ 70]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.11.06-18.29.45:174][ 70]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.11.06-18.29.45:174][ 70]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.11.06-18.29.45:174][ 70]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.11.06-18.29.45:174][ 70]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.11.06-18.29.45:174][ 70]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.11.06-18.29.45:174][ 70]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.11.06-18.29.45:174][ 70]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.11.06-18.29.45:174][ 70]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.11.06-18.29.45:174][ 70]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.11.06-18.29.45:177][ 70]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.11.06-18.29.45:192][ 70]LogAudioMixer: Display: Using Audio Hardware Device Unknown
+[2025.11.06-18.29.45:192][ 70]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.11.06-18.29.45:192][ 70]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.11.06-18.29.45:192][ 70]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.11.06-18.29.45:192][ 70]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=42
+[2025.11.06-18.29.45:192][ 70]LogAudioMixer: Display: StartRunningNullDevice() called, InstanceID=42
+[2025.11.06-18.29.45:192][ 70]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=42
+[2025.11.06-18.29.45:192][ 70]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=17400
+[2025.11.06-18.29.45:192][ 70]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=42
+[2025.11.06-18.29.45:195][ 70]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=42
+[2025.11.06-18.29.45:195][ 70]LogInit: FAudioDevice initialized with ID 42.
+[2025.11.06-18.29.45:195][ 70]LogAudio: Display: Audio Device (ID: 42) registered with world 'Lvl_TopDown'.
+[2025.11.06-18.29.45:195][ 70]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 42
+[2025.11.06-18.29.45:199][ 70]LogLoad: Game class is 'BP_TopDownGameMode_C'
+[2025.11.06-18.29.45:208][ 70]LogWorld: Bringing World /Game/TopDown/UEDPIE_0_Lvl_TopDown.Lvl_TopDown up for play (max tick rate 0) at 2025.11.06-18.29.45
+[2025.11.06-18.29.45:209][ 70]LogWorld: Bringing up level for play took: 0.008351
+[2025.11.06-18.29.45:212][ 70]LogOnline: OSS: Created online subsystem instance for: :Context_64
+[2025.11.06-18.29.45:217][ 70]PIE: Server logged in
+[2025.11.06-18.29.45:219][ 70]PIE: Play in editor total start time 0.195 seconds.
+[2025.11.06-18.29.45:283][ 71]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.11.06-18.29.50:106][477]LogFMOD: Warning: C:\buildagent2\work\c1c3f17eb167c494\core_api\src\fmod_os_net_winsock.cpp(273) - Cannot listen for connections, port 9264 is currently in use.
+
+[2025.11.06-18.29.55:118][911]LogFMOD: Warning: C:\buildagent2\work\c1c3f17eb167c494\core_api\src\fmod_os_net_winsock.cpp(273) - Cannot listen for connections, port 9264 is currently in use.
+
+[2025.11.06-18.30.00:130][331]LogFMOD: Warning: C:\buildagent2\work\c1c3f17eb167c494\core_api\src\fmod_os_net_winsock.cpp(273) - Cannot listen for connections, port 9264 is currently in use.
+
+[2025.11.06-18.30.05:145][754]LogFMOD: Warning: C:\buildagent2\work\c1c3f17eb167c494\core_api\src\fmod_os_net_winsock.cpp(273) - Cannot listen for connections, port 9264 is currently in use.
+
+[2025.11.06-18.30.05:492][783]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 7529.648438
+[2025.11.06-18.30.05:620][794]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.06-18.30.05:620][794]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 7529.767090, Update Interval: 328.081909
+[2025.11.06-18.30.10:159][175]LogFMOD: Warning: C:\buildagent2\work\c1c3f17eb167c494\core_api\src\fmod_os_net_winsock.cpp(273) - Cannot listen for connections, port 9264 is currently in use.
+
+[2025.11.06-18.30.15:172][595]LogFMOD: Warning: C:\buildagent2\work\c1c3f17eb167c494\core_api\src\fmod_os_net_winsock.cpp(273) - Cannot listen for connections, port 9264 is currently in use.
+
+[2025.11.06-18.30.20:184][ 17]LogFMOD: Warning: C:\buildagent2\work\c1c3f17eb167c494\core_api\src\fmod_os_net_winsock.cpp(273) - Cannot listen for connections, port 9264 is currently in use.
+
+[2025.11.06-18.30.25:199][438]LogFMOD: Warning: C:\buildagent2\work\c1c3f17eb167c494\core_api\src\fmod_os_net_winsock.cpp(273) - Cannot listen for connections, port 9264 is currently in use.
+
+[2025.11.06-18.30.30:210][858]LogFMOD: Warning: C:\buildagent2\work\c1c3f17eb167c494\core_api\src\fmod_os_net_winsock.cpp(273) - Cannot listen for connections, port 9264 is currently in use.
+
+[2025.11.06-18.30.35:224][281]LogFMOD: Warning: C:\buildagent2\work\c1c3f17eb167c494\core_api\src\fmod_os_net_winsock.cpp(273) - Cannot listen for connections, port 9264 is currently in use.
+
+[2025.11.06-18.30.40:236][702]LogFMOD: Warning: C:\buildagent2\work\c1c3f17eb167c494\core_api\src\fmod_os_net_winsock.cpp(273) - Cannot listen for connections, port 9264 is currently in use.
+
+[2025.11.06-18.30.45:253][122]LogFMOD: Warning: C:\buildagent2\work\c1c3f17eb167c494\core_api\src\fmod_os_net_winsock.cpp(273) - Cannot listen for connections, port 9264 is currently in use.
+
+[2025.11.06-18.30.50:264][543]LogFMOD: Warning: C:\buildagent2\work\c1c3f17eb167c494\core_api\src\fmod_os_net_winsock.cpp(273) - Cannot listen for connections, port 9264 is currently in use.
+
+[2025.11.06-18.30.55:260][960]LogShaderCompilers: Display: ================================================
+[2025.11.06-18.30.55:260][960]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.11.06-18.30.55:260][960]LogShaderCompilers: Display: Total job queries 18,781, among them cache hits 5,150 (27.42%), DDC hits 12,401 (66.03%), Duplicates 526 (2.80%)
+[2025.11.06-18.30.55:260][960]LogShaderCompilers: Display: Tracking 13,105 distinct input hashes that result in 11,978 distinct outputs (91.40%)
+[2025.11.06-18.30.55:260][960]LogShaderCompilers: Display: RAM used: 159.25 MiB of 6.40 GiB budget. Usage: 2.43%
+[2025.11.06-18.30.55:260][960]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.11.06-18.30.55:260][960]LogShaderCompilers: Display: Shaders Compiled: 704
+[2025.11.06-18.30.55:260][960]LogShaderCompilers: Display: Jobs assigned 704, completed 704 (100%)
+[2025.11.06-18.30.55:260][960]LogShaderCompilers: Display: Average time worker was idle: 231.66 s
+[2025.11.06-18.30.55:260][960]LogShaderCompilers: Display: Time job spent in pending queue: average 8.00 s, longest 45.41 s
+[2025.11.06-18.30.55:260][960]LogShaderCompilers: Display: Job execution time: average 9.47 s, max 38.09 s
+[2025.11.06-18.30.55:260][960]LogShaderCompilers: Display: Job life time (pending + execution): average 17.47 s, max 48.40
+[2025.11.06-18.30.55:260][960]LogShaderCompilers: Display: Shader code size: total 10.483 MiB, numShaders 729, average 14.727 KiB, min 2.246 KiB, max 55.505 KiB
+[2025.11.06-18.30.55:260][960]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 183.85 s
+[2025.11.06-18.30.55:260][960]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.03%
+[2025.11.06-18.30.55:260][960]LogShaderCompilers: Display: Jobs were issued in 247 batches (only local compilation was used), average 2.85 jobs/batch
+[2025.11.06-18.30.55:260][960]LogShaderCompilers: Display: Average processing rate: 3.83 jobs/sec
+[2025.11.06-18.30.55:260][960]LogShaderCompilers: Display: Total thread time: 1,155.189 s
+[2025.11.06-18.30.55:260][960]LogShaderCompilers: Display: Total thread preprocess time: 279.208 s
+[2025.11.06-18.30.55:260][960]LogShaderCompilers: Display: Percentage time preprocessing: 24.17%
+[2025.11.06-18.30.55:260][960]LogShaderCompilers: Display: Effective parallelization: 6.28 (times faster than compiling all shaders on one thread). Compare with number of workers: 8 - 0.785416
+[2025.11.06-18.30.55:260][960]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.11.06-18.30.55:260][960]LogShaderCompilers: Display:                                  FPathTracingMaterialCHS_AHS (compiled   12 times, average 5.65 sec, max 25.08 sec, min 1.59 sec)
+[2025.11.06-18.30.55:260][960]LogShaderCompilers: Display:                                        FRayTracingLightingMS (compiled    1 times, average 5.06 sec, max 5.06 sec, min 5.06 sec)
+[2025.11.06-18.30.55:260][960]LogShaderCompilers: Display:                                       FRayTracingSkyLightRGS (compiled   16 times, average 4.83 sec, max 9.55 sec, min 3.09 sec)
+[2025.11.06-18.30.55:260][960]LogShaderCompilers: Display:                                        FMicropolyRasterizeCS (compiled   10 times, average 4.44 sec, max 6.29 sec, min 3.10 sec)
+[2025.11.06-18.30.55:260][960]LogShaderCompilers: Display:                                 TBasePassCSFNoLightMapPolicy (compiled    5 times, average 4.43 sec, max 5.59 sec, min 2.46 sec)
+[2025.11.06-18.30.55:260][960]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.11.06-18.30.55:260][960]LogShaderCompilers: Display:                        FLumenReflectionHardwareRayTracingRGS - 25.01% of total time (compiled   80 times, average 3.61 sec, max 5.74 sec, min 2.79 sec)
+[2025.11.06-18.30.55:260][960]LogShaderCompilers: Display:                                       FRayTracingSkyLightRGS - 6.69% of total time (compiled   16 times, average 4.83 sec, max 9.55 sec, min 3.09 sec)
+[2025.11.06-18.30.55:260][960]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 5.92% of total time (compiled   63 times, average 1.09 sec, max 10.08 sec, min 0.40 sec)
+[2025.11.06-18.30.55:260][960]LogShaderCompilers: Display:                                  FPathTracingMaterialCHS_AHS - 5.87% of total time (compiled   12 times, average 5.65 sec, max 25.08 sec, min 1.59 sec)
+[2025.11.06-18.30.55:260][960]LogShaderCompilers: Display:                   TMaterialCHSFNoLightMapPolicyFAnyHitShader - 4.95% of total time (compiled   16 times, average 3.58 sec, max 17.96 sec, min 1.26 sec)
+[2025.11.06-18.30.55:260][960]LogShaderCompilers: Display: === Material stats ===
+[2025.11.06-18.30.55:260][960]LogShaderCompilers: Display: Materials Cooked:        0
+[2025.11.06-18.30.55:260][960]LogShaderCompilers: Display: Materials Translated:    186
+[2025.11.06-18.30.55:260][960]LogShaderCompilers: Display: Material Total Translate Time: 0.21 s
+[2025.11.06-18.30.55:260][960]LogShaderCompilers: Display: Material Translation Only: 0.07 s (34%)
+[2025.11.06-18.30.55:260][960]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (0%)
+[2025.11.06-18.30.55:260][960]LogShaderCompilers: Display: Material Cache Hits: 0 (0%)
+[2025.11.06-18.30.55:260][960]LogShaderCompilers: Display: ================================================
+[2025.11.06-18.30.55:278][961]LogFMOD: Warning: C:\buildagent2\work\c1c3f17eb167c494\core_api\src\fmod_os_net_winsock.cpp(273) - Cannot listen for connections, port 9264 is currently in use.
+
+[2025.11.06-18.31.00:293][381]LogFMOD: Warning: C:\buildagent2\work\c1c3f17eb167c494\core_api\src\fmod_os_net_winsock.cpp(273) - Cannot listen for connections, port 9264 is currently in use.
+
+[2025.11.06-18.31.05:304][798]LogFMOD: Warning: C:\buildagent2\work\c1c3f17eb167c494\core_api\src\fmod_os_net_winsock.cpp(273) - Cannot listen for connections, port 9264 is currently in use.
+
+[2025.11.06-18.31.10:320][219]LogFMOD: Warning: C:\buildagent2\work\c1c3f17eb167c494\core_api\src\fmod_os_net_winsock.cpp(273) - Cannot listen for connections, port 9264 is currently in use.
+
+[2025.11.06-18.31.15:333][637]LogFMOD: Warning: C:\buildagent2\work\c1c3f17eb167c494\core_api\src\fmod_os_net_winsock.cpp(273) - Cannot listen for connections, port 9264 is currently in use.
+
+[2025.11.06-18.31.20:351][ 58]LogFMOD: Warning: C:\buildagent2\work\c1c3f17eb167c494\core_api\src\fmod_os_net_winsock.cpp(273) - Cannot listen for connections, port 9264 is currently in use.
+
+[2025.11.06-18.31.25:357][477]LogFMOD: Warning: C:\buildagent2\work\c1c3f17eb167c494\core_api\src\fmod_os_net_winsock.cpp(273) - Cannot listen for connections, port 9264 is currently in use.
+
+[2025.11.06-18.31.30:370][899]LogFMOD: Warning: C:\buildagent2\work\c1c3f17eb167c494\core_api\src\fmod_os_net_winsock.cpp(273) - Cannot listen for connections, port 9264 is currently in use.
+
+[2025.11.06-18.31.35:384][319]LogFMOD: Warning: C:\buildagent2\work\c1c3f17eb167c494\core_api\src\fmod_os_net_winsock.cpp(273) - Cannot listen for connections, port 9264 is currently in use.
+
+[2025.11.06-18.31.40:398][739]LogFMOD: Warning: C:\buildagent2\work\c1c3f17eb167c494\core_api\src\fmod_os_net_winsock.cpp(273) - Cannot listen for connections, port 9264 is currently in use.
+
+[2025.11.06-18.31.45:413][157]LogFMOD: Warning: C:\buildagent2\work\c1c3f17eb167c494\core_api\src\fmod_os_net_winsock.cpp(273) - Cannot listen for connections, port 9264 is currently in use.
+
+[2025.11.06-18.31.50:424][574]LogFMOD: Warning: C:\buildagent2\work\c1c3f17eb167c494\core_api\src\fmod_os_net_winsock.cpp(273) - Cannot listen for connections, port 9264 is currently in use.
+
+[2025.11.06-18.31.55:437][993]LogFMOD: Warning: C:\buildagent2\work\c1c3f17eb167c494\core_api\src\fmod_os_net_winsock.cpp(273) - Cannot listen for connections, port 9264 is currently in use.
+
+[2025.11.06-18.32.00:451][413]LogFMOD: Warning: C:\buildagent2\work\c1c3f17eb167c494\core_api\src\fmod_os_net_winsock.cpp(273) - Cannot listen for connections, port 9264 is currently in use.
+
+[2025.11.06-18.32.05:466][834]LogFMOD: Warning: C:\buildagent2\work\c1c3f17eb167c494\core_api\src\fmod_os_net_winsock.cpp(273) - Cannot listen for connections, port 9264 is currently in use.
+
+[2025.11.06-18.32.10:479][250]LogFMOD: Warning: C:\buildagent2\work\c1c3f17eb167c494\core_api\src\fmod_os_net_winsock.cpp(273) - Cannot listen for connections, port 9264 is currently in use.
+
+[2025.11.06-18.32.11:709][340]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.06-18.32.11:709][340]LogWorld: BeginTearingDown for /Game/TopDown/UEDPIE_0_Lvl_TopDown
+[2025.11.06-18.32.11:709][340]LogWorld: UWorld::CleanupWorld for Lvl_TopDown, bSessionEnded=true, bCleanupResources=true
+[2025.11.06-18.32.11:712][340]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.06-18.32.11:712][340]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/TopDown/UEDPIE_0_Lvl_TopDown.Lvl_TopDown
+[2025.11.06-18.32.11:713][340]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.11.06-18.32.11:718][340]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.06-18.32.11:747][340]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.06-18.32.11:748][340]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 42
+[2025.11.06-18.32.11:748][340]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=42, StreamState=4
+[2025.11.06-18.32.11:751][340]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=42, StreamState=2
+[2025.11.06-18.32.11:751][340]LogAudioMixer: Display: StopRunningNullDevice() called, InstanceID=42
+[2025.11.06-18.32.11:757][340]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
+[2025.11.06-18.32.11:812][341]LogPlayLevel: Display: Destroying online subsystem :Context_64
+[2025.11.06-18.32.25:354][246]Cmd: DUPLICATE
+[2025.11.06-18.32.25:354][246]Cmd: ACTOR DUPLICATE
+[2025.11.06-18.32.52:842][151]Cmd: DELETE
+[2025.11.06-18.32.52:842][151]Cmd: ACTOR DELETE
+[2025.11.06-18.32.52:845][151]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.11.06-18.32.52:880][151]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2025.11.06-18.32.52:884][151]LogEditorActor: Deleted 1 Actors (0.042 secs)
+[2025.11.06-18.32.54:059][245]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.11.06-18.32.54:067][245]LogContentBundle: [Lvl_TopDown(Editor)] Generating Streaming for 0 Content Bundles.
+[2025.11.06-18.32.54:067][245]LogWorldPartition: Display: GenerateStreaming for 'Lvl_TopDown' started...
+[2025.11.06-18.32.54:069][245]LogWorldPartition: Display: GenerateStreaming for 'Lvl_TopDown' took 1.925 ms (total: 55.817 ms)
+[2025.11.06-18.32.54:093][245]LogFMOD: Display: Loaded bank lookup
+[2025.11.06-18.32.54:093][245]LogFMOD: Error: Failed to load asset lookup
+[2025.11.06-18.32.54:096][245]LogFMOD: Error: 'lowLevelSystem->getDriverInfo(DriverIndex, nullptr, 0, nullptr, &SystemSampleRate, nullptr, nullptr)' returned 'An invalid parameter was passed to this function.'
+[2025.11.06-18.32.54:096][245]LogFMOD: Default sample rate = 48000
+[2025.11.06-18.32.54:096][245]LogFMOD: System sample rate = 0
+[2025.11.06-18.32.54:096][245]LogFMOD: CallbackHandler not set.
+[2025.11.06-18.32.54:096][245]LogFMOD: Warning: C:\buildagent2\work\c1c3f17eb167c494\core_api\src\fmod_systemi.cpp(2909) - No output sound devices found - switching output mode to FMOD_OUTPUTTYPE_NOSOUND
+
+[2025.11.06-18.32.54:108][245]LogFMOD: Warning: Master bank (Master.bank) not found.
+[2025.11.06-18.32.54:122][245]LogFMOD: Warning: C:\buildagent2\work\c1c3f17eb167c494\core_api\src\fmod_os_net_winsock.cpp(273) - Cannot listen for connections, port 9264 is currently in use.
+
+[2025.11.06-18.32.54:147][245]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.11.06-18.32.54:147][245]LogPlayLevel: Creating play world package: /Game/TopDown/UEDPIE_0_Lvl_TopDown
+[2025.11.06-18.32.54:166][245]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2025.11.06-18.32.54:170][245]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 4.478 ms (total: 223.553 ms)
+[2025.11.06-18.32.54:170][245]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022969s)
+[2025.11.06-18.32.54:170][245]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDown/Lvl_TopDown.Lvl_TopDown to /Game/TopDown/UEDPIE_0_Lvl_TopDown.Lvl_TopDown (0.023015s)
+[2025.11.06-18.32.54:200][245]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2025.11.06-18.32.54:202][245]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_TopDown
+[2025.11.06-18.32.54:204][245]LogWorldPartition: ULevel::OnLevelLoaded(Lvl_TopDown)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.11.06-18.32.54:204][245]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.11.06-18.32.54:204][245]LogWorldPartition: UWorldPartition::Initialize : World = /Game/TopDown/UEDPIE_0_Lvl_TopDown.Lvl_TopDown, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.11.06-18.32.54:204][245]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.11.06-18.32.54:209][245]LogWorldPartition: Display: WorldPartition initialize took 4.820 ms (total: 813.784 ms)
+[2025.11.06-18.32.54:209][245]LogPlayLevel: PIE: World Init took: (0.006832s)
+[2025.11.06-18.32.54:210][245]LogAudio: Display: Creating Audio Device:                 Id: 43, Scope: Unique, Realtime: True
+[2025.11.06-18.32.54:210][245]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.11.06-18.32.54:210][245]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.11.06-18.32.54:210][245]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.11.06-18.32.54:210][245]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.11.06-18.32.54:210][245]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.11.06-18.32.54:210][245]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.11.06-18.32.54:210][245]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.11.06-18.32.54:210][245]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.11.06-18.32.54:210][245]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.11.06-18.32.54:210][245]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.11.06-18.32.54:210][245]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.11.06-18.32.54:213][245]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.11.06-18.32.54:229][245]LogAudioMixer: Display: Using Audio Hardware Device Unknown
+[2025.11.06-18.32.54:229][245]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.11.06-18.32.54:229][245]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.11.06-18.32.54:229][245]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.11.06-18.32.54:230][245]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=43
+[2025.11.06-18.32.54:230][245]LogAudioMixer: Display: StartRunningNullDevice() called, InstanceID=43
+[2025.11.06-18.32.54:230][245]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=43
+[2025.11.06-18.32.54:230][245]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=9244
+[2025.11.06-18.32.54:230][245]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=43
+[2025.11.06-18.32.54:232][245]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=43
+[2025.11.06-18.32.54:232][245]LogInit: FAudioDevice initialized with ID 43.
+[2025.11.06-18.32.54:232][245]LogAudio: Display: Audio Device (ID: 43) registered with world 'Lvl_TopDown'.
+[2025.11.06-18.32.54:232][245]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 43
+[2025.11.06-18.32.54:237][245]LogLoad: Game class is 'BP_TopDownGameMode_C'
+[2025.11.06-18.32.54:246][245]LogWorld: Bringing World /Game/TopDown/UEDPIE_0_Lvl_TopDown.Lvl_TopDown up for play (max tick rate 0) at 2025.11.06-18.32.54
+[2025.11.06-18.32.54:247][245]LogWorld: Bringing up level for play took: 0.008861
+[2025.11.06-18.32.54:249][245]LogOnline: OSS: Created online subsystem instance for: :Context_65
+[2025.11.06-18.32.54:255][245]PIE: Server logged in
+[2025.11.06-18.32.54:258][245]PIE: Play in editor total start time 0.191 seconds.
+[2025.11.06-18.32.54:328][246]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.11.06-18.32.59:135][667]LogFMOD: Warning: C:\buildagent2\work\c1c3f17eb167c494\core_api\src\fmod_os_net_winsock.cpp(273) - Cannot listen for connections, port 9264 is currently in use.
+
+[2025.11.06-18.33.04:148][122]LogFMOD: Warning: C:\buildagent2\work\c1c3f17eb167c494\core_api\src\fmod_os_net_winsock.cpp(273) - Cannot listen for connections, port 9264 is currently in use.
+
+[2025.11.06-18.33.09:164][575]LogFMOD: Warning: C:\buildagent2\work\c1c3f17eb167c494\core_api\src\fmod_os_net_winsock.cpp(273) - Cannot listen for connections, port 9264 is currently in use.
+
+[2025.11.06-18.33.14:176][  8]LogFMOD: Warning: C:\buildagent2\work\c1c3f17eb167c494\core_api\src\fmod_os_net_winsock.cpp(273) - Cannot listen for connections, port 9264 is currently in use.
+
+[2025.11.06-18.33.19:191][438]LogFMOD: Warning: C:\buildagent2\work\c1c3f17eb167c494\core_api\src\fmod_os_net_winsock.cpp(273) - Cannot listen for connections, port 9264 is currently in use.
+
+[2025.11.06-18.33.24:204][851]LogFMOD: Warning: C:\buildagent2\work\c1c3f17eb167c494\core_api\src\fmod_os_net_winsock.cpp(273) - Cannot listen for connections, port 9264 is currently in use.
+
+[2025.11.06-18.33.29:218][265]LogFMOD: Warning: C:\buildagent2\work\c1c3f17eb167c494\core_api\src\fmod_os_net_winsock.cpp(273) - Cannot listen for connections, port 9264 is currently in use.
+
+[2025.11.06-18.33.31:029][405]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.06-18.33.31:029][405]LogWorld: BeginTearingDown for /Game/TopDown/UEDPIE_0_Lvl_TopDown
+[2025.11.06-18.33.31:030][405]LogWorld: UWorld::CleanupWorld for Lvl_TopDown, bSessionEnded=true, bCleanupResources=true
+[2025.11.06-18.33.31:032][405]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.06-18.33.31:032][405]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/TopDown/UEDPIE_0_Lvl_TopDown.Lvl_TopDown
+[2025.11.06-18.33.31:033][405]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.11.06-18.33.31:038][405]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.06-18.33.31:069][405]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.06-18.33.31:070][405]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 43
+[2025.11.06-18.33.31:070][405]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=43, StreamState=4
+[2025.11.06-18.33.31:072][405]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=43, StreamState=2
+[2025.11.06-18.33.31:072][405]LogAudioMixer: Display: StopRunningNullDevice() called, InstanceID=43
+[2025.11.06-18.33.31:082][405]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2025.11.06-18.33.31:122][406]LogPlayLevel: Display: Destroying online subsystem :Context_65
+[2025.11.06-18.33.31:706][417]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.06-18.33.31:791][417]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
+[2025.11.06-18.33.31:822][417]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2025.11.06-18.33.31:852][417]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2025.11.06-18.33.31:860][417]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/5/R4/915G5E49T5DF5NZS8138AQ
+[2025.11.06-18.33.31:860][417]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/915G5E49T5DF5NZS8138AQ0120C3FC4B31479142F71CB627F32D51.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/5/R4/915G5E49T5DF5NZS8138AQ.uasset'
+[2025.11.06-18.33.31:867][417]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/E/H8/S0K19SVNEM9NK8WP3AC6JL
+[2025.11.06-18.33.31:867][417]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/S0K19SVNEM9NK8WP3AC6JL8C6EFBE348EFF43224F00B9E306B8212.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/E/H8/S0K19SVNEM9NK8WP3AC6JL.uasset'
+[2025.11.06-18.33.31:875][417]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/7/88/1ITOF5EG6YPXMGC2VALR86
+[2025.11.06-18.33.31:875][417]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/1ITOF5EG6YPXMGC2VALR86C8E701874ACD8BF443C973B5BEB37453.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/7/88/1ITOF5EG6YPXMGC2VALR86.uasset'
+[2025.11.06-18.33.31:882][417]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/9/45/PHWMGMH8MRK0H58QL0Y9PF
+[2025.11.06-18.33.31:882][417]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/PHWMGMH8MRK0H58QL0Y9PFCBC94406473096D748179AA3EA55892D.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/9/45/PHWMGMH8MRK0H58QL0Y9PF.uasset'
+[2025.11.06-18.33.31:889][417]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/2/OP/SJPB82GART4Z7SGDHRR93F
+[2025.11.06-18.33.31:889][417]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/SJPB82GART4Z7SGDHRR93F8A61120B48B86B5811F3949CB5A2B7B4.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/2/OP/SJPB82GART4Z7SGDHRR93F.uasset'
+[2025.11.06-18.33.31:896][417]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/5/D7/U39NSXQXOIAUYR3AVX949I
+[2025.11.06-18.33.31:896][417]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/U39NSXQXOIAUYR3AVX949IC6D21639466ED30CE221409DE2008D87.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/5/D7/U39NSXQXOIAUYR3AVX949I.uasset'
+[2025.11.06-18.33.31:904][417]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/0/KS/T3AFPM1IDPQLPGIZQMXGAW
+[2025.11.06-18.33.31:904][417]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/T3AFPM1IDPQLPGIZQMXGAW59DE18C34FB53504503FB1805D9B6A1F.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/0/KS/T3AFPM1IDPQLPGIZQMXGAW.uasset'
+[2025.11.06-18.33.31:911][417]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/E/7L/ZL3FJ5AJC4ZNWRV4AG9LAK
+[2025.11.06-18.33.31:911][417]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/ZL3FJ5AJC4ZNWRV4AG9LAKB08F993940F7800AD7E042B139542973.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/E/7L/ZL3FJ5AJC4ZNWRV4AG9LAK.uasset'
+[2025.11.06-18.33.31:918][417]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/C/HU/W6I6IHHB6TFOK4BRH27M2E
+[2025.11.06-18.33.31:918][417]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/W6I6IHHB6TFOK4BRH27M2E15867D67464C557905A24193D2B35766.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/C/HU/W6I6IHHB6TFOK4BRH27M2E.uasset'
+[2025.11.06-18.33.31:926][417]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/D/KN/0W3JIYV3FUFF7MP8XBS6CF
+[2025.11.06-18.33.31:926][417]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/0W3JIYV3FUFF7MP8XBS6CF209FD21C46AACE91A2A7E9B23A8470A4.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/D/KN/0W3JIYV3FUFF7MP8XBS6CF.uasset'
+[2025.11.06-18.33.31:939][417]LogFileHelpers: InternalPromptForCheckoutAndSave took 232.286 ms (total: 2.76 sec)
+[2025.11.06-18.33.32:009][417]LogContentValidation: Display: Starting to validate 10 assets
+[2025.11.06-18.33.32:009][417]LogContentValidation: Enabled validators:
+[2025.11.06-18.33.32:009][417]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.06-18.33.32:009][417]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.06-18.33.32:009][417]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.06-18.33.32:009][417]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.06-18.33.32:009][417]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.06-18.33.32:009][417]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.06-18.33.32:009][417]AssetCheck: /Game/TopDown/Lvl_TopDown Validating asset
+[2025.11.06-18.33.32:064][417]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/SourceControl/UncontrolledChangelists.json
+[2025.11.06-18.33.57:286][368]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2025.11.06-18.33.57:288][368]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/TopDown/Lvl_TopDown' took 0.030
+[2025.11.06-18.33.57:288][368]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TopDown/Blueprints/BP_TopDownCharacter] ([2] browsable assets)...
+[2025.11.06-18.33.57:288][368]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDown/Blueprints/BP_TopDownCharacter]
+[2025.11.06-18.33.57:306][368]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/TopDown/Blueprints/BP_TopDownCharacter_Auto7
+[2025.11.06-18.33.57:308][368]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/BP_TopDownCharacter_Auto7525F92AA48BE8329ABC38E9F64896A9E.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/Autosaves/Game/TopDown/Blueprints/BP_TopDownCharacter_Auto7.uasset'
+[2025.11.06-18.33.57:310][368]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TopDown/Blueprints/KillFloor] ([2] browsable assets)...
+[2025.11.06-18.33.57:310][368]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDown/Blueprints/KillFloor]
+[2025.11.06-18.33.57:319][368]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/TopDown/Blueprints/KillFloor_Auto7
+[2025.11.06-18.33.57:321][368]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/KillFloor_Auto7D6AD4AF54CB80898E071C4A3AFE45542.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/Autosaves/Game/TopDown/Blueprints/KillFloor_Auto7.uasset'
+[2025.11.06-18.33.57:323][368]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TopDown/Input/Actions/IA_Jump] ([1] browsable assets)...
+[2025.11.06-18.33.57:323][368]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDown/Input/Actions/IA_Jump]
+[2025.11.06-18.33.57:327][368]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/TopDown/Input/Actions/IA_Jump_Auto7
+[2025.11.06-18.33.57:327][368]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/IA_Jump_Auto75F355C7D49EB05FF23FBCBAB9C358C9D.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/Autosaves/Game/TopDown/Input/Actions/IA_Jump_Auto7.uasset'
+[2025.11.06-18.33.57:329][368]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Colours/shiftforgame] ([1] browsable assets)...
+[2025.11.06-18.33.57:329][368]OBJ SavePackage: Finished generating thumbnails for package [/Game/Colours/shiftforgame]
+[2025.11.06-18.33.57:338][368]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Colours/shiftforgame_Auto7
+[2025.11.06-18.33.57:338][368]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/shiftforgame_Auto78D70E0D94BBD507677C1EFBF2D7E55B3.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/Autosaves/Game/Colours/shiftforgame_Auto7.uasset'
+[2025.11.06-18.33.57:340][368]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Colours/wasdforgame] ([1] browsable assets)...
+[2025.11.06-18.33.57:340][368]OBJ SavePackage: Finished generating thumbnails for package [/Game/Colours/wasdforgame]
+[2025.11.06-18.33.57:349][368]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Colours/wasdforgame_Auto7
+[2025.11.06-18.33.57:349][368]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/wasdforgame_Auto7D0EB4EFE42A93DC2C62478BBA0CFE1F4.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/Autosaves/Game/Colours/wasdforgame_Auto7.uasset'
+[2025.11.06-18.33.57:351][368]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Colours/wasdforgame_Mat] ([1] browsable assets)...
+[2025.11.06-18.33.57:351][368]OBJ SavePackage: Finished generating thumbnails for package [/Game/Colours/wasdforgame_Mat]
+[2025.11.06-18.33.57:356][368]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Colours/wasdforgame_Mat_Auto7
+[2025.11.06-18.33.57:356][368]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/wasdforgame_Mat_Auto71C1C2390443DA275AA9B818F0769F555.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/Autosaves/Game/Colours/wasdforgame_Mat_Auto7.uasset'
+[2025.11.06-18.33.57:358][368]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Colours/shiftforgame_Mat] ([1] browsable assets)...
+[2025.11.06-18.33.57:358][368]OBJ SavePackage: Finished generating thumbnails for package [/Game/Colours/shiftforgame_Mat]
+[2025.11.06-18.33.57:364][368]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Colours/shiftforgame_Mat_Auto7
+[2025.11.06-18.33.57:364][368]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/shiftforgame_Mat_Auto7409CCB1142235B2B2ECFE1A4A32C77DA.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/Autosaves/Game/Colours/shiftforgame_Mat_Auto7.uasset'
+[2025.11.06-18.33.57:365][368]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/TopDown/Blueprints/Enemy] ([2] browsable assets)...
+[2025.11.06-18.33.57:409][368]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/TopDown/Blueprints/Enemy.Enemy]
+[2025.11.06-18.33.57:409][368]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDown/Blueprints/Enemy]
+[2025.11.06-18.33.57:419][368]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/TopDown/Blueprints/Enemy_Auto7
+[2025.11.06-18.33.57:420][368]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/Enemy_Auto717C6376944F9FC36E77B37A711DF7637.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/Autosaves/Game/TopDown/Blueprints/Enemy_Auto7.uasset'
+[2025.11.06-18.33.57:421][368]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Colours/badnikface] ([1] browsable assets)...
+[2025.11.06-18.33.57:424][368]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Colours/badnikface.badnikface]
+[2025.11.06-18.33.57:424][368]OBJ SavePackage: Finished generating thumbnails for package [/Game/Colours/badnikface]
+[2025.11.06-18.33.57:431][368]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Colours/badnikface_Auto7
+[2025.11.06-18.33.57:431][368]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/badnikface_Auto78ACFD6D4441BD8EA579A5C9F8FA4F1A4.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/Autosaves/Game/Colours/badnikface_Auto7.uasset'
+[2025.11.06-18.33.57:433][368]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Colours/badnikface_Mat] ([1] browsable assets)...
+[2025.11.06-18.33.57:443][368]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Colours/badnikface_Mat.badnikface_Mat]
+[2025.11.06-18.33.57:443][368]OBJ SavePackage: Finished generating thumbnails for package [/Game/Colours/badnikface_Mat]
+[2025.11.06-18.33.57:453][368]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Colours/badnikface_Mat_Auto7
+[2025.11.06-18.33.57:453][368]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/badnikface_Mat_Auto723FEFD224134F4E8AA60FE8D3E7E8C23.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/Autosaves/Game/Colours/badnikface_Mat_Auto7.uasset'
+[2025.11.06-18.33.57:454][368]LogFileHelpers: Auto-saving content packages took 0.167
+[2025.11.06-18.36.19:603][852]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 7903.775879
+[2025.11.06-18.36.19:764][865]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.06-18.36.19:764][865]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 7903.924805, Update Interval: 301.950134
+[2025.11.06-18.37.35:063][961]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.11.06-18.37.35:071][961]LogContentBundle: [Lvl_TopDown(Editor)] Generating Streaming for 0 Content Bundles.
+[2025.11.06-18.37.35:071][961]LogWorldPartition: Display: GenerateStreaming for 'Lvl_TopDown' started...
+[2025.11.06-18.37.35:073][961]LogWorldPartition: Display: GenerateStreaming for 'Lvl_TopDown' took 1.603 ms (total: 57.420 ms)
+[2025.11.06-18.37.35:096][961]LogFMOD: Display: Loaded bank lookup
+[2025.11.06-18.37.35:096][961]LogFMOD: Error: Failed to load asset lookup
+[2025.11.06-18.37.35:100][961]LogFMOD: Error: 'lowLevelSystem->getDriverInfo(DriverIndex, nullptr, 0, nullptr, &SystemSampleRate, nullptr, nullptr)' returned 'An invalid parameter was passed to this function.'
+[2025.11.06-18.37.35:100][961]LogFMOD: Default sample rate = 48000
+[2025.11.06-18.37.35:100][961]LogFMOD: System sample rate = 0
+[2025.11.06-18.37.35:100][961]LogFMOD: CallbackHandler not set.
+[2025.11.06-18.37.35:100][961]LogFMOD: Warning: C:\buildagent2\work\c1c3f17eb167c494\core_api\src\fmod_systemi.cpp(2909) - No output sound devices found - switching output mode to FMOD_OUTPUTTYPE_NOSOUND
+
+[2025.11.06-18.37.35:112][961]LogFMOD: Warning: Master bank (Master.bank) not found.
+[2025.11.06-18.37.35:127][961]LogFMOD: Warning: C:\buildagent2\work\c1c3f17eb167c494\core_api\src\fmod_os_net_winsock.cpp(273) - Cannot listen for connections, port 9264 is currently in use.
+
+[2025.11.06-18.37.35:149][961]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.11.06-18.37.35:149][961]LogPlayLevel: Creating play world package: /Game/TopDown/UEDPIE_0_Lvl_TopDown
+[2025.11.06-18.37.35:167][961]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2025.11.06-18.37.35:172][961]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 4.544 ms (total: 228.097 ms)
+[2025.11.06-18.37.35:172][961]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023736s)
+[2025.11.06-18.37.35:172][961]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDown/Lvl_TopDown.Lvl_TopDown to /Game/TopDown/UEDPIE_0_Lvl_TopDown.Lvl_TopDown (0.023786s)
+[2025.11.06-18.37.35:210][961]LogUObjectHash: Compacting FUObjectHashTables data took   1.52ms
+[2025.11.06-18.37.35:211][961]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_TopDown
+[2025.11.06-18.37.35:213][961]LogWorldPartition: ULevel::OnLevelLoaded(Lvl_TopDown)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.11.06-18.37.35:213][961]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.11.06-18.37.35:213][961]LogWorldPartition: UWorldPartition::Initialize : World = /Game/TopDown/UEDPIE_0_Lvl_TopDown.Lvl_TopDown, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.11.06-18.37.35:213][961]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.11.06-18.37.35:218][961]LogWorldPartition: Display: WorldPartition initialize took 4.746 ms (total: 818.531 ms)
+[2025.11.06-18.37.35:218][961]LogPlayLevel: PIE: World Init took: (0.006746s)
+[2025.11.06-18.37.35:218][961]LogAudio: Display: Creating Audio Device:                 Id: 44, Scope: Unique, Realtime: True
+[2025.11.06-18.37.35:218][961]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.11.06-18.37.35:219][961]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.11.06-18.37.35:219][961]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.11.06-18.37.35:219][961]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.11.06-18.37.35:219][961]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.11.06-18.37.35:219][961]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.11.06-18.37.35:219][961]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.11.06-18.37.35:219][961]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.11.06-18.37.35:219][961]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.11.06-18.37.35:219][961]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.11.06-18.37.35:219][961]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.11.06-18.37.35:221][961]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.11.06-18.37.35:239][961]LogAudioMixer: Display: Using Audio Hardware Device Unknown
+[2025.11.06-18.37.35:239][961]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.11.06-18.37.35:239][961]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.11.06-18.37.35:239][961]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.11.06-18.37.35:239][961]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=44
+[2025.11.06-18.37.35:239][961]LogAudioMixer: Display: StartRunningNullDevice() called, InstanceID=44
+[2025.11.06-18.37.35:239][961]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=44
+[2025.11.06-18.37.35:239][961]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=28104
+[2025.11.06-18.37.35:239][961]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=44
+[2025.11.06-18.37.35:242][961]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=44
+[2025.11.06-18.37.35:242][961]LogInit: FAudioDevice initialized with ID 44.
+[2025.11.06-18.37.35:242][961]LogAudio: Display: Audio Device (ID: 44) registered with world 'Lvl_TopDown'.
+[2025.11.06-18.37.35:242][961]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 44
+[2025.11.06-18.37.35:247][961]LogLoad: Game class is 'BP_TopDownGameMode_C'
+[2025.11.06-18.37.35:256][961]LogWorld: Bringing World /Game/TopDown/UEDPIE_0_Lvl_TopDown.Lvl_TopDown up for play (max tick rate 0) at 2025.11.06-18.37.35
+[2025.11.06-18.37.35:256][961]LogWorld: Bringing up level for play took: 0.008838
+[2025.11.06-18.37.35:260][961]LogOnline: OSS: Created online subsystem instance for: :Context_66
+[2025.11.06-18.37.35:266][961]PIE: Server logged in
+[2025.11.06-18.37.35:268][961]PIE: Play in editor total start time 0.197 seconds.
+[2025.11.06-18.37.35:337][962]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.11.06-18.37.40:142][378]LogFMOD: Warning: C:\buildagent2\work\c1c3f17eb167c494\core_api\src\fmod_os_net_winsock.cpp(273) - Cannot listen for connections, port 9264 is currently in use.
+
+[2025.11.06-18.37.45:152][783]LogFMOD: Warning: C:\buildagent2\work\c1c3f17eb167c494\core_api\src\fmod_os_net_winsock.cpp(273) - Cannot listen for connections, port 9264 is currently in use.
+
+[2025.11.06-18.37.47:827][ 17]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/TopDown/Lvl_TopDown"
+[2025.11.06-18.37.47:827][ 17]LogNet: Browse: /Game/TopDown/Lvl_TopDown
+[2025.11.06-18.37.47:827][ 17]LogLoad: LoadMap: /Game/TopDown/Lvl_TopDown
+[2025.11.06-18.37.47:827][ 17]LogWorld: BeginTearingDown for /Game/TopDown/UEDPIE_0_Lvl_TopDown
+[2025.11.06-18.37.47:829][ 17]LogSpawn: Warning: SpawnActor failed because we are in the process of tearing down the world
+[2025.11.06-18.37.47:830][ 17]LogWorld: UWorld::CleanupWorld for Lvl_TopDown, bSessionEnded=true, bCleanupResources=true
+[2025.11.06-18.37.47:832][ 17]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.06-18.37.47:832][ 17]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/TopDown/UEDPIE_0_Lvl_TopDown.Lvl_TopDown
+[2025.11.06-18.37.47:898][ 17]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.11.06-18.37.47:903][ 17]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2025.11.06-18.37.47:905][ 17]LogPlayLevel: Creating play world package: /Game/TopDown/UEDPIE_0_Lvl_TopDown
+[2025.11.06-18.37.47:923][ 17]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2025.11.06-18.37.47:928][ 17]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 4.531 ms (total: 232.629 ms)
+[2025.11.06-18.37.47:928][ 17]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023302s)
+[2025.11.06-18.37.47:928][ 17]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDown/Lvl_TopDown.Lvl_TopDown to /Game/TopDown/UEDPIE_0_Lvl_TopDown.Lvl_TopDown (0.023355s)
+[2025.11.06-18.37.47:928][ 17]LogAudio: Display: Audio Device (ID: 44) registered with world 'Lvl_TopDown'.
+[2025.11.06-18.37.47:928][ 17]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_TopDown
+[2025.11.06-18.37.47:930][ 17]LogWorldPartition: ULevel::OnLevelLoaded(Lvl_TopDown)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.11.06-18.37.47:930][ 17]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.11.06-18.37.47:930][ 17]LogWorldPartition: UWorldPartition::Initialize : World = /Game/TopDown/UEDPIE_0_Lvl_TopDown.Lvl_TopDown, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.11.06-18.37.47:930][ 17]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.11.06-18.37.47:934][ 17]LogWorldPartition: Display: WorldPartition initialize took 4.641 ms (total: 823.172 ms)
+[2025.11.06-18.37.47:934][ 17]LogPlayLevel: PIE: World Init took: (0.006469s)
+[2025.11.06-18.37.47:934][ 17]LogLoad: Game class is 'BP_TopDownGameMode_C'
+[2025.11.06-18.37.47:944][ 17]LogWorld: Bringing World /Game/TopDown/UEDPIE_0_Lvl_TopDown.Lvl_TopDown up for play (max tick rate 0) at 2025.11.06-18.37.47
+[2025.11.06-18.37.47:944][ 17]LogWorld: Bringing up level for play took: 0.008691
+[2025.11.06-18.37.47:948][ 17]LogLoad: Took 0.121676 seconds to LoadMap(/Game/TopDown/UEDPIE_0_Lvl_TopDown)
+[2025.11.06-18.37.47:949][ 17]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/TopDown/UEDPIE_0_Lvl_TopDown
+[2025.11.06-18.37.47:957][ 17]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.11.06-18.37.50:167][208]LogFMOD: Warning: C:\buildagent2\work\c1c3f17eb167c494\core_api\src\fmod_os_net_winsock.cpp(273) - Cannot listen for connections, port 9264 is currently in use.
+
+[2025.11.06-18.37.55:179][643]LogFMOD: Warning: C:\buildagent2\work\c1c3f17eb167c494\core_api\src\fmod_os_net_winsock.cpp(273) - Cannot listen for connections, port 9264 is currently in use.
+
+[2025.11.06-18.38.00:194][ 62]LogFMOD: Warning: C:\buildagent2\work\c1c3f17eb167c494\core_api\src\fmod_os_net_winsock.cpp(273) - Cannot listen for connections, port 9264 is currently in use.
+
+[2025.11.06-18.38.05:208][474]LogFMOD: Warning: C:\buildagent2\work\c1c3f17eb167c494\core_api\src\fmod_os_net_winsock.cpp(273) - Cannot listen for connections, port 9264 is currently in use.
+
+[2025.11.06-18.38.10:218][890]LogFMOD: Warning: C:\buildagent2\work\c1c3f17eb167c494\core_api\src\fmod_os_net_winsock.cpp(273) - Cannot listen for connections, port 9264 is currently in use.
+
+[2025.11.06-18.38.15:233][320]LogFMOD: Warning: C:\buildagent2\work\c1c3f17eb167c494\core_api\src\fmod_os_net_winsock.cpp(273) - Cannot listen for connections, port 9264 is currently in use.
+
+[2025.11.06-18.38.19:577][670]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.06-18.38.19:577][670]LogWorld: BeginTearingDown for /Game/TopDown/UEDPIE_0_Lvl_TopDown
+[2025.11.06-18.38.19:578][670]LogWorld: UWorld::CleanupWorld for Lvl_TopDown, bSessionEnded=true, bCleanupResources=true
+[2025.11.06-18.38.19:580][670]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.06-18.38.19:580][670]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/TopDown/UEDPIE_0_Lvl_TopDown.Lvl_TopDown
+[2025.11.06-18.38.19:582][670]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.11.06-18.38.19:586][670]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.06-18.38.19:618][670]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.06-18.38.19:619][670]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 44
+[2025.11.06-18.38.19:619][670]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=44, StreamState=4
+[2025.11.06-18.38.19:621][670]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=44, StreamState=2
+[2025.11.06-18.38.19:621][670]LogAudioMixer: Display: StopRunningNullDevice() called, InstanceID=44
+[2025.11.06-18.38.19:627][670]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2025.11.06-18.38.19:686][671]LogPlayLevel: Display: Destroying online subsystem :Context_66
+[2025.11.06-18.39.28:058][ 68]Cmd: DUPLICATE
+[2025.11.06-18.39.28:058][ 68]Cmd: ACTOR DUPLICATE
+[2025.11.06-18.39.58:648][ 98]Cmd: TRANSACTION UNDO
+[2025.11.06-18.39.58:648][ 98]LogEditorTransaction: Undo Move Elements
+[2025.11.06-18.41.56:773][ 28]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 8241.026367
+[2025.11.06-18.41.56:934][ 39]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.06-18.41.56:934][ 39]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 8241.171875, Update Interval: 353.367706
+[2025.11.06-18.44.41:956][201]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
+[2025.11.06-18.44.41:967][201]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/TopDown/Lvl_TopDown/C/EL/M4DFE4CU9DW4RS1S9FIA5N_Auto8
+[2025.11.06-18.44.41:967][201]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/M4DFE4CU9DW4RS1S9FIA5N_Auto8E2F61C564F727FDBA1156FB25D110B01.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/Autosaves/Game/__ExternalActors__/TopDown/Lvl_TopDown/C/EL/M4DFE4CU9DW4RS1S9FIA5N_Auto8.uasset'
+[2025.11.06-18.44.41:973][201]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/TopDown/Lvl_TopDown/B/1P/4A4X43H2KDU1ALQEF3VIQZ_Auto8
+[2025.11.06-18.44.41:973][201]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/4A4X43H2KDU1ALQEF3VIQZ_Auto8AAECCF0C4B9359A7B56F83A0D0AB5DFD.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/Autosaves/Game/__ExternalActors__/TopDown/Lvl_TopDown/B/1P/4A4X43H2KDU1ALQEF3VIQZ_Auto8.uasset'
+[2025.11.06-18.44.41:980][201]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/TopDown/Lvl_TopDown/2/WX/8ENFHF3YGFXELC3RRT8TKY_Auto8
+[2025.11.06-18.44.41:980][201]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/8ENFHF3YGFXELC3RRT8TKY_Auto80513F65D498D2CBC3126EF88C2A869D6.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/Autosaves/Game/__ExternalActors__/TopDown/Lvl_TopDown/2/WX/8ENFHF3YGFXELC3RRT8TKY_Auto8.uasset'
+[2025.11.06-18.44.41:987][201]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/TopDown/Lvl_TopDown/7/HT/Y4JIFWMHACYIP9HJHL0JH2_Auto8
+[2025.11.06-18.44.41:987][201]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/Y4JIFWMHACYIP9HJHL0JH2_Auto8AF38FE0E4297BF2EA81F26A2D4E27BA4.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/Autosaves/Game/__ExternalActors__/TopDown/Lvl_TopDown/7/HT/Y4JIFWMHACYIP9HJHL0JH2_Auto8.uasset'
+[2025.11.06-18.44.41:993][201]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/TopDown/Lvl_TopDown/B/JO/DELFTR7KGNXX2KGVXGM75M_Auto8
+[2025.11.06-18.44.41:993][201]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/DELFTR7KGNXX2KGVXGM75M_Auto8FBB7606C43445718768AE584E14CC217.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/Autosaves/Game/__ExternalActors__/TopDown/Lvl_TopDown/B/JO/DELFTR7KGNXX2KGVXGM75M_Auto8.uasset'
+[2025.11.06-18.44.41:998][201]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/TopDown/Lvl_TopDown/5/HG/46Y3RUR2R522PCDNQHEWYZ_Auto8
+[2025.11.06-18.44.41:999][201]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/46Y3RUR2R522PCDNQHEWYZ_Auto84594FF48479DFED83E42D2BAA26D3CE1.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/Autosaves/Game/__ExternalActors__/TopDown/Lvl_TopDown/5/HG/46Y3RUR2R522PCDNQHEWYZ_Auto8.uasset'
+[2025.11.06-18.44.42:005][201]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/TopDown/Lvl_TopDown/8/B4/P7GMX01V9TJR0B3IWW3045_Auto8
+[2025.11.06-18.44.42:005][201]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/P7GMX01V9TJR0B3IWW3045_Auto8372AB1B547DFE43CFFC1EE8C69C54B2A.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/Autosaves/Game/__ExternalActors__/TopDown/Lvl_TopDown/8/B4/P7GMX01V9TJR0B3IWW3045_Auto8.uasset'
+[2025.11.06-18.44.42:011][201]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/TopDown/Lvl_TopDown/A/9O/Q9FAVHO9V6WHG60LEVPZNU_Auto8
+[2025.11.06-18.44.42:011][201]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/Q9FAVHO9V6WHG60LEVPZNU_Auto87A3C0ADF46AA4D04BAEC2DB9D4FB2A27.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/Autosaves/Game/__ExternalActors__/TopDown/Lvl_TopDown/A/9O/Q9FAVHO9V6WHG60LEVPZNU_Auto8.uasset'
+[2025.11.06-18.44.42:017][201]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/TopDown/Lvl_TopDown/6/52/W4SFN3B8KT8BMOQL9HISL5_Auto8
+[2025.11.06-18.44.42:017][201]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/W4SFN3B8KT8BMOQL9HISL5_Auto863E1520744B8212F8A3DA39685EF7EA9.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/Autosaves/Game/__ExternalActors__/TopDown/Lvl_TopDown/6/52/W4SFN3B8KT8BMOQL9HISL5_Auto8.uasset'
+[2025.11.06-18.44.42:023][201]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/TopDown/Lvl_TopDown/6/86/2M8AAZQ2MJEYX8FB6LY2E7_Auto8
+[2025.11.06-18.44.42:023][201]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/2M8AAZQ2MJEYX8FB6LY2E7_Auto802B240F94207635B9B2B458C5FCB3DFF.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/Autosaves/Game/__ExternalActors__/TopDown/Lvl_TopDown/6/86/2M8AAZQ2MJEYX8FB6LY2E7_Auto8.uasset'
+[2025.11.06-18.44.42:025][201]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/TopDown/Lvl_TopDown' took 0.103
+[2025.11.06-18.44.42:026][201]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.103
+[2025.11.06-18.44.42:026][201]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TopDown/Blueprints/BP_TopDownCharacter] ([2] browsable assets)...
+[2025.11.06-18.44.42:026][201]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDown/Blueprints/BP_TopDownCharacter]
+[2025.11.06-18.44.42:044][201]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/TopDown/Blueprints/BP_TopDownCharacter_Auto8
+[2025.11.06-18.44.42:044][201]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/BP_TopDownCharacter_Auto87569652D45CC9FCA5B7394BA346C2AC6.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/Autosaves/Game/TopDown/Blueprints/BP_TopDownCharacter_Auto8.uasset'
+[2025.11.06-18.44.42:046][201]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TopDown/Blueprints/KillFloor] ([2] browsable assets)...
+[2025.11.06-18.44.42:046][201]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDown/Blueprints/KillFloor]
+[2025.11.06-18.44.42:055][201]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/TopDown/Blueprints/KillFloor_Auto8
+[2025.11.06-18.44.42:055][201]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/KillFloor_Auto80BB74FB54695684275655BA3619B49C2.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/Autosaves/Game/TopDown/Blueprints/KillFloor_Auto8.uasset'
+[2025.11.06-18.44.42:056][201]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TopDown/Input/Actions/IA_Jump] ([1] browsable assets)...
+[2025.11.06-18.44.42:056][201]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDown/Input/Actions/IA_Jump]
+[2025.11.06-18.44.42:060][201]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/TopDown/Input/Actions/IA_Jump_Auto8
+[2025.11.06-18.44.42:060][201]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/IA_Jump_Auto8F8D39A2F45E729F4F7530A930FE1E1FE.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/Autosaves/Game/TopDown/Input/Actions/IA_Jump_Auto8.uasset'
+[2025.11.06-18.44.42:063][201]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Colours/shiftforgame] ([1] browsable assets)...
+[2025.11.06-18.44.42:063][201]OBJ SavePackage: Finished generating thumbnails for package [/Game/Colours/shiftforgame]
+[2025.11.06-18.44.42:072][201]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Colours/shiftforgame_Auto8
+[2025.11.06-18.44.42:072][201]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/shiftforgame_Auto8C364705C45E0737C6434DFA4DDBC0BDE.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/Autosaves/Game/Colours/shiftforgame_Auto8.uasset'
+[2025.11.06-18.44.42:074][201]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Colours/wasdforgame] ([1] browsable assets)...
+[2025.11.06-18.44.42:074][201]OBJ SavePackage: Finished generating thumbnails for package [/Game/Colours/wasdforgame]
+[2025.11.06-18.44.42:083][201]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Colours/wasdforgame_Auto8
+[2025.11.06-18.44.42:083][201]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/wasdforgame_Auto843C0DD654DAE79102527F297230D6A35.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/Autosaves/Game/Colours/wasdforgame_Auto8.uasset'
+[2025.11.06-18.44.42:085][201]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Colours/wasdforgame_Mat] ([1] browsable assets)...
+[2025.11.06-18.44.42:085][201]OBJ SavePackage: Finished generating thumbnails for package [/Game/Colours/wasdforgame_Mat]
+[2025.11.06-18.44.42:090][201]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Colours/wasdforgame_Mat_Auto8
+[2025.11.06-18.44.42:090][201]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/wasdforgame_Mat_Auto8A06CE4CD4F6724B9E7D46EBE637282DE.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/Autosaves/Game/Colours/wasdforgame_Mat_Auto8.uasset'
+[2025.11.06-18.44.42:091][201]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Colours/shiftforgame_Mat] ([1] browsable assets)...
+[2025.11.06-18.44.42:091][201]OBJ SavePackage: Finished generating thumbnails for package [/Game/Colours/shiftforgame_Mat]
+[2025.11.06-18.44.42:096][201]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Colours/shiftforgame_Mat_Auto8
+[2025.11.06-18.44.42:096][201]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/shiftforgame_Mat_Auto8429D47004E492946A0D369BF129FCFF0.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/Autosaves/Game/Colours/shiftforgame_Mat_Auto8.uasset'
+[2025.11.06-18.44.42:098][201]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TopDown/Blueprints/Enemy] ([2] browsable assets)...
+[2025.11.06-18.44.42:098][201]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDown/Blueprints/Enemy]
+[2025.11.06-18.44.42:107][201]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/TopDown/Blueprints/Enemy_Auto8
+[2025.11.06-18.44.42:107][201]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/Enemy_Auto8E7035D28439BBCE23B36848170905981.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/Autosaves/Game/TopDown/Blueprints/Enemy_Auto8.uasset'
+[2025.11.06-18.44.42:110][201]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Colours/badnikface] ([1] browsable assets)...
+[2025.11.06-18.44.42:110][201]OBJ SavePackage: Finished generating thumbnails for package [/Game/Colours/badnikface]
+[2025.11.06-18.44.42:117][201]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Colours/badnikface_Auto8
+[2025.11.06-18.44.42:117][201]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/badnikface_Auto85E07E04C4B51C89A215E3DBF533B8255.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/Autosaves/Game/Colours/badnikface_Auto8.uasset'
+[2025.11.06-18.44.42:118][201]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Colours/badnikface_Mat] ([1] browsable assets)...
+[2025.11.06-18.44.42:118][201]OBJ SavePackage: Finished generating thumbnails for package [/Game/Colours/badnikface_Mat]
+[2025.11.06-18.44.42:125][201]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Colours/badnikface_Mat_Auto8
+[2025.11.06-18.44.42:125][201]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/badnikface_Mat_Auto861EED4D046DCA195FEA7FF817AB97639.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/Autosaves/Game/Colours/badnikface_Mat_Auto8.uasset'
+[2025.11.06-18.44.42:127][201]LogFileHelpers: Auto-saving content packages took 0.101
+[2025.11.06-18.48.21:812][ 66]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 8626.364258
+[2025.11.06-18.48.21:956][ 76]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.06-18.48.21:956][ 76]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 8626.492188, Update Interval: 303.149506
+[2025.11.06-18.54.14:691][346]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 8979.598633
+[2025.11.06-18.54.14:824][357]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.06-18.54.14:824][357]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 8979.717773, Update Interval: 308.172241
+[2025.11.06-18.54.28:733][320]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.06-18.54.28:819][320]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2025.11.06-18.54.28:851][320]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2025.11.06-18.54.28:880][320]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2025.11.06-18.54.28:887][320]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/5/R4/915G5E49T5DF5NZS8138AQ
+[2025.11.06-18.54.28:889][320]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/915G5E49T5DF5NZS8138AQBB9D15E3483F05746BC17BAD536974D0.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/5/R4/915G5E49T5DF5NZS8138AQ.uasset'
+[2025.11.06-18.54.28:897][320]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/E/H8/S0K19SVNEM9NK8WP3AC6JL
+[2025.11.06-18.54.28:898][320]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/S0K19SVNEM9NK8WP3AC6JL1BA0DCF84D7207A3F41CF184A911F4DC.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/E/H8/S0K19SVNEM9NK8WP3AC6JL.uasset'
+[2025.11.06-18.54.28:905][320]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/7/88/1ITOF5EG6YPXMGC2VALR86
+[2025.11.06-18.54.28:907][320]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/1ITOF5EG6YPXMGC2VALR8642984E4A4DF2DE420E5B5EA3FDC7B4EB.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/7/88/1ITOF5EG6YPXMGC2VALR86.uasset'
+[2025.11.06-18.54.28:915][320]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/9/45/PHWMGMH8MRK0H58QL0Y9PF
+[2025.11.06-18.54.28:917][320]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/PHWMGMH8MRK0H58QL0Y9PFD05E044F46E582EBDAB3388DEDD81954.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/9/45/PHWMGMH8MRK0H58QL0Y9PF.uasset'
+[2025.11.06-18.54.28:924][320]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/2/OP/SJPB82GART4Z7SGDHRR93F
+[2025.11.06-18.54.28:926][320]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/SJPB82GART4Z7SGDHRR93F45F3EC5F4B7D6B6D5CE8AD9E097C5CCF.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/2/OP/SJPB82GART4Z7SGDHRR93F.uasset'
+[2025.11.06-18.54.28:933][320]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/5/D7/U39NSXQXOIAUYR3AVX949I
+[2025.11.06-18.54.28:935][320]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/U39NSXQXOIAUYR3AVX949I7F17A8EF4FB730B23C5BF790520F9E88.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/5/D7/U39NSXQXOIAUYR3AVX949I.uasset'
+[2025.11.06-18.54.28:942][320]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/0/KS/T3AFPM1IDPQLPGIZQMXGAW
+[2025.11.06-18.54.28:944][320]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/T3AFPM1IDPQLPGIZQMXGAW86BC8669467DEFA55D98ADB415F84F33.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/0/KS/T3AFPM1IDPQLPGIZQMXGAW.uasset'
+[2025.11.06-18.54.28:951][320]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/E/7L/ZL3FJ5AJC4ZNWRV4AG9LAK
+[2025.11.06-18.54.28:953][320]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/ZL3FJ5AJC4ZNWRV4AG9LAK36035FC242E82E22EBF795853A8FE276.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/E/7L/ZL3FJ5AJC4ZNWRV4AG9LAK.uasset'
+[2025.11.06-18.54.28:961][320]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/C/HU/W6I6IHHB6TFOK4BRH27M2E
+[2025.11.06-18.54.28:963][320]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/W6I6IHHB6TFOK4BRH27M2E6198923844F37C45D1A1B9896BD563C1.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/C/HU/W6I6IHHB6TFOK4BRH27M2E.uasset'
+[2025.11.06-18.54.28:970][320]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/D/KN/0W3JIYV3FUFF7MP8XBS6CF
+[2025.11.06-18.54.28:972][320]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/0W3JIYV3FUFF7MP8XBS6CFDD1C70C5474E172405B3549047695006.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/D/KN/0W3JIYV3FUFF7MP8XBS6CF.uasset'
+[2025.11.06-18.54.28:979][320]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/C/EL/M4DFE4CU9DW4RS1S9FIA5N
+[2025.11.06-18.54.28:980][320]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/M4DFE4CU9DW4RS1S9FIA5N33F14D034A6A7992314A66B7B7FE3E60.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/C/EL/M4DFE4CU9DW4RS1S9FIA5N.uasset'
+[2025.11.06-18.54.28:990][320]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/B/1P/4A4X43H2KDU1ALQEF3VIQZ
+[2025.11.06-18.54.28:990][320]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/4A4X43H2KDU1ALQEF3VIQZB14A6A6A435ACF41B46DFB889EAC10CD.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/B/1P/4A4X43H2KDU1ALQEF3VIQZ.uasset'
+[2025.11.06-18.54.28:997][320]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/2/WX/8ENFHF3YGFXELC3RRT8TKY
+[2025.11.06-18.54.28:997][320]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/8ENFHF3YGFXELC3RRT8TKYC8BB9F2C4B1C9F6500245C91D59CC802.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/2/WX/8ENFHF3YGFXELC3RRT8TKY.uasset'
+[2025.11.06-18.54.29:004][320]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/7/HT/Y4JIFWMHACYIP9HJHL0JH2
+[2025.11.06-18.54.29:004][320]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/Y4JIFWMHACYIP9HJHL0JH27F0902744A128B55F40AB1B8D7B63C36.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/7/HT/Y4JIFWMHACYIP9HJHL0JH2.uasset'
+[2025.11.06-18.54.29:010][320]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/B/JO/DELFTR7KGNXX2KGVXGM75M
+[2025.11.06-18.54.29:011][320]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/DELFTR7KGNXX2KGVXGM75M4FD5CEC24315E2AF3107F292E28AB42E.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/B/JO/DELFTR7KGNXX2KGVXGM75M.uasset'
+[2025.11.06-18.54.29:018][320]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/5/HG/46Y3RUR2R522PCDNQHEWYZ
+[2025.11.06-18.54.29:018][320]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/46Y3RUR2R522PCDNQHEWYZA7157911468B6C30D6C696A194FA4150.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/5/HG/46Y3RUR2R522PCDNQHEWYZ.uasset'
+[2025.11.06-18.54.29:026][320]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/8/B4/P7GMX01V9TJR0B3IWW3045
+[2025.11.06-18.54.29:026][320]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/P7GMX01V9TJR0B3IWW30457599FF3449053FC753C071B402B0997B.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/8/B4/P7GMX01V9TJR0B3IWW3045.uasset'
+[2025.11.06-18.54.29:034][320]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/A/9O/Q9FAVHO9V6WHG60LEVPZNU
+[2025.11.06-18.54.29:034][320]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/Q9FAVHO9V6WHG60LEVPZNUD39192D4451BB1A7B8069994CDDA1419.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/A/9O/Q9FAVHO9V6WHG60LEVPZNU.uasset'
+[2025.11.06-18.54.29:041][320]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/6/52/W4SFN3B8KT8BMOQL9HISL5
+[2025.11.06-18.54.29:042][320]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/W4SFN3B8KT8BMOQL9HISL52F591E464D716665907BEF8DAC9B4A26.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/6/52/W4SFN3B8KT8BMOQL9HISL5.uasset'
+[2025.11.06-18.54.29:049][320]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/6/86/2M8AAZQ2MJEYX8FB6LY2E7
+[2025.11.06-18.54.29:049][320]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/2M8AAZQ2MJEYX8FB6LY2E79B5C739D483C1A0EA1540985C4A66B79.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/6/86/2M8AAZQ2MJEYX8FB6LY2E7.uasset'
+[2025.11.06-18.54.29:089][320]LogFileHelpers: InternalPromptForCheckoutAndSave took 354.917 ms (total: 3.12 sec)
+[2025.11.06-18.54.29:167][320]LogContentValidation: Display: Starting to validate 20 assets
+[2025.11.06-18.54.29:167][320]LogContentValidation: Enabled validators:
+[2025.11.06-18.54.29:167][320]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.06-18.54.29:167][320]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.06-18.54.29:167][320]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.06-18.54.29:167][320]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.06-18.54.29:167][320]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.06-18.54.29:167][320]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.06-18.54.29:167][320]AssetCheck: /Game/TopDown/Lvl_TopDown Validating asset
+[2025.11.06-18.54.29:211][320]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/SourceControl/UncontrolledChangelists.json
+[2025.11.06-18.56.38:616][251]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.06-18.56.38:698][251]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2025.11.06-18.56.38:729][251]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2025.11.06-18.56.38:755][251]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2025.11.06-18.56.38:766][251]LogFileHelpers: InternalPromptForCheckoutAndSave took 150.272 ms (total: 3.27 sec)
+[2025.11.06-18.56.39:544][314]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2025.11.06-18.56.40:711][314]LogSlate: Window 'Save Content' being destroyed
+[2025.11.06-18.56.40:723][314]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.06-18.56.40:783][314]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TopDown/Blueprints/BP_TopDownCharacter] ([2] browsable assets)...
+[2025.11.06-18.56.40:783][314]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDown/Blueprints/BP_TopDownCharacter]
+[2025.11.06-18.56.40:800][314]LogSavePackage: Moving output files for package: /Game/TopDown/Blueprints/BP_TopDownCharacter
+[2025.11.06-18.56.40:802][314]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/BP_TopDownCharacterAFF9DF2F4321E99B0CFEF5BF0E2F53EB.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/TopDown/Blueprints/BP_TopDownCharacter.uasset'
+[2025.11.06-18.56.40:805][314]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TopDown/Blueprints/Enemy] ([2] browsable assets)...
+[2025.11.06-18.56.40:805][314]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDown/Blueprints/Enemy]
+[2025.11.06-18.56.40:814][314]LogSavePackage: Moving output files for package: /Game/TopDown/Blueprints/Enemy
+[2025.11.06-18.56.40:814][314]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/Enemy0096E1F64503B2361B0E56967B6BA1DD.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/TopDown/Blueprints/Enemy.uasset'
+[2025.11.06-18.56.40:819][314]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TopDown/Input/Actions/IA_Jump] ([1] browsable assets)...
+[2025.11.06-18.56.40:819][314]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDown/Input/Actions/IA_Jump]
+[2025.11.06-18.56.40:824][314]LogSavePackage: Moving output files for package: /Game/TopDown/Input/Actions/IA_Jump
+[2025.11.06-18.56.40:824][314]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/IA_Jump240F90A449484CA4C9CEDE84E7D6B124.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/TopDown/Input/Actions/IA_Jump.uasset'
+[2025.11.06-18.56.40:826][314]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TopDown/Blueprints/KillFloor] ([2] browsable assets)...
+[2025.11.06-18.56.40:826][314]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDown/Blueprints/KillFloor]
+[2025.11.06-18.56.40:834][314]LogSavePackage: Moving output files for package: /Game/TopDown/Blueprints/KillFloor
+[2025.11.06-18.56.40:836][314]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/KillFloor41F546A94BB3CFABE902FC9AD9BD3D26.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/TopDown/Blueprints/KillFloor.uasset'
+[2025.11.06-18.56.40:839][314]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Colours/badnikface] ([1] browsable assets)...
+[2025.11.06-18.56.40:839][314]OBJ SavePackage: Finished generating thumbnails for package [/Game/Colours/badnikface]
+[2025.11.06-18.56.40:839][314]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Colours/badnikface" FILE="../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/Colours/badnikface.uasset" SILENT=true
+[2025.11.06-18.56.40:846][314]LogSavePackage: Moving output files for package: /Game/Colours/badnikface
+[2025.11.06-18.56.40:846][314]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/badnikfaceCEB2CD38462BE608B69D43B7F070DA35.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/Colours/badnikface.uasset'
+[2025.11.06-18.56.40:849][314]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Colours/badnikface_Mat] ([1] browsable assets)...
+[2025.11.06-18.56.40:849][314]OBJ SavePackage: Finished generating thumbnails for package [/Game/Colours/badnikface_Mat]
+[2025.11.06-18.56.40:854][314]LogSavePackage: Moving output files for package: /Game/Colours/badnikface_Mat
+[2025.11.06-18.56.40:854][314]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/badnikface_Mat5A9CD5F74D9FE46AA4D18BAAEFBF8AE7.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/Colours/badnikface_Mat.uasset'
+[2025.11.06-18.56.40:856][314]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Colours/shiftforgame] ([1] browsable assets)...
+[2025.11.06-18.56.40:856][314]OBJ SavePackage: Finished generating thumbnails for package [/Game/Colours/shiftforgame]
+[2025.11.06-18.56.40:868][314]LogSavePackage: Moving output files for package: /Game/Colours/shiftforgame
+[2025.11.06-18.56.40:868][314]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/shiftforgame30194EE54E168C1DECC0699B11F0D0A9.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/Colours/shiftforgame.uasset'
+[2025.11.06-18.56.40:870][314]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Colours/shiftforgame_Mat] ([1] browsable assets)...
+[2025.11.06-18.56.40:870][314]OBJ SavePackage: Finished generating thumbnails for package [/Game/Colours/shiftforgame_Mat]
+[2025.11.06-18.56.40:876][314]LogSavePackage: Moving output files for package: /Game/Colours/shiftforgame_Mat
+[2025.11.06-18.56.40:876][314]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/shiftforgame_Mat8C5B879C469DD140385F20B8A4ADD1AE.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/Colours/shiftforgame_Mat.uasset'
+[2025.11.06-18.56.40:878][314]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Colours/wasdforgame] ([1] browsable assets)...
+[2025.11.06-18.56.40:878][314]OBJ SavePackage: Finished generating thumbnails for package [/Game/Colours/wasdforgame]
+[2025.11.06-18.56.40:878][314]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Colours/wasdforgame" FILE="../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/Colours/wasdforgame.uasset" SILENT=true
+[2025.11.06-18.56.40:891][314]LogSavePackage: Moving output files for package: /Game/Colours/wasdforgame
+[2025.11.06-18.56.40:891][314]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/wasdforgame78E384E14A58B50F0BC7BB8C5A8C7F45.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/Colours/wasdforgame.uasset'
+[2025.11.06-18.56.40:893][314]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Colours/wasdforgame_Mat] ([1] browsable assets)...
+[2025.11.06-18.56.40:893][314]OBJ SavePackage: Finished generating thumbnails for package [/Game/Colours/wasdforgame_Mat]
+[2025.11.06-18.56.40:898][314]LogSavePackage: Moving output files for package: /Game/Colours/wasdforgame_Mat
+[2025.11.06-18.56.40:898][314]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/wasdforgame_MatBD4001F94119FD5717031DAECC3E89A4.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/Colours/wasdforgame_Mat.uasset'
+[2025.11.06-18.56.40:932][314]LogFileHelpers: InternalPromptForCheckoutAndSave took 210.026 ms (total: 3.48 sec)
+[2025.11.06-18.56.40:994][314]LogStall: Shutdown...
+[2025.11.06-18.56.40:994][314]LogStall: Shutdown complete.
+[2025.11.06-18.56.41:042][314]LogSlate: Window 'ThreeDBlastGame - Unreal Editor' being destroyed
+[2025.11.06-18.56.41:315][314]LogContentValidation: Display: Starting to validate 10 assets
+[2025.11.06-18.56.41:315][314]LogContentValidation: Enabled validators:
+[2025.11.06-18.56.41:315][314]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.06-18.56.41:315][314]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.06-18.56.41:315][314]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.06-18.56.41:315][314]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.06-18.56.41:315][314]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.06-18.56.41:315][314]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.06-18.56.41:315][314]AssetCheck: /Game/TopDown/Blueprints/BP_TopDownCharacter Validating asset
+[2025.11.06-18.56.41:315][314]AssetCheck: /Game/TopDown/Blueprints/Enemy Validating asset
+[2025.11.06-18.56.41:315][314]AssetCheck: /Game/TopDown/Input/Actions/IA_Jump Validating asset
+[2025.11.06-18.56.41:315][314]AssetCheck: /Game/TopDown/Blueprints/KillFloor Validating asset
+[2025.11.06-18.56.41:315][314]AssetCheck: /Game/Colours/badnikface Validating asset
+[2025.11.06-18.56.41:315][314]AssetCheck: /Game/Colours/badnikface_Mat Validating asset
+[2025.11.06-18.56.41:315][314]AssetCheck: /Game/Colours/shiftforgame Validating asset
+[2025.11.06-18.56.41:316][314]AssetCheck: /Game/Colours/shiftforgame_Mat Validating asset
+[2025.11.06-18.56.41:316][314]AssetCheck: /Game/Colours/wasdforgame Validating asset
+[2025.11.06-18.56.41:316][314]AssetCheck: /Game/Colours/wasdforgame_Mat Validating asset
+[2025.11.06-18.56.41:319][314]Cmd: QUIT_EDITOR
+[2025.11.06-18.56.41:319][314]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2025.11.06-18.56.41:322][314]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/SourceControl/UncontrolledChangelists.json
+[2025.11.06-18.56.41:330][315]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2025.11.06-18.56.41:330][315]LogStaticMesh: Abandoning remaining async distance field tasks for shutdown
+[2025.11.06-18.56.41:330][315]LogStaticMesh: Abandoning remaining async card representation tasks for shutdown
+[2025.11.06-18.56.41:334][315]LogWorld: UWorld::CleanupWorld for Lvl_TopDown, bSessionEnded=true, bCleanupResources=true
+[2025.11.06-18.56.41:334][315]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.06-18.56.41:334][315]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/TopDown/Lvl_TopDown.Lvl_TopDown
+[2025.11.06-18.56.41:346][315]LogStylusInput: Shutting down StylusInput subsystem.
+[2025.11.06-18.56.41:346][315]LogTedsSettings: UTedsSettingsEditorSubsystem::Deinitialize
+[2025.11.06-18.56.41:346][315]LogLevelSequenceEditor: LevelSequenceEditor subsystem deinitialized.
+[2025.11.06-18.56.41:357][315]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2025.11.06-18.56.41:357][315]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.06-18.56.41:360][315]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2025.11.06-18.56.41:360][315]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.06-18.56.41:363][315]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2025.11.06-18.56.41:363][315]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.06-18.56.41:366][315]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2025.11.06-18.56.41:366][315]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.06-18.56.41:370][315]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2025.11.06-18.56.41:370][315]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.06-18.56.41:373][315]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2025.11.06-18.56.41:373][315]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.06-18.56.41:376][315]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2025.11.06-18.56.41:376][315]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.06-18.56.41:379][315]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2025.11.06-18.56.41:379][315]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.06-18.56.41:382][315]LogWorld: UWorld::CleanupWorld for World_18, bSessionEnded=true, bCleanupResources=true
+[2025.11.06-18.56.41:382][315]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.06-18.56.41:385][315]LogRuntimeTelemetry: Recording EnginePreExit events
+[2025.11.06-18.56.41:385][315]LogStudioTelemetry: Ended StudioTelemetry Session
+[2025.11.06-18.56.41:392][315]LogAnalytics: Display: [UEEditor.Rocket.Release] AnalyticsET::EndSession
+[2025.11.06-18.56.41:396][315]LogAudio: Display: Beginning Audio Device Manager Shutdown (Module: AudioMixerXAudio2)...
+[2025.11.06-18.56.41:396][315]LogAudio: Display: Destroying 1 Remaining Audio Device(s)...
+[2025.11.06-18.56.41:396][315]LogAudio: Display: Audio Device unregistered from world 'Lvl_TopDown'.
+[2025.11.06-18.56.41:396][315]LogAudio: Display: Shutting down audio device while 1 references to it are still alive. For more information, compile with INSTRUMENT_AUDIODEVICE_HANDLES.
+[2025.11.06-18.56.41:396][315]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1, StreamState=4
+[2025.11.06-18.56.41:398][315]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1, StreamState=2
+[2025.11.06-18.56.41:398][315]LogAudioMixer: Display: StopRunningNullDevice() called, InstanceID=1
+[2025.11.06-18.56.41:401][315]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID -1
+[2025.11.06-18.56.41:401][315]LogAudio: Display: Audio Device Manager Shutdown
+[2025.11.06-18.56.41:402][315]LogWindowsTextInputMethodSystem: Activated input method: English (United Kingdom) - (Keyboard).
+[2025.11.06-18.56.41:404][315]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2025.11.06-18.56.41:407][315]LogExit: Preparing to exit.
+[2025.11.06-18.56.41:486][315]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+[2025.11.06-18.56.41:511][315]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_controls_for_selected_PY.add_controls_for_selected_options' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.11.06-18.56.41:511][315]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_controls_for_selected_PY.add_controls_for_selected' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.11.06-18.56.41:511][315]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_null_above_selected_PY.add_null_above_selected' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.11.06-18.56.41:511][315]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_rotation' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.11.06-18.56.41:511][315]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_all' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.11.06-18.56.41:511][315]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_x' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.11.06-18.56.41:511][315]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_y' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.11.06-18.56.41:511][315]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_z' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.11.06-18.56.41:511][315]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_rotation' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.11.06-18.56.41:511][315]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_scale' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.11.06-18.56.41:511][315]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.search_replace_name_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.11.06-18.56.41:511][315]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.search_replace_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.11.06-18.56.41:511][315]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.add_prefix_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.11.06-18.56.41:511][315]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.add_prefix_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.11.06-18.56.41:511][315]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.add_suffix_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.11.06-18.56.41:511][315]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.add_suffix_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.11.06-18.56.41:511][315]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.do_rename_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.11.06-18.56.41:511][315]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.do_rename_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.11.06-18.56.41:511][315]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/set_bone_reference_pose_PY.set_bone_reference_pose' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.11.06-18.56.41:511][315]LogPython: Display: Object '/ControlRig/Python/ControlRigWorkflows/workflow_fbik_import_ik_rig_PY.import_ik_rig_options' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.11.06-18.56.41:511][315]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_controls_for_selected_PY.ControlOutputFormat' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.11.06-18.56.42:515][315]LogEditorDataStorage: Deinitializing
+[2025.11.06-18.56.42:646][315]LogDemo: Cleaned up 0 splitscreen connections, owner deletion: enabled
+[2025.11.06-18.56.42:680][315]LogExit: Editor shut down
+[2025.11.06-18.56.42:691][315]LogExit: Transaction tracking system shut down
+[2025.11.06-18.56.42:888][315]LogExit: Object subsystem successfully closed.
+[2025.11.06-18.56.42:987][315]LogShaderCompilers: Display: Shaders left to compile 0
+[2025.11.06-18.56.43:125][315]LogMemoryProfiler: Shutdown
+[2025.11.06-18.56.43:126][315]LogNetworkingProfiler: Shutdown
+[2025.11.06-18.56.43:126][315]LoadingProfiler: Shutdown
+[2025.11.06-18.56.43:126][315]LogTimingProfiler: Shutdown
+[2025.11.06-18.56.43:139][315]LogChaosVDEditor: [FChaosVDExtensionsManager::UnRegisterExtension] UnRegistering CVD Extension [FChaosVDGenericDebugDrawExtension] ...
+[2025.11.06-18.56.43:139][315]LogChaosVDEditor: [FChaosVDExtensionsManager::UnRegisterExtension] UnRegistering CVD Extension [FChaosVDAccelerationStructuresExtension] ...
+[2025.11.06-18.56.43:735][315]LogChaosDD: Chaos Debug Draw Shutdown
+[2025.11.06-18.56.43:736][315]RenderDocPlugin: plugin has been unloaded.
+[2025.11.06-18.56.43:751][315]LogHttp: Warning: [FHttpManager::Shutdown] Unbinding delegates for 1 outstanding Http Requests:
+[2025.11.06-18.56.43:751][315]LogHttp: Warning: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B9F585DD5-40F6-42F0-465D-C6BA682E1456%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.6.1-44394996%2B%2B%2BUE5%2BRelease-5.6&UserID=c252a145423a5bacd8a16997c76480c0%7C%7C4001422a-3fa8-4337-b4ee-49a34bfce58d&AppEnvironment=datacollector-binary&UploadType=eteventstream] refs=[2] status=Processing
+[2025.11.06-18.56.44:274][315]LogEOSShared: FEOSSDKManager::Shutdown EOS_Shutdown Result=[EOS_Success]
+[2025.11.06-18.56.44:280][315]LogNFORDenoise: NFORDenoise function shutting down
+[2025.11.06-18.56.44:280][315]LogXGEController: Cleaning working directory: C:/Users/24824452/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2025.11.06-18.56.44:283][315]LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: None name: NetActorFactory id: 0
+[2025.11.06-18.56.44:283][315]LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: None name: NetSubObjectFactory id: 1
+[2025.11.06-18.56.44:283][315]LogPakFile: Destroying PakPlatformFile
+[2025.11.06-18.56.44:922][315]LogD3D12RHI: ~FD3D12DynamicRHI
+[2025.11.06-18.56.44:974][315]LogExit: Exiting.
+[2025.11.06-18.56.44:999][315]Log file closed, 11/06/25 18:56:44
