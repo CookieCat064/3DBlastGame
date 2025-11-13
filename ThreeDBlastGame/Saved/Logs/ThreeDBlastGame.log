@@ -1428,3 +1428,1388 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2025.11.13-13.50.22:969][158]LogSlate: External Image Picker: DecompressImage failed
 [2025.11.13-13.50.28:912][502]LogSlate: Window 'Project Settings' being destroyed
 [2025.11.13-13.50.28:920][502]LogSlate: Window 'Project Settings' being destroyed
+[2025.11.13-13.51.22:807][992]LogPSOHitching: Encountered 300 PSO creation hitches so far (108 graphics, 192 compute). 0 of them were precached.
+[2025.11.13-13.51.36:522][182]LogShaderCompilers: Display: ================================================
+[2025.11.13-13.51.36:522][182]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.11.13-13.51.36:522][182]LogShaderCompilers: Display: Total job queries 18,398, among them cache hits 4,856 (26.39%), DDC hits 12,344 (67.09%), Duplicates 584 (3.17%)
+[2025.11.13-13.51.36:522][182]LogShaderCompilers: Display: Tracking 12,958 distinct input hashes that result in 11,871 distinct outputs (91.61%)
+[2025.11.13-13.51.36:522][182]LogShaderCompilers: Display: RAM used: 158.44 MiB of 6.40 GiB budget. Usage: 2.42%
+[2025.11.13-13.51.36:522][182]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.11.13-13.51.36:522][182]LogShaderCompilers: Display: Shaders Compiled: 614
+[2025.11.13-13.51.36:522][182]LogShaderCompilers: Display: Jobs assigned 614, completed 614 (100%)
+[2025.11.13-13.51.36:522][182]LogShaderCompilers: Display: Average time worker was idle: 1.12 s
+[2025.11.13-13.51.36:522][182]LogShaderCompilers: Display: Time job spent in pending queue: average 13.14 s, longest 61.26 s
+[2025.11.13-13.51.36:522][182]LogShaderCompilers: Display: Job execution time: average 11.12 s, max 46.16 s
+[2025.11.13-13.51.36:522][182]LogShaderCompilers: Display: Job life time (pending + execution): average 24.26 s, max 64.48
+[2025.11.13-13.51.36:522][182]LogShaderCompilers: Display: Shader code size: total 9.644 MiB, numShaders 639, average 15.454 KiB, min 2.246 KiB, max 55.505 KiB
+[2025.11.13-13.51.36:522][182]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 153.64 s
+[2025.11.13-13.51.36:522][182]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.24%
+[2025.11.13-13.51.36:522][182]LogShaderCompilers: Display: Jobs were issued in 195 batches (only local compilation was used), average 3.15 jobs/batch
+[2025.11.13-13.51.36:522][182]LogShaderCompilers: Display: Average processing rate: 4.00 jobs/sec
+[2025.11.13-13.51.36:522][182]LogShaderCompilers: Display: Total thread time: 1,075.079 s
+[2025.11.13-13.51.36:522][182]LogShaderCompilers: Display: Total thread preprocess time: 250.702 s
+[2025.11.13-13.51.36:522][182]LogShaderCompilers: Display: Percentage time preprocessing: 23.32%
+[2025.11.13-13.51.36:522][182]LogShaderCompilers: Display: Effective parallelization: 7.00 (times faster than compiling all shaders on one thread). Compare with number of workers: 8 - 0.874650
+[2025.11.13-13.51.36:522][182]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.11.13-13.51.36:522][182]LogShaderCompilers: Display:                                  FPathTracingMaterialCHS_AHS (compiled   10 times, average 8.54 sec, max 21.42 sec, min 2.08 sec)
+[2025.11.13-13.51.36:522][182]LogShaderCompilers: Display:                                                 FDepthOnlyPS (compiled    1 times, average 5.94 sec, max 5.94 sec, min 5.94 sec)
+[2025.11.13-13.51.36:522][182]LogShaderCompilers: Display:                                 TBasePassCSFNoLightMapPolicy (compiled    4 times, average 4.73 sec, max 5.59 sec, min 2.58 sec)
+[2025.11.13-13.51.36:522][182]LogShaderCompilers: Display:                                                 FLumenCardCS (compiled    3 times, average 4.62 sec, max 5.09 sec, min 4.28 sec)
+[2025.11.13-13.51.36:522][182]LogShaderCompilers: Display:                                        FRayTracingLightingMS (compiled    1 times, average 4.44 sec, max 4.44 sec, min 4.44 sec)
+[2025.11.13-13.51.36:522][182]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.11.13-13.51.36:522][182]LogShaderCompilers: Display:                        FLumenReflectionHardwareRayTracingRGS - 25.33% of total time (compiled   80 times, average 3.40 sec, max 5.39 sec, min 2.36 sec)
+[2025.11.13-13.51.36:522][182]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 8.21% of total time (compiled   49 times, average 1.80 sec, max 14.39 sec, min 0.22 sec)
+[2025.11.13-13.51.36:522][182]LogShaderCompilers: Display:                                  FPathTracingMaterialCHS_AHS - 7.94% of total time (compiled   10 times, average 8.54 sec, max 21.42 sec, min 2.08 sec)
+[2025.11.13-13.51.36:522][182]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 5.79% of total time (compiled   53 times, average 1.18 sec, max 3.93 sec, min 0.42 sec)
+[2025.11.13-13.51.36:522][182]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy - 5.21% of total time (compiled   26 times, average 2.16 sec, max 5.52 sec, min 1.04 sec)
+[2025.11.13-13.51.36:522][182]LogShaderCompilers: Display: === Material stats ===
+[2025.11.13-13.51.36:522][182]LogShaderCompilers: Display: Materials Cooked:        0
+[2025.11.13-13.51.36:522][182]LogShaderCompilers: Display: Materials Translated:    154
+[2025.11.13-13.51.36:522][182]LogShaderCompilers: Display: Material Total Translate Time: 0.17 s
+[2025.11.13-13.51.36:522][182]LogShaderCompilers: Display: Material Translation Only: 0.07 s (42%)
+[2025.11.13-13.51.36:522][182]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (0%)
+[2025.11.13-13.51.36:522][182]LogShaderCompilers: Display: Material Cache Hits: 0 (0%)
+[2025.11.13-13.51.36:522][182]LogShaderCompilers: Display: ================================================
+[2025.11.13-13.52.44:477][415]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.11.13-13.52.44:485][415]LogContentBundle: [Lvl_TopDown(Editor)] Generating Streaming for 0 Content Bundles.
+[2025.11.13-13.52.44:485][415]LogWorldPartition: Display: GenerateStreaming for 'Lvl_TopDown' started...
+[2025.11.13-13.52.44:487][415]LogWorldPartition: Display: GenerateStreaming for 'Lvl_TopDown' took 1.568 ms
+[2025.11.13-13.52.44:510][415]LogFMOD: Display: Loaded bank lookup
+[2025.11.13-13.52.44:510][415]LogFMOD: Error: Failed to load asset lookup
+[2025.11.13-13.52.44:514][415]LogFMOD: Error: 'lowLevelSystem->getDriverInfo(DriverIndex, nullptr, 0, nullptr, &SystemSampleRate, nullptr, nullptr)' returned 'An invalid parameter was passed to this function.'
+[2025.11.13-13.52.44:514][415]LogFMOD: Default sample rate = 48000
+[2025.11.13-13.52.44:514][415]LogFMOD: System sample rate = 0
+[2025.11.13-13.52.44:514][415]LogFMOD: CallbackHandler not set.
+[2025.11.13-13.52.44:514][415]LogFMOD: Warning: C:\buildagent2\work\c1c3f17eb167c494\core_api\src\fmod_systemi.cpp(2909) - No output sound devices found - switching output mode to FMOD_OUTPUTTYPE_NOSOUND
+
+[2025.11.13-13.52.44:525][415]LogFMOD: Warning: Master bank (Master.bank) not found.
+[2025.11.13-13.52.44:564][415]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.11.13-13.52.44:570][415]LogOnline: OSS: Created online subsystem instance for: NULL
+[2025.11.13-13.52.44:570][415]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for type [NULL]
+[2025.11.13-13.52.44:570][415]LogPlayLevel: Creating play world package: /Game/TopDown/UEDPIE_0_Lvl_TopDown
+[2025.11.13-13.52.44:590][415]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2025.11.13-13.52.44:595][415]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 4.866 ms
+[2025.11.13-13.52.44:595][415]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024603s)
+[2025.11.13-13.52.44:595][415]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDown/Lvl_TopDown.Lvl_TopDown to /Game/TopDown/UEDPIE_0_Lvl_TopDown.Lvl_TopDown (0.024666s)
+[2025.11.13-13.52.44:664][415]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2025.11.13-13.52.44:666][415]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_TopDown
+[2025.11.13-13.52.44:668][415]LogWorldPartition: ULevel::OnLevelLoaded(Lvl_TopDown)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.11.13-13.52.44:668][415]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.11.13-13.52.44:668][415]LogWorldPartition: UWorldPartition::Initialize : World = /Game/TopDown/UEDPIE_0_Lvl_TopDown.Lvl_TopDown, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.11.13-13.52.44:668][415]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.11.13-13.52.44:673][415]LogWorldPartition: Display: WorldPartition initialize took 5.017 ms (total: 463.806 ms)
+[2025.11.13-13.52.44:673][415]LogPlayLevel: PIE: World Init took: (0.007163s)
+[2025.11.13-13.52.44:674][415]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2025.11.13-13.52.44:674][415]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.11.13-13.52.44:674][415]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.11.13-13.52.44:674][415]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.11.13-13.52.44:674][415]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.11.13-13.52.44:674][415]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.11.13-13.52.44:674][415]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.11.13-13.52.44:674][415]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.11.13-13.52.44:674][415]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.11.13-13.52.44:674][415]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.11.13-13.52.44:674][415]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.11.13-13.52.44:674][415]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.11.13-13.52.44:677][415]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.11.13-13.52.44:693][415]LogAudioMixer: Display: Using Audio Hardware Device Unknown
+[2025.11.13-13.52.44:693][415]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.11.13-13.52.44:693][415]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.11.13-13.52.44:693][415]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.11.13-13.52.44:693][415]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=2
+[2025.11.13-13.52.44:693][415]LogAudioMixer: Display: StartRunningNullDevice() called, InstanceID=2
+[2025.11.13-13.52.44:693][415]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=2
+[2025.11.13-13.52.44:693][415]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=3320
+[2025.11.13-13.52.44:693][415]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=2
+[2025.11.13-13.52.44:699][415]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=2
+[2025.11.13-13.52.44:699][415]LogInit: FAudioDevice initialized with ID 2.
+[2025.11.13-13.52.44:700][415]LogAudio: Display: Audio Device (ID: 2) registered with world 'Lvl_TopDown'.
+[2025.11.13-13.52.44:700][415]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 2
+[2025.11.13-13.52.44:704][415]LogLoad: Game class is 'BP_TopDownGameMode_C'
+[2025.11.13-13.52.44:714][415]LogWorld: Bringing World /Game/TopDown/UEDPIE_0_Lvl_TopDown.Lvl_TopDown up for play (max tick rate 0) at 2025.11.13-13.52.44
+[2025.11.13-13.52.44:715][415]LogWorld: Bringing up level for play took: 0.009315
+[2025.11.13-13.52.44:718][415]LogOnline: OSS: Created online subsystem instance for: :Context_3
+[2025.11.13-13.52.44:727][415]PIE: Server logged in
+[2025.11.13-13.52.44:729][415]PIE: Play in editor total start time 0.245 seconds.
+[2025.11.13-13.52.44:789][416]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.11.13-13.52.47:012][590]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.13-13.52.47:012][590]LogWorld: BeginTearingDown for /Game/TopDown/UEDPIE_0_Lvl_TopDown
+[2025.11.13-13.52.47:013][590]LogWorld: UWorld::CleanupWorld for Lvl_TopDown, bSessionEnded=true, bCleanupResources=true
+[2025.11.13-13.52.47:015][590]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.13-13.52.47:016][590]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/TopDown/UEDPIE_0_Lvl_TopDown.Lvl_TopDown
+[2025.11.13-13.52.47:017][590]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.11.13-13.52.47:019][590]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.13-13.52.47:039][590]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.13-13.52.47:039][590]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 2
+[2025.11.13-13.52.47:039][590]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2, StreamState=4
+[2025.11.13-13.52.47:041][590]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2, StreamState=2
+[2025.11.13-13.52.47:041][590]LogAudioMixer: Display: StopRunningNullDevice() called, InstanceID=2
+[2025.11.13-13.52.47:047][590]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2025.11.13-13.52.47:148][591]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2025.11.13-13.52.50:862][852]Cmd: DUPLICATE
+[2025.11.13-13.52.50:862][852]Cmd: ACTOR DUPLICATE
+[2025.11.13-13.53.12:830][540]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.11.13-13.53.12:837][540]LogContentBundle: [Lvl_TopDown(Editor)] Generating Streaming for 0 Content Bundles.
+[2025.11.13-13.53.12:837][540]LogWorldPartition: Display: GenerateStreaming for 'Lvl_TopDown' started...
+[2025.11.13-13.53.12:839][540]LogWorldPartition: Display: GenerateStreaming for 'Lvl_TopDown' took 1.483 ms (total: 3.052 ms)
+[2025.11.13-13.53.12:883][540]LogFMOD: Display: Loaded bank lookup
+[2025.11.13-13.53.12:883][540]LogFMOD: Error: Failed to load asset lookup
+[2025.11.13-13.53.12:886][540]LogFMOD: Error: 'lowLevelSystem->getDriverInfo(DriverIndex, nullptr, 0, nullptr, &SystemSampleRate, nullptr, nullptr)' returned 'An invalid parameter was passed to this function.'
+[2025.11.13-13.53.12:886][540]LogFMOD: Default sample rate = 48000
+[2025.11.13-13.53.12:887][540]LogFMOD: System sample rate = 0
+[2025.11.13-13.53.12:887][540]LogFMOD: CallbackHandler not set.
+[2025.11.13-13.53.12:887][540]LogFMOD: Warning: C:\buildagent2\work\c1c3f17eb167c494\core_api\src\fmod_systemi.cpp(2909) - No output sound devices found - switching output mode to FMOD_OUTPUTTYPE_NOSOUND
+
+[2025.11.13-13.53.12:897][540]LogFMOD: Warning: Master bank (Master.bank) not found.
+[2025.11.13-13.53.12:936][540]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.11.13-13.53.12:936][540]LogPlayLevel: Creating play world package: /Game/TopDown/UEDPIE_0_Lvl_TopDown
+[2025.11.13-13.53.12:955][540]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2025.11.13-13.53.12:961][540]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 4.903 ms (total: 9.770 ms)
+[2025.11.13-13.53.12:961][540]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024476s)
+[2025.11.13-13.53.12:961][540]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDown/Lvl_TopDown.Lvl_TopDown to /Game/TopDown/UEDPIE_0_Lvl_TopDown.Lvl_TopDown (0.024518s)
+[2025.11.13-13.53.12:981][540]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2025.11.13-13.53.12:983][540]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_TopDown
+[2025.11.13-13.53.12:985][540]LogWorldPartition: ULevel::OnLevelLoaded(Lvl_TopDown)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.11.13-13.53.12:985][540]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.11.13-13.53.12:985][540]LogWorldPartition: UWorldPartition::Initialize : World = /Game/TopDown/UEDPIE_0_Lvl_TopDown.Lvl_TopDown, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.11.13-13.53.12:985][540]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.11.13-13.53.12:990][540]LogWorldPartition: Display: WorldPartition initialize took 5.584 ms (total: 469.390 ms)
+[2025.11.13-13.53.12:990][540]LogPlayLevel: PIE: World Init took: (0.007552s)
+[2025.11.13-13.53.12:992][540]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2025.11.13-13.53.12:992][540]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.11.13-13.53.12:992][540]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.11.13-13.53.12:992][540]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.11.13-13.53.12:992][540]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.11.13-13.53.12:992][540]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.11.13-13.53.12:992][540]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.11.13-13.53.12:992][540]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.11.13-13.53.12:992][540]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.11.13-13.53.12:992][540]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.11.13-13.53.12:992][540]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.11.13-13.53.12:992][540]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.11.13-13.53.12:994][540]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.11.13-13.53.13:013][540]LogAudioMixer: Display: Using Audio Hardware Device Unknown
+[2025.11.13-13.53.13:013][540]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.11.13-13.53.13:013][540]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.11.13-13.53.13:014][540]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.11.13-13.53.13:014][540]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=3
+[2025.11.13-13.53.13:014][540]LogAudioMixer: Display: StartRunningNullDevice() called, InstanceID=3
+[2025.11.13-13.53.13:014][540]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=3
+[2025.11.13-13.53.13:014][540]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=14504
+[2025.11.13-13.53.13:014][540]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=3
+[2025.11.13-13.53.13:016][540]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=3
+[2025.11.13-13.53.13:016][540]LogInit: FAudioDevice initialized with ID 3.
+[2025.11.13-13.53.13:016][540]LogAudio: Display: Audio Device (ID: 3) registered with world 'Lvl_TopDown'.
+[2025.11.13-13.53.13:016][540]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 3
+[2025.11.13-13.53.13:020][540]LogLoad: Game class is 'BP_TopDownGameMode_C'
+[2025.11.13-13.53.13:029][540]LogWorld: Bringing World /Game/TopDown/UEDPIE_0_Lvl_TopDown.Lvl_TopDown up for play (max tick rate 0) at 2025.11.13-13.53.13
+[2025.11.13-13.53.13:030][540]LogWorld: Bringing up level for play took: 0.009803
+[2025.11.13-13.53.13:033][540]LogOnline: OSS: Created online subsystem instance for: :Context_4
+[2025.11.13-13.53.13:038][540]PIE: Server logged in
+[2025.11.13-13.53.13:041][540]PIE: Play in editor total start time 0.204 seconds.
+[2025.11.13-13.53.13:117][541]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.11.13-13.53.19:134][ 80]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/TopDown/Lvl_TopDown"
+[2025.11.13-13.53.19:134][ 80]LogNet: Browse: /Game/TopDown/Lvl_TopDown
+[2025.11.13-13.53.19:134][ 80]LogLoad: LoadMap: /Game/TopDown/Lvl_TopDown
+[2025.11.13-13.53.19:134][ 80]LogWorld: BeginTearingDown for /Game/TopDown/UEDPIE_0_Lvl_TopDown
+[2025.11.13-13.53.19:134][ 80]LogSpawn: Warning: SpawnActor failed because we are in the process of tearing down the world
+[2025.11.13-13.53.19:135][ 80]LogWorld: UWorld::CleanupWorld for Lvl_TopDown, bSessionEnded=true, bCleanupResources=true
+[2025.11.13-13.53.19:136][ 80]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.13-13.53.19:137][ 80]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/TopDown/UEDPIE_0_Lvl_TopDown.Lvl_TopDown
+[2025.11.13-13.53.19:161][ 80]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.11.13-13.53.19:164][ 80]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2025.11.13-13.53.19:167][ 80]LogPlayLevel: Creating play world package: /Game/TopDown/UEDPIE_0_Lvl_TopDown
+[2025.11.13-13.53.19:189][ 80]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2025.11.13-13.53.19:194][ 80]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 5.062 ms (total: 14.832 ms)
+[2025.11.13-13.53.19:194][ 80]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026623s)
+[2025.11.13-13.53.19:194][ 80]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDown/Lvl_TopDown.Lvl_TopDown to /Game/TopDown/UEDPIE_0_Lvl_TopDown.Lvl_TopDown (0.026683s)
+[2025.11.13-13.53.19:194][ 80]LogAudio: Display: Audio Device (ID: 3) registered with world 'Lvl_TopDown'.
+[2025.11.13-13.53.19:194][ 80]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_TopDown
+[2025.11.13-13.53.19:196][ 80]LogWorldPartition: ULevel::OnLevelLoaded(Lvl_TopDown)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.11.13-13.53.19:196][ 80]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.11.13-13.53.19:196][ 80]LogWorldPartition: UWorldPartition::Initialize : World = /Game/TopDown/UEDPIE_0_Lvl_TopDown.Lvl_TopDown, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.11.13-13.53.19:196][ 80]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.11.13-13.53.19:201][ 80]LogWorldPartition: Display: WorldPartition initialize took 5.778 ms (total: 475.168 ms)
+[2025.11.13-13.53.19:201][ 80]LogPlayLevel: PIE: World Init took: (0.007628s)
+[2025.11.13-13.53.19:202][ 80]LogLoad: Game class is 'BP_TopDownGameMode_C'
+[2025.11.13-13.53.19:213][ 80]LogWorld: Bringing World /Game/TopDown/UEDPIE_0_Lvl_TopDown.Lvl_TopDown up for play (max tick rate 0) at 2025.11.13-13.53.19
+[2025.11.13-13.53.19:213][ 80]LogWorld: Bringing up level for play took: 0.010255
+[2025.11.13-13.53.19:218][ 80]LogLoad: Took 0.084642 seconds to LoadMap(/Game/TopDown/UEDPIE_0_Lvl_TopDown)
+[2025.11.13-13.53.19:218][ 80]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/TopDown/UEDPIE_0_Lvl_TopDown
+[2025.11.13-13.53.19:229][ 80]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.11.13-13.53.20:468][175]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.13-13.53.20:468][175]LogWorld: BeginTearingDown for /Game/TopDown/UEDPIE_0_Lvl_TopDown
+[2025.11.13-13.53.20:469][175]LogWorld: UWorld::CleanupWorld for Lvl_TopDown, bSessionEnded=true, bCleanupResources=true
+[2025.11.13-13.53.20:472][175]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.13-13.53.20:472][175]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/TopDown/UEDPIE_0_Lvl_TopDown.Lvl_TopDown
+[2025.11.13-13.53.20:473][175]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.11.13-13.53.20:476][175]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.13-13.53.20:498][175]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.13-13.53.20:498][175]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 3
+[2025.11.13-13.53.20:498][175]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3, StreamState=4
+[2025.11.13-13.53.20:501][175]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3, StreamState=2
+[2025.11.13-13.53.20:501][175]LogAudioMixer: Display: StopRunningNullDevice() called, InstanceID=3
+[2025.11.13-13.53.20:506][175]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2025.11.13-13.53.20:595][176]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2025.11.13-13.53.31:758][993]Cmd: DELETE
+[2025.11.13-13.53.31:758][993]Cmd: ACTOR DELETE
+[2025.11.13-13.53.31:762][993]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.11.13-13.53.31:786][993]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2025.11.13-13.53.31:788][993]LogEditorActor: Deleted 1 Actors (0.029 secs)
+[2025.11.13-13.53.51:069][753]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 326.247833
+[2025.11.13-13.53.51:189][764]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.13-13.53.51:189][764]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 326.356873, Update Interval: 300.662872
+[2025.11.13-13.54.36:530][819]LogShaderCompilers: Display: ================================================
+[2025.11.13-13.54.36:530][819]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.11.13-13.54.36:530][819]LogShaderCompilers: Display: Total job queries 18,409, among them cache hits 4,856 (26.38%), DDC hits 12,347 (67.07%), Duplicates 584 (3.17%)
+[2025.11.13-13.54.36:530][819]LogShaderCompilers: Display: Tracking 12,969 distinct input hashes that result in 11,881 distinct outputs (91.61%)
+[2025.11.13-13.54.36:530][819]LogShaderCompilers: Display: RAM used: 158.50 MiB of 6.40 GiB budget. Usage: 2.42%
+[2025.11.13-13.54.36:530][819]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.11.13-13.54.36:530][819]LogShaderCompilers: Display: Shaders Compiled: 622
+[2025.11.13-13.54.36:530][819]LogShaderCompilers: Display: Jobs assigned 622, completed 622 (100%)
+[2025.11.13-13.54.36:530][819]LogShaderCompilers: Display: Average time worker was idle: 6.23 s
+[2025.11.13-13.54.36:530][819]LogShaderCompilers: Display: Time job spent in pending queue: average 12.98 s, longest 61.26 s
+[2025.11.13-13.54.36:530][819]LogShaderCompilers: Display: Job execution time: average 10.99 s, max 46.16 s
+[2025.11.13-13.54.36:530][819]LogShaderCompilers: Display: Job life time (pending + execution): average 23.97 s, max 64.48
+[2025.11.13-13.54.36:530][819]LogShaderCompilers: Display: Shader code size: total 9.705 MiB, numShaders 647, average 15.36 KiB, min 2.246 KiB, max 55.505 KiB
+[2025.11.13-13.54.36:530][819]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 157.20 s
+[2025.11.13-13.54.36:530][819]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.24%
+[2025.11.13-13.54.36:530][819]LogShaderCompilers: Display: Jobs were issued in 203 batches (only local compilation was used), average 3.06 jobs/batch
+[2025.11.13-13.54.36:530][819]LogShaderCompilers: Display: Average processing rate: 3.96 jobs/sec
+[2025.11.13-13.54.36:530][819]LogShaderCompilers: Display: Total thread time: 1,080.651 s
+[2025.11.13-13.54.36:530][819]LogShaderCompilers: Display: Total thread preprocess time: 250.847 s
+[2025.11.13-13.54.36:530][819]LogShaderCompilers: Display: Percentage time preprocessing: 23.21%
+[2025.11.13-13.54.36:530][819]LogShaderCompilers: Display: Effective parallelization: 6.87 (times faster than compiling all shaders on one thread). Compare with number of workers: 8 - 0.859282
+[2025.11.13-13.54.36:530][819]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.11.13-13.54.36:530][819]LogShaderCompilers: Display:                                  FPathTracingMaterialCHS_AHS (compiled   10 times, average 8.54 sec, max 21.42 sec, min 2.08 sec)
+[2025.11.13-13.54.36:530][819]LogShaderCompilers: Display:                                                 FDepthOnlyPS (compiled    1 times, average 5.94 sec, max 5.94 sec, min 5.94 sec)
+[2025.11.13-13.54.36:530][819]LogShaderCompilers: Display:                                 TBasePassCSFNoLightMapPolicy (compiled    4 times, average 4.73 sec, max 5.59 sec, min 2.58 sec)
+[2025.11.13-13.54.36:530][819]LogShaderCompilers: Display:                                                 FLumenCardCS (compiled    3 times, average 4.62 sec, max 5.09 sec, min 4.28 sec)
+[2025.11.13-13.54.36:530][819]LogShaderCompilers: Display:                                        FRayTracingLightingMS (compiled    1 times, average 4.44 sec, max 4.44 sec, min 4.44 sec)
+[2025.11.13-13.54.36:530][819]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.11.13-13.54.36:530][819]LogShaderCompilers: Display:                        FLumenReflectionHardwareRayTracingRGS - 25.20% of total time (compiled   80 times, average 3.40 sec, max 5.39 sec, min 2.36 sec)
+[2025.11.13-13.54.36:530][819]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 8.31% of total time (compiled   52 times, average 1.73 sec, max 14.39 sec, min 0.22 sec)
+[2025.11.13-13.54.36:530][819]LogShaderCompilers: Display:                                  FPathTracingMaterialCHS_AHS - 7.90% of total time (compiled   10 times, average 8.54 sec, max 21.42 sec, min 2.08 sec)
+[2025.11.13-13.54.36:530][819]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 5.97% of total time (compiled   56 times, average 1.15 sec, max 3.93 sec, min 0.42 sec)
+[2025.11.13-13.54.36:530][819]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy - 5.31% of total time (compiled   27 times, average 2.13 sec, max 5.52 sec, min 1.04 sec)
+[2025.11.13-13.54.36:530][819]LogShaderCompilers: Display: === Material stats ===
+[2025.11.13-13.54.36:530][819]LogShaderCompilers: Display: Materials Cooked:        0
+[2025.11.13-13.54.36:530][819]LogShaderCompilers: Display: Materials Translated:    154
+[2025.11.13-13.54.36:530][819]LogShaderCompilers: Display: Material Total Translate Time: 0.17 s
+[2025.11.13-13.54.36:530][819]LogShaderCompilers: Display: Material Translation Only: 0.07 s (42%)
+[2025.11.13-13.54.36:530][819]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (0%)
+[2025.11.13-13.54.36:530][819]LogShaderCompilers: Display: Material Cache Hits: 0 (0%)
+[2025.11.13-13.54.36:530][819]LogShaderCompilers: Display: ================================================
+[2025.11.13-13.55.44:234][225]Cmd: DUPLICATE
+[2025.11.13-13.55.44:234][225]Cmd: ACTOR DUPLICATE
+[2025.11.13-13.55.59:688][142]Cmd: DUPLICATE
+[2025.11.13-13.55.59:688][142]Cmd: ACTOR DUPLICATE
+[2025.11.13-13.56.08:602][653]Cmd: DUPLICATE
+[2025.11.13-13.56.08:602][653]Cmd: ACTOR DUPLICATE
+[2025.11.13-13.56.22:361][523]Cmd: DELETE
+[2025.11.13-13.56.22:361][523]Cmd: ACTOR DELETE
+[2025.11.13-13.56.22:364][523]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.11.13-13.56.22:390][523]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2025.11.13-13.56.22:395][523]LogEditorActor: Deleted 1 Actors (0.033 secs)
+[2025.11.13-13.56.23:389][570]Cmd: DELETE
+[2025.11.13-13.56.23:389][570]Cmd: ACTOR DELETE
+[2025.11.13-13.56.23:391][570]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.11.13-13.56.23:416][570]LogUObjectHash: Compacting FUObjectHashTables data took   0.29ms
+[2025.11.13-13.56.23:418][570]LogEditorActor: Deleted 1 Actors (0.029 secs)
+[2025.11.13-13.56.24:055][608]Cmd: DELETE
+[2025.11.13-13.56.24:055][608]Cmd: ACTOR DELETE
+[2025.11.13-13.56.24:057][608]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.11.13-13.56.24:081][608]LogUObjectHash: Compacting FUObjectHashTables data took   0.29ms
+[2025.11.13-13.56.24:083][608]LogEditorActor: Deleted 1 Actors (0.029 secs)
+[2025.11.13-13.56.25:076][672]Cmd: DELETE
+[2025.11.13-13.56.25:076][672]Cmd: ACTOR DELETE
+[2025.11.13-13.56.25:078][672]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.11.13-13.56.25:102][672]LogUObjectHash: Compacting FUObjectHashTables data took   0.32ms
+[2025.11.13-13.56.25:104][672]LogEditorActor: Deleted 1 Actors (0.027 secs)
+[2025.11.13-13.56.26:525][766]Cmd: DUPLICATE
+[2025.11.13-13.56.26:525][766]Cmd: ACTOR DUPLICATE
+[2025.11.13-13.56.50:538][270]Cmd: DELETE
+[2025.11.13-13.56.50:538][270]Cmd: ACTOR DELETE
+[2025.11.13-13.56.50:540][270]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.11.13-13.56.50:563][270]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2025.11.13-13.56.50:566][270]LogEditorActor: Deleted 1 Actors (0.028 secs)
+[2025.11.13-13.56.51:037][301]Cmd: DELETE
+[2025.11.13-13.56.51:037][301]Cmd: ACTOR DELETE
+[2025.11.13-13.56.51:040][301]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.11.13-13.56.51:056][301]LogUObjectHash: Compacting FUObjectHashTables data took   0.30ms
+[2025.11.13-13.56.51:057][301]LogEditorActor: Deleted 1 Actors (0.020 secs)
+[2025.11.13-13.56.52:852][450]Cmd: TRANSACTION UNDO
+[2025.11.13-13.56.52:852][450]LogEditorTransaction: Undo Delete Elements
+[2025.11.13-13.56.53:200][452]Cmd: TRANSACTION UNDO
+[2025.11.13-13.56.53:200][452]LogEditorTransaction: Undo Clicking on Elements
+[2025.11.13-13.56.53:650][476]Cmd: TRANSACTION UNDO
+[2025.11.13-13.56.53:650][476]LogEditorTransaction: Undo Delete Elements
+[2025.11.13-13.57.41:043][932]Cmd: DUPLICATE
+[2025.11.13-13.57.41:043][932]Cmd: ACTOR DUPLICATE
+[2025.11.13-13.57.44:275][194]Cmd: DELETE
+[2025.11.13-13.57.44:275][194]Cmd: ACTOR DELETE
+[2025.11.13-13.57.44:277][194]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.11.13-13.57.44:299][194]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2025.11.13-13.57.44:303][194]LogEditorActor: Deleted 1 Actors (0.028 secs)
+[2025.11.13-13.57.56:042][949]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.11.13-13.57.56:050][949]LogContentBundle: [Lvl_TopDown(Editor)] Generating Streaming for 0 Content Bundles.
+[2025.11.13-13.57.56:050][949]LogWorldPartition: Display: GenerateStreaming for 'Lvl_TopDown' started...
+[2025.11.13-13.57.56:051][949]LogWorldPartition: Display: GenerateStreaming for 'Lvl_TopDown' took 1.499 ms (total: 4.551 ms)
+[2025.11.13-13.57.56:083][949]LogFMOD: Display: Loaded bank lookup
+[2025.11.13-13.57.56:083][949]LogFMOD: Error: Failed to load asset lookup
+[2025.11.13-13.57.56:087][949]LogFMOD: Error: 'lowLevelSystem->getDriverInfo(DriverIndex, nullptr, 0, nullptr, &SystemSampleRate, nullptr, nullptr)' returned 'An invalid parameter was passed to this function.'
+[2025.11.13-13.57.56:087][949]LogFMOD: Default sample rate = 48000
+[2025.11.13-13.57.56:087][949]LogFMOD: System sample rate = 0
+[2025.11.13-13.57.56:087][949]LogFMOD: CallbackHandler not set.
+[2025.11.13-13.57.56:087][949]LogFMOD: Warning: C:\buildagent2\work\c1c3f17eb167c494\core_api\src\fmod_systemi.cpp(2909) - No output sound devices found - switching output mode to FMOD_OUTPUTTYPE_NOSOUND
+
+[2025.11.13-13.57.56:097][949]LogFMOD: Warning: Master bank (Master.bank) not found.
+[2025.11.13-13.57.56:135][949]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.11.13-13.57.56:135][949]LogPlayLevel: Creating play world package: /Game/TopDown/UEDPIE_0_Lvl_TopDown
+[2025.11.13-13.57.56:154][949]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2025.11.13-13.57.56:159][949]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 4.777 ms (total: 19.609 ms)
+[2025.11.13-13.57.56:159][949]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023831s)
+[2025.11.13-13.57.56:159][949]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDown/Lvl_TopDown.Lvl_TopDown to /Game/TopDown/UEDPIE_0_Lvl_TopDown.Lvl_TopDown (0.023874s)
+[2025.11.13-13.57.56:176][949]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2025.11.13-13.57.56:178][949]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_TopDown
+[2025.11.13-13.57.56:180][949]LogWorldPartition: ULevel::OnLevelLoaded(Lvl_TopDown)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.11.13-13.57.56:180][949]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.11.13-13.57.56:180][949]LogWorldPartition: UWorldPartition::Initialize : World = /Game/TopDown/UEDPIE_0_Lvl_TopDown.Lvl_TopDown, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.11.13-13.57.56:180][949]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.11.13-13.57.56:184][949]LogWorldPartition: Display: WorldPartition initialize took 4.884 ms (total: 480.052 ms)
+[2025.11.13-13.57.56:184][949]LogPlayLevel: PIE: World Init took: (0.006820s)
+[2025.11.13-13.57.56:185][949]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2025.11.13-13.57.56:185][949]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.11.13-13.57.56:185][949]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.11.13-13.57.56:185][949]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.11.13-13.57.56:185][949]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.11.13-13.57.56:185][949]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.11.13-13.57.56:185][949]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.11.13-13.57.56:185][949]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.11.13-13.57.56:185][949]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.11.13-13.57.56:185][949]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.11.13-13.57.56:185][949]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.11.13-13.57.56:185][949]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.11.13-13.57.56:188][949]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.11.13-13.57.56:203][949]LogAudioMixer: Display: Using Audio Hardware Device Unknown
+[2025.11.13-13.57.56:204][949]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.11.13-13.57.56:204][949]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.11.13-13.57.56:204][949]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.11.13-13.57.56:204][949]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=4
+[2025.11.13-13.57.56:204][949]LogAudioMixer: Display: StartRunningNullDevice() called, InstanceID=4
+[2025.11.13-13.57.56:204][949]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=4
+[2025.11.13-13.57.56:204][949]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=12868
+[2025.11.13-13.57.56:204][949]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=4
+[2025.11.13-13.57.56:207][949]LogInit: FAudioDevice initialized with ID 4.
+[2025.11.13-13.57.56:207][949]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=4
+[2025.11.13-13.57.56:207][949]LogAudio: Display: Audio Device (ID: 4) registered with world 'Lvl_TopDown'.
+[2025.11.13-13.57.56:207][949]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 4
+[2025.11.13-13.57.56:212][949]LogLoad: Game class is 'BP_TopDownGameMode_C'
+[2025.11.13-13.57.56:221][949]LogWorld: Bringing World /Game/TopDown/UEDPIE_0_Lvl_TopDown.Lvl_TopDown up for play (max tick rate 0) at 2025.11.13-13.57.56
+[2025.11.13-13.57.56:222][949]LogWorld: Bringing up level for play took: 0.009447
+[2025.11.13-13.57.56:225][949]LogOnline: OSS: Created online subsystem instance for: :Context_5
+[2025.11.13-13.57.56:230][949]PIE: Server logged in
+[2025.11.13-13.57.56:232][949]PIE: Play in editor total start time 0.183 seconds.
+[2025.11.13-13.57.56:297][950]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.11.13-13.58.04:124][633]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.13-13.58.04:124][633]LogWorld: BeginTearingDown for /Game/TopDown/UEDPIE_0_Lvl_TopDown
+[2025.11.13-13.58.04:125][633]LogWorld: UWorld::CleanupWorld for Lvl_TopDown, bSessionEnded=true, bCleanupResources=true
+[2025.11.13-13.58.04:127][633]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.13-13.58.04:127][633]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/TopDown/UEDPIE_0_Lvl_TopDown.Lvl_TopDown
+[2025.11.13-13.58.04:128][633]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.11.13-13.58.04:131][633]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.13-13.58.04:149][633]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.13-13.58.04:150][633]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 4
+[2025.11.13-13.58.04:150][633]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4, StreamState=4
+[2025.11.13-13.58.04:152][633]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4, StreamState=2
+[2025.11.13-13.58.04:152][633]LogAudioMixer: Display: StopRunningNullDevice() called, InstanceID=4
+[2025.11.13-13.58.04:157][633]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2025.11.13-13.58.04:255][634]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2025.11.13-13.58.15:599][380]Cmd: DUPLICATE
+[2025.11.13-13.58.15:599][380]Cmd: ACTOR DUPLICATE
+[2025.11.13-13.58.53:967][667]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 629.143555
+[2025.11.13-13.58.54:115][679]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.13-13.58.54:115][679]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 629.274353, Update Interval: 326.151917
+[2025.11.13-13.58.56:012][830]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2025.11.13-13.58.56:019][830]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/TopDown/Lvl_TopDown/9/4T/JZ3ES8AXIC17BMBQODZSR5_Auto1
+[2025.11.13-13.58.56:019][830]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/JZ3ES8AXIC17BMBQODZSR5_Auto13EC9E2714A588F9BA22BB599C1E5F5A7.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/Autosaves/Game/__ExternalActors__/TopDown/Lvl_TopDown/9/4T/JZ3ES8AXIC17BMBQODZSR5_Auto1.uasset'
+[2025.11.13-13.58.56:026][830]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/TopDown/Lvl_TopDown/7/AR/AS7CX3YA7RC8CB08VTGMSW_Auto1
+[2025.11.13-13.58.56:026][830]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/AS7CX3YA7RC8CB08VTGMSW_Auto1171C7C474CFC8B1AB9656A958D802956.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/Autosaves/Game/__ExternalActors__/TopDown/Lvl_TopDown/7/AR/AS7CX3YA7RC8CB08VTGMSW_Auto1.uasset'
+[2025.11.13-13.58.56:028][830]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/TopDown/Lvl_TopDown' took 0.036
+[2025.11.13-13.58.56:028][830]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.036
+[2025.11.13-14.01.04:844][717]LogStreaming: Display: FlushAsyncLoading(548): 1 QueuedPackages, 0 AsyncPackages
+[2025.11.13-14.01.04:885][717]LogStaticMesh: Display: Building static mesh SM_ColorCalibrator (Required Memory Estimate: 59.138803 MB)...
+[2025.11.13-14.01.05:151][741]LogStaticMesh: Built static mesh [0.27s] /Engine/EditorMeshes/ColorCalibrator/SM_ColorCalibrator.SM_ColorCalibrator
+[2025.11.13-14.01.13:846][354]Cmd: DUPLICATE
+[2025.11.13-14.01.13:846][354]Cmd: ACTOR DUPLICATE
+[2025.11.13-14.01.41:377][567]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.11.13-14.01.41:384][567]LogContentBundle: [Lvl_TopDown(Editor)] Generating Streaming for 0 Content Bundles.
+[2025.11.13-14.01.41:384][567]LogWorldPartition: Display: GenerateStreaming for 'Lvl_TopDown' started...
+[2025.11.13-14.01.41:386][567]LogWorldPartition: Display: GenerateStreaming for 'Lvl_TopDown' took 1.563 ms (total: 6.114 ms)
+[2025.11.13-14.01.41:411][567]LogFMOD: Display: Loaded bank lookup
+[2025.11.13-14.01.41:411][567]LogFMOD: Error: Failed to load asset lookup
+[2025.11.13-14.01.41:415][567]LogFMOD: Error: 'lowLevelSystem->getDriverInfo(DriverIndex, nullptr, 0, nullptr, &SystemSampleRate, nullptr, nullptr)' returned 'An invalid parameter was passed to this function.'
+[2025.11.13-14.01.41:415][567]LogFMOD: Default sample rate = 48000
+[2025.11.13-14.01.41:415][567]LogFMOD: System sample rate = 0
+[2025.11.13-14.01.41:415][567]LogFMOD: CallbackHandler not set.
+[2025.11.13-14.01.41:415][567]LogFMOD: Warning: C:\buildagent2\work\c1c3f17eb167c494\core_api\src\fmod_systemi.cpp(2909) - No output sound devices found - switching output mode to FMOD_OUTPUTTYPE_NOSOUND
+
+[2025.11.13-14.01.41:425][567]LogFMOD: Warning: Master bank (Master.bank) not found.
+[2025.11.13-14.01.41:465][567]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.11.13-14.01.41:465][567]LogPlayLevel: Creating play world package: /Game/TopDown/UEDPIE_0_Lvl_TopDown
+[2025.11.13-14.01.41:484][567]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2025.11.13-14.01.41:489][567]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 4.754 ms (total: 24.364 ms)
+[2025.11.13-14.01.41:489][567]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023972s)
+[2025.11.13-14.01.41:489][567]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDown/Lvl_TopDown.Lvl_TopDown to /Game/TopDown/UEDPIE_0_Lvl_TopDown.Lvl_TopDown (0.024016s)
+[2025.11.13-14.01.41:510][567]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2025.11.13-14.01.41:514][567]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_TopDown
+[2025.11.13-14.01.41:516][567]LogWorldPartition: ULevel::OnLevelLoaded(Lvl_TopDown)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.11.13-14.01.41:516][567]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.11.13-14.01.41:516][567]LogWorldPartition: UWorldPartition::Initialize : World = /Game/TopDown/UEDPIE_0_Lvl_TopDown.Lvl_TopDown, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.11.13-14.01.41:516][567]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.11.13-14.01.41:521][567]LogWorldPartition: Display: WorldPartition initialize took 4.954 ms (total: 485.007 ms)
+[2025.11.13-14.01.41:521][567]LogPlayLevel: PIE: World Init took: (0.006771s)
+[2025.11.13-14.01.41:522][567]LogAudio: Display: Creating Audio Device:                 Id: 5, Scope: Unique, Realtime: True
+[2025.11.13-14.01.41:522][567]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.11.13-14.01.41:522][567]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.11.13-14.01.41:522][567]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.11.13-14.01.41:522][567]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.11.13-14.01.41:522][567]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.11.13-14.01.41:522][567]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.11.13-14.01.41:522][567]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.11.13-14.01.41:522][567]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.11.13-14.01.41:522][567]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.11.13-14.01.41:522][567]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.11.13-14.01.41:522][567]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.11.13-14.01.41:524][567]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.11.13-14.01.41:541][567]LogAudioMixer: Display: Using Audio Hardware Device Unknown
+[2025.11.13-14.01.41:541][567]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.11.13-14.01.41:541][567]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.11.13-14.01.41:541][567]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.11.13-14.01.41:542][567]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=5
+[2025.11.13-14.01.41:542][567]LogAudioMixer: Display: StartRunningNullDevice() called, InstanceID=5
+[2025.11.13-14.01.41:542][567]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=5
+[2025.11.13-14.01.41:542][567]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=21008
+[2025.11.13-14.01.41:542][567]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=5
+[2025.11.13-14.01.41:544][567]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=5
+[2025.11.13-14.01.41:544][567]LogInit: FAudioDevice initialized with ID 5.
+[2025.11.13-14.01.41:544][567]LogAudio: Display: Audio Device (ID: 5) registered with world 'Lvl_TopDown'.
+[2025.11.13-14.01.41:544][567]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 5
+[2025.11.13-14.01.41:549][567]LogLoad: Game class is 'BP_TopDownGameMode_C'
+[2025.11.13-14.01.41:559][567]LogWorld: Bringing World /Game/TopDown/UEDPIE_0_Lvl_TopDown.Lvl_TopDown up for play (max tick rate 0) at 2025.11.13-14.01.41
+[2025.11.13-14.01.41:559][567]LogWorld: Bringing up level for play took: 0.009480
+[2025.11.13-14.01.41:562][567]LogOnline: OSS: Created online subsystem instance for: :Context_6
+[2025.11.13-14.01.41:568][567]PIE: Server logged in
+[2025.11.13-14.01.41:570][567]PIE: Play in editor total start time 0.185 seconds.
+[2025.11.13-14.01.41:643][568]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.11.13-14.01.46:529][982]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.13-14.01.46:529][982]LogWorld: BeginTearingDown for /Game/TopDown/UEDPIE_0_Lvl_TopDown
+[2025.11.13-14.01.46:529][982]LogWorld: UWorld::CleanupWorld for Lvl_TopDown, bSessionEnded=true, bCleanupResources=true
+[2025.11.13-14.01.46:532][982]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.13-14.01.46:532][982]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/TopDown/UEDPIE_0_Lvl_TopDown.Lvl_TopDown
+[2025.11.13-14.01.46:533][982]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.11.13-14.01.46:537][982]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.13-14.01.46:559][982]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.13-14.01.46:559][982]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 5
+[2025.11.13-14.01.46:560][982]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5, StreamState=4
+[2025.11.13-14.01.46:562][982]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5, StreamState=2
+[2025.11.13-14.01.46:562][982]LogAudioMixer: Display: StopRunningNullDevice() called, InstanceID=5
+[2025.11.13-14.01.46:566][982]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2025.11.13-14.01.46:660][983]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2025.11.13-14.01.56:082][606]Cmd: DUPLICATE
+[2025.11.13-14.01.56:082][606]Cmd: ACTOR DUPLICATE
+[2025.11.13-14.02.37:260][373]Cmd: DUPLICATE
+[2025.11.13-14.02.37:260][373]Cmd: ACTOR DUPLICATE
+[2025.11.13-14.02.45:435][945]Cmd: DUPLICATE
+[2025.11.13-14.02.45:435][945]Cmd: ACTOR DUPLICATE
+[2025.11.13-14.03.05:843][375]Cmd: DUPLICATE
+[2025.11.13-14.03.05:843][375]Cmd: ACTOR DUPLICATE
+[2025.11.13-14.03.21:805][437]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.11.13-14.03.36:806][433]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.11.13-14.03.39:778][647]Cmd: TRANSACTION UNDO
+[2025.11.13-14.03.39:778][647]LogEditorTransaction: Undo Scale Elements
+[2025.11.13-14.03.40:113][652]Cmd: TRANSACTION UNDO
+[2025.11.13-14.03.40:113][652]LogEditorTransaction: Undo Move Elements
+[2025.11.13-14.03.42:105][782]Cmd: TRANSACTION UNDO
+[2025.11.13-14.03.42:105][782]LogEditorTransaction: Undo Scale Elements
+[2025.11.13-14.04.02:309][ 79]Cmd: TRANSACTION UNDO
+[2025.11.13-14.04.02:310][ 79]LogEditorTransaction: Undo Clicking on Elements
+[2025.11.13-14.04.02:730][ 84]Cmd: TRANSACTION UNDO
+[2025.11.13-14.04.02:730][ 84]LogEditorTransaction: Undo Scale Elements
+[2025.11.13-14.04.24:777][576]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 959.954468
+[2025.11.13-14.04.42:735][831]Cmd: DUPLICATE
+[2025.11.13-14.04.42:735][831]Cmd: ACTOR DUPLICATE
+[2025.11.13-14.04.43:461][875]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.13-14.04.43:461][875]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 978.629456, Update Interval: 316.487305
+[2025.11.13-14.05.32:317][ 70]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.11.13-14.05.32:324][ 70]LogContentBundle: [Lvl_TopDown(Editor)] Generating Streaming for 0 Content Bundles.
+[2025.11.13-14.05.32:324][ 70]LogWorldPartition: Display: GenerateStreaming for 'Lvl_TopDown' started...
+[2025.11.13-14.05.32:326][ 70]LogWorldPartition: Display: GenerateStreaming for 'Lvl_TopDown' took 1.946 ms (total: 8.061 ms)
+[2025.11.13-14.05.32:372][ 70]LogFMOD: Display: Loaded bank lookup
+[2025.11.13-14.05.32:372][ 70]LogFMOD: Error: Failed to load asset lookup
+[2025.11.13-14.05.32:376][ 70]LogFMOD: Error: 'lowLevelSystem->getDriverInfo(DriverIndex, nullptr, 0, nullptr, &SystemSampleRate, nullptr, nullptr)' returned 'An invalid parameter was passed to this function.'
+[2025.11.13-14.05.32:376][ 70]LogFMOD: Default sample rate = 48000
+[2025.11.13-14.05.32:376][ 70]LogFMOD: System sample rate = 0
+[2025.11.13-14.05.32:376][ 70]LogFMOD: CallbackHandler not set.
+[2025.11.13-14.05.32:376][ 70]LogFMOD: Warning: C:\buildagent2\work\c1c3f17eb167c494\core_api\src\fmod_systemi.cpp(2909) - No output sound devices found - switching output mode to FMOD_OUTPUTTYPE_NOSOUND
+
+[2025.11.13-14.05.32:385][ 70]LogFMOD: Warning: Master bank (Master.bank) not found.
+[2025.11.13-14.05.32:425][ 70]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.11.13-14.05.32:425][ 70]LogPlayLevel: Creating play world package: /Game/TopDown/UEDPIE_0_Lvl_TopDown
+[2025.11.13-14.05.32:445][ 70]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2025.11.13-14.05.32:449][ 70]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 4.923 ms (total: 29.288 ms)
+[2025.11.13-14.05.32:450][ 70]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024687s)
+[2025.11.13-14.05.32:450][ 70]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDown/Lvl_TopDown.Lvl_TopDown to /Game/TopDown/UEDPIE_0_Lvl_TopDown.Lvl_TopDown (0.024728s)
+[2025.11.13-14.05.32:471][ 70]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2025.11.13-14.05.32:476][ 70]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_TopDown
+[2025.11.13-14.05.32:478][ 70]LogWorldPartition: ULevel::OnLevelLoaded(Lvl_TopDown)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.11.13-14.05.32:478][ 70]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.11.13-14.05.32:478][ 70]LogWorldPartition: UWorldPartition::Initialize : World = /Game/TopDown/UEDPIE_0_Lvl_TopDown.Lvl_TopDown, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.11.13-14.05.32:478][ 70]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.11.13-14.05.32:483][ 70]LogWorldPartition: Display: WorldPartition initialize took 5.059 ms (total: 490.066 ms)
+[2025.11.13-14.05.32:483][ 70]LogPlayLevel: PIE: World Init took: (0.006986s)
+[2025.11.13-14.05.32:484][ 70]LogAudio: Display: Creating Audio Device:                 Id: 6, Scope: Unique, Realtime: True
+[2025.11.13-14.05.32:484][ 70]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.11.13-14.05.32:484][ 70]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.11.13-14.05.32:484][ 70]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.11.13-14.05.32:484][ 70]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.11.13-14.05.32:484][ 70]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.11.13-14.05.32:484][ 70]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.11.13-14.05.32:484][ 70]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.11.13-14.05.32:484][ 70]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.11.13-14.05.32:484][ 70]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.11.13-14.05.32:484][ 70]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.11.13-14.05.32:484][ 70]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.11.13-14.05.32:486][ 70]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.11.13-14.05.32:502][ 70]LogAudioMixer: Display: Using Audio Hardware Device Unknown
+[2025.11.13-14.05.32:502][ 70]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.11.13-14.05.32:502][ 70]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.11.13-14.05.32:502][ 70]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.11.13-14.05.32:503][ 70]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=6
+[2025.11.13-14.05.32:503][ 70]LogAudioMixer: Display: StartRunningNullDevice() called, InstanceID=6
+[2025.11.13-14.05.32:503][ 70]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=6
+[2025.11.13-14.05.32:503][ 70]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=7004
+[2025.11.13-14.05.32:503][ 70]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=6
+[2025.11.13-14.05.32:506][ 70]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=6
+[2025.11.13-14.05.32:506][ 70]LogInit: FAudioDevice initialized with ID 6.
+[2025.11.13-14.05.32:506][ 70]LogAudio: Display: Audio Device (ID: 6) registered with world 'Lvl_TopDown'.
+[2025.11.13-14.05.32:506][ 70]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 6
+[2025.11.13-14.05.32:510][ 70]LogLoad: Game class is 'BP_TopDownGameMode_C'
+[2025.11.13-14.05.32:519][ 70]LogWorld: Bringing World /Game/TopDown/UEDPIE_0_Lvl_TopDown.Lvl_TopDown up for play (max tick rate 0) at 2025.11.13-14.05.32
+[2025.11.13-14.05.32:520][ 70]LogWorld: Bringing up level for play took: 0.009402
+[2025.11.13-14.05.32:522][ 70]LogOnline: OSS: Created online subsystem instance for: :Context_7
+[2025.11.13-14.05.32:528][ 70]PIE: Server logged in
+[2025.11.13-14.05.32:530][ 70]PIE: Play in editor total start time 0.207 seconds.
+[2025.11.13-14.05.32:599][ 71]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.11.13-14.05.40:167][743]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/TopDown/Lvl_TopDown"
+[2025.11.13-14.05.40:167][743]LogNet: Browse: /Game/TopDown/Lvl_TopDown
+[2025.11.13-14.05.40:167][743]LogLoad: LoadMap: /Game/TopDown/Lvl_TopDown
+[2025.11.13-14.05.40:167][743]LogWorld: BeginTearingDown for /Game/TopDown/UEDPIE_0_Lvl_TopDown
+[2025.11.13-14.05.40:168][743]LogSpawn: Warning: SpawnActor failed because we are in the process of tearing down the world
+[2025.11.13-14.05.40:168][743]LogWorld: UWorld::CleanupWorld for Lvl_TopDown, bSessionEnded=true, bCleanupResources=true
+[2025.11.13-14.05.40:170][743]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.13-14.05.40:170][743]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/TopDown/UEDPIE_0_Lvl_TopDown.Lvl_TopDown
+[2025.11.13-14.05.40:224][743]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.11.13-14.05.40:226][743]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2025.11.13-14.05.40:229][743]LogPlayLevel: Creating play world package: /Game/TopDown/UEDPIE_0_Lvl_TopDown
+[2025.11.13-14.05.40:248][743]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2025.11.13-14.05.40:254][743]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 5.171 ms (total: 34.459 ms)
+[2025.11.13-14.05.40:254][743]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024643s)
+[2025.11.13-14.05.40:254][743]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDown/Lvl_TopDown.Lvl_TopDown to /Game/TopDown/UEDPIE_0_Lvl_TopDown.Lvl_TopDown (0.024697s)
+[2025.11.13-14.05.40:254][743]LogAudio: Display: Audio Device (ID: 6) registered with world 'Lvl_TopDown'.
+[2025.11.13-14.05.40:254][743]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_TopDown
+[2025.11.13-14.05.40:255][743]LogWorldPartition: ULevel::OnLevelLoaded(Lvl_TopDown)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.11.13-14.05.40:255][743]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.11.13-14.05.40:255][743]LogWorldPartition: UWorldPartition::Initialize : World = /Game/TopDown/UEDPIE_0_Lvl_TopDown.Lvl_TopDown, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.11.13-14.05.40:255][743]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.11.13-14.05.40:260][743]LogWorldPartition: Display: WorldPartition initialize took 4.872 ms (total: 494.939 ms)
+[2025.11.13-14.05.40:260][743]LogPlayLevel: PIE: World Init took: (0.006579s)
+[2025.11.13-14.05.40:260][743]LogLoad: Game class is 'BP_TopDownGameMode_C'
+[2025.11.13-14.05.40:269][743]LogWorld: Bringing World /Game/TopDown/UEDPIE_0_Lvl_TopDown.Lvl_TopDown up for play (max tick rate 0) at 2025.11.13-14.05.40
+[2025.11.13-14.05.40:270][743]LogWorld: Bringing up level for play took: 0.008908
+[2025.11.13-14.05.40:274][743]LogLoad: Took 0.106534 seconds to LoadMap(/Game/TopDown/UEDPIE_0_Lvl_TopDown)
+[2025.11.13-14.05.40:274][743]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/TopDown/UEDPIE_0_Lvl_TopDown
+[2025.11.13-14.05.40:283][743]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.11.13-14.06.07:727][169]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.13-14.06.07:727][169]LogWorld: BeginTearingDown for /Game/TopDown/UEDPIE_0_Lvl_TopDown
+[2025.11.13-14.06.07:728][169]LogWorld: UWorld::CleanupWorld for Lvl_TopDown, bSessionEnded=true, bCleanupResources=true
+[2025.11.13-14.06.07:730][169]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.13-14.06.07:730][169]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/TopDown/UEDPIE_0_Lvl_TopDown.Lvl_TopDown
+[2025.11.13-14.06.07:731][169]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.11.13-14.06.07:734][169]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.13-14.06.07:756][169]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.13-14.06.07:757][169]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 6
+[2025.11.13-14.06.07:757][169]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6, StreamState=4
+[2025.11.13-14.06.07:759][169]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6, StreamState=2
+[2025.11.13-14.06.07:759][169]LogAudioMixer: Display: StopRunningNullDevice() called, InstanceID=6
+[2025.11.13-14.06.07:764][169]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2025.11.13-14.06.07:862][170]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2025.11.13-14.06.22:054][242]Cmd: DUPLICATE
+[2025.11.13-14.06.22:054][242]Cmd: ACTOR DUPLICATE
+[2025.11.13-14.06.51:830][427]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.11.13-14.07.27:052][984]Cmd: DUPLICATE
+[2025.11.13-14.07.27:053][984]Cmd: ACTOR DUPLICATE
+[2025.11.13-14.07.36:855][681]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.11.13-14.07.51:857][849]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.11.13-14.07.53:422][926]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.11.13-14.07.53:430][926]LogContentBundle: [Lvl_TopDown(Editor)] Generating Streaming for 0 Content Bundles.
+[2025.11.13-14.07.53:430][926]LogWorldPartition: Display: GenerateStreaming for 'Lvl_TopDown' started...
+[2025.11.13-14.07.53:431][926]LogWorldPartition: Display: GenerateStreaming for 'Lvl_TopDown' took 1.904 ms (total: 9.965 ms)
+[2025.11.13-14.07.53:475][926]LogFMOD: Display: Loaded bank lookup
+[2025.11.13-14.07.53:475][926]LogFMOD: Error: Failed to load asset lookup
+[2025.11.13-14.07.53:478][926]LogFMOD: Error: 'lowLevelSystem->getDriverInfo(DriverIndex, nullptr, 0, nullptr, &SystemSampleRate, nullptr, nullptr)' returned 'An invalid parameter was passed to this function.'
+[2025.11.13-14.07.53:478][926]LogFMOD: Default sample rate = 48000
+[2025.11.13-14.07.53:478][926]LogFMOD: System sample rate = 0
+[2025.11.13-14.07.53:478][926]LogFMOD: CallbackHandler not set.
+[2025.11.13-14.07.53:478][926]LogFMOD: Warning: C:\buildagent2\work\c1c3f17eb167c494\core_api\src\fmod_systemi.cpp(2909) - No output sound devices found - switching output mode to FMOD_OUTPUTTYPE_NOSOUND
+
+[2025.11.13-14.07.53:488][926]LogFMOD: Warning: Master bank (Master.bank) not found.
+[2025.11.13-14.07.53:529][926]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.11.13-14.07.53:529][926]LogPlayLevel: Creating play world package: /Game/TopDown/UEDPIE_0_Lvl_TopDown
+[2025.11.13-14.07.53:548][926]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2025.11.13-14.07.53:554][926]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 4.987 ms (total: 39.446 ms)
+[2025.11.13-14.07.53:554][926]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024992s)
+[2025.11.13-14.07.53:554][926]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDown/Lvl_TopDown.Lvl_TopDown to /Game/TopDown/UEDPIE_0_Lvl_TopDown.Lvl_TopDown (0.025033s)
+[2025.11.13-14.07.53:600][926]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2025.11.13-14.07.53:605][926]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_TopDown
+[2025.11.13-14.07.53:606][926]LogWorldPartition: ULevel::OnLevelLoaded(Lvl_TopDown)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.11.13-14.07.53:606][926]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.11.13-14.07.53:606][926]LogWorldPartition: UWorldPartition::Initialize : World = /Game/TopDown/UEDPIE_0_Lvl_TopDown.Lvl_TopDown, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.11.13-14.07.53:606][926]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.11.13-14.07.53:612][926]LogWorldPartition: Display: WorldPartition initialize took 5.200 ms (total: 500.140 ms)
+[2025.11.13-14.07.53:612][926]LogPlayLevel: PIE: World Init took: (0.006997s)
+[2025.11.13-14.07.53:613][926]LogAudio: Display: Creating Audio Device:                 Id: 7, Scope: Unique, Realtime: True
+[2025.11.13-14.07.53:613][926]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.11.13-14.07.53:613][926]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.11.13-14.07.53:613][926]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.11.13-14.07.53:613][926]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.11.13-14.07.53:613][926]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.11.13-14.07.53:613][926]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.11.13-14.07.53:613][926]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.11.13-14.07.53:613][926]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.11.13-14.07.53:613][926]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.11.13-14.07.53:613][926]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.11.13-14.07.53:613][926]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.11.13-14.07.53:615][926]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.11.13-14.07.53:630][926]LogAudioMixer: Display: Using Audio Hardware Device Unknown
+[2025.11.13-14.07.53:630][926]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.11.13-14.07.53:630][926]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.11.13-14.07.53:630][926]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.11.13-14.07.53:631][926]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=7
+[2025.11.13-14.07.53:631][926]LogAudioMixer: Display: StartRunningNullDevice() called, InstanceID=7
+[2025.11.13-14.07.53:631][926]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=7
+[2025.11.13-14.07.53:631][926]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=14396
+[2025.11.13-14.07.53:633][926]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=7
+[2025.11.13-14.07.53:633][926]LogInit: FAudioDevice initialized with ID 7.
+[2025.11.13-14.07.53:633][926]LogAudio: Display: Audio Device (ID: 7) registered with world 'Lvl_TopDown'.
+[2025.11.13-14.07.53:633][926]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 7
+[2025.11.13-14.07.53:642][926]LogLoad: Game class is 'BP_TopDownGameMode_C'
+[2025.11.13-14.07.53:651][926]LogWorld: Bringing World /Game/TopDown/UEDPIE_0_Lvl_TopDown.Lvl_TopDown up for play (max tick rate 0) at 2025.11.13-14.07.53
+[2025.11.13-14.07.53:651][926]LogWorld: Bringing up level for play took: 0.009230
+[2025.11.13-14.07.53:654][926]LogOnline: OSS: Created online subsystem instance for: :Context_8
+[2025.11.13-14.07.53:660][926]PIE: Server logged in
+[2025.11.13-14.07.53:662][926]PIE: Play in editor total start time 0.232 seconds.
+[2025.11.13-14.07.53:728][927]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.11.13-14.07.57:884][283]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.13-14.07.57:884][283]LogWorld: BeginTearingDown for /Game/TopDown/UEDPIE_0_Lvl_TopDown
+[2025.11.13-14.07.57:884][283]LogWorld: UWorld::CleanupWorld for Lvl_TopDown, bSessionEnded=true, bCleanupResources=true
+[2025.11.13-14.07.57:887][283]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.13-14.07.57:887][283]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/TopDown/UEDPIE_0_Lvl_TopDown.Lvl_TopDown
+[2025.11.13-14.07.57:888][283]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.11.13-14.07.57:890][283]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.13-14.07.57:906][283]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.13-14.07.57:907][283]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 7
+[2025.11.13-14.07.57:907][283]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7, StreamState=4
+[2025.11.13-14.07.57:909][283]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7, StreamState=2
+[2025.11.13-14.07.57:909][283]LogAudioMixer: Display: StopRunningNullDevice() called, InstanceID=7
+[2025.11.13-14.07.57:914][283]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2025.11.13-14.07.58:001][284]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2025.11.13-14.08.21:868][ 13]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.11.13-14.08.36:862][232]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.11.13-14.08.44:370][809]Cmd: DUPLICATE
+[2025.11.13-14.08.44:370][809]Cmd: ACTOR DUPLICATE
+[2025.11.13-14.09.17:473][ 33]Cmd: DUPLICATE
+[2025.11.13-14.09.17:473][ 33]Cmd: ACTOR DUPLICATE
+[2025.11.13-14.09.22:337][347]Cmd: TRANSACTION UNDO
+[2025.11.13-14.09.22:337][347]LogEditorTransaction: Undo Clicking on Elements
+[2025.11.13-14.09.22:409][347]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.11.13-14.09.23:118][367]Cmd: TRANSACTION UNDO
+[2025.11.13-14.09.23:118][367]LogEditorTransaction: Undo Clicking on Elements
+[2025.11.13-14.09.36:553][296]LogShaderCompilers: Display: ================================================
+[2025.11.13-14.09.36:553][296]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.11.13-14.09.36:553][296]LogShaderCompilers: Display: Total job queries 18,412, among them cache hits 4,856 (26.37%), DDC hits 12,349 (67.07%), Duplicates 584 (3.17%)
+[2025.11.13-14.09.36:553][296]LogShaderCompilers: Display: Tracking 12,972 distinct input hashes that result in 11,884 distinct outputs (91.61%)
+[2025.11.13-14.09.36:553][296]LogShaderCompilers: Display: RAM used: 158.54 MiB of 6.40 GiB budget. Usage: 2.42%
+[2025.11.13-14.09.36:553][296]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.11.13-14.09.36:553][296]LogShaderCompilers: Display: Shaders Compiled: 623
+[2025.11.13-14.09.36:553][296]LogShaderCompilers: Display: Jobs assigned 623, completed 623 (100%)
+[2025.11.13-14.09.36:553][296]LogShaderCompilers: Display: Average time worker was idle: 10.36 s
+[2025.11.13-14.09.36:553][296]LogShaderCompilers: Display: Time job spent in pending queue: average 12.96 s, longest 61.26 s
+[2025.11.13-14.09.36:553][296]LogShaderCompilers: Display: Job execution time: average 10.98 s, max 46.16 s
+[2025.11.13-14.09.36:553][296]LogShaderCompilers: Display: Job life time (pending + execution): average 23.93 s, max 64.48
+[2025.11.13-14.09.36:553][296]LogShaderCompilers: Display: Shader code size: total 9.717 MiB, numShaders 648, average 15.355 KiB, min 2.246 KiB, max 55.505 KiB
+[2025.11.13-14.09.36:553][296]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 159.74 s
+[2025.11.13-14.09.36:553][296]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.24%
+[2025.11.13-14.09.36:553][296]LogShaderCompilers: Display: Jobs were issued in 204 batches (only local compilation was used), average 3.05 jobs/batch
+[2025.11.13-14.09.36:553][296]LogShaderCompilers: Display: Average processing rate: 3.90 jobs/sec
+[2025.11.13-14.09.36:553][296]LogShaderCompilers: Display: Total thread time: 1,081.753 s
+[2025.11.13-14.09.36:553][296]LogShaderCompilers: Display: Total thread preprocess time: 250.902 s
+[2025.11.13-14.09.36:554][296]LogShaderCompilers: Display: Percentage time preprocessing: 23.19%
+[2025.11.13-14.09.36:554][296]LogShaderCompilers: Display: Effective parallelization: 6.77 (times faster than compiling all shaders on one thread). Compare with number of workers: 8 - 0.846519
+[2025.11.13-14.09.36:554][296]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.11.13-14.09.36:554][296]LogShaderCompilers: Display:                                  FPathTracingMaterialCHS_AHS (compiled   10 times, average 8.54 sec, max 21.42 sec, min 2.08 sec)
+[2025.11.13-14.09.36:554][296]LogShaderCompilers: Display:                                                 FDepthOnlyPS (compiled    1 times, average 5.94 sec, max 5.94 sec, min 5.94 sec)
+[2025.11.13-14.09.36:554][296]LogShaderCompilers: Display:                                 TBasePassCSFNoLightMapPolicy (compiled    4 times, average 4.73 sec, max 5.59 sec, min 2.58 sec)
+[2025.11.13-14.09.36:554][296]LogShaderCompilers: Display:                                                 FLumenCardCS (compiled    3 times, average 4.62 sec, max 5.09 sec, min 4.28 sec)
+[2025.11.13-14.09.36:554][296]LogShaderCompilers: Display:                                        FRayTracingLightingMS (compiled    1 times, average 4.44 sec, max 4.44 sec, min 4.44 sec)
+[2025.11.13-14.09.36:554][296]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.11.13-14.09.36:554][296]LogShaderCompilers: Display:                        FLumenReflectionHardwareRayTracingRGS - 25.17% of total time (compiled   80 times, average 3.40 sec, max 5.39 sec, min 2.36 sec)
+[2025.11.13-14.09.36:554][296]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 8.30% of total time (compiled   52 times, average 1.73 sec, max 14.39 sec, min 0.22 sec)
+[2025.11.13-14.09.36:554][296]LogShaderCompilers: Display:                                  FPathTracingMaterialCHS_AHS - 7.89% of total time (compiled   10 times, average 8.54 sec, max 21.42 sec, min 2.08 sec)
+[2025.11.13-14.09.36:554][296]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 5.96% of total time (compiled   56 times, average 1.15 sec, max 3.93 sec, min 0.42 sec)
+[2025.11.13-14.09.36:554][296]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy - 5.41% of total time (compiled   28 times, average 2.09 sec, max 5.52 sec, min 1.04 sec)
+[2025.11.13-14.09.36:554][296]LogShaderCompilers: Display: === Material stats ===
+[2025.11.13-14.09.36:554][296]LogShaderCompilers: Display: Materials Cooked:        0
+[2025.11.13-14.09.36:554][296]LogShaderCompilers: Display: Materials Translated:    159
+[2025.11.13-14.09.36:554][296]LogShaderCompilers: Display: Material Total Translate Time: 0.18 s
+[2025.11.13-14.09.36:554][296]LogShaderCompilers: Display: Material Translation Only: 0.07 s (41%)
+[2025.11.13-14.09.36:554][296]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (0%)
+[2025.11.13-14.09.36:554][296]LogShaderCompilers: Display: Material Cache Hits: 0 (0%)
+[2025.11.13-14.09.36:554][296]LogShaderCompilers: Display: ================================================
+[2025.11.13-14.10.12:970][882]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1308.161865
+[2025.11.13-14.10.13:108][894]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.13-14.10.13:108][894]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1308.287109, Update Interval: 307.192596
+[2025.11.13-14.10.13:874][957]LogSlate: Took 0.003100 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2025.11.13-14.10.33:094][466]LogContentBrowser: Deferred new asset file creation: NewMaterial
+[2025.11.13-14.10.33:215][466]LogContentBrowser: Creating deferred item: NewMaterial
+[2025.11.13-14.10.33:233][467]LogContentBrowser: Renaming the item being created (Deferred Item: NewMaterial).
+[2025.11.13-14.10.46:368][608]LogContentBrowser: Attempting asset rename: NewMaterial -> Grey
+[2025.11.13-14.10.46:369][608]LogContentBrowser: End creating deferred item NewMaterial
+[2025.11.13-14.10.47:331][663]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/Colours/Grey.Grey
+[2025.11.13-14.10.47:336][663]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_2
+[2025.11.13-14.10.47:342][663]LogStreaming: Display: FlushAsyncLoading(549): 1 QueuedPackages, 0 AsyncPackages
+[2025.11.13-14.10.47:360][663]LogStaticMesh: Display: Building static mesh Sphere_inversenormals (Required Memory Estimate: 1.522745 MB)...
+[2025.11.13-14.10.47:372][663]LogStaticMesh: Built static mesh [0.02s] /Engine/EditorMeshes/AssetViewer/Sphere_inversenormals.Sphere_inversenormals
+[2025.11.13-14.10.47:393][663]LogStaticMesh: Display: Building static mesh Floor_Mesh (Required Memory Estimate: 0.022237 MB)...
+[2025.11.13-14.10.47:395][663]LogStaticMesh: Built static mesh [0.00s] /Engine/EditorMeshes/AssetViewer/Floor_Mesh.Floor_Mesh
+[2025.11.13-14.10.48:078][663]MaterialEditorStats: Texture samplers: 0/16
+[2025.11.13-14.10.48:078][663]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2025.11.13-14.10.48:078][663]MaterialEditorStats: Shader Count: 0
+[2025.11.13-14.10.48:078][663]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.11.13-14.10.48:094][663]LogSlate: Took 0.003194 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2025.11.13-14.10.48:224][664]LogPSOHitching: Encountered 350 PSO creation hitches so far (130 graphics, 220 compute). 0 of them were precached.
+[2025.11.13-14.10.48:265][665]MaterialEditorStats: Base pass vertex shader: 148 instructions
+Stats: Resources Used: 4
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2025.11.13-14.10.48:265][665]MaterialEditorStats: Texture samplers: 0/16
+[2025.11.13-14.10.48:265][665]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2025.11.13-14.10.48:265][665]MaterialEditorStats: Shader Count: 3
+[2025.11.13-14.10.48:265][665]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.11.13-14.10.49:938][746]MaterialEditorStats: Base pass shader: 171 instructions
+Stats: Resources Used: 4
+Resource Limit: 64
+Samplers Used: 1
+Sampler Limit: 32
+
+[2025.11.13-14.10.49:938][746]MaterialEditorStats: Base pass vertex shader: 148 instructions
+Stats: Resources Used: 4
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2025.11.13-14.10.49:938][746]MaterialEditorStats: Texture samplers: 1/16
+[2025.11.13-14.10.49:938][746]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2025.11.13-14.10.49:938][746]MaterialEditorStats: Shader Count: 4
+[2025.11.13-14.10.49:938][746]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.11.13-14.11.01:047][824]LogSlate: Window 'Color Picker' being destroyed
+[2025.11.13-14.11.04:660][104]MaterialEditorStats: Base pass shader: 173 instructions
+Stats: Resources Used: 4
+Resource Limit: 64
+Samplers Used: 1
+Sampler Limit: 32
+
+[2025.11.13-14.11.04:660][104]MaterialEditorStats: Base pass vertex shader: 148 instructions
+Stats: Resources Used: 4
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2025.11.13-14.11.04:660][104]MaterialEditorStats: Texture samplers: 1/16
+[2025.11.13-14.11.04:660][104]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2025.11.13-14.11.04:660][104]MaterialEditorStats: Shader Count: 5
+[2025.11.13-14.11.04:660][104]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.11.13-14.11.07:249][252]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.11.13-14.11.07:617][274]MaterialEditorStats: Texture samplers: 0/16
+[2025.11.13-14.11.07:617][274]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2025.11.13-14.11.07:617][274]MaterialEditorStats: Shader Count: 0
+[2025.11.13-14.11.07:617][274]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.11.13-14.11.07:653][275]MaterialEditorStats: Base pass vertex shader: 148 instructions
+Stats: Resources Used: 4
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2025.11.13-14.11.07:653][275]MaterialEditorStats: Texture samplers: 0/16
+[2025.11.13-14.11.07:653][275]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2025.11.13-14.11.07:653][275]MaterialEditorStats: Shader Count: 2
+[2025.11.13-14.11.07:653][275]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.11.13-14.11.08:417][322]MaterialEditorStats: Base pass shader: 174 instructions
+Stats: Resources Used: 4
+Resource Limit: 64
+Samplers Used: 1
+Sampler Limit: 32
+
+[2025.11.13-14.11.08:417][322]MaterialEditorStats: Base pass vertex shader: 148 instructions
+Stats: Resources Used: 4
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2025.11.13-14.11.08:417][322]MaterialEditorStats: Texture samplers: 1/16
+[2025.11.13-14.11.08:417][322]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2025.11.13-14.11.08:417][322]MaterialEditorStats: Shader Count: 4
+[2025.11.13-14.11.08:417][322]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.11.13-14.11.11:584][518]MaterialEditorStats: Base pass vertex shader: 148 instructions
+Stats: Resources Used: 4
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2025.11.13-14.11.11:584][518]MaterialEditorStats: Texture samplers: 0/16
+[2025.11.13-14.11.11:584][518]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2025.11.13-14.11.11:584][518]MaterialEditorStats: Shader Count: 2
+[2025.11.13-14.11.11:584][518]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.11.13-14.11.12:380][568]MaterialEditorStats: Base pass shader: 174 instructions
+Stats: Resources Used: 4
+Resource Limit: 64
+Samplers Used: 1
+Sampler Limit: 32
+
+[2025.11.13-14.11.12:380][568]MaterialEditorStats: Base pass vertex shader: 148 instructions
+Stats: Resources Used: 4
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2025.11.13-14.11.12:380][568]MaterialEditorStats: Texture samplers: 1/16
+[2025.11.13-14.11.12:380][568]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2025.11.13-14.11.12:380][568]MaterialEditorStats: Shader Count: 4
+[2025.11.13-14.11.12:380][568]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.11.13-14.11.18:409][945]MaterialEditorStats: Texture samplers: 0/16
+[2025.11.13-14.11.18:409][945]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2025.11.13-14.11.18:409][945]MaterialEditorStats: Shader Count: 0
+[2025.11.13-14.11.18:409][945]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.11.13-14.11.18:424][946]MaterialEditorStats: Base pass shader: 174 instructions
+Stats: Resources Used: 4
+Resource Limit: 64
+Samplers Used: 1
+Sampler Limit: 32
+
+[2025.11.13-14.11.18:424][946]MaterialEditorStats: Base pass vertex shader: 148 instructions
+Stats: Resources Used: 4
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2025.11.13-14.11.18:424][946]MaterialEditorStats: Texture samplers: 1/16
+[2025.11.13-14.11.18:424][946]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2025.11.13-14.11.18:424][946]MaterialEditorStats: Shader Count: 5
+[2025.11.13-14.11.18:424][946]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.11.13-14.11.19:708][ 24]LogMaterialEditor: Saving and Compiling material Grey
+[2025.11.13-14.11.20:374][ 24]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2025.11.13-14.11.21:573][ 24]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2025.11.13-14.11.21:588][ 24]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.13-14.11.21:654][ 24]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Colours/Grey] ([1] browsable assets)...
+[2025.11.13-14.11.21:711][ 24]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Colours/Grey.Grey]
+[2025.11.13-14.11.21:711][ 24]OBJ SavePackage: Finished generating thumbnails for package [/Game/Colours/Grey]
+[2025.11.13-14.11.21:711][ 24]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Colours/Grey" FILE="../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/Colours/Grey.uasset" SILENT=true
+[2025.11.13-14.11.21:717][ 24]LogSavePackage: Moving output files for package: /Game/Colours/Grey
+[2025.11.13-14.11.21:717][ 24]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/GreyD9063F544252F148BB320E946BE7F1F5.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/Colours/Grey.uasset'
+[2025.11.13-14.11.21:726][ 24]LogFileHelpers: InternalPromptForCheckoutAndSave took 139.392 ms
+[2025.11.13-14.11.21:766][ 24]LogContentValidation: Display: Starting to validate 1 assets
+[2025.11.13-14.11.21:766][ 24]LogContentValidation: Enabled validators:
+[2025.11.13-14.11.21:766][ 24]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.13-14.11.21:766][ 24]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.13-14.11.21:766][ 24]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.13-14.11.21:766][ 24]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.13-14.11.21:766][ 24]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.13-14.11.21:766][ 24]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.13-14.11.21:766][ 24]AssetCheck: /Game/Colours/Grey Validating asset
+[2025.11.13-14.11.21:796][ 24]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/SourceControl/UncontrolledChangelists.json
+[2025.11.13-14.11.23:103][ 99]LogSlate: Window 'Grey' being destroyed
+[2025.11.13-14.11.23:107][ 99]LogSlate: Window 'Grey' being destroyed
+[2025.11.13-14.11.23:133][ 99]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2025.11.13-14.11.23:133][ 99]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.13-14.11.23:164][ 99]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2025.11.13-14.11.28:448][525]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.11.13-14.11.28:893][546]LogActorFactory: Loading ActorFactory Class /Script/Engine.LevelInstance
+[2025.11.13-14.11.30:574][687]Cmd: TRANSACTION UNDO
+[2025.11.13-14.11.30:574][687]LogEditorTransaction: Undo Place Objects
+[2025.11.13-14.12.05:734][546]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2025.11.13-14.12.05:742][546]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/TopDown/Lvl_TopDown/9/4T/JZ3ES8AXIC17BMBQODZSR5_Auto2
+[2025.11.13-14.12.05:742][546]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/JZ3ES8AXIC17BMBQODZSR5_Auto237BE1B7E4505BDF455AFF4B7FBD09E10.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/Autosaves/Game/__ExternalActors__/TopDown/Lvl_TopDown/9/4T/JZ3ES8AXIC17BMBQODZSR5_Auto2.uasset'
+[2025.11.13-14.12.05:748][546]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/TopDown/Lvl_TopDown/7/AR/AS7CX3YA7RC8CB08VTGMSW_Auto2
+[2025.11.13-14.12.05:748][546]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/AS7CX3YA7RC8CB08VTGMSW_Auto27A7A2AF34F024C834F760F9C75628B81.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/Autosaves/Game/__ExternalActors__/TopDown/Lvl_TopDown/7/AR/AS7CX3YA7RC8CB08VTGMSW_Auto2.uasset'
+[2025.11.13-14.12.05:754][546]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/TopDown/Lvl_TopDown/B/RR/7G1OUMHWK8ANTVWVOKDP8Y_Auto2
+[2025.11.13-14.12.05:754][546]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/7G1OUMHWK8ANTVWVOKDP8Y_Auto2CF17FD7A45100B7ED0BF42982EDB4226.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/Autosaves/Game/__ExternalActors__/TopDown/Lvl_TopDown/B/RR/7G1OUMHWK8ANTVWVOKDP8Y_Auto2.uasset'
+[2025.11.13-14.12.05:760][546]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/TopDown/Lvl_TopDown/5/9J/NOQLW2LSVXY02KBNI1CG9K_Auto2
+[2025.11.13-14.12.05:760][546]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/NOQLW2LSVXY02KBNI1CG9K_Auto2BFAD2AC546031ACFC2E8AB923DE0BF12.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/Autosaves/Game/__ExternalActors__/TopDown/Lvl_TopDown/5/9J/NOQLW2LSVXY02KBNI1CG9K_Auto2.uasset'
+[2025.11.13-14.12.05:766][546]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/TopDown/Lvl_TopDown/7/TQ/AOZUG12DUWTVA56ULSL3GM_Auto2
+[2025.11.13-14.12.05:766][546]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/AOZUG12DUWTVA56ULSL3GM_Auto2C72E965A49BA8488B4C0E3872A466A13.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/Autosaves/Game/__ExternalActors__/TopDown/Lvl_TopDown/7/TQ/AOZUG12DUWTVA56ULSL3GM_Auto2.uasset'
+[2025.11.13-14.12.05:772][546]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/TopDown/Lvl_TopDown/1/4Y/3QZVJX7MYAFPSI46TM5M7J_Auto2
+[2025.11.13-14.12.05:772][546]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/3QZVJX7MYAFPSI46TM5M7J_Auto271BC48DF4E60390420F808B99F067F81.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/Autosaves/Game/__ExternalActors__/TopDown/Lvl_TopDown/1/4Y/3QZVJX7MYAFPSI46TM5M7J_Auto2.uasset'
+[2025.11.13-14.12.05:777][546]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/TopDown/Lvl_TopDown/3/M0/EIDD32WATLXO7HOEFEYX6B_Auto2
+[2025.11.13-14.12.05:777][546]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/EIDD32WATLXO7HOEFEYX6B_Auto2E02984E84E94CF10ADB4A1854C68B8E7.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/Autosaves/Game/__ExternalActors__/TopDown/Lvl_TopDown/3/M0/EIDD32WATLXO7HOEFEYX6B_Auto2.uasset'
+[2025.11.13-14.12.05:783][546]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/TopDown/Lvl_TopDown/D/AI/FWSJR2Y3YTUN3VHFQ0QGBI_Auto2
+[2025.11.13-14.12.05:783][546]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/FWSJR2Y3YTUN3VHFQ0QGBI_Auto2FF38AAB24F7634606AB0EB966EFB1BB3.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/Autosaves/Game/__ExternalActors__/TopDown/Lvl_TopDown/D/AI/FWSJR2Y3YTUN3VHFQ0QGBI_Auto2.uasset'
+[2025.11.13-14.12.05:788][546]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/TopDown/Lvl_TopDown/D/T9/MS8Y9YI97TAJXOTQKKZ2W7_Auto2
+[2025.11.13-14.12.05:789][546]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/MS8Y9YI97TAJXOTQKKZ2W7_Auto2846092D444488F62CEBE958AD34D37B7.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/Autosaves/Game/__ExternalActors__/TopDown/Lvl_TopDown/D/T9/MS8Y9YI97TAJXOTQKKZ2W7_Auto2.uasset'
+[2025.11.13-14.12.05:794][546]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/TopDown/Lvl_TopDown/D/AZ/PGAIW386I1GVKF90DB98U6_Auto2
+[2025.11.13-14.12.05:794][546]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/PGAIW386I1GVKF90DB98U6_Auto2EA78898C4954A0AD4C2AAAAC1A25F5DC.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/Autosaves/Game/__ExternalActors__/TopDown/Lvl_TopDown/D/AZ/PGAIW386I1GVKF90DB98U6_Auto2.uasset'
+[2025.11.13-14.12.05:800][546]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/TopDown/Lvl_TopDown/E/8F/7FVSM8YWPIFCW5XSW168TK_Auto2
+[2025.11.13-14.12.05:800][546]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/7FVSM8YWPIFCW5XSW168TK_Auto2DF33D3E04A959F989699BFB80DFC7851.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/Autosaves/Game/__ExternalActors__/TopDown/Lvl_TopDown/E/8F/7FVSM8YWPIFCW5XSW168TK_Auto2.uasset'
+[2025.11.13-14.12.05:806][546]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/TopDown/Lvl_TopDown/1/EB/CYCCRBC62KDE8VLW12QLGL_Auto2
+[2025.11.13-14.12.05:806][546]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/CYCCRBC62KDE8VLW12QLGL_Auto2418A9AC44E95770CD5A1BCBA6FE5B016.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/Autosaves/Game/__ExternalActors__/TopDown/Lvl_TopDown/1/EB/CYCCRBC62KDE8VLW12QLGL_Auto2.uasset'
+[2025.11.13-14.12.05:808][546]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/TopDown/Lvl_TopDown' took 0.093
+[2025.11.13-14.12.05:808][546]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.093
+[2025.11.13-14.12.22:265][ 89]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.11.13-14.12.26:378][382]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.11.13-14.12.26:386][382]LogContentBundle: [Lvl_TopDown(Editor)] Generating Streaming for 0 Content Bundles.
+[2025.11.13-14.12.26:386][382]LogWorldPartition: Display: GenerateStreaming for 'Lvl_TopDown' started...
+[2025.11.13-14.12.26:388][382]LogWorldPartition: Display: GenerateStreaming for 'Lvl_TopDown' took 2.067 ms (total: 12.032 ms)
+[2025.11.13-14.12.26:424][382]LogFMOD: Display: Loaded bank lookup
+[2025.11.13-14.12.26:424][382]LogFMOD: Error: Failed to load asset lookup
+[2025.11.13-14.12.26:427][382]LogFMOD: Error: 'lowLevelSystem->getDriverInfo(DriverIndex, nullptr, 0, nullptr, &SystemSampleRate, nullptr, nullptr)' returned 'An invalid parameter was passed to this function.'
+[2025.11.13-14.12.26:427][382]LogFMOD: Default sample rate = 48000
+[2025.11.13-14.12.26:427][382]LogFMOD: System sample rate = 0
+[2025.11.13-14.12.26:427][382]LogFMOD: CallbackHandler not set.
+[2025.11.13-14.12.26:427][382]LogFMOD: Warning: C:\buildagent2\work\c1c3f17eb167c494\core_api\src\fmod_systemi.cpp(2909) - No output sound devices found - switching output mode to FMOD_OUTPUTTYPE_NOSOUND
+
+[2025.11.13-14.12.26:438][382]LogFMOD: Warning: Master bank (Master.bank) not found.
+[2025.11.13-14.12.26:476][382]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.11.13-14.12.26:476][382]LogPlayLevel: Creating play world package: /Game/TopDown/UEDPIE_0_Lvl_TopDown
+[2025.11.13-14.12.26:495][382]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2025.11.13-14.12.26:500][382]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 4.987 ms (total: 44.434 ms)
+[2025.11.13-14.12.26:500][382]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024799s)
+[2025.11.13-14.12.26:500][382]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDown/Lvl_TopDown.Lvl_TopDown to /Game/TopDown/UEDPIE_0_Lvl_TopDown.Lvl_TopDown (0.024840s)
+[2025.11.13-14.12.26:518][382]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2025.11.13-14.12.26:519][382]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_TopDown
+[2025.11.13-14.12.26:521][382]LogWorldPartition: ULevel::OnLevelLoaded(Lvl_TopDown)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.11.13-14.12.26:521][382]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.11.13-14.12.26:521][382]LogWorldPartition: UWorldPartition::Initialize : World = /Game/TopDown/UEDPIE_0_Lvl_TopDown.Lvl_TopDown, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.11.13-14.12.26:521][382]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.11.13-14.12.26:526][382]LogWorldPartition: Display: WorldPartition initialize took 5.768 ms (total: 505.908 ms)
+[2025.11.13-14.12.26:526][382]LogPlayLevel: PIE: World Init took: (0.007690s)
+[2025.11.13-14.12.26:527][382]LogAudio: Display: Creating Audio Device:                 Id: 8, Scope: Unique, Realtime: True
+[2025.11.13-14.12.26:527][382]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.11.13-14.12.26:527][382]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.11.13-14.12.26:527][382]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.11.13-14.12.26:527][382]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.11.13-14.12.26:527][382]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.11.13-14.12.26:527][382]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.11.13-14.12.26:527][382]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.11.13-14.12.26:527][382]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.11.13-14.12.26:527][382]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.11.13-14.12.26:527][382]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.11.13-14.12.26:527][382]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.11.13-14.12.26:529][382]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.11.13-14.12.26:545][382]LogAudioMixer: Display: Using Audio Hardware Device Unknown
+[2025.11.13-14.12.26:545][382]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.11.13-14.12.26:545][382]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.11.13-14.12.26:545][382]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.11.13-14.12.26:546][382]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=8
+[2025.11.13-14.12.26:546][382]LogAudioMixer: Display: StartRunningNullDevice() called, InstanceID=8
+[2025.11.13-14.12.26:546][382]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=8
+[2025.11.13-14.12.26:546][382]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=16236
+[2025.11.13-14.12.26:548][382]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=8
+[2025.11.13-14.12.26:548][382]LogInit: FAudioDevice initialized with ID 8.
+[2025.11.13-14.12.26:548][382]LogAudio: Display: Audio Device (ID: 8) registered with world 'Lvl_TopDown'.
+[2025.11.13-14.12.26:548][382]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 8
+[2025.11.13-14.12.26:553][382]LogLoad: Game class is 'BP_TopDownGameMode_C'
+[2025.11.13-14.12.26:563][382]LogWorld: Bringing World /Game/TopDown/UEDPIE_0_Lvl_TopDown.Lvl_TopDown up for play (max tick rate 0) at 2025.11.13-14.12.26
+[2025.11.13-14.12.26:563][382]LogWorld: Bringing up level for play took: 0.010085
+[2025.11.13-14.12.26:566][382]LogOnline: OSS: Created online subsystem instance for: :Context_10
+[2025.11.13-14.12.26:572][382]PIE: Server logged in
+[2025.11.13-14.12.26:574][382]PIE: Play in editor total start time 0.188 seconds.
+[2025.11.13-14.12.26:638][383]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.11.13-14.12.36:559][254]LogShaderCompilers: Display: ================================================
+[2025.11.13-14.12.36:559][254]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.11.13-14.12.36:559][254]LogShaderCompilers: Display: Total job queries 18,481, among them cache hits 4,899 (26.51%), DDC hits 12,354 (66.85%), Duplicates 585 (3.17%)
+[2025.11.13-14.12.36:559][254]LogShaderCompilers: Display: Tracking 12,997 distinct input hashes that result in 11,904 distinct outputs (91.59%)
+[2025.11.13-14.12.36:559][254]LogShaderCompilers: Display: RAM used: 158.67 MiB of 6.40 GiB budget. Usage: 2.42%
+[2025.11.13-14.12.36:559][254]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.11.13-14.12.36:559][254]LogShaderCompilers: Display: Shaders Compiled: 643
+[2025.11.13-14.12.36:559][254]LogShaderCompilers: Display: Jobs assigned 643, completed 643 (100%)
+[2025.11.13-14.12.36:559][254]LogShaderCompilers: Display: Average time worker was idle: 36.32 s
+[2025.11.13-14.12.36:559][254]LogShaderCompilers: Display: Time job spent in pending queue: average 12.55 s, longest 61.26 s
+[2025.11.13-14.12.36:559][254]LogShaderCompilers: Display: Job execution time: average 10.67 s, max 46.16 s
+[2025.11.13-14.12.36:560][254]LogShaderCompilers: Display: Job life time (pending + execution): average 23.23 s, max 64.48
+[2025.11.13-14.12.36:560][254]LogShaderCompilers: Display: Shader code size: total 9.879 MiB, numShaders 668, average 15.145 KiB, min 2.246 KiB, max 55.505 KiB
+[2025.11.13-14.12.36:560][254]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 168.01 s
+[2025.11.13-14.12.36:560][254]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.24%
+[2025.11.13-14.12.36:560][254]LogShaderCompilers: Display: Jobs were issued in 224 batches (only local compilation was used), average 2.87 jobs/batch
+[2025.11.13-14.12.36:560][254]LogShaderCompilers: Display: Average processing rate: 3.83 jobs/sec
+[2025.11.13-14.12.36:560][254]LogShaderCompilers: Display: Total thread time: 1,097.805 s
+[2025.11.13-14.12.36:560][254]LogShaderCompilers: Display: Total thread preprocess time: 252.033 s
+[2025.11.13-14.12.36:560][254]LogShaderCompilers: Display: Percentage time preprocessing: 22.96%
+[2025.11.13-14.12.36:560][254]LogShaderCompilers: Display: Effective parallelization: 6.53 (times faster than compiling all shaders on one thread). Compare with number of workers: 8 - 0.816778
+[2025.11.13-14.12.36:560][254]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.11.13-14.12.36:560][254]LogShaderCompilers: Display:                                  FPathTracingMaterialCHS_AHS (compiled   10 times, average 8.54 sec, max 21.42 sec, min 2.08 sec)
+[2025.11.13-14.12.36:560][254]LogShaderCompilers: Display:                                                 FDepthOnlyPS (compiled    1 times, average 5.94 sec, max 5.94 sec, min 5.94 sec)
+[2025.11.13-14.12.36:560][254]LogShaderCompilers: Display:                                 TBasePassCSFNoLightMapPolicy (compiled    4 times, average 4.73 sec, max 5.59 sec, min 2.58 sec)
+[2025.11.13-14.12.36:560][254]LogShaderCompilers: Display:                                                 FLumenCardCS (compiled    3 times, average 4.62 sec, max 5.09 sec, min 4.28 sec)
+[2025.11.13-14.12.36:560][254]LogShaderCompilers: Display:                                        FRayTracingLightingMS (compiled    1 times, average 4.44 sec, max 4.44 sec, min 4.44 sec)
+[2025.11.13-14.12.36:560][254]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.11.13-14.12.36:560][254]LogShaderCompilers: Display:                        FLumenReflectionHardwareRayTracingRGS - 24.81% of total time (compiled   80 times, average 3.40 sec, max 5.39 sec, min 2.36 sec)
+[2025.11.13-14.12.36:560][254]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 8.18% of total time (compiled   52 times, average 1.73 sec, max 14.39 sec, min 0.22 sec)
+[2025.11.13-14.12.36:560][254]LogShaderCompilers: Display:                                  FPathTracingMaterialCHS_AHS - 7.78% of total time (compiled   10 times, average 8.54 sec, max 21.42 sec, min 2.08 sec)
+[2025.11.13-14.12.36:560][254]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 6.32% of total time (compiled   63 times, average 1.10 sec, max 3.93 sec, min 0.42 sec)
+[2025.11.13-14.12.36:560][254]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy - 6.02% of total time (compiled   34 times, average 1.94 sec, max 5.52 sec, min 0.86 sec)
+[2025.11.13-14.12.36:560][254]LogShaderCompilers: Display: === Material stats ===
+[2025.11.13-14.12.36:560][254]LogShaderCompilers: Display: Materials Cooked:        0
+[2025.11.13-14.12.36:560][254]LogShaderCompilers: Display: Materials Translated:    170
+[2025.11.13-14.12.36:560][254]LogShaderCompilers: Display: Material Total Translate Time: 0.19 s
+[2025.11.13-14.12.36:560][254]LogShaderCompilers: Display: Material Translation Only: 0.08 s (41%)
+[2025.11.13-14.12.36:560][254]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (0%)
+[2025.11.13-14.12.36:560][254]LogShaderCompilers: Display: Material Cache Hits: 0 (0%)
+[2025.11.13-14.12.36:560][254]LogShaderCompilers: Display: ================================================
+[2025.11.13-14.12.37:270][315]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=8
+[2025.11.13-14.12.37:270][315]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.11.13-14.12.49:242][366]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/TopDown/Lvl_TopDown"
+[2025.11.13-14.12.49:242][366]LogNet: Browse: /Game/TopDown/Lvl_TopDown
+[2025.11.13-14.12.49:243][366]LogLoad: LoadMap: /Game/TopDown/Lvl_TopDown
+[2025.11.13-14.12.49:243][366]LogWorld: BeginTearingDown for /Game/TopDown/UEDPIE_0_Lvl_TopDown
+[2025.11.13-14.12.49:244][366]LogSpawn: Warning: SpawnActor failed because we are in the process of tearing down the world
+[2025.11.13-14.12.49:245][366]LogWorld: UWorld::CleanupWorld for Lvl_TopDown, bSessionEnded=true, bCleanupResources=true
+[2025.11.13-14.12.49:248][366]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.13-14.12.49:248][366]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/TopDown/UEDPIE_0_Lvl_TopDown.Lvl_TopDown
+[2025.11.13-14.12.49:308][366]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.11.13-14.12.49:311][366]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2025.11.13-14.12.49:314][366]LogPlayLevel: Creating play world package: /Game/TopDown/UEDPIE_0_Lvl_TopDown
+[2025.11.13-14.12.49:333][366]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2025.11.13-14.12.49:338][366]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 4.959 ms (total: 49.393 ms)
+[2025.11.13-14.12.49:338][366]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024628s)
+[2025.11.13-14.12.49:338][366]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDown/Lvl_TopDown.Lvl_TopDown to /Game/TopDown/UEDPIE_0_Lvl_TopDown.Lvl_TopDown (0.024682s)
+[2025.11.13-14.12.49:339][366]LogAudio: Display: Audio Device (ID: 8) registered with world 'Lvl_TopDown'.
+[2025.11.13-14.12.49:339][366]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_TopDown
+[2025.11.13-14.12.49:340][366]LogWorldPartition: ULevel::OnLevelLoaded(Lvl_TopDown)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.11.13-14.12.49:340][366]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.11.13-14.12.49:340][366]LogWorldPartition: UWorldPartition::Initialize : World = /Game/TopDown/UEDPIE_0_Lvl_TopDown.Lvl_TopDown, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.11.13-14.12.49:340][366]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.11.13-14.12.49:345][366]LogWorldPartition: Display: WorldPartition initialize took 4.985 ms (total: 510.893 ms)
+[2025.11.13-14.12.49:345][366]LogPlayLevel: PIE: World Init took: (0.006654s)
+[2025.11.13-14.12.49:345][366]LogLoad: Game class is 'BP_TopDownGameMode_C'
+[2025.11.13-14.12.49:354][366]LogWorld: Bringing World /Game/TopDown/UEDPIE_0_Lvl_TopDown.Lvl_TopDown up for play (max tick rate 0) at 2025.11.13-14.12.49
+[2025.11.13-14.12.49:354][366]LogWorld: Bringing up level for play took: 0.009161
+[2025.11.13-14.12.49:358][366]LogLoad: Took 0.116047 seconds to LoadMap(/Game/TopDown/UEDPIE_0_Lvl_TopDown)
+[2025.11.13-14.12.49:358][366]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/TopDown/UEDPIE_0_Lvl_TopDown
+[2025.11.13-14.12.49:368][366]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.11.13-14.12.49:546][367]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.13-14.12.49:546][367]LogWorld: BeginTearingDown for /Game/TopDown/UEDPIE_0_Lvl_TopDown
+[2025.11.13-14.12.49:547][367]LogWorld: UWorld::CleanupWorld for Lvl_TopDown, bSessionEnded=true, bCleanupResources=true
+[2025.11.13-14.12.49:549][367]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.13-14.12.49:549][367]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/TopDown/UEDPIE_0_Lvl_TopDown.Lvl_TopDown
+[2025.11.13-14.12.49:551][367]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.11.13-14.12.49:553][367]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.13-14.12.49:573][367]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.13-14.12.49:574][367]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 8
+[2025.11.13-14.12.49:574][367]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8, StreamState=4
+[2025.11.13-14.12.49:576][367]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8, StreamState=2
+[2025.11.13-14.12.49:576][367]LogAudioMixer: Display: StopRunningNullDevice() called, InstanceID=8
+[2025.11.13-14.12.49:581][367]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2025.11.13-14.12.49:679][368]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2025.11.13-14.12.52:278][571]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.11.13-14.13.22:276][ 42]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.11.13-14.13.37:284][281]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.11.13-14.13.52:287][512]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.11.13-14.14.06:285][662]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.11.13-14.14.57:929][904]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.11.13-14.15.13:445][178]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.11.13-14.15.30:933][609]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.11.13-14.15.37:515][ 97]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1632.707520
+[2025.11.13-14.15.37:763][114]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.13-14.15.37:763][114]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1632.942261, Update Interval: 315.654175
+[2025.11.13-14.15.58:535][738]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.11.13-14.16.13:461][758]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.11.13-14.16.20:508][248]Cmd: DELETE
+[2025.11.13-14.16.20:508][248]Cmd: ACTOR DELETE
+[2025.11.13-14.16.20:511][248]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.11.13-14.16.20:536][248]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2025.11.13-14.16.20:540][248]LogEditorActor: Deleted 1 Actors (0.031 secs)
+[2025.11.13-14.16.27:912][725]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.11.13-14.16.30:322][885]Cmd: DUPLICATE
+[2025.11.13-14.16.30:322][885]Cmd: ACTOR DUPLICATE
+[2025.11.13-14.16.41:981][689]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2025.11.13-14.16.42:805][741]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2025.11.13-14.16.42:934][748]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.11.13-14.16.43:429][782]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2025.11.13-14.16.44:253][839]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2025.11.13-14.16.57:928][735]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.11.13-14.17.13:470][788]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.11.13-14.17.27:734][777]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.11.13-14.17.27:742][777]LogContentBundle: [Lvl_TopDown(Editor)] Generating Streaming for 0 Content Bundles.
+[2025.11.13-14.17.27:742][777]LogWorldPartition: Display: GenerateStreaming for 'Lvl_TopDown' started...
+[2025.11.13-14.17.27:745][777]LogWorldPartition: Display: GenerateStreaming for 'Lvl_TopDown' took 2.511 ms (total: 14.543 ms)
+[2025.11.13-14.17.27:775][777]LogFMOD: Display: Loaded bank lookup
+[2025.11.13-14.17.27:775][777]LogFMOD: Error: Failed to load asset lookup
+[2025.11.13-14.17.27:778][777]LogFMOD: Error: 'lowLevelSystem->getDriverInfo(DriverIndex, nullptr, 0, nullptr, &SystemSampleRate, nullptr, nullptr)' returned 'An invalid parameter was passed to this function.'
+[2025.11.13-14.17.27:778][777]LogFMOD: Default sample rate = 48000
+[2025.11.13-14.17.27:778][777]LogFMOD: System sample rate = 0
+[2025.11.13-14.17.27:778][777]LogFMOD: CallbackHandler not set.
+[2025.11.13-14.17.27:778][777]LogFMOD: Warning: C:\buildagent2\work\c1c3f17eb167c494\core_api\src\fmod_systemi.cpp(2909) - No output sound devices found - switching output mode to FMOD_OUTPUTTYPE_NOSOUND
+
+[2025.11.13-14.17.27:788][777]LogFMOD: Warning: Master bank (Master.bank) not found.
+[2025.11.13-14.17.27:828][777]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.11.13-14.17.27:828][777]LogPlayLevel: Creating play world package: /Game/TopDown/UEDPIE_0_Lvl_TopDown
+[2025.11.13-14.17.27:849][777]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2025.11.13-14.17.27:853][777]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 5.032 ms (total: 54.425 ms)
+[2025.11.13-14.17.27:853][777]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025410s)
+[2025.11.13-14.17.27:853][777]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDown/Lvl_TopDown.Lvl_TopDown to /Game/TopDown/UEDPIE_0_Lvl_TopDown.Lvl_TopDown (0.025452s)
+[2025.11.13-14.17.27:873][777]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2025.11.13-14.17.27:880][777]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_TopDown
+[2025.11.13-14.17.27:881][777]LogWorldPartition: ULevel::OnLevelLoaded(Lvl_TopDown)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.11.13-14.17.27:881][777]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.11.13-14.17.27:882][777]LogWorldPartition: UWorldPartition::Initialize : World = /Game/TopDown/UEDPIE_0_Lvl_TopDown.Lvl_TopDown, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.11.13-14.17.27:882][777]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.11.13-14.17.27:887][777]LogWorldPartition: Display: WorldPartition initialize took 5.279 ms (total: 516.173 ms)
+[2025.11.13-14.17.27:887][777]LogPlayLevel: PIE: World Init took: (0.007238s)
+[2025.11.13-14.17.27:888][777]LogAudio: Display: Creating Audio Device:                 Id: 9, Scope: Unique, Realtime: True
+[2025.11.13-14.17.27:888][777]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.11.13-14.17.27:888][777]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.11.13-14.17.27:888][777]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.11.13-14.17.27:888][777]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.11.13-14.17.27:888][777]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.11.13-14.17.27:888][777]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.11.13-14.17.27:888][777]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.11.13-14.17.27:888][777]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.11.13-14.17.27:888][777]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.11.13-14.17.27:888][777]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.11.13-14.17.27:888][777]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.11.13-14.17.27:890][777]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.11.13-14.17.27:905][777]LogAudioMixer: Display: Using Audio Hardware Device Unknown
+[2025.11.13-14.17.27:905][777]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.11.13-14.17.27:905][777]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.11.13-14.17.27:905][777]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.11.13-14.17.27:906][777]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=9
+[2025.11.13-14.17.27:906][777]LogAudioMixer: Display: StartRunningNullDevice() called, InstanceID=9
+[2025.11.13-14.17.27:906][777]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=9
+[2025.11.13-14.17.27:906][777]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=25960
+[2025.11.13-14.17.27:906][777]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=9
+[2025.11.13-14.17.27:908][777]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=9
+[2025.11.13-14.17.27:908][777]LogInit: FAudioDevice initialized with ID 9.
+[2025.11.13-14.17.27:909][777]LogAudio: Display: Audio Device (ID: 9) registered with world 'Lvl_TopDown'.
+[2025.11.13-14.17.27:909][777]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 9
+[2025.11.13-14.17.27:913][777]LogLoad: Game class is 'BP_TopDownGameMode_C'
+[2025.11.13-14.17.27:923][777]LogWorld: Bringing World /Game/TopDown/UEDPIE_0_Lvl_TopDown.Lvl_TopDown up for play (max tick rate 0) at 2025.11.13-14.17.27
+[2025.11.13-14.17.27:923][777]LogWorld: Bringing up level for play took: 0.009444
+[2025.11.13-14.17.27:926][777]LogOnline: OSS: Created online subsystem instance for: :Context_11
+[2025.11.13-14.17.27:932][777]PIE: Server logged in
+[2025.11.13-14.17.27:934][777]PIE: Play in editor total start time 0.191 seconds.
+[2025.11.13-14.17.27:993][778]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.11.13-14.17.41:244][933]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=9
+[2025.11.13-14.17.51:928][859]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=9
+[2025.11.13-14.17.57:201][296]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.13-14.17.57:201][296]LogWorld: BeginTearingDown for /Game/TopDown/UEDPIE_0_Lvl_TopDown
+[2025.11.13-14.17.57:201][296]LogWorld: UWorld::CleanupWorld for Lvl_TopDown, bSessionEnded=true, bCleanupResources=true
+[2025.11.13-14.17.57:204][296]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.13-14.17.57:204][296]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/TopDown/UEDPIE_0_Lvl_TopDown.Lvl_TopDown
+[2025.11.13-14.17.57:205][296]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.11.13-14.17.57:208][296]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.13-14.17.57:228][296]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.11.13-14.17.57:228][296]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 9
+[2025.11.13-14.17.57:229][296]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9, StreamState=4
+[2025.11.13-14.17.57:231][296]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9, StreamState=2
+[2025.11.13-14.17.57:231][296]LogAudioMixer: Display: StopRunningNullDevice() called, InstanceID=9
+[2025.11.13-14.17.57:233][296]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.13-14.17.57:236][296]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2025.11.13-14.17.57:325][297]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2025.11.13-14.18.06:929][113]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.11.13-14.18.19:825][250]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.11.13-14.18.32:285][171]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.11.13-14.19.22:244][697]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.11.13-14.19.35:011][670]Cmd: DELETE
+[2025.11.13-14.19.35:012][670]Cmd: ACTOR DELETE
+[2025.11.13-14.19.35:014][670]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.11.13-14.19.35:039][670]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2025.11.13-14.19.35:041][670]LogEditorActor: Deleted 1 Actors (0.030 secs)
+[2025.11.13-14.19.35:503][695]Cmd: DELETE
+[2025.11.13-14.19.35:503][695]Cmd: ACTOR DELETE
+[2025.11.13-14.19.35:505][695]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.11.13-14.19.35:532][695]LogUObjectHash: Compacting FUObjectHashTables data took   0.29ms
+[2025.11.13-14.19.35:535][695]LogEditorActor: Deleted 1 Actors (0.032 secs)
+[2025.11.13-14.19.35:915][706]Cmd: DELETE
+[2025.11.13-14.19.35:915][706]Cmd: ACTOR DELETE
+[2025.11.13-14.19.35:917][706]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.11.13-14.19.35:938][706]LogUObjectHash: Compacting FUObjectHashTables data took   0.32ms
+[2025.11.13-14.19.35:940][706]LogEditorActor: Deleted 1 Actors (0.025 secs)
+[2025.11.13-14.19.36:232][717]Cmd: DELETE
+[2025.11.13-14.19.36:232][717]Cmd: ACTOR DELETE
+[2025.11.13-14.19.36:232][717]LogConsoleManager: Warning: Performance warning: Many (31) failed FindConsoleObject() for 'ACTOR'. 
+[2025.11.13-14.19.36:234][717]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.11.13-14.19.36:255][717]LogUObjectHash: Compacting FUObjectHashTables data took   0.29ms
+[2025.11.13-14.19.36:257][717]LogEditorActor: Deleted 1 Actors (0.024 secs)
+[2025.11.13-14.19.36:620][730]Cmd: DELETE
+[2025.11.13-14.19.36:620][730]Cmd: ACTOR DELETE
+[2025.11.13-14.19.36:622][730]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.11.13-14.19.36:649][730]LogUObjectHash: Compacting FUObjectHashTables data took   0.28ms
+[2025.11.13-14.19.36:651][730]LogEditorActor: Deleted 1 Actors (0.031 secs)
+[2025.11.13-14.19.37:040][746]Cmd: DELETE
+[2025.11.13-14.19.37:040][746]Cmd: ACTOR DELETE
+[2025.11.13-14.19.37:041][746]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.11.13-14.19.37:062][746]LogUObjectHash: Compacting FUObjectHashTables data took   0.31ms
+[2025.11.13-14.19.37:064][746]LogEditorActor: Deleted 1 Actors (0.024 secs)
+[2025.11.13-14.19.37:222][750]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.11.13-14.19.37:384][756]Cmd: DELETE
+[2025.11.13-14.19.37:385][756]Cmd: ACTOR DELETE
+[2025.11.13-14.19.37:386][756]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.11.13-14.19.37:405][756]LogUObjectHash: Compacting FUObjectHashTables data took   0.31ms
+[2025.11.13-14.19.37:408][756]LogEditorActor: Deleted 1 Actors (0.023 secs)
+[2025.11.13-14.19.37:788][771]Cmd: DELETE
+[2025.11.13-14.19.37:788][771]Cmd: ACTOR DELETE
+[2025.11.13-14.19.37:790][771]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.11.13-14.19.37:811][771]LogUObjectHash: Compacting FUObjectHashTables data took   0.29ms
+[2025.11.13-14.19.37:812][771]LogEditorActor: Deleted 1 Actors (0.024 secs)
+[2025.11.13-14.19.38:189][785]Cmd: DELETE
+[2025.11.13-14.19.38:190][785]Cmd: ACTOR DELETE
+[2025.11.13-14.19.38:192][785]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.11.13-14.19.38:222][785]LogUObjectHash: Compacting FUObjectHashTables data took   0.30ms
+[2025.11.13-14.19.38:224][785]LogEditorActor: Deleted 1 Actors (0.034 secs)
+[2025.11.13-14.19.38:913][827]Cmd: DELETE
+[2025.11.13-14.19.38:913][827]Cmd: ACTOR DELETE
+[2025.11.13-14.19.38:915][827]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.11.13-14.19.38:937][827]LogUObjectHash: Compacting FUObjectHashTables data took   0.37ms
+[2025.11.13-14.19.38:940][827]LogEditorActor: Deleted 1 Actors (0.027 secs)
+[2025.11.13-14.19.39:964][895]Cmd: DELETE
+[2025.11.13-14.19.39:964][895]Cmd: ACTOR DELETE
+[2025.11.13-14.19.39:967][895]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.11.13-14.19.39:989][895]LogUObjectHash: Compacting FUObjectHashTables data took   0.29ms
+[2025.11.13-14.19.39:992][895]LogEditorActor: Deleted 1 Actors (0.027 secs)
+[2025.11.13-14.19.40:539][928]Cmd: DELETE
+[2025.11.13-14.19.40:539][928]Cmd: ACTOR DELETE
+[2025.11.13-14.19.40:541][928]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.11.13-14.19.40:562][928]LogUObjectHash: Compacting FUObjectHashTables data took   0.29ms
+[2025.11.13-14.19.40:565][928]LogEditorActor: Deleted 1 Actors (0.026 secs)
+[2025.11.13-14.19.41:979][ 31]Cmd: DELETE
+[2025.11.13-14.19.41:979][ 31]Cmd: ACTOR DELETE
+[2025.11.13-14.19.41:980][ 31]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.11.13-14.19.42:000][ 31]LogUObjectHash: Compacting FUObjectHashTables data took   0.29ms
+[2025.11.13-14.19.42:002][ 31]LogEditorActor: Deleted 1 Actors (0.024 secs)
+[2025.11.13-14.19.42:883][ 87]Cmd: DELETE
+[2025.11.13-14.19.42:883][ 87]Cmd: ACTOR DELETE
+[2025.11.13-14.19.42:886][ 87]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.11.13-14.19.42:907][ 87]LogUObjectHash: Compacting FUObjectHashTables data took   0.29ms
+[2025.11.13-14.19.42:909][ 87]LogEditorActor: Deleted 1 Actors (0.026 secs)
+[2025.11.13-14.19.44:312][203]Cmd: DELETE
+[2025.11.13-14.19.44:312][203]Cmd: ACTOR DELETE
+[2025.11.13-14.19.44:314][203]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.11.13-14.19.44:333][203]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2025.11.13-14.19.44:336][203]LogEditorActor: Deleted 1 Actors (0.023 secs)
+[2025.11.13-14.19.47:597][477]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.11.13-14.19.52:183][805]Cmd: DELETE
+[2025.11.13-14.19.52:183][805]Cmd: ACTOR DELETE
+[2025.11.13-14.19.52:185][805]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.11.13-14.19.52:206][805]LogUObjectHash: Compacting FUObjectHashTables data took   0.28ms
+[2025.11.13-14.19.52:208][805]LogEditorActor: Deleted 1 Actors (0.025 secs)
+[2025.11.13-14.19.52:738][832]Cmd: DELETE
+[2025.11.13-14.19.52:738][832]Cmd: ACTOR DELETE
+[2025.11.13-14.19.52:740][832]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.11.13-14.19.52:760][832]LogUObjectHash: Compacting FUObjectHashTables data took   0.29ms
+[2025.11.13-14.19.52:763][832]LogEditorActor: Deleted 1 Actors (0.025 secs)
+[2025.11.13-14.19.53:380][866]Cmd: DELETE
+[2025.11.13-14.19.53:380][866]Cmd: ACTOR DELETE
+[2025.11.13-14.19.53:382][866]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.11.13-14.19.53:402][866]LogUObjectHash: Compacting FUObjectHashTables data took   0.29ms
+[2025.11.13-14.19.53:405][866]LogEditorActor: Deleted 1 Actors (0.025 secs)
+[2025.11.13-14.19.56:331][102]Cmd: DUPLICATE
+[2025.11.13-14.19.56:331][102]Cmd: ACTOR DUPLICATE
+[2025.11.13-14.19.58:586][274]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.11.13-14.20.21:949][925]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.11.13-14.20.42:976][482]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.11.13-14.20.53:082][239]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.11.13-14.21.06:951][224]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.11.13-14.21.21:950][372]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.11.13-14.21.30:153][909]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1985.354126
+[2025.11.13-14.21.30:311][921]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.13-14.21.30:311][921]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1985.503296, Update Interval: 335.836670
+[2025.11.13-14.21.34:522][213]Cmd: DUPLICATE
+[2025.11.13-14.21.34:522][213]Cmd: ACTOR DUPLICATE
+[2025.11.13-14.21.37:263][419]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.11.13-14.21.52:256][498]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.11.13-14.22.06:965][658]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.11.13-14.22.21:958][796]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.11.13-14.22.42:278][227]Cmd: DUPLICATE
+[2025.11.13-14.22.42:278][227]Cmd: ACTOR DUPLICATE
+[2025.11.13-14.22.45:257][461]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.11.13-14.22.57:569][383]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.13-14.22.57:658][383]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2025.11.13-14.22.57:682][383]LogUObjectHash: Compacting FUObjectHashTables data took   0.29ms
+[2025.11.13-14.22.57:703][383]LogUObjectHash: Compacting FUObjectHashTables data took   0.30ms
+[2025.11.13-14.22.57:712][383]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/4/GW/71HRF81VGBJSFOHPN7CDAU
+[2025.11.13-14.22.57:713][383]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/71HRF81VGBJSFOHPN7CDAUA33536E94A45385F4A5729A360F4CD35.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/4/GW/71HRF81VGBJSFOHPN7CDAU.uasset'
+[2025.11.13-14.22.57:720][383]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/A/DY/BWUPADTQ67VVJM9U46NWA6
+[2025.11.13-14.22.57:721][383]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/BWUPADTQ67VVJM9U46NWA6F3D4CFD645F2D0D96BC47684952008F6.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/A/DY/BWUPADTQ67VVJM9U46NWA6.uasset'
+[2025.11.13-14.22.57:728][383]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/1/LH/1YGHXLE8DE0OOQQIJ1VNES
+[2025.11.13-14.22.57:729][383]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/1YGHXLE8DE0OOQQIJ1VNES1E7496E049C776ABA9F24194B25FF302.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/1/LH/1YGHXLE8DE0OOQQIJ1VNES.uasset'
+[2025.11.13-14.22.57:735][383]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/8/D1/2FJCX0I3H9CHU11I4M8TTB
+[2025.11.13-14.22.57:735][383]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/2FJCX0I3H9CHU11I4M8TTB82D355B64317337FBCE87CA62DCED3B1.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/8/D1/2FJCX0I3H9CHU11I4M8TTB.uasset'
+[2025.11.13-14.22.57:743][383]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/0/TP/T46LEYUUOAJYYX1LSLIKM5
+[2025.11.13-14.22.57:744][383]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/T46LEYUUOAJYYX1LSLIKM5384B04664134DAFE8E4A70A8B6E58E66.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/0/TP/T46LEYUUOAJYYX1LSLIKM5.uasset'
+[2025.11.13-14.22.57:749][383]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/3/JV/8QFZZT3Z26S06JIY2W6LNJ
+[2025.11.13-14.22.57:750][383]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/8QFZZT3Z26S06JIY2W6LNJ69585C6740210D84B302AF850F8EC241.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/3/JV/8QFZZT3Z26S06JIY2W6LNJ.uasset'
+[2025.11.13-14.22.57:757][383]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/3/YI/PKN8UXFBIHVHQQR112JFS3
+[2025.11.13-14.22.57:758][383]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/PKN8UXFBIHVHQQR112JFS3E5A97B854CDE02AA9AEBEF93464A7715.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/3/YI/PKN8UXFBIHVHQQR112JFS3.uasset'
+[2025.11.13-14.22.57:765][383]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/6/NE/P67T0JM5JCAMC4RHJHFOQW
+[2025.11.13-14.22.57:766][383]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/P67T0JM5JCAMC4RHJHFOQWE84C6E7B43B2835C1FFF2B8BD1401617.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/6/NE/P67T0JM5JCAMC4RHJHFOQW.uasset'
+[2025.11.13-14.22.57:772][383]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/A/7P/09ZLIDFGELCJ7G89804M6O
+[2025.11.13-14.22.57:773][383]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/09ZLIDFGELCJ7G89804M6OE3F614E845702CEBDB798F97BCBBFFDE.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/A/7P/09ZLIDFGELCJ7G89804M6O.uasset'
+[2025.11.13-14.22.57:779][383]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/D/7U/CFGH0D7GYX06225WP9DSU7
+[2025.11.13-14.22.57:780][383]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/CFGH0D7GYX06225WP9DSU791C3BB25417D59E793A16B8044EA643D.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/D/7U/CFGH0D7GYX06225WP9DSU7.uasset'
+[2025.11.13-14.22.57:786][383]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/D/AZ/PGAIW386I1GVKF90DB98U6
+[2025.11.13-14.22.57:787][383]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/PGAIW386I1GVKF90DB98U6E0D1A3F84C10E6E8F53521B9806FA65B.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/D/AZ/PGAIW386I1GVKF90DB98U6.uasset'
+[2025.11.13-14.22.57:793][383]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/2/75/TSJ0CTHSTJ46QXOAGDDJ11
+[2025.11.13-14.22.57:793][383]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/TSJ0CTHSTJ46QXOAGDDJ112825408E46B8A9119CD7918B68E2F907.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/2/75/TSJ0CTHSTJ46QXOAGDDJ11.uasset'
+[2025.11.13-14.22.57:799][383]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/5/GB/VPUV32VAWXIZ76PL4S9W5F
+[2025.11.13-14.22.57:799][383]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/VPUV32VAWXIZ76PL4S9W5F2D5253A4420C20B719CBBBB93764E7AF.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/5/GB/VPUV32VAWXIZ76PL4S9W5F.uasset'
+[2025.11.13-14.22.57:805][383]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/8/ON/XC4YAZ9OA5M3632F85UQM0
+[2025.11.13-14.22.57:806][383]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/XC4YAZ9OA5M3632F85UQM0617BAD224A3AC63BAE9C319D86A1731F.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/8/ON/XC4YAZ9OA5M3632F85UQM0.uasset'
+[2025.11.13-14.22.57:811][383]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/3/A7/SE5UO7GE6LCYHXMX9IMA7E
+[2025.11.13-14.22.57:811][383]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/SE5UO7GE6LCYHXMX9IMA7E62C1CCFC49B5A6352B811D874C9D9BF8.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/3/A7/SE5UO7GE6LCYHXMX9IMA7E.uasset'
+[2025.11.13-14.22.57:817][383]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/8/P6/7TP56V81XWZ03HK3WF0U17
+[2025.11.13-14.22.57:817][383]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/7TP56V81XWZ03HK3WF0U17094ED7CE459C7F3D860DE18722CBDD5F.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/8/P6/7TP56V81XWZ03HK3WF0U17.uasset'
+[2025.11.13-14.22.57:843][383]LogFileHelpers: InternalPromptForCheckoutAndSave took 275.094 ms (total: 414.486 ms)
+[2025.11.13-14.22.57:905][383]LogContentValidation: Display: Starting to validate 16 assets
+[2025.11.13-14.22.57:905][383]LogContentValidation: Enabled validators:
+[2025.11.13-14.22.57:905][383]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.13-14.22.57:905][383]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.13-14.22.57:905][383]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.13-14.22.57:905][383]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.13-14.22.57:905][383]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.13-14.22.57:906][383]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.13-14.22.57:906][383]AssetCheck: /Game/TopDown/Lvl_TopDown Validating asset
+[2025.11.13-14.22.57:948][383]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/SourceControl/UncontrolledChangelists.json
+[2025.11.13-14.22.58:559][432]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
