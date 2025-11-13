@@ -2813,3 +2813,80 @@ Sampler Limit: 32
 [2025.11.13-14.22.57:906][383]AssetCheck: /Game/TopDown/Lvl_TopDown Validating asset
 [2025.11.13-14.22.57:948][383]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/SourceControl/UncontrolledChangelists.json
 [2025.11.13-14.22.58:559][432]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.11.13-14.26.51:256][654]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.11.13-14.27.06:270][981]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.11.13-14.27.21:268][161]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.11.13-14.27.33:533][ 39]Cmd: DELETE
+[2025.11.13-14.27.33:533][ 39]Cmd: ACTOR DELETE
+[2025.11.13-14.27.33:535][ 39]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.11.13-14.27.33:561][ 39]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2025.11.13-14.27.33:564][ 39]LogEditorActor: Deleted 1 Actors (0.031 secs)
+[2025.11.13-14.27.36:266][264]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.11.13-14.27.38:806][486]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2354.013184
+[2025.11.13-14.27.38:961][499]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.13-14.27.38:961][499]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2354.156738, Update Interval: 342.122864
+[2025.11.13-14.27.48:221][305]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.13-14.27.48:308][305]LogUObjectHash: Compacting FUObjectHashTables data took   0.29ms
+[2025.11.13-14.27.48:352][305]LogUObjectHash: Compacting FUObjectHashTables data took   0.29ms
+[2025.11.13-14.27.48:372][305]LogUObjectHash: Compacting FUObjectHashTables data took   0.28ms
+[2025.11.13-14.27.48:382][305]LogFileHelpers: InternalPromptForCheckoutAndSave took 162.171 ms (total: 576.658 ms)
+[2025.11.13-14.27.57:549][ 86]LogUObjectHash: Compacting FUObjectHashTables data took   0.29ms
+[2025.11.13-14.27.57:606][ 86]LogStall: Shutdown...
+[2025.11.13-14.27.57:606][ 86]LogStall: Shutdown complete.
+[2025.11.13-14.27.57:650][ 86]LogSlate: Window 'ThreeDBlastGame - Unreal Editor' being destroyed
+[2025.11.13-14.27.57:769][ 86]Cmd: QUIT_EDITOR
+[2025.11.13-14.27.57:769][ 87]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2025.11.13-14.27.57:774][ 87]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2025.11.13-14.27.57:775][ 87]LogStaticMesh: Abandoning remaining async distance field tasks for shutdown
+[2025.11.13-14.27.57:775][ 87]LogStaticMesh: Abandoning remaining async card representation tasks for shutdown
+[2025.11.13-14.27.57:778][ 87]LogWorld: UWorld::CleanupWorld for Lvl_TopDown, bSessionEnded=true, bCleanupResources=true
+[2025.11.13-14.27.57:778][ 87]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.13-14.27.57:778][ 87]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/TopDown/Lvl_TopDown.Lvl_TopDown
+[2025.11.13-14.27.57:789][ 87]LogStylusInput: Shutting down StylusInput subsystem.
+[2025.11.13-14.27.57:789][ 87]LogTedsSettings: UTedsSettingsEditorSubsystem::Deinitialize
+[2025.11.13-14.27.57:789][ 87]LogLevelSequenceEditor: LevelSequenceEditor subsystem deinitialized.
+[2025.11.13-14.27.57:791][ 87]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2025.11.13-14.27.57:792][ 87]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.13-14.27.57:792][ 87]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2025.11.13-14.27.57:792][ 87]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.13-14.27.57:792][ 87]LogRuntimeTelemetry: Recording EnginePreExit events
+[2025.11.13-14.27.57:792][ 87]LogStudioTelemetry: Ended StudioTelemetry Session
+[2025.11.13-14.27.57:800][ 87]LogAnalytics: Display: [UEEditor.Rocket.Release] AnalyticsET::EndSession
+[2025.11.13-14.27.57:870][ 87]LogAudio: Display: Beginning Audio Device Manager Shutdown (Module: AudioMixerXAudio2)...
+[2025.11.13-14.27.57:870][ 87]LogAudio: Display: Destroying 1 Remaining Audio Device(s)...
+[2025.11.13-14.27.57:870][ 87]LogAudio: Display: Audio Device unregistered from world 'Lvl_TopDown'.
+[2025.11.13-14.27.57:870][ 87]LogAudio: Display: Shutting down audio device while 1 references to it are still alive. For more information, compile with INSTRUMENT_AUDIODEVICE_HANDLES.
+[2025.11.13-14.27.57:870][ 87]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1, StreamState=4
+[2025.11.13-14.27.57:872][ 87]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1, StreamState=2
+[2025.11.13-14.27.57:872][ 87]LogAudioMixer: Display: StopRunningNullDevice() called, InstanceID=1
+[2025.11.13-14.27.57:875][ 87]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID -1
+[2025.11.13-14.27.57:875][ 87]LogAudio: Display: Audio Device Manager Shutdown
+[2025.11.13-14.27.57:875][ 87]LogWindowsTextInputMethodSystem: Activated input method: English (United Kingdom) - (Keyboard).
+[2025.11.13-14.27.57:877][ 87]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2025.11.13-14.27.57:879][ 87]LogExit: Preparing to exit.
+[2025.11.13-14.27.57:913][ 87]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2025.11.13-14.27.58:576][ 87]LogEditorDataStorage: Deinitializing
+[2025.11.13-14.27.58:686][ 87]LogDemo: Cleaned up 0 splitscreen connections, owner deletion: enabled
+[2025.11.13-14.27.58:713][ 87]LogExit: Editor shut down
+[2025.11.13-14.27.58:722][ 87]LogExit: Transaction tracking system shut down
+[2025.11.13-14.27.58:824][ 87]LogExit: Object subsystem successfully closed.
+[2025.11.13-14.27.58:875][ 87]LogShaderCompilers: Display: Shaders left to compile 0
+[2025.11.13-14.27.58:984][ 87]LogMemoryProfiler: Shutdown
+[2025.11.13-14.27.58:984][ 87]LogNetworkingProfiler: Shutdown
+[2025.11.13-14.27.58:984][ 87]LoadingProfiler: Shutdown
+[2025.11.13-14.27.58:984][ 87]LogTimingProfiler: Shutdown
+[2025.11.13-14.27.59:004][ 87]LogChaosVDEditor: [FChaosVDExtensionsManager::UnRegisterExtension] UnRegistering CVD Extension [FChaosVDGenericDebugDrawExtension] ...
+[2025.11.13-14.27.59:004][ 87]LogChaosVDEditor: [FChaosVDExtensionsManager::UnRegisterExtension] UnRegistering CVD Extension [FChaosVDAccelerationStructuresExtension] ...
+[2025.11.13-14.27.59:829][ 87]LogChaosDD: Chaos Debug Draw Shutdown
+[2025.11.13-14.27.59:829][ 87]LogNFORDenoise: NFORDenoise function shutting down
+[2025.11.13-14.27.59:829][ 87]RenderDocPlugin: plugin has been unloaded.
+[2025.11.13-14.27.59:862][ 87]LogHttp: Warning: [FHttpManager::Shutdown] Unbinding delegates for 1 outstanding Http Requests:
+[2025.11.13-14.27.59:863][ 87]LogHttp: Warning: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BB22B2C18-4D1C-BA9D-828F-23B4CDAB3FEC%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.6.1-44394996%2B%2B%2BUE5%2BRelease-5.6&UserID=4083aa204a0a3c29f14ae6b3adc1ef16%7C%7Ca95e1ed2-a8c5-43e6-be33-b502bb0d244a&AppEnvironment=datacollector-binary&UploadType=eteventstream] refs=[2] status=Processing
+[2025.11.13-14.28.00:397][ 87]LogEOSShared: FEOSSDKManager::Shutdown EOS_Shutdown Result=[EOS_Success]
+[2025.11.13-14.28.00:403][ 87]LogXGEController: Cleaning working directory: C:/Users/24824452.AD/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2025.11.13-14.28.00:405][ 87]LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: None name: NetActorFactory id: 0
+[2025.11.13-14.28.00:405][ 87]LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: None name: NetSubObjectFactory id: 1
+[2025.11.13-14.28.00:405][ 87]LogPakFile: Destroying PakPlatformFile
+[2025.11.13-14.28.00:918][ 87]LogD3D12RHI: ~FD3D12DynamicRHI
+[2025.11.13-14.28.00:953][ 87]LogExit: Exiting.
+[2025.11.13-14.28.00:972][ 87]Log file closed, 11/13/25 14:28:00
