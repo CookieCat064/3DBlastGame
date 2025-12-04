@@ -4951,3 +4951,984 @@ FPackageName: Skipped package /Game/__ExternalActors__/TopDown/Lvl_TopDown/E/F3/
 [2025.12.04-13.45.32:423][537]LogAudioMixer: Display: StopRunningNullDevice() called, InstanceID=22
 [2025.12.04-13.45.32:430][537]LogUObjectHash: Compacting FUObjectHashTables data took   1.51ms
 [2025.12.04-13.45.32:488][538]LogPlayLevel: Display: Destroying online subsystem :Context_47
+[2025.12.04-13.46.02:199][962]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.12.04-13.46.13:328][709]LogContentBrowser: Deferred new asset file creation: NewMaterial1
+[2025.12.04-13.46.13:343][709]LogContentBrowser: Creating deferred item: NewMaterial1
+[2025.12.04-13.46.13:363][710]LogContentBrowser: Renaming the item being created (Deferred Item: NewMaterial1).
+[2025.12.04-13.46.17:575][989]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.12.04-13.46.24:465][472]LogContentBrowser: Attempting asset rename: NewMaterial1 -> EnemyPurple
+[2025.12.04-13.46.24:466][472]LogContentBrowser: End creating deferred item NewMaterial1
+[2025.12.04-13.46.26:217][561]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/Textures/EnemyPurple.EnemyPurple
+[2025.12.04-13.46.26:221][561]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_26
+[2025.12.04-13.46.26:227][561]LogStreaming: Display: FlushAsyncLoading(886): 1 QueuedPackages, 0 AsyncPackages
+[2025.12.04-13.46.26:236][561]LogStaticMesh: Display: Building static mesh Sphere_inversenormals (Required Memory Estimate: 1.522745 MB)...
+[2025.12.04-13.46.26:248][561]LogStaticMesh: Built static mesh [0.01s] /Engine/EditorMeshes/AssetViewer/Sphere_inversenormals.Sphere_inversenormals
+[2025.12.04-13.46.26:260][561]LogStaticMesh: Display: Building static mesh Floor_Mesh (Required Memory Estimate: 0.022237 MB)...
+[2025.12.04-13.46.26:262][561]LogStaticMesh: Built static mesh [0.00s] /Engine/EditorMeshes/AssetViewer/Floor_Mesh.Floor_Mesh
+[2025.12.04-13.46.27:000][561]MaterialEditorStats: Texture samplers: 0/16
+[2025.12.04-13.46.27:000][561]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2025.12.04-13.46.27:000][561]MaterialEditorStats: Shader Count: 0
+[2025.12.04-13.46.27:000][561]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.12.04-13.46.27:162][562]LogPSOHitching: Encountered 1200 PSO creation hitches so far (565 graphics, 635 compute). 0 of them were precached.
+[2025.12.04-13.46.27:230][563]MaterialEditorStats: Base pass shader: 171 instructions
+Stats: Resources Used: 4
+Resource Limit: 64
+Samplers Used: 1
+Sampler Limit: 32
+
+[2025.12.04-13.46.27:230][563]MaterialEditorStats: Base pass vertex shader: 148 instructions
+Stats: Resources Used: 4
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2025.12.04-13.46.27:230][563]MaterialEditorStats: Texture samplers: 1/16
+[2025.12.04-13.46.27:230][563]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2025.12.04-13.46.27:230][563]MaterialEditorStats: Shader Count: 5
+[2025.12.04-13.46.27:230][563]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.12.04-13.46.27:782][580]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.12.04-13.46.34:073][621]LogSlate: Window 'Color Picker' being destroyed
+[2025.12.04-13.46.39:727][ 21]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.12.04-13.46.39:830][ 24]MaterialEditorStats: Base pass shader: 173 instructions
+Stats: Resources Used: 4
+Resource Limit: 64
+Samplers Used: 1
+Sampler Limit: 32
+
+[2025.12.04-13.46.39:830][ 24]MaterialEditorStats: Base pass vertex shader: 148 instructions
+Stats: Resources Used: 4
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2025.12.04-13.46.39:830][ 24]MaterialEditorStats: Texture samplers: 1/16
+[2025.12.04-13.46.39:830][ 24]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2025.12.04-13.46.39:830][ 24]MaterialEditorStats: Shader Count: 5
+[2025.12.04-13.46.39:830][ 24]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.12.04-13.46.54:745][728]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.12.04-13.46.57:635][876]LogMaterialEditor: Applying material EnemyPurple
+[2025.12.04-13.46.57:924][876]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2025.12.04-13.46.59:332][876]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2025.12.04-13.46.59:439][876]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 4436.184082
+[2025.12.04-13.46.59:610][881]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.12.04-13.46.59:610][881]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 4436.325684, Update Interval: 348.280884
+[2025.12.04-13.47.05:242][183]LogWorld: UWorld::CleanupWorld for World_26, bSessionEnded=true, bCleanupResources=true
+[2025.12.04-13.47.05:242][183]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.04-13.47.05:296][183]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2025.12.04-13.47.05:706][202]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.12.04-13.47.19:740][936]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.12.04-13.47.21:190][985]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2025.12.04-13.47.31:802][533]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.12.04-13.47.33:020][575]LogPSOHitching: Encountered 1250 PSO creation hitches so far (595 graphics, 655 compute). 0 of them were precached.
+[2025.12.04-13.47.47:233][153]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.12.04-13.48.03:649][894]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.12.04-13.48.17:088][509]LogEditorTransaction: Undo Modify Component(s)
+[2025.12.04-13.48.18:644][557]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.12.04-13.48.19:799][599]LogShaderCompilers: Display: ================================================
+[2025.12.04-13.48.19:799][599]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.12.04-13.48.19:799][599]LogShaderCompilers: Display: Total job queries 2,762, among them cache hits 741 (26.83%), DDC hits 1,843 (66.73%), Duplicates 98 (3.55%)
+[2025.12.04-13.48.19:799][599]LogShaderCompilers: Display: Tracking 1,923 distinct input hashes that result in 1,238 distinct outputs (64.38%)
+[2025.12.04-13.48.19:799][599]LogShaderCompilers: Display: RAM used: 12.38 MiB of 6.40 GiB budget. Usage: 0.19%
+[2025.12.04-13.48.19:799][599]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.12.04-13.48.19:799][599]LogShaderCompilers: Display: Shaders Compiled: 80
+[2025.12.04-13.48.19:799][599]LogShaderCompilers: Display: Jobs assigned 80, completed 80 (100%)
+[2025.12.04-13.48.19:799][599]LogShaderCompilers: Display: Average time worker was idle: 244.16 s
+[2025.12.04-13.48.19:799][599]LogShaderCompilers: Display: Time job spent in pending queue: average 12.40 s, longest 27.40 s
+[2025.12.04-13.48.19:799][599]LogShaderCompilers: Display: Job execution time: average 4.43 s, max 21.94 s
+[2025.12.04-13.48.19:799][599]LogShaderCompilers: Display: Job life time (pending + execution): average 16.82 s, max 32.38
+[2025.12.04-13.48.19:799][599]LogShaderCompilers: Display: Shader code size: total 758.761 KiB, numShaders 82, average 9.253 KiB, min 3.266 KiB, max 23.914 KiB
+[2025.12.04-13.48.19:799][599]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 55.37 s
+[2025.12.04-13.48.19:799][599]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.02%
+[2025.12.04-13.48.19:799][599]LogShaderCompilers: Display: Jobs were issued in 80 batches (only local compilation was used), average 1.00 jobs/batch
+[2025.12.04-13.48.19:799][599]LogShaderCompilers: Display: Average processing rate: 1.44 jobs/sec
+[2025.12.04-13.48.19:799][599]LogShaderCompilers: Display: Total thread time: 202.334 s
+[2025.12.04-13.48.19:799][599]LogShaderCompilers: Display: Total thread preprocess time: 79.414 s
+[2025.12.04-13.48.19:799][599]LogShaderCompilers: Display: Percentage time preprocessing: 39.25%
+[2025.12.04-13.48.19:799][599]LogShaderCompilers: Display: Effective parallelization: 3.65 (times faster than compiling all shaders on one thread). Compare with number of workers: 8 - 0.456745
+[2025.12.04-13.48.19:799][599]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.12.04-13.48.19:799][599]LogShaderCompilers: Display:                                                  FVelocityPS (compiled    1 times, average 6.59 sec, max 6.59 sec, min 6.59 sec)
+[2025.12.04-13.48.19:799][599]LogShaderCompilers: Display:                                 TBasePassCSFNoLightMapPolicy (compiled    4 times, average 6.46 sec, max 7.64 sec, min 5.62 sec)
+[2025.12.04-13.48.19:799][599]LogShaderCompilers: Display:                                                 FLumenCardCS (compiled    4 times, average 5.80 sec, max 8.37 sec, min 3.76 sec)
+[2025.12.04-13.48.19:800][599]LogShaderCompilers: Display:                   TMaterialCHSFNoLightMapPolicyFAnyHitShader (compiled    6 times, average 4.03 sec, max 7.70 sec, min 1.21 sec)
+[2025.12.04-13.48.19:800][599]LogShaderCompilers: Display:                                                  FHitProxyPS (compiled    1 times, average 3.23 sec, max 3.23 sec, min 3.23 sec)
+[2025.12.04-13.48.19:800][599]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.12.04-13.48.19:800][599]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy - 20.51% of total time (compiled   15 times, average 2.77 sec, max 6.12 sec, min 0.88 sec)
+[2025.12.04-13.48.19:800][599]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 15.02% of total time (compiled   19 times, average 1.60 sec, max 3.71 sec, min 0.56 sec)
+[2025.12.04-13.48.19:800][599]LogShaderCompilers: Display:                                 TBasePassCSFNoLightMapPolicy - 12.77% of total time (compiled    4 times, average 6.46 sec, max 7.64 sec, min 5.62 sec)
+[2025.12.04-13.48.19:800][599]LogShaderCompilers: Display:                   TMaterialCHSFNoLightMapPolicyFAnyHitShader - 11.95% of total time (compiled    6 times, average 4.03 sec, max 7.70 sec, min 1.21 sec)
+[2025.12.04-13.48.19:800][599]LogShaderCompilers: Display:                                                 FLumenCardCS - 11.47% of total time (compiled    4 times, average 5.80 sec, max 8.37 sec, min 3.76 sec)
+[2025.12.04-13.48.19:800][599]LogShaderCompilers: Display: === Material stats ===
+[2025.12.04-13.48.19:800][599]LogShaderCompilers: Display: Materials Cooked:        0
+[2025.12.04-13.48.19:800][599]LogShaderCompilers: Display: Materials Translated:    171
+[2025.12.04-13.48.19:800][599]LogShaderCompilers: Display: Material Total Translate Time: 0.25 s
+[2025.12.04-13.48.19:800][599]LogShaderCompilers: Display: Material Translation Only: 0.10 s (43%)
+[2025.12.04-13.48.19:800][599]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (0%)
+[2025.12.04-13.48.19:800][599]LogShaderCompilers: Display: Material Cache Hits: 0 (0%)
+[2025.12.04-13.48.19:800][599]LogShaderCompilers: Display: ================================================
+[2025.12.04-13.48.31:808][178]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.12.04-13.48.47:240][926]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.12.04-13.48.52:414][154]LogUObjectHash: Compacting FUObjectHashTables data took   1.65ms
+[2025.12.04-13.49.03:627][830]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.12.04-13.49.18:654][703]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.12.04-13.49.32:221][501]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.12.04-13.49.43:089][113]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.12.04-13.49.43:156][113]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/5/GB/VPUV32VAWXIZ76PL4S9W5F
+[2025.12.04-13.49.43:158][113]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/VPUV32VAWXIZ76PL4S9W5FF764A12E45C25B7048541D8610C7E15D.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/5/GB/VPUV32VAWXIZ76PL4S9W5F.uasset'
+[2025.12.04-13.49.43:167][113]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/7/0Q/MMZE6ISCA9F6NPUJYIM77C
+[2025.12.04-13.49.43:169][113]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/MMZE6ISCA9F6NPUJYIM77C71D73A1D4626E49E9DAD83964B9F72A3.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/7/0Q/MMZE6ISCA9F6NPUJYIM77C.uasset'
+[2025.12.04-13.49.43:177][113]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/8/7J/OPVWEU4LVJYJBB7HCSX97I
+[2025.12.04-13.49.43:179][113]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/OPVWEU4LVJYJBB7HCSX97I6B93274D4D7B3A73D3A023A59988FE99.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/8/7J/OPVWEU4LVJYJBB7HCSX97I.uasset'
+[2025.12.04-13.49.43:187][113]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/9/A4/QMVRJZT8QTW9R2L3GFD39O
+[2025.12.04-13.49.43:189][113]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/QMVRJZT8QTW9R2L3GFD39O31E3AB33470470A62AF6049DB6179579.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/9/A4/QMVRJZT8QTW9R2L3GFD39O.uasset'
+[2025.12.04-13.49.43:197][113]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/C/EL/M4DFE4CU9DW4RS1S9FIA5N
+[2025.12.04-13.49.43:199][113]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/M4DFE4CU9DW4RS1S9FIA5NE9B52178423AF318A9736389ED1F7F19.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/C/EL/M4DFE4CU9DW4RS1S9FIA5N.uasset'
+[2025.12.04-13.49.43:207][113]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/D/KN/0W3JIYV3FUFF7MP8XBS6CF
+[2025.12.04-13.49.43:209][113]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/0W3JIYV3FUFF7MP8XBS6CF421B061248B6C6C2B143998619FBE66F.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/D/KN/0W3JIYV3FUFF7MP8XBS6CF.uasset'
+[2025.12.04-13.49.43:218][113]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/E/SB/MQLONFHLKCUWGQMQSXNY0F
+[2025.12.04-13.49.43:220][113]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/MQLONFHLKCUWGQMQSXNY0FE624E3C240866B928798138760BB72CC.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/E/SB/MQLONFHLKCUWGQMQSXNY0F.uasset'
+[2025.12.04-13.49.43:235][113]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/0/75/4RG56Y0MN4O8C6GCG5KSW9
+[2025.12.04-13.49.43:236][113]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/4RG56Y0MN4O8C6GCG5KSW9BFD69FC04B0230DEA8AAB5943896878D.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/0/75/4RG56Y0MN4O8C6GCG5KSW9.uasset'
+[2025.12.04-13.49.43:244][113]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/8/X9/5OZPKUGDKXMFH3QTW0I1UC
+[2025.12.04-13.49.43:246][113]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/5OZPKUGDKXMFH3QTW0I1UC9294AC4043885EA9839E7FA5D436C81F.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/8/X9/5OZPKUGDKXMFH3QTW0I1UC.uasset'
+[2025.12.04-13.49.43:254][113]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/E/Y5/LX4IKIKDQQG6X4KDL0Z6H8
+[2025.12.04-13.49.43:256][113]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/LX4IKIKDQQG6X4KDL0Z6H85D9DE2E8454F89C2036F7C893A3199D6.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/E/Y5/LX4IKIKDQQG6X4KDL0Z6H8.uasset'
+[2025.12.04-13.49.43:275][113]LogFileHelpers: InternalPromptForCheckoutAndSave took 184.911 ms (total: 628.795 ms)
+[2025.12.04-13.49.43:349][113]LogContentValidation: Display: Starting to validate 26 assets
+[2025.12.04-13.49.43:349][113]LogContentValidation: Enabled validators:
+[2025.12.04-13.49.43:349][113]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.12.04-13.49.43:349][113]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.12.04-13.49.43:349][113]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.12.04-13.49.43:349][113]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.12.04-13.49.43:350][113]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.12.04-13.49.43:350][113]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.12.04-13.49.43:350][113]AssetCheck: /Game/TopDown/Lvl_TopDown Validating asset
+[2025.12.04-13.49.44:036][155]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.12.04-13.49.44:045][155]LogContentBundle: [Lvl_TopDown(Editor)] Generating Streaming for 0 Content Bundles.
+[2025.12.04-13.49.44:045][155]LogWorldPartition: Display: GenerateStreaming for 'Lvl_TopDown' started...
+[2025.12.04-13.49.44:047][155]LogWorldPartition: Display: GenerateStreaming for 'Lvl_TopDown' took 2.126 ms (total: 58.938 ms)
+[2025.12.04-13.49.44:094][155]LogFMOD: Display: Loaded bank lookup
+[2025.12.04-13.49.44:094][155]LogFMOD: Error: Failed to load asset lookup
+[2025.12.04-13.49.44:098][155]LogFMOD: Error: 'lowLevelSystem->getDriverInfo(DriverIndex, nullptr, 0, nullptr, &SystemSampleRate, nullptr, nullptr)' returned 'An invalid parameter was passed to this function.'
+[2025.12.04-13.49.44:098][155]LogFMOD: Default sample rate = 48000
+[2025.12.04-13.49.44:098][155]LogFMOD: System sample rate = 0
+[2025.12.04-13.49.44:098][155]LogFMOD: CallbackHandler not set.
+[2025.12.04-13.49.44:098][155]LogFMOD: Warning: C:\buildagent2\work\c1c3f17eb167c494\core_api\src\fmod_systemi.cpp(2909) - No output sound devices found - switching output mode to FMOD_OUTPUTTYPE_NOSOUND
+
+[2025.12.04-13.49.44:108][155]LogFMOD: Warning: Master bank (Master.bank) not found.
+[2025.12.04-13.49.44:153][155]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.12.04-13.49.44:153][155]LogPlayLevel: Creating play world package: /Game/TopDown/UEDPIE_0_Lvl_TopDown
+[2025.12.04-13.49.44:196][155]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2025.12.04-13.49.44:206][155]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 10.405 ms (total: 484.374 ms)
+[2025.12.04-13.49.44:207][155]LogPlayLevel: PIE: StaticDuplicateObject took: (0.053502s)
+[2025.12.04-13.49.44:207][155]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDown/Lvl_TopDown.Lvl_TopDown to /Game/TopDown/UEDPIE_0_Lvl_TopDown.Lvl_TopDown (0.053545s)
+[2025.12.04-13.49.44:240][155]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2025.12.04-13.49.44:244][155]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_TopDown
+[2025.12.04-13.49.44:246][155]LogWorldPartition: ULevel::OnLevelLoaded(Lvl_TopDown)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.12.04-13.49.44:246][155]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.12.04-13.49.44:246][155]LogWorldPartition: UWorldPartition::Initialize : World = /Game/TopDown/UEDPIE_0_Lvl_TopDown.Lvl_TopDown, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.12.04-13.49.44:246][155]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.12.04-13.49.44:256][155]LogWorldPartition: Display: WorldPartition initialize took 10.522 ms (total: 2.56 sec)
+[2025.12.04-13.49.44:256][155]LogPlayLevel: PIE: World Init took: (0.012499s)
+[2025.12.04-13.49.44:257][155]LogAudio: Display: Creating Audio Device:                 Id: 23, Scope: Unique, Realtime: True
+[2025.12.04-13.49.44:257][155]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.12.04-13.49.44:257][155]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.12.04-13.49.44:257][155]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.12.04-13.49.44:257][155]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.12.04-13.49.44:257][155]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.12.04-13.49.44:257][155]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.12.04-13.49.44:257][155]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.12.04-13.49.44:257][155]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.12.04-13.49.44:257][155]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.12.04-13.49.44:257][155]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.12.04-13.49.44:257][155]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.12.04-13.49.44:260][155]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.12.04-13.49.44:276][155]LogAudioMixer: Display: Using Audio Hardware Device Unknown
+[2025.12.04-13.49.44:276][155]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.12.04-13.49.44:276][155]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.12.04-13.49.44:276][155]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.12.04-13.49.44:277][155]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=23
+[2025.12.04-13.49.44:277][155]LogAudioMixer: Display: StartRunningNullDevice() called, InstanceID=23
+[2025.12.04-13.49.44:277][155]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=23
+[2025.12.04-13.49.44:277][155]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=13116
+[2025.12.04-13.49.44:277][155]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=23
+[2025.12.04-13.49.44:279][155]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=23
+[2025.12.04-13.49.44:279][155]LogInit: FAudioDevice initialized with ID 23.
+[2025.12.04-13.49.44:279][155]LogAudio: Display: Audio Device (ID: 23) registered with world 'Lvl_TopDown'.
+[2025.12.04-13.49.44:279][155]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 23
+[2025.12.04-13.49.44:284][155]LogLoad: Game class is 'BP_TopDownGameMode_C'
+[2025.12.04-13.49.44:303][155]LogWorld: Bringing World /Game/TopDown/UEDPIE_0_Lvl_TopDown.Lvl_TopDown up for play (max tick rate 0) at 2025.12.04-13.49.44
+[2025.12.04-13.49.44:304][155]LogWorld: Bringing up level for play took: 0.019769
+[2025.12.04-13.49.44:306][155]LogOnline: OSS: Created online subsystem instance for: :Context_49
+[2025.12.04-13.49.44:315][155]PIE: Server logged in
+[2025.12.04-13.49.44:318][155]PIE: Play in editor total start time 0.273 seconds.
+[2025.12.04-13.49.44:374][156]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.12.04-13.49.53:921][823]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/TopDown/Lvl_TopDown"
+[2025.12.04-13.49.53:922][823]LogNet: Browse: /Game/TopDown/Lvl_TopDown
+[2025.12.04-13.49.53:922][823]LogLoad: LoadMap: /Game/TopDown/Lvl_TopDown
+[2025.12.04-13.49.53:922][823]LogWorld: BeginTearingDown for /Game/TopDown/UEDPIE_0_Lvl_TopDown
+[2025.12.04-13.49.53:922][823]LogSpawn: Warning: SpawnActor failed because we are in the process of tearing down the world
+[2025.12.04-13.49.53:923][823]LogWorld: UWorld::CleanupWorld for Lvl_TopDown, bSessionEnded=true, bCleanupResources=true
+[2025.12.04-13.49.53:927][823]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.04-13.49.53:927][823]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/TopDown/UEDPIE_0_Lvl_TopDown.Lvl_TopDown
+[2025.12.04-13.49.53:992][823]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.12.04-13.49.53:998][823]LogUObjectHash: Compacting FUObjectHashTables data took   1.56ms
+[2025.12.04-13.49.54:003][823]LogPlayLevel: Creating play world package: /Game/TopDown/UEDPIE_0_Lvl_TopDown
+[2025.12.04-13.49.54:046][823]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2025.12.04-13.49.54:056][823]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 10.367 ms (total: 494.741 ms)
+[2025.12.04-13.49.54:056][823]LogPlayLevel: PIE: StaticDuplicateObject took: (0.053527s)
+[2025.12.04-13.49.54:056][823]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDown/Lvl_TopDown.Lvl_TopDown to /Game/TopDown/UEDPIE_0_Lvl_TopDown.Lvl_TopDown (0.053585s)
+[2025.12.04-13.49.54:056][823]LogAudio: Display: Audio Device (ID: 23) registered with world 'Lvl_TopDown'.
+[2025.12.04-13.49.54:056][823]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_TopDown
+[2025.12.04-13.49.54:058][823]LogWorldPartition: ULevel::OnLevelLoaded(Lvl_TopDown)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.12.04-13.49.54:058][823]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.12.04-13.49.54:058][823]LogWorldPartition: UWorldPartition::Initialize : World = /Game/TopDown/UEDPIE_0_Lvl_TopDown.Lvl_TopDown, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.12.04-13.49.54:058][823]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.12.04-13.49.54:069][823]LogWorldPartition: Display: WorldPartition initialize took 10.435 ms (total: 2.57 sec)
+[2025.12.04-13.49.54:069][823]LogPlayLevel: PIE: World Init took: (0.012314s)
+[2025.12.04-13.49.54:069][823]LogLoad: Game class is 'BP_TopDownGameMode_C'
+[2025.12.04-13.49.54:088][823]LogWorld: Bringing World /Game/TopDown/UEDPIE_0_Lvl_TopDown.Lvl_TopDown up for play (max tick rate 0) at 2025.12.04-13.49.54
+[2025.12.04-13.49.54:089][823]LogWorld: Bringing up level for play took: 0.019382
+[2025.12.04-13.49.54:096][823]LogLoad: Took 0.173616 seconds to LoadMap(/Game/TopDown/UEDPIE_0_Lvl_TopDown)
+[2025.12.04-13.49.54:096][823]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/TopDown/UEDPIE_0_Lvl_TopDown
+[2025.12.04-13.49.54:111][823]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.12.04-13.49.55:698][937]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=23
+[2025.12.04-13.50.05:735][691]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.12.04-13.50.15:096][385]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.12.04-13.50.15:096][385]LogWorld: BeginTearingDown for /Game/TopDown/UEDPIE_0_Lvl_TopDown
+[2025.12.04-13.50.15:097][385]LogWorld: UWorld::CleanupWorld for Lvl_TopDown, bSessionEnded=true, bCleanupResources=true
+[2025.12.04-13.50.15:102][385]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.04-13.50.15:102][385]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/TopDown/UEDPIE_0_Lvl_TopDown.Lvl_TopDown
+[2025.12.04-13.50.15:105][385]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.12.04-13.50.15:112][385]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.04-13.50.15:167][385]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.12.04-13.50.15:167][385]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 23
+[2025.12.04-13.50.15:167][385]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=23, StreamState=4
+[2025.12.04-13.50.15:170][385]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=23, StreamState=2
+[2025.12.04-13.50.15:170][385]LogAudioMixer: Display: StopRunningNullDevice() called, InstanceID=23
+[2025.12.04-13.50.15:179][385]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
+[2025.12.04-13.50.15:276][386]LogPlayLevel: Display: Destroying online subsystem :Context_49
+[2025.12.04-13.50.19:779][622]Cmd: DELETE
+[2025.12.04-13.50.19:780][622]Cmd: ACTOR DELETE
+[2025.12.04-13.50.19:784][622]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.12.04-13.50.19:843][622]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2025.12.04-13.50.19:846][622]LogEditorActor: Deleted 1 Actors (0.066 secs)
+[2025.12.04-13.50.20:372][643]Cmd: DELETE
+[2025.12.04-13.50.20:372][643]Cmd: ACTOR DELETE
+[2025.12.04-13.50.20:374][643]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.12.04-13.50.20:408][643]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2025.12.04-13.50.20:411][643]LogEditorActor: Deleted 1 Actors (0.040 secs)
+[2025.12.04-13.50.21:254][688]Cmd: DELETE
+[2025.12.04-13.50.21:255][688]Cmd: ACTOR DELETE
+[2025.12.04-13.50.21:257][688]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.12.04-13.50.21:294][688]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2025.12.04-13.50.21:297][688]LogEditorActor: Deleted 1 Actors (0.043 secs)
+[2025.12.04-13.50.22:890][781]Cmd: DELETE
+[2025.12.04-13.50.22:890][781]Cmd: ACTOR DELETE
+[2025.12.04-13.50.22:894][781]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.12.04-13.50.22:928][781]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2025.12.04-13.50.22:932][781]LogEditorActor: Deleted 1 Actors (0.042 secs)
+[2025.12.04-13.50.26:214][986]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.12.04-13.50.29:200][189]Cmd: TRANSACTION UNDO
+[2025.12.04-13.50.29:200][189]LogEditorTransaction: Undo Delete Elements
+[2025.12.04-13.50.29:727][193]Cmd: TRANSACTION UNDO
+[2025.12.04-13.50.29:727][193]LogEditorTransaction: Undo Clicking on Elements
+[2025.12.04-13.50.30:067][211]Cmd: TRANSACTION UNDO
+[2025.12.04-13.50.30:067][211]LogEditorTransaction: Undo Delete Elements
+[2025.12.04-13.50.30:501][225]Cmd: TRANSACTION UNDO
+[2025.12.04-13.50.30:501][225]LogEditorTransaction: Undo Clicking on Elements
+[2025.12.04-13.50.30:826][248]Cmd: TRANSACTION UNDO
+[2025.12.04-13.50.30:826][248]LogEditorTransaction: Undo Delete Elements
+[2025.12.04-13.50.31:208][264]Cmd: TRANSACTION UNDO
+[2025.12.04-13.50.31:208][264]LogEditorTransaction: Undo Clicking on Elements
+[2025.12.04-13.50.35:594][507]Cmd: DELETE
+[2025.12.04-13.50.35:594][507]Cmd: ACTOR DELETE
+[2025.12.04-13.50.35:597][507]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.12.04-13.50.35:644][507]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2025.12.04-13.50.35:648][507]LogEditorActor: Deleted 1 Actors (0.055 secs)
+[2025.12.04-13.51.06:126][731]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2025.12.04-13.51.06:130][731]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/TopDown/Lvl_TopDown' took 0.035
+[2025.12.04-13.51.06:130][731]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TopDown/Blueprints/BP_TopDownCharacter] ([2] browsable assets)...
+[2025.12.04-13.51.06:130][731]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDown/Blueprints/BP_TopDownCharacter]
+[2025.12.04-13.51.06:145][731]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/TopDown/Blueprints/BP_TopDownCharacter_Auto5
+[2025.12.04-13.51.06:147][731]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/BP_TopDownCharacter_Auto5ACD1072F49D25D49EAFAE48D7CF5446C.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/Autosaves/Game/TopDown/Blueprints/BP_TopDownCharacter_Auto5.uasset'
+[2025.12.04-13.51.06:149][731]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TopDown/Blueprints/FloatingCritter] ([2] browsable assets)...
+[2025.12.04-13.51.06:149][731]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDown/Blueprints/FloatingCritter]
+[2025.12.04-13.51.06:164][731]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/TopDown/Blueprints/FloatingCritter_Auto5
+[2025.12.04-13.51.06:166][731]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/FloatingCritter_Auto516101F9F4714E5AF01DD0A844C013CC2.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/Autosaves/Game/TopDown/Blueprints/FloatingCritter_Auto5.uasset'
+[2025.12.04-13.51.06:168][731]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/TopDown/Blueprints/Enemy] ([2] browsable assets)...
+[2025.12.04-13.51.06:361][731]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/TopDown/Blueprints/Enemy.Enemy]
+[2025.12.04-13.51.06:363][731]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDown/Blueprints/Enemy]
+[2025.12.04-13.51.06:375][731]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/TopDown/Blueprints/Enemy_Auto5
+[2025.12.04-13.51.06:375][731]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/Enemy_Auto57D7610AA41E04804B3F08FA472B810BA.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/Autosaves/Game/TopDown/Blueprints/Enemy_Auto5.uasset'
+[2025.12.04-13.51.06:377][731]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TopDown/Blueprints/EnemyKill] ([2] browsable assets)...
+[2025.12.04-13.51.06:377][731]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDown/Blueprints/EnemyKill]
+[2025.12.04-13.51.06:386][731]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/TopDown/Blueprints/EnemyKill_Auto5
+[2025.12.04-13.51.06:386][731]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/EnemyKill_Auto57CF54BAD41113A4B34EB21B7765A96DB.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/Autosaves/Game/TopDown/Blueprints/EnemyKill_Auto5.uasset'
+[2025.12.04-13.51.06:388][731]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Textures/EnemyPurple] ([1] browsable assets)...
+[2025.12.04-13.51.06:436][731]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Textures/EnemyPurple.EnemyPurple]
+[2025.12.04-13.51.06:436][731]OBJ SavePackage: Finished generating thumbnails for package [/Game/Textures/EnemyPurple]
+[2025.12.04-13.51.06:443][731]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Textures/EnemyPurple_Auto5
+[2025.12.04-13.51.06:443][731]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/EnemyPurple_Auto55EF8E31943322498C5732D9973FC4426.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/Autosaves/Game/Textures/EnemyPurple_Auto5.uasset'
+[2025.12.04-13.51.06:445][731]LogFileHelpers: Auto-saving content packages took 0.315
+[2025.12.04-13.52.45:200][ 25]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.12.04-13.53.20:999][130]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 4817.751953
+[2025.12.04-13.53.22:019][133]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.12.04-13.53.22:019][133]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 4818.438477, Update Interval: 308.509155
+[2025.12.04-13.57.08:694][128]LogPSOHitching: Encountered 1300 PSO creation hitches so far (619 graphics, 681 compute). 0 of them were precached.
+[2025.12.04-13.57.08:694][128]LogPSOHitching: Encountered 1300 PSO creation hitches so far (619 graphics, 681 compute). 0 of them were precached.
+[2025.12.04-13.57.16:049][669]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.12.04-13.57.30:759][562]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/TopDown/Blueprints/BP_TopDownCharacter.BP_TopDownCharacter_C
+[2025.12.04-13.57.30:759][562]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/TopDown/Blueprints/BP_TopDownCharacter.BP_TopDownCharacter_C
+[2025.12.04-13.57.30:767][562]LogActorFactory: Actor Factory spawned Blueprint /Game/TopDown/Blueprints/BP_TopDownCharacter.BP_TopDownCharacter as actor: BP_TopDownCharacter_C /Game/TopDown/Lvl_TopDown.Lvl_TopDown:PersistentLevel.BP_TopDownCharacter_C_0
+[2025.12.04-13.57.30:770][562]LogActorFactory: Actor Factory spawned Blueprint /Game/TopDown/Blueprints/BP_TopDownCharacter.BP_TopDownCharacter as actor: BP_TopDownCharacter_C /Game/TopDown/Lvl_TopDown.Lvl_TopDown:PersistentLevel.BP_TopDownCharacter_C_0
+[2025.12.04-13.57.31:777][629]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2025.12.04-13.57.31:780][629]LogEditorActor: Deleted 0 Actors (0.040 secs)
+[2025.12.04-13.57.31:792][629]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/TopDown/Blueprints/BP_TopDownCharacter.BP_TopDownCharacter_C
+[2025.12.04-13.57.31:793][629]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/TopDown/Blueprints/BP_TopDownCharacter.BP_TopDownCharacter_C
+[2025.12.04-13.57.31:801][629]LogActorFactory: Actor Factory spawned Blueprint /Game/TopDown/Blueprints/BP_TopDownCharacter.BP_TopDownCharacter as actor: BP_TopDownCharacter_C /Game/TopDown/Lvl_TopDown.Lvl_TopDown:PersistentLevel.BP_TopDownCharacter_C_UAID_C85ACF0FC5995FA802_1943339628
+[2025.12.04-13.57.31:806][629]LogActorFactory: Actor Factory spawned Blueprint /Game/TopDown/Blueprints/BP_TopDownCharacter.BP_TopDownCharacter as actor: BP_TopDownCharacter_C /Game/TopDown/Lvl_TopDown.Lvl_TopDown:PersistentLevel.BP_TopDownCharacter_C_UAID_C85ACF0FC5995FA802_1943339628
+[2025.12.04-13.57.32:263][633]LogPSOHitching: Encountered 1350 PSO creation hitches so far (652 graphics, 698 compute). 0 of them were precached.
+[2025.12.04-13.57.34:932][758]Cmd: DELETE
+[2025.12.04-13.57.34:932][758]Cmd: ACTOR DELETE
+[2025.12.04-13.57.34:937][758]LogEditorActor: Deleted Actor: BP_TopDownCharacter_C
+[2025.12.04-13.57.34:993][758]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2025.12.04-13.57.34:997][758]LogEditorActor: Deleted 1 Actors (0.065 secs)
+[2025.12.04-13.57.48:719][601]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.12.04-13.58.03:733][604]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.12.04-13.58.04:731][674]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.12.04-13.58.04:739][674]LogContentBundle: [Lvl_TopDown(Editor)] Generating Streaming for 0 Content Bundles.
+[2025.12.04-13.58.04:739][674]LogWorldPartition: Display: GenerateStreaming for 'Lvl_TopDown' started...
+[2025.12.04-13.58.04:741][674]LogWorldPartition: Display: GenerateStreaming for 'Lvl_TopDown' took 2.248 ms (total: 61.186 ms)
+[2025.12.04-13.58.04:783][674]LogFMOD: Display: Loaded bank lookup
+[2025.12.04-13.58.04:783][674]LogFMOD: Error: Failed to load asset lookup
+[2025.12.04-13.58.04:787][674]LogFMOD: Error: 'lowLevelSystem->getDriverInfo(DriverIndex, nullptr, 0, nullptr, &SystemSampleRate, nullptr, nullptr)' returned 'An invalid parameter was passed to this function.'
+[2025.12.04-13.58.04:787][674]LogFMOD: Default sample rate = 48000
+[2025.12.04-13.58.04:787][674]LogFMOD: System sample rate = 0
+[2025.12.04-13.58.04:787][674]LogFMOD: CallbackHandler not set.
+[2025.12.04-13.58.04:787][674]LogFMOD: Warning: C:\buildagent2\work\c1c3f17eb167c494\core_api\src\fmod_systemi.cpp(2909) - No output sound devices found - switching output mode to FMOD_OUTPUTTYPE_NOSOUND
+
+[2025.12.04-13.58.04:806][674]LogFMOD: Warning: Master bank (Master.bank) not found.
+[2025.12.04-13.58.04:839][674]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.12.04-13.58.04:839][674]LogPlayLevel: Creating play world package: /Game/TopDown/UEDPIE_0_Lvl_TopDown
+[2025.12.04-13.58.04:882][674]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2025.12.04-13.58.04:892][674]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 10.618 ms (total: 505.359 ms)
+[2025.12.04-13.58.04:893][674]LogPlayLevel: PIE: StaticDuplicateObject took: (0.053655s)
+[2025.12.04-13.58.04:893][674]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDown/Lvl_TopDown.Lvl_TopDown to /Game/TopDown/UEDPIE_0_Lvl_TopDown.Lvl_TopDown (0.053702s)
+[2025.12.04-13.58.04:925][674]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2025.12.04-13.58.04:929][674]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_TopDown
+[2025.12.04-13.58.04:931][674]LogWorldPartition: ULevel::OnLevelLoaded(Lvl_TopDown)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.12.04-13.58.04:931][674]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.12.04-13.58.04:931][674]LogWorldPartition: UWorldPartition::Initialize : World = /Game/TopDown/UEDPIE_0_Lvl_TopDown.Lvl_TopDown, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.12.04-13.58.04:931][674]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.12.04-13.58.04:941][674]LogWorldPartition: Display: WorldPartition initialize took 10.485 ms (total: 2.58 sec)
+[2025.12.04-13.58.04:941][674]LogPlayLevel: PIE: World Init took: (0.012606s)
+[2025.12.04-13.58.04:942][674]LogAudio: Display: Creating Audio Device:                 Id: 24, Scope: Unique, Realtime: True
+[2025.12.04-13.58.04:942][674]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.12.04-13.58.04:942][674]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.12.04-13.58.04:942][674]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.12.04-13.58.04:942][674]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.12.04-13.58.04:942][674]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.12.04-13.58.04:942][674]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.12.04-13.58.04:942][674]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.12.04-13.58.04:942][674]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.12.04-13.58.04:942][674]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.12.04-13.58.04:942][674]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.12.04-13.58.04:942][674]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.12.04-13.58.04:944][674]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.12.04-13.58.04:961][674]LogAudioMixer: Display: Using Audio Hardware Device Unknown
+[2025.12.04-13.58.04:961][674]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.12.04-13.58.04:961][674]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.12.04-13.58.04:961][674]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.12.04-13.58.04:961][674]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=24
+[2025.12.04-13.58.04:961][674]LogAudioMixer: Display: StartRunningNullDevice() called, InstanceID=24
+[2025.12.04-13.58.04:961][674]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=24
+[2025.12.04-13.58.04:961][674]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=12712
+[2025.12.04-13.58.04:963][674]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=24
+[2025.12.04-13.58.04:963][674]LogInit: FAudioDevice initialized with ID 24.
+[2025.12.04-13.58.04:963][674]LogAudio: Display: Audio Device (ID: 24) registered with world 'Lvl_TopDown'.
+[2025.12.04-13.58.04:963][674]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 24
+[2025.12.04-13.58.04:968][674]LogLoad: Game class is 'BP_TopDownGameMode_C'
+[2025.12.04-13.58.04:988][674]LogWorld: Bringing World /Game/TopDown/UEDPIE_0_Lvl_TopDown.Lvl_TopDown up for play (max tick rate 0) at 2025.12.04-13.58.04
+[2025.12.04-13.58.04:988][674]LogWorld: Bringing up level for play took: 0.019194
+[2025.12.04-13.58.04:991][674]LogOnline: OSS: Created online subsystem instance for: :Context_50
+[2025.12.04-13.58.04:999][674]PIE: Server logged in
+[2025.12.04-13.58.05:001][674]PIE: Play in editor total start time 0.262 seconds.
+[2025.12.04-13.58.05:057][675]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.12.04-13.58.16:909][526]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=24
+[2025.12.04-13.58.16:910][526]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.12.04-13.58.23:002][998]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/TopDown/Lvl_TopDown"
+[2025.12.04-13.58.23:002][998]LogNet: Browse: /Game/TopDown/Lvl_TopDown
+[2025.12.04-13.58.23:002][998]LogLoad: LoadMap: /Game/TopDown/Lvl_TopDown
+[2025.12.04-13.58.23:002][998]LogWorld: BeginTearingDown for /Game/TopDown/UEDPIE_0_Lvl_TopDown
+[2025.12.04-13.58.23:003][998]LogSpawn: Warning: SpawnActor failed because we are in the process of tearing down the world
+[2025.12.04-13.58.23:004][998]LogWorld: UWorld::CleanupWorld for Lvl_TopDown, bSessionEnded=true, bCleanupResources=true
+[2025.12.04-13.58.23:007][998]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.04-13.58.23:007][998]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/TopDown/UEDPIE_0_Lvl_TopDown.Lvl_TopDown
+[2025.12.04-13.58.23:043][998]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.12.04-13.58.23:050][998]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
+[2025.12.04-13.58.23:053][998]LogPlayLevel: Creating play world package: /Game/TopDown/UEDPIE_0_Lvl_TopDown
+[2025.12.04-13.58.23:097][998]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2025.12.04-13.58.23:107][998]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 10.358 ms (total: 515.718 ms)
+[2025.12.04-13.58.23:107][998]LogPlayLevel: PIE: StaticDuplicateObject took: (0.053882s)
+[2025.12.04-13.58.23:107][998]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDown/Lvl_TopDown.Lvl_TopDown to /Game/TopDown/UEDPIE_0_Lvl_TopDown.Lvl_TopDown (0.053939s)
+[2025.12.04-13.58.23:107][998]LogAudio: Display: Audio Device (ID: 24) registered with world 'Lvl_TopDown'.
+[2025.12.04-13.58.23:107][998]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_TopDown
+[2025.12.04-13.58.23:109][998]LogWorldPartition: ULevel::OnLevelLoaded(Lvl_TopDown)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.12.04-13.58.23:109][998]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.12.04-13.58.23:109][998]LogWorldPartition: UWorldPartition::Initialize : World = /Game/TopDown/UEDPIE_0_Lvl_TopDown.Lvl_TopDown, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.12.04-13.58.23:109][998]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.12.04-13.58.23:121][998]LogWorldPartition: Display: WorldPartition initialize took 10.722 ms (total: 2.59 sec)
+[2025.12.04-13.58.23:121][998]LogPlayLevel: PIE: World Init took: (0.012758s)
+[2025.12.04-13.58.23:121][998]LogLoad: Game class is 'BP_TopDownGameMode_C'
+[2025.12.04-13.58.23:139][998]LogWorld: Bringing World /Game/TopDown/UEDPIE_0_Lvl_TopDown.Lvl_TopDown up for play (max tick rate 0) at 2025.12.04-13.58.23
+[2025.12.04-13.58.23:139][998]LogWorld: Bringing up level for play took: 0.018718
+[2025.12.04-13.58.23:146][998]LogLoad: Took 0.144223 seconds to LoadMap(/Game/TopDown/UEDPIE_0_Lvl_TopDown)
+[2025.12.04-13.58.23:147][998]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/TopDown/UEDPIE_0_Lvl_TopDown
+[2025.12.04-13.58.23:164][998]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.12.04-13.58.23:591][ 15]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.12.04-13.58.23:591][ 15]LogWorld: BeginTearingDown for /Game/TopDown/UEDPIE_0_Lvl_TopDown
+[2025.12.04-13.58.23:592][ 15]LogWorld: UWorld::CleanupWorld for Lvl_TopDown, bSessionEnded=true, bCleanupResources=true
+[2025.12.04-13.58.23:597][ 15]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.04-13.58.23:597][ 15]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/TopDown/UEDPIE_0_Lvl_TopDown.Lvl_TopDown
+[2025.12.04-13.58.23:598][ 15]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.12.04-13.58.23:604][ 15]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.04-13.58.23:635][ 15]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.12.04-13.58.23:637][ 15]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 24
+[2025.12.04-13.58.23:637][ 15]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=24, StreamState=4
+[2025.12.04-13.58.23:639][ 15]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=24, StreamState=2
+[2025.12.04-13.58.23:639][ 15]LogAudioMixer: Display: StopRunningNullDevice() called, InstanceID=24
+[2025.12.04-13.58.23:648][ 15]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2025.12.04-13.58.23:689][ 16]LogPlayLevel: Display: Destroying online subsystem :Context_50
+[2025.12.04-13.58.28:301][278]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.12.04-13.58.46:038][525]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.12.04-13.58.49:714][717]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2025.12.04-13.58.52:787][717]LogSlate: Window 'Delete Assets' being destroyed
+[2025.12.04-13.58.52:953][717]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/TopDown/Blueprints/EnemyKill.EnemyKill
+	Asset Type: Blueprint
+[2025.12.04-13.58.53:340][717]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2025.12.04-13.58.53:433][717]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2025.12.04-13.58.53:466][717]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2025.12.04-13.58.53:494][717]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2025.12.04-13.58.54:696][760]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/TopDown/Blueprints/KillFloor.KillFloor
+[2025.12.04-13.58.54:696][760]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_27
+[2025.12.04-13.59.03:711][117]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.12.04-13.59.11:214][446]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2025.12.04-13.59.18:713][944]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.12.04-13.59.24:130][310]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 5180.903809
+[2025.12.04-13.59.24:276][320]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.12.04-13.59.24:276][320]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 5181.036133, Update Interval: 343.463257
+[2025.12.04-13.59.42:607][496]Cmd: DELETE
+[2025.12.04-13.59.42:607][496]Cmd: ACTOR DELETE
+[2025.12.04-13.59.42:610][496]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.12.04-13.59.42:647][496]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2025.12.04-13.59.42:650][496]LogEditorActor: Deleted 1 Actors (0.043 secs)
+[2025.12.04-13.59.46:726][775]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.12.04-13.59.48:106][866]Cmd: TRANSACTION UNDO
+[2025.12.04-13.59.48:106][866]LogEditorTransaction: Undo Move Elements
+[2025.12.04-14.00.01:285][674]Cmd: DELETE
+[2025.12.04-14.00.01:285][674]Cmd: ACTOR DELETE
+[2025.12.04-14.00.01:288][674]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.12.04-14.00.01:325][674]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
+[2025.12.04-14.00.01:329][674]LogEditorActor: Deleted 1 Actors (0.044 secs)
+[2025.12.04-14.00.01:946][702]Cmd: DELETE
+[2025.12.04-14.00.01:946][702]Cmd: ACTOR DELETE
+[2025.12.04-14.00.01:949][702]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.12.04-14.00.01:983][702]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2025.12.04-14.00.01:987][702]LogEditorActor: Deleted 1 Actors (0.041 secs)
+[2025.12.04-14.00.02:659][733]Cmd: DELETE
+[2025.12.04-14.00.02:659][733]Cmd: ACTOR DELETE
+[2025.12.04-14.00.02:661][733]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.12.04-14.00.02:694][733]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2025.12.04-14.00.02:697][733]LogEditorActor: Deleted 1 Actors (0.040 secs)
+[2025.12.04-14.00.07:561][ 11]Cmd: DELETE
+[2025.12.04-14.00.07:561][ 11]Cmd: ACTOR DELETE
+[2025.12.04-14.00.07:565][ 11]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.12.04-14.00.07:601][ 11]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2025.12.04-14.00.07:605][ 11]LogEditorActor: Deleted 1 Actors (0.043 secs)
+[2025.12.04-14.00.07:970][ 25]Cmd: DELETE
+[2025.12.04-14.00.07:970][ 25]Cmd: ACTOR DELETE
+[2025.12.04-14.00.07:973][ 25]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.12.04-14.00.08:020][ 25]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2025.12.04-14.00.08:023][ 25]LogEditorActor: Deleted 1 Actors (0.052 secs)
+[2025.12.04-14.00.28:334][271]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.12.04-14.00.34:115][590]Cmd: TRANSACTION UNDO
+[2025.12.04-14.00.34:115][590]LogEditorTransaction: Undo Scale Elements
+[2025.12.04-14.00.37:496][768]Cmd: TRANSACTION UNDO
+[2025.12.04-14.00.37:496][768]LogEditorTransaction: Undo Scale Elements
+[2025.12.04-14.00.47:227][348]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.12.04-14.00.47:236][348]LogContentBundle: [Lvl_TopDown(Editor)] Generating Streaming for 0 Content Bundles.
+[2025.12.04-14.00.47:236][348]LogWorldPartition: Display: GenerateStreaming for 'Lvl_TopDown' started...
+[2025.12.04-14.00.47:238][348]LogWorldPartition: Display: GenerateStreaming for 'Lvl_TopDown' took 2.596 ms (total: 63.783 ms)
+[2025.12.04-14.00.47:279][348]LogFMOD: Display: Loaded bank lookup
+[2025.12.04-14.00.47:279][348]LogFMOD: Error: Failed to load asset lookup
+[2025.12.04-14.00.47:282][348]LogFMOD: Error: 'lowLevelSystem->getDriverInfo(DriverIndex, nullptr, 0, nullptr, &SystemSampleRate, nullptr, nullptr)' returned 'An invalid parameter was passed to this function.'
+[2025.12.04-14.00.47:283][348]LogFMOD: Default sample rate = 48000
+[2025.12.04-14.00.47:283][348]LogFMOD: System sample rate = 0
+[2025.12.04-14.00.47:283][348]LogFMOD: CallbackHandler not set.
+[2025.12.04-14.00.47:283][348]LogFMOD: Warning: C:\buildagent2\work\c1c3f17eb167c494\core_api\src\fmod_systemi.cpp(2909) - No output sound devices found - switching output mode to FMOD_OUTPUTTYPE_NOSOUND
+
+[2025.12.04-14.00.47:292][348]LogFMOD: Warning: Master bank (Master.bank) not found.
+[2025.12.04-14.00.47:332][348]LogPlayLevel: [PlayLevel] Compiling Enemy before play...
+[2025.12.04-14.00.47:480][348]LogUObjectHash: Compacting FUObjectHashTables data took   1.35ms
+[2025.12.04-14.00.47:483][348]LogPlayLevel: PlayLevel: Blueprint regeneration took 151 ms (1 blueprints)
+[2025.12.04-14.00.47:483][348]LogPlayLevel: Creating play world package: /Game/TopDown/UEDPIE_0_Lvl_TopDown
+[2025.12.04-14.00.47:525][348]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2025.12.04-14.00.47:536][348]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 10.241 ms (total: 525.960 ms)
+[2025.12.04-14.00.47:536][348]LogPlayLevel: PIE: StaticDuplicateObject took: (0.053090s)
+[2025.12.04-14.00.47:536][348]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDown/Lvl_TopDown.Lvl_TopDown to /Game/TopDown/UEDPIE_0_Lvl_TopDown.Lvl_TopDown (0.053133s)
+[2025.12.04-14.00.47:574][348]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2025.12.04-14.00.47:575][348]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_TopDown
+[2025.12.04-14.00.47:577][348]LogWorldPartition: ULevel::OnLevelLoaded(Lvl_TopDown)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.12.04-14.00.47:577][348]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.12.04-14.00.47:577][348]LogWorldPartition: UWorldPartition::Initialize : World = /Game/TopDown/UEDPIE_0_Lvl_TopDown.Lvl_TopDown, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.12.04-14.00.47:577][348]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.12.04-14.00.47:587][348]LogWorldPartition: Display: WorldPartition initialize took 10.346 ms (total: 2.60 sec)
+[2025.12.04-14.00.47:588][348]LogPlayLevel: PIE: World Init took: (0.012263s)
+[2025.12.04-14.00.47:588][348]LogAudio: Display: Creating Audio Device:                 Id: 25, Scope: Unique, Realtime: True
+[2025.12.04-14.00.47:588][348]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.12.04-14.00.47:588][348]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.12.04-14.00.47:588][348]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.12.04-14.00.47:588][348]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.12.04-14.00.47:589][348]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.12.04-14.00.47:589][348]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.12.04-14.00.47:589][348]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.12.04-14.00.47:589][348]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.12.04-14.00.47:589][348]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.12.04-14.00.47:589][348]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.12.04-14.00.47:589][348]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.12.04-14.00.47:591][348]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.12.04-14.00.47:607][348]LogAudioMixer: Display: Using Audio Hardware Device Unknown
+[2025.12.04-14.00.47:607][348]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.12.04-14.00.47:607][348]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.12.04-14.00.47:607][348]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.12.04-14.00.47:608][348]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=25
+[2025.12.04-14.00.47:608][348]LogAudioMixer: Display: StartRunningNullDevice() called, InstanceID=25
+[2025.12.04-14.00.47:608][348]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=25
+[2025.12.04-14.00.47:608][348]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=23268
+[2025.12.04-14.00.47:608][348]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=25
+[2025.12.04-14.00.47:610][348]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=25
+[2025.12.04-14.00.47:610][348]LogInit: FAudioDevice initialized with ID 25.
+[2025.12.04-14.00.47:610][348]LogAudio: Display: Audio Device (ID: 25) registered with world 'Lvl_TopDown'.
+[2025.12.04-14.00.47:610][348]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 25
+[2025.12.04-14.00.47:614][348]LogLoad: Game class is 'BP_TopDownGameMode_C'
+[2025.12.04-14.00.47:633][348]LogWorld: Bringing World /Game/TopDown/UEDPIE_0_Lvl_TopDown.Lvl_TopDown up for play (max tick rate 0) at 2025.12.04-14.00.47
+[2025.12.04-14.00.47:633][348]LogWorld: Bringing up level for play took: 0.018635
+[2025.12.04-14.00.47:636][348]LogOnline: OSS: Created online subsystem instance for: :Context_52
+[2025.12.04-14.00.47:644][348]PIE: Server logged in
+[2025.12.04-14.00.47:646][348]PIE: Play in editor total start time 0.411 seconds.
+[2025.12.04-14.00.47:701][349]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.12.04-14.00.48:130][350]LogPSOHitching: Encountered 1400 PSO creation hitches so far (675 graphics, 725 compute). 0 of them were precached.
+[2025.12.04-14.00.51:136][528]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.12.04-14.00.51:136][528]LogWorld: BeginTearingDown for /Game/TopDown/UEDPIE_0_Lvl_TopDown
+[2025.12.04-14.00.51:137][528]LogWorld: UWorld::CleanupWorld for Lvl_TopDown, bSessionEnded=true, bCleanupResources=true
+[2025.12.04-14.00.51:142][528]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.04-14.00.51:142][528]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/TopDown/UEDPIE_0_Lvl_TopDown.Lvl_TopDown
+[2025.12.04-14.00.51:145][528]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.12.04-14.00.51:150][528]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.04-14.00.51:183][528]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.12.04-14.00.51:184][528]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 25
+[2025.12.04-14.00.51:184][528]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=25, StreamState=4
+[2025.12.04-14.00.51:186][528]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=25, StreamState=2
+[2025.12.04-14.00.51:186][528]LogAudioMixer: Display: StopRunningNullDevice() called, InstanceID=25
+[2025.12.04-14.00.51:194][528]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
+[2025.12.04-14.00.51:297][529]LogPlayLevel: Display: Destroying online subsystem :Context_52
+[2025.12.04-14.00.58:585][929]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2025.12.04-14.01.01:732][148]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.12.04-14.01.05:113][329]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2025.12.04-14.01.06:861][437]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2025.12.04-14.01.08:954][571]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2025.12.04-14.01.10:643][649]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2025.12.04-14.01.13:103][780]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.12.04-14.01.13:112][780]LogContentBundle: [Lvl_TopDown(Editor)] Generating Streaming for 0 Content Bundles.
+[2025.12.04-14.01.13:112][780]LogWorldPartition: Display: GenerateStreaming for 'Lvl_TopDown' started...
+[2025.12.04-14.01.13:115][780]LogWorldPartition: Display: GenerateStreaming for 'Lvl_TopDown' took 2.478 ms (total: 66.261 ms)
+[2025.12.04-14.01.13:146][780]LogFMOD: Display: Loaded bank lookup
+[2025.12.04-14.01.13:146][780]LogFMOD: Error: Failed to load asset lookup
+[2025.12.04-14.01.13:148][780]LogFMOD: Error: 'lowLevelSystem->getDriverInfo(DriverIndex, nullptr, 0, nullptr, &SystemSampleRate, nullptr, nullptr)' returned 'An invalid parameter was passed to this function.'
+[2025.12.04-14.01.13:148][780]LogFMOD: Default sample rate = 48000
+[2025.12.04-14.01.13:148][780]LogFMOD: System sample rate = 0
+[2025.12.04-14.01.13:148][780]LogFMOD: CallbackHandler not set.
+[2025.12.04-14.01.13:148][780]LogFMOD: Warning: C:\buildagent2\work\c1c3f17eb167c494\core_api\src\fmod_systemi.cpp(2909) - No output sound devices found - switching output mode to FMOD_OUTPUTTYPE_NOSOUND
+
+[2025.12.04-14.01.13:158][780]LogFMOD: Warning: Master bank (Master.bank) not found.
+[2025.12.04-14.01.13:205][780]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.12.04-14.01.13:205][780]LogPlayLevel: Creating play world package: /Game/TopDown/UEDPIE_0_Lvl_TopDown
+[2025.12.04-14.01.13:247][780]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2025.12.04-14.01.13:257][780]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 10.124 ms (total: 536.084 ms)
+[2025.12.04-14.01.13:257][780]LogPlayLevel: PIE: StaticDuplicateObject took: (0.052983s)
+[2025.12.04-14.01.13:257][780]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDown/Lvl_TopDown.Lvl_TopDown to /Game/TopDown/UEDPIE_0_Lvl_TopDown.Lvl_TopDown (0.053037s)
+[2025.12.04-14.01.13:290][780]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2025.12.04-14.01.13:293][780]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_TopDown
+[2025.12.04-14.01.13:295][780]LogWorldPartition: ULevel::OnLevelLoaded(Lvl_TopDown)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.12.04-14.01.13:295][780]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.12.04-14.01.13:295][780]LogWorldPartition: UWorldPartition::Initialize : World = /Game/TopDown/UEDPIE_0_Lvl_TopDown.Lvl_TopDown, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.12.04-14.01.13:295][780]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.12.04-14.01.13:304][780]LogWorldPartition: Display: WorldPartition initialize took 10.368 ms (total: 2.61 sec)
+[2025.12.04-14.01.13:304][780]LogPlayLevel: PIE: World Init took: (0.012246s)
+[2025.12.04-14.01.13:305][780]LogAudio: Display: Creating Audio Device:                 Id: 26, Scope: Unique, Realtime: True
+[2025.12.04-14.01.13:305][780]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.12.04-14.01.13:305][780]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.12.04-14.01.13:305][780]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.12.04-14.01.13:305][780]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.12.04-14.01.13:305][780]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.12.04-14.01.13:305][780]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.12.04-14.01.13:305][780]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.12.04-14.01.13:305][780]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.12.04-14.01.13:306][780]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.12.04-14.01.13:306][780]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.12.04-14.01.13:306][780]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.12.04-14.01.13:308][780]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.12.04-14.01.13:323][780]LogAudioMixer: Display: Using Audio Hardware Device Unknown
+[2025.12.04-14.01.13:323][780]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.12.04-14.01.13:323][780]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.12.04-14.01.13:323][780]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.12.04-14.01.13:324][780]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=26
+[2025.12.04-14.01.13:324][780]LogAudioMixer: Display: StartRunningNullDevice() called, InstanceID=26
+[2025.12.04-14.01.13:324][780]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=26
+[2025.12.04-14.01.13:324][780]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=21036
+[2025.12.04-14.01.13:324][780]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=26
+[2025.12.04-14.01.13:326][780]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=26
+[2025.12.04-14.01.13:326][780]LogInit: FAudioDevice initialized with ID 26.
+[2025.12.04-14.01.13:326][780]LogAudio: Display: Audio Device (ID: 26) registered with world 'Lvl_TopDown'.
+[2025.12.04-14.01.13:326][780]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 26
+[2025.12.04-14.01.13:331][780]LogLoad: Game class is 'BP_TopDownGameMode_C'
+[2025.12.04-14.01.13:349][780]LogWorld: Bringing World /Game/TopDown/UEDPIE_0_Lvl_TopDown.Lvl_TopDown up for play (max tick rate 0) at 2025.12.04-14.01.13
+[2025.12.04-14.01.13:349][780]LogWorld: Bringing up level for play took: 0.018686
+[2025.12.04-14.01.13:352][780]LogOnline: OSS: Created online subsystem instance for: :Context_53
+[2025.12.04-14.01.13:360][780]PIE: Server logged in
+[2025.12.04-14.01.13:362][780]PIE: Play in editor total start time 0.251 seconds.
+[2025.12.04-14.01.13:417][781]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.12.04-14.01.19:967][281]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/TopDown/Lvl_TopDown"
+[2025.12.04-14.01.19:968][281]LogNet: Browse: /Game/TopDown/Lvl_TopDown
+[2025.12.04-14.01.19:968][281]LogLoad: LoadMap: /Game/TopDown/Lvl_TopDown
+[2025.12.04-14.01.19:968][281]LogWorld: BeginTearingDown for /Game/TopDown/UEDPIE_0_Lvl_TopDown
+[2025.12.04-14.01.19:968][281]LogSpawn: Warning: SpawnActor failed because we are in the process of tearing down the world
+[2025.12.04-14.01.19:969][281]LogWorld: UWorld::CleanupWorld for Lvl_TopDown, bSessionEnded=true, bCleanupResources=true
+[2025.12.04-14.01.19:972][281]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.04-14.01.19:972][281]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/TopDown/UEDPIE_0_Lvl_TopDown.Lvl_TopDown
+[2025.12.04-14.01.20:038][281]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.12.04-14.01.20:043][281]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2025.12.04-14.01.20:048][281]LogPlayLevel: Creating play world package: /Game/TopDown/UEDPIE_0_Lvl_TopDown
+[2025.12.04-14.01.20:092][281]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2025.12.04-14.01.20:102][281]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 10.389 ms (total: 546.474 ms)
+[2025.12.04-14.01.20:102][281]LogPlayLevel: PIE: StaticDuplicateObject took: (0.054072s)
+[2025.12.04-14.01.20:102][281]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDown/Lvl_TopDown.Lvl_TopDown to /Game/TopDown/UEDPIE_0_Lvl_TopDown.Lvl_TopDown (0.054128s)
+[2025.12.04-14.01.20:102][281]LogAudio: Display: Audio Device (ID: 26) registered with world 'Lvl_TopDown'.
+[2025.12.04-14.01.20:102][281]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_TopDown
+[2025.12.04-14.01.20:104][281]LogWorldPartition: ULevel::OnLevelLoaded(Lvl_TopDown)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.12.04-14.01.20:104][281]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.12.04-14.01.20:104][281]LogWorldPartition: UWorldPartition::Initialize : World = /Game/TopDown/UEDPIE_0_Lvl_TopDown.Lvl_TopDown, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.12.04-14.01.20:104][281]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.12.04-14.01.20:114][281]LogWorldPartition: Display: WorldPartition initialize took 10.238 ms (total: 2.62 sec)
+[2025.12.04-14.01.20:114][281]LogPlayLevel: PIE: World Init took: (0.012148s)
+[2025.12.04-14.01.20:114][281]LogLoad: Game class is 'BP_TopDownGameMode_C'
+[2025.12.04-14.01.20:133][281]LogWorld: Bringing World /Game/TopDown/UEDPIE_0_Lvl_TopDown.Lvl_TopDown up for play (max tick rate 0) at 2025.12.04-14.01.20
+[2025.12.04-14.01.20:134][281]LogWorld: Bringing up level for play took: 0.018624
+[2025.12.04-14.01.20:141][281]LogLoad: Took 0.172893 seconds to LoadMap(/Game/TopDown/UEDPIE_0_Lvl_TopDown)
+[2025.12.04-14.01.20:141][281]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/TopDown/UEDPIE_0_Lvl_TopDown
+[2025.12.04-14.01.20:156][281]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.12.04-14.01.31:740][188]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=26
+[2025.12.04-14.01.32:995][269]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.12.04-14.01.32:995][269]LogWorld: BeginTearingDown for /Game/TopDown/UEDPIE_0_Lvl_TopDown
+[2025.12.04-14.01.32:996][269]LogWorld: UWorld::CleanupWorld for Lvl_TopDown, bSessionEnded=true, bCleanupResources=true
+[2025.12.04-14.01.33:001][269]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.04-14.01.33:001][269]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/TopDown/UEDPIE_0_Lvl_TopDown.Lvl_TopDown
+[2025.12.04-14.01.33:004][269]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.12.04-14.01.33:009][269]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.04-14.01.33:042][269]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.12.04-14.01.33:043][269]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 26
+[2025.12.04-14.01.33:043][269]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=26, StreamState=4
+[2025.12.04-14.01.33:045][269]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=26, StreamState=2
+[2025.12.04-14.01.33:045][269]LogAudioMixer: Display: StopRunningNullDevice() called, InstanceID=26
+[2025.12.04-14.01.33:052][269]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2025.12.04-14.01.33:153][270]LogPlayLevel: Display: Destroying online subsystem :Context_53
+[2025.12.04-14.01.42:349][806]Cmd: DUPLICATE
+[2025.12.04-14.01.42:349][806]Cmd: ACTOR DUPLICATE
+[2025.12.04-14.01.46:739][ 68]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.12.04-14.02.01:744][ 44]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.12.04-14.02.16:747][972]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.12.04-14.02.19:473][114]Cmd: DUPLICATE
+[2025.12.04-14.02.19:473][114]Cmd: ACTOR DUPLICATE
+[2025.12.04-14.02.27:081][640]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.12.04-14.02.29:857][782]Cmd: DUPLICATE
+[2025.12.04-14.02.29:857][782]Cmd: ACTOR DUPLICATE
+[2025.12.04-14.02.33:667][ 24]Cmd: DUPLICATE
+[2025.12.04-14.02.33:667][ 24]Cmd: ACTOR DUPLICATE
+[2025.12.04-14.02.38:971][373]Cmd: DUPLICATE
+[2025.12.04-14.02.38:971][373]Cmd: ACTOR DUPLICATE
+[2025.12.04-14.02.44:823][758]Cmd: DUPLICATE
+[2025.12.04-14.02.44:823][758]Cmd: ACTOR DUPLICATE
+[2025.12.04-14.02.46:748][877]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.12.04-14.03.01:757][859]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.12.04-14.03.11:615][514]Cmd: DELETE
+[2025.12.04-14.03.11:616][514]Cmd: ACTOR DELETE
+[2025.12.04-14.03.11:625][514]LogEditorActor: Deleted Actor: Coin_C
+[2025.12.04-14.03.11:626][514]LogEditorActor: Deleted Actor: Coin_C
+[2025.12.04-14.03.11:627][514]LogEditorActor: Deleted Actor: Coin_C
+[2025.12.04-14.03.11:629][514]LogEditorActor: Deleted Actor: Coin_C
+[2025.12.04-14.03.11:630][514]LogEditorActor: Deleted Actor: Coin_C
+[2025.12.04-14.03.11:631][514]LogEditorActor: Deleted Actor: Coin_C
+[2025.12.04-14.03.11:631][514]LogEditorActor: Deleted Actor: Coin_C
+[2025.12.04-14.03.11:632][514]LogEditorActor: Deleted Actor: Coin_C
+[2025.12.04-14.03.11:633][514]LogEditorActor: Deleted Actor: Coin_C
+[2025.12.04-14.03.11:634][514]LogEditorActor: Deleted Actor: Coin_C
+[2025.12.04-14.03.11:635][514]LogEditorActor: Deleted Actor: Coin_C
+[2025.12.04-14.03.11:636][514]LogEditorActor: Deleted Actor: Coin_C
+[2025.12.04-14.03.11:676][514]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2025.12.04-14.03.11:681][514]LogEditorActor: Deleted 12 Actors (0.065 secs)
+[2025.12.04-14.03.17:961][933]Cmd: DUPLICATE
+[2025.12.04-14.03.17:961][933]Cmd: ACTOR DUPLICATE
+[2025.12.04-14.03.23:797][276]Cmd: TRANSACTION UNDO
+[2025.12.04-14.03.23:797][276]LogEditorTransaction: Undo Move Elements
+[2025.12.04-14.03.24:616][303]Cmd: TRANSACTION UNDO
+[2025.12.04-14.03.24:616][303]LogEditorTransaction: Undo Move Elements
+[2025.12.04-14.03.27:091][487]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.12.04-14.03.41:370][327]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.12.04-14.03.50:968][884]Cmd: TRANSACTION UNDO
+[2025.12.04-14.03.50:968][884]LogEditorTransaction: Undo Clicking on Elements
+[2025.12.04-14.03.57:116][280]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.12.04-14.04.04:169][712]Cmd: DUPLICATE
+[2025.12.04-14.04.04:169][712]Cmd: ACTOR DUPLICATE
+[2025.12.04-14.04.17:414][562]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.12.04-14.04.53:699][608]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+[2025.12.04-14.04.53:711][608]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/TopDown/Lvl_TopDown/8/WV/LPKFF70S7E1N1AHWOJXJ8H_Auto6
+[2025.12.04-14.04.53:711][608]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/LPKFF70S7E1N1AHWOJXJ8H_Auto6732BFB35468D62E2DC8829B29F1C3335.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/Autosaves/Game/__ExternalActors__/TopDown/Lvl_TopDown/8/WV/LPKFF70S7E1N1AHWOJXJ8H_Auto6.uasset'
+[2025.12.04-14.04.53:719][608]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/TopDown/Lvl_TopDown/A/DO/H6PRRDGPS0PIL1H2OR51OT_Auto6
+[2025.12.04-14.04.53:719][608]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/H6PRRDGPS0PIL1H2OR51OT_Auto6DCA0C1624B9E8DB033681B909477150A.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/Autosaves/Game/__ExternalActors__/TopDown/Lvl_TopDown/A/DO/H6PRRDGPS0PIL1H2OR51OT_Auto6.uasset'
+[2025.12.04-14.04.53:726][608]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/TopDown/Lvl_TopDown/0/YK/K1MSAAPX7S5FDVCX0HWM0X_Auto6
+[2025.12.04-14.04.53:726][608]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/K1MSAAPX7S5FDVCX0HWM0X_Auto6FE676501495FA5622F1E29897C9D6F42.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/Autosaves/Game/__ExternalActors__/TopDown/Lvl_TopDown/0/YK/K1MSAAPX7S5FDVCX0HWM0X_Auto6.uasset'
+[2025.12.04-14.04.53:732][608]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/TopDown/Lvl_TopDown/2/D6/44X14SD11TM11GMGY9K1LN_Auto6
+[2025.12.04-14.04.53:732][608]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/44X14SD11TM11GMGY9K1LN_Auto6F8BC3EFB498C944006FBB0831A3F34F6.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/Autosaves/Game/__ExternalActors__/TopDown/Lvl_TopDown/2/D6/44X14SD11TM11GMGY9K1LN_Auto6.uasset'
+[2025.12.04-14.04.53:739][608]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/TopDown/Lvl_TopDown/2/OZ/N20Q34H3MBX83I2ATTIJ7T_Auto6
+[2025.12.04-14.04.53:739][608]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/N20Q34H3MBX83I2ATTIJ7T_Auto6FD8A206C40EC85EF98B5DCA60E717098.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/Autosaves/Game/__ExternalActors__/TopDown/Lvl_TopDown/2/OZ/N20Q34H3MBX83I2ATTIJ7T_Auto6.uasset'
+[2025.12.04-14.04.53:747][608]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/TopDown/Lvl_TopDown/5/2X/1Q36NH5WYFF0DWIFW6BI4Q_Auto6
+[2025.12.04-14.04.53:747][608]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/1Q36NH5WYFF0DWIFW6BI4Q_Auto6782CAB5047E93A5099AD4EAC797FB009.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/Autosaves/Game/__ExternalActors__/TopDown/Lvl_TopDown/5/2X/1Q36NH5WYFF0DWIFW6BI4Q_Auto6.uasset'
+[2025.12.04-14.04.53:754][608]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/TopDown/Lvl_TopDown/5/B7/ZXPYAD8TS197DKTF1ZH1AT_Auto6
+[2025.12.04-14.04.53:754][608]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/ZXPYAD8TS197DKTF1ZH1AT_Auto653D4B456438D06DE72B956B14B631C3C.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/Autosaves/Game/__ExternalActors__/TopDown/Lvl_TopDown/5/B7/ZXPYAD8TS197DKTF1ZH1AT_Auto6.uasset'
+[2025.12.04-14.04.53:761][608]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/TopDown/Lvl_TopDown/6/G3/B758HRCYUATB89XZ5UZCJH_Auto6
+[2025.12.04-14.04.53:762][608]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/B758HRCYUATB89XZ5UZCJH_Auto679997E01428510BA83C51FAB466D5CC8.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/Autosaves/Game/__ExternalActors__/TopDown/Lvl_TopDown/6/G3/B758HRCYUATB89XZ5UZCJH_Auto6.uasset'
+[2025.12.04-14.04.53:769][608]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/TopDown/Lvl_TopDown/D/0N/Q9NNRTNOAR4RKFMVCT1P8K_Auto6
+[2025.12.04-14.04.53:769][608]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/Q9NNRTNOAR4RKFMVCT1P8K_Auto67698DE3441589B28C7DF76B0C5206F60.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/Autosaves/Game/__ExternalActors__/TopDown/Lvl_TopDown/D/0N/Q9NNRTNOAR4RKFMVCT1P8K_Auto6.uasset'
+[2025.12.04-14.04.53:778][608]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/TopDown/Lvl_TopDown/9/A4/QMVRJZT8QTW9R2L3GFD39O_Auto6
+[2025.12.04-14.04.53:778][608]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/QMVRJZT8QTW9R2L3GFD39O_Auto6FF370A8B45E12AAD981B58B00E79A03D.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/Autosaves/Game/__ExternalActors__/TopDown/Lvl_TopDown/9/A4/QMVRJZT8QTW9R2L3GFD39O_Auto6.uasset'
+[2025.12.04-14.04.53:786][608]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/TopDown/Lvl_TopDown/6/1U/6QDK8MYNCWAN8CXRQA4XSD_Auto6
+[2025.12.04-14.04.53:788][608]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/6QDK8MYNCWAN8CXRQA4XSD_Auto6AF54A69B4EE38A16091403B5CC0CEC1E.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/Autosaves/Game/__ExternalActors__/TopDown/Lvl_TopDown/6/1U/6QDK8MYNCWAN8CXRQA4XSD_Auto6.uasset'
+[2025.12.04-14.04.53:795][608]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/TopDown/Lvl_TopDown/5/0Y/ZSXA3IXIZXHP9AZEJOZWN1_Auto6
+[2025.12.04-14.04.53:796][608]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/ZSXA3IXIZXHP9AZEJOZWN1_Auto61BF39CE74085DCE2915AF4BBB17EA956.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/Autosaves/Game/__ExternalActors__/TopDown/Lvl_TopDown/5/0Y/ZSXA3IXIZXHP9AZEJOZWN1_Auto6.uasset'
+[2025.12.04-14.04.53:803][608]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/TopDown/Lvl_TopDown/A/LJ/O1B5FCY5JNSDKMFY2O77M1_Auto6
+[2025.12.04-14.04.53:803][608]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/O1B5FCY5JNSDKMFY2O77M1_Auto6A422196E4DEE2C84A6328F8451AE0432.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/Autosaves/Game/__ExternalActors__/TopDown/Lvl_TopDown/A/LJ/O1B5FCY5JNSDKMFY2O77M1_Auto6.uasset'
+[2025.12.04-14.04.53:810][608]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/TopDown/Lvl_TopDown/9/5L/CWFSQBMZI8STXES5Q8XM6R_Auto6
+[2025.12.04-14.04.53:810][608]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/CWFSQBMZI8STXES5Q8XM6R_Auto622830B76490DAD76253207B4D62E3B8C.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/Autosaves/Game/__ExternalActors__/TopDown/Lvl_TopDown/9/5L/CWFSQBMZI8STXES5Q8XM6R_Auto6.uasset'
+[2025.12.04-14.04.53:817][608]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/TopDown/Lvl_TopDown/C/L3/FPXQETYMOYQ4NLAVBAMW63_Auto6
+[2025.12.04-14.04.53:817][608]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/FPXQETYMOYQ4NLAVBAMW63_Auto67BB414EF44FF1CCAC79640BD0C3F7BF7.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/Autosaves/Game/__ExternalActors__/TopDown/Lvl_TopDown/C/L3/FPXQETYMOYQ4NLAVBAMW63_Auto6.uasset'
+[2025.12.04-14.04.53:825][608]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/TopDown/Lvl_TopDown/E/FI/TETGN4NP4POAOJAD8FBSJP_Auto6
+[2025.12.04-14.04.53:825][608]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/TETGN4NP4POAOJAD8FBSJP_Auto69E8C4AAC4DE6A3FA92F2E6997462C56B.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/Autosaves/Game/__ExternalActors__/TopDown/Lvl_TopDown/E/FI/TETGN4NP4POAOJAD8FBSJP_Auto6.uasset'
+[2025.12.04-14.04.53:833][608]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/TopDown/Lvl_TopDown/3/XW/WAHA78PENW3DH2NIF179P0_Auto6
+[2025.12.04-14.04.53:833][608]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/WAHA78PENW3DH2NIF179P0_Auto6410EF55D4F8C8A14EF981AA1DEF33817.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/Autosaves/Game/__ExternalActors__/TopDown/Lvl_TopDown/3/XW/WAHA78PENW3DH2NIF179P0_Auto6.uasset'
+[2025.12.04-14.04.53:843][608]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/TopDown/Lvl_TopDown/9/B6/FCBSN0DLTK4L0G0RSRGZFV_Auto6
+[2025.12.04-14.04.53:843][608]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/FCBSN0DLTK4L0G0RSRGZFV_Auto6EA0939F0478897E2E75CF18388A2675A.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/Autosaves/Game/__ExternalActors__/TopDown/Lvl_TopDown/9/B6/FCBSN0DLTK4L0G0RSRGZFV_Auto6.uasset'
+[2025.12.04-14.04.53:850][608]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/TopDown/Lvl_TopDown/D/UH/19GX7UY9S7KSLQHXSDJNNJ_Auto6
+[2025.12.04-14.04.53:850][608]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/19GX7UY9S7KSLQHXSDJNNJ_Auto6A70563B446B77672B765C4B742E31F67.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/Autosaves/Game/__ExternalActors__/TopDown/Lvl_TopDown/D/UH/19GX7UY9S7KSLQHXSDJNNJ_Auto6.uasset'
+[2025.12.04-14.04.53:858][608]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/TopDown/Lvl_TopDown/9/RH/92H21I8QIO5MWGLQGXEZHZ_Auto6
+[2025.12.04-14.04.53:858][608]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/92H21I8QIO5MWGLQGXEZHZ_Auto6ED8505EC420B6F28871D118DEBB07B45.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/Autosaves/Game/__ExternalActors__/TopDown/Lvl_TopDown/9/RH/92H21I8QIO5MWGLQGXEZHZ_Auto6.uasset'
+[2025.12.04-14.04.53:865][608]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/TopDown/Lvl_TopDown/A/8P/51RR31GQNGITPTXRPVPUSH_Auto6
+[2025.12.04-14.04.53:865][608]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/51RR31GQNGITPTXRPVPUSH_Auto62F6DE7F4435ACFA1E1180E9EF6FE0664.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/Autosaves/Game/__ExternalActors__/TopDown/Lvl_TopDown/A/8P/51RR31GQNGITPTXRPVPUSH_Auto6.uasset'
+[2025.12.04-14.04.53:872][608]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/TopDown/Lvl_TopDown/0/CU/U435UZ8YHXRHM92DJVZ51A_Auto6
+[2025.12.04-14.04.53:872][608]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/U435UZ8YHXRHM92DJVZ51A_Auto670B24BD8498CE40F422DF091DF5AF298.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/Autosaves/Game/__ExternalActors__/TopDown/Lvl_TopDown/0/CU/U435UZ8YHXRHM92DJVZ51A_Auto6.uasset'
+[2025.12.04-14.04.53:878][608]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/TopDown/Lvl_TopDown/A/C0/7CSBZAHQ4KQJRNXRQIOD16_Auto6
+[2025.12.04-14.04.53:878][608]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/7CSBZAHQ4KQJRNXRQIOD16_Auto681FA383941622F344B23A3B4BD333401.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/Autosaves/Game/__ExternalActors__/TopDown/Lvl_TopDown/A/C0/7CSBZAHQ4KQJRNXRQIOD16_Auto6.uasset'
+[2025.12.04-14.04.53:885][608]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/TopDown/Lvl_TopDown/1/K9/JJWBO9FJGFAIBQU8OZ03Y3_Auto6
+[2025.12.04-14.04.53:885][608]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/JJWBO9FJGFAIBQU8OZ03Y3_Auto6E5E5D3D2455B8FE674B91EA12C1687B7.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/Autosaves/Game/__ExternalActors__/TopDown/Lvl_TopDown/1/K9/JJWBO9FJGFAIBQU8OZ03Y3_Auto6.uasset'
+[2025.12.04-14.04.53:892][608]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/TopDown/Lvl_TopDown/B/9V/KLQ28SILBI62M24UEXKR7O_Auto6
+[2025.12.04-14.04.53:892][608]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/KLQ28SILBI62M24UEXKR7O_Auto6CA993EE64A244EBF12E0429B9854BAC8.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/Autosaves/Game/__ExternalActors__/TopDown/Lvl_TopDown/B/9V/KLQ28SILBI62M24UEXKR7O_Auto6.uasset'
+[2025.12.04-14.04.53:899][608]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/TopDown/Lvl_TopDown/E/AJ/UYJCU1SWENM5FOOX5BW4U6_Auto6
+[2025.12.04-14.04.53:899][608]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/UYJCU1SWENM5FOOX5BW4U6_Auto65382FBDA4683F9011E1C1384EAA8D633.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/Autosaves/Game/__ExternalActors__/TopDown/Lvl_TopDown/E/AJ/UYJCU1SWENM5FOOX5BW4U6_Auto6.uasset'
+[2025.12.04-14.04.53:906][608]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/TopDown/Lvl_TopDown/9/RP/4LTH7FER0KG1B7NBMOG35Q_Auto6
+[2025.12.04-14.04.53:906][608]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/4LTH7FER0KG1B7NBMOG35Q_Auto637B23297438AA55C618080A98C9CD968.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/Autosaves/Game/__ExternalActors__/TopDown/Lvl_TopDown/9/RP/4LTH7FER0KG1B7NBMOG35Q_Auto6.uasset'
+[2025.12.04-14.04.53:913][608]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/TopDown/Lvl_TopDown/C/Y6/CR49SNUZE6L32F7XHSEH5B_Auto6
+[2025.12.04-14.04.53:913][608]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/CR49SNUZE6L32F7XHSEH5B_Auto64341636B4DC31BD2DCF6AB8BF818DB12.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/Autosaves/Game/__ExternalActors__/TopDown/Lvl_TopDown/C/Y6/CR49SNUZE6L32F7XHSEH5B_Auto6.uasset'
+[2025.12.04-14.04.53:919][608]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/TopDown/Lvl_TopDown/0/N9/TBGLDH4GW64089EU7CQYRK_Auto6
+[2025.12.04-14.04.53:919][608]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/TBGLDH4GW64089EU7CQYRK_Auto6296FC862436CB784F80246907573B9DD.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/Autosaves/Game/__ExternalActors__/TopDown/Lvl_TopDown/0/N9/TBGLDH4GW64089EU7CQYRK_Auto6.uasset'
+[2025.12.04-14.04.53:927][608]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/TopDown/Lvl_TopDown/3/PI/SCTWIEYMM2XP6I1KKETFI2_Auto6
+[2025.12.04-14.04.53:927][608]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/SCTWIEYMM2XP6I1KKETFI2_Auto6603998F94D1864E3E47B69A6EDE0BDC9.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/Autosaves/Game/__ExternalActors__/TopDown/Lvl_TopDown/3/PI/SCTWIEYMM2XP6I1KKETFI2_Auto6.uasset'
+[2025.12.04-14.04.53:934][608]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/TopDown/Lvl_TopDown/6/LQ/AQ3XNFMEFXCLH39ZPUANJC_Auto6
+[2025.12.04-14.04.53:934][608]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/AQ3XNFMEFXCLH39ZPUANJC_Auto665391BC54B96A7240F818FB79235F6E7.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/Autosaves/Game/__ExternalActors__/TopDown/Lvl_TopDown/6/LQ/AQ3XNFMEFXCLH39ZPUANJC_Auto6.uasset'
+[2025.12.04-14.04.53:936][608]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/TopDown/Lvl_TopDown' took 0.299
+[2025.12.04-14.04.53:936][608]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.299
+[2025.12.04-14.04.53:937][608]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TopDown/Blueprints/BP_TopDownCharacter] ([2] browsable assets)...
+[2025.12.04-14.04.53:937][608]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDown/Blueprints/BP_TopDownCharacter]
+[2025.12.04-14.04.53:952][608]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/TopDown/Blueprints/BP_TopDownCharacter_Auto6
+[2025.12.04-14.04.53:954][608]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/BP_TopDownCharacter_Auto6434E5554463CBF5A2AE2A7BCA4C98F1A.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/Autosaves/Game/TopDown/Blueprints/BP_TopDownCharacter_Auto6.uasset'
+[2025.12.04-14.04.53:956][608]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TopDown/Blueprints/FloatingCritter] ([2] browsable assets)...
+[2025.12.04-14.04.53:957][608]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDown/Blueprints/FloatingCritter]
+[2025.12.04-14.04.53:972][608]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/TopDown/Blueprints/FloatingCritter_Auto6
+[2025.12.04-14.04.53:974][608]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/FloatingCritter_Auto62B5ADCE643D3F9077B97128FC99A7E86.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/Autosaves/Game/TopDown/Blueprints/FloatingCritter_Auto6.uasset'
+[2025.12.04-14.04.53:977][608]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/TopDown/Blueprints/Enemy] ([2] browsable assets)...
+[2025.12.04-14.04.54:043][608]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/TopDown/Blueprints/Enemy.Enemy]
+[2025.12.04-14.04.54:045][608]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDown/Blueprints/Enemy]
+[2025.12.04-14.04.54:058][608]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/TopDown/Blueprints/Enemy_Auto6
+[2025.12.04-14.04.54:060][608]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/Enemy_Auto652A97EA9493F373AA6DC39B19D2B238C.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/Autosaves/Game/TopDown/Blueprints/Enemy_Auto6.uasset'
+[2025.12.04-14.04.54:062][608]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/TopDown/Blueprints/KillFloor] ([2] browsable assets)...
+[2025.12.04-14.04.54:074][608]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/TopDown/Blueprints/KillFloor.KillFloor]
+[2025.12.04-14.04.54:074][608]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDown/Blueprints/KillFloor]
+[2025.12.04-14.04.54:083][608]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/TopDown/Blueprints/KillFloor_Auto6
+[2025.12.04-14.04.54:085][608]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/KillFloor_Auto64CC255D64D44D2E05F57EA944026611C.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/Autosaves/Game/TopDown/Blueprints/KillFloor_Auto6.uasset'
+[2025.12.04-14.04.54:087][608]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Textures/EnemyPurple] ([1] browsable assets)...
+[2025.12.04-14.04.54:087][608]OBJ SavePackage: Finished generating thumbnails for package [/Game/Textures/EnemyPurple]
+[2025.12.04-14.04.54:092][608]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Textures/EnemyPurple_Auto6
+[2025.12.04-14.04.54:092][608]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/EnemyPurple_Auto6A3328416401A82A0BE0BAAA71AD0916D.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/Autosaves/Game/Textures/EnemyPurple_Auto6.uasset'
+[2025.12.04-14.04.54:094][608]LogFileHelpers: Auto-saving content packages took 0.158
+[2025.12.04-14.04.55:492][696]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.12.04-14.04.55:595][696]LogUObjectHash: Compacting FUObjectHashTables data took   1.24ms
+[2025.12.04-14.04.55:629][696]LogUObjectHash: Compacting FUObjectHashTables data took   1.24ms
+[2025.12.04-14.04.55:660][696]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2025.12.04-14.04.55:675][696]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/8/WV/LPKFF70S7E1N1AHWOJXJ8H
+[2025.12.04-14.04.55:677][696]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/LPKFF70S7E1N1AHWOJXJ8H6E3180AC4C056343D35D679E44035553.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/8/WV/LPKFF70S7E1N1AHWOJXJ8H.uasset'
+[2025.12.04-14.04.55:685][696]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/A/DO/H6PRRDGPS0PIL1H2OR51OT
+[2025.12.04-14.04.55:687][696]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/H6PRRDGPS0PIL1H2OR51OTFDBE6CA54AA881E8E7500F955B197868.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/A/DO/H6PRRDGPS0PIL1H2OR51OT.uasset'
+[2025.12.04-14.04.55:695][696]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/0/YK/K1MSAAPX7S5FDVCX0HWM0X
+[2025.12.04-14.04.55:697][696]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/K1MSAAPX7S5FDVCX0HWM0X20CFE196493AFC6314E7CCA3D2D4BF70.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/0/YK/K1MSAAPX7S5FDVCX0HWM0X.uasset'
+[2025.12.04-14.04.55:704][696]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/2/D6/44X14SD11TM11GMGY9K1LN
+[2025.12.04-14.04.55:706][696]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/44X14SD11TM11GMGY9K1LN89EA642242717075E01DCB986DA18399.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/2/D6/44X14SD11TM11GMGY9K1LN.uasset'
+[2025.12.04-14.04.55:714][696]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/2/OZ/N20Q34H3MBX83I2ATTIJ7T
+[2025.12.04-14.04.55:716][696]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/N20Q34H3MBX83I2ATTIJ7T0B25747D4CDF7715DF69EF83F5EFE8CE.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/2/OZ/N20Q34H3MBX83I2ATTIJ7T.uasset'
+[2025.12.04-14.04.55:723][696]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/5/2X/1Q36NH5WYFF0DWIFW6BI4Q
+[2025.12.04-14.04.55:725][696]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/1Q36NH5WYFF0DWIFW6BI4Q97DA5CB94E40E24B6E286C840F4B2EF3.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/5/2X/1Q36NH5WYFF0DWIFW6BI4Q.uasset'
+[2025.12.04-14.04.55:733][696]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/5/B7/ZXPYAD8TS197DKTF1ZH1AT
+[2025.12.04-14.04.55:734][696]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/ZXPYAD8TS197DKTF1ZH1ATEB146D4F4E1D68A69F26E3909331D18D.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/5/B7/ZXPYAD8TS197DKTF1ZH1AT.uasset'
+[2025.12.04-14.04.55:743][696]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/6/G3/B758HRCYUATB89XZ5UZCJH
+[2025.12.04-14.04.55:745][696]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/B758HRCYUATB89XZ5UZCJH11456F004A0CBC3FF5A60B8E2CA58DB5.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/6/G3/B758HRCYUATB89XZ5UZCJH.uasset'
+[2025.12.04-14.04.55:752][696]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/D/0N/Q9NNRTNOAR4RKFMVCT1P8K
+[2025.12.04-14.04.55:754][696]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/Q9NNRTNOAR4RKFMVCT1P8KB4C180F345664F9D1A2D268A3D2C7179.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/D/0N/Q9NNRTNOAR4RKFMVCT1P8K.uasset'
+[2025.12.04-14.04.55:765][696]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/9/A4/QMVRJZT8QTW9R2L3GFD39O
+[2025.12.04-14.04.55:768][696]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/QMVRJZT8QTW9R2L3GFD39OCCAE313A47BBDEFC17E1E7B6798CAFD9.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/9/A4/QMVRJZT8QTW9R2L3GFD39O.uasset'
+[2025.12.04-14.04.55:777][696]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/6/1U/6QDK8MYNCWAN8CXRQA4XSD
+[2025.12.04-14.04.55:779][696]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/6QDK8MYNCWAN8CXRQA4XSD84FC823848ADDAEF6803B0A364E01369.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/6/1U/6QDK8MYNCWAN8CXRQA4XSD.uasset'
+[2025.12.04-14.04.55:788][696]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/5/0Y/ZSXA3IXIZXHP9AZEJOZWN1
+[2025.12.04-14.04.55:790][696]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/ZSXA3IXIZXHP9AZEJOZWN1FEFD4C3F43C24B6DBC35DC90F61D351D.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/5/0Y/ZSXA3IXIZXHP9AZEJOZWN1.uasset'
+[2025.12.04-14.04.55:798][696]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/A/LJ/O1B5FCY5JNSDKMFY2O77M1
+[2025.12.04-14.04.55:798][696]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/O1B5FCY5JNSDKMFY2O77M1AC824AB34D80EC0159D6589B435F653E.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/A/LJ/O1B5FCY5JNSDKMFY2O77M1.uasset'
+[2025.12.04-14.04.55:806][696]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/9/5L/CWFSQBMZI8STXES5Q8XM6R
+[2025.12.04-14.04.55:806][696]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/CWFSQBMZI8STXES5Q8XM6RAF8BB3B7438280122D0AF6AA6E6DB928.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/9/5L/CWFSQBMZI8STXES5Q8XM6R.uasset'
+[2025.12.04-14.04.55:815][696]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/C/L3/FPXQETYMOYQ4NLAVBAMW63
+[2025.12.04-14.04.55:815][696]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/FPXQETYMOYQ4NLAVBAMW636534E4154CB55C7DFA0F218F9F297B2D.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/C/L3/FPXQETYMOYQ4NLAVBAMW63.uasset'
+[2025.12.04-14.04.55:824][696]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/E/FI/TETGN4NP4POAOJAD8FBSJP
+[2025.12.04-14.04.55:824][696]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/TETGN4NP4POAOJAD8FBSJP5B7FAE1744E7FB28ADB029A72FFDEF98.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/E/FI/TETGN4NP4POAOJAD8FBSJP.uasset'
+[2025.12.04-14.04.55:833][696]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/3/XW/WAHA78PENW3DH2NIF179P0
+[2025.12.04-14.04.55:833][696]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/WAHA78PENW3DH2NIF179P068BC54454A56EAE41A68799CE356B857.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/3/XW/WAHA78PENW3DH2NIF179P0.uasset'
+[2025.12.04-14.04.55:842][696]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/9/B6/FCBSN0DLTK4L0G0RSRGZFV
+[2025.12.04-14.04.55:842][696]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/FCBSN0DLTK4L0G0RSRGZFV99CA65AC41057BDCF1758F8BB924DFA8.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/9/B6/FCBSN0DLTK4L0G0RSRGZFV.uasset'
+[2025.12.04-14.04.55:851][696]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/D/UH/19GX7UY9S7KSLQHXSDJNNJ
+[2025.12.04-14.04.55:851][696]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/19GX7UY9S7KSLQHXSDJNNJ4B20105E4E0AE4F0F5E1E5AA8F853A09.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/D/UH/19GX7UY9S7KSLQHXSDJNNJ.uasset'
+[2025.12.04-14.04.55:859][696]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/9/RH/92H21I8QIO5MWGLQGXEZHZ
+[2025.12.04-14.04.55:859][696]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/92H21I8QIO5MWGLQGXEZHZ441A57E3414BF3512CB61B9DA984C58A.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/9/RH/92H21I8QIO5MWGLQGXEZHZ.uasset'
+[2025.12.04-14.04.55:867][696]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/A/8P/51RR31GQNGITPTXRPVPUSH
+[2025.12.04-14.04.55:867][696]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/51RR31GQNGITPTXRPVPUSH7F787F1642D797E43456C2A3C77F80AF.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/A/8P/51RR31GQNGITPTXRPVPUSH.uasset'
+[2025.12.04-14.04.55:875][696]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/0/CU/U435UZ8YHXRHM92DJVZ51A
+[2025.12.04-14.04.55:875][696]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/U435UZ8YHXRHM92DJVZ51A57F34AFC42B893C98C944B8E998F13AD.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/0/CU/U435UZ8YHXRHM92DJVZ51A.uasset'
+[2025.12.04-14.04.55:891][696]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/A/C0/7CSBZAHQ4KQJRNXRQIOD16
+[2025.12.04-14.04.55:891][696]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/7CSBZAHQ4KQJRNXRQIOD16B1BBC5EC41DCA45C701507B657583479.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/A/C0/7CSBZAHQ4KQJRNXRQIOD16.uasset'
+[2025.12.04-14.04.55:900][696]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/1/K9/JJWBO9FJGFAIBQU8OZ03Y3
+[2025.12.04-14.04.55:900][696]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/JJWBO9FJGFAIBQU8OZ03Y334978E274957054FF3A7F69CD1C91A30.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/1/K9/JJWBO9FJGFAIBQU8OZ03Y3.uasset'
+[2025.12.04-14.04.55:907][696]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/B/9V/KLQ28SILBI62M24UEXKR7O
+[2025.12.04-14.04.55:907][696]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/KLQ28SILBI62M24UEXKR7O8CB8D48D40BCD0D9539FE790595527EA.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/B/9V/KLQ28SILBI62M24UEXKR7O.uasset'
+[2025.12.04-14.04.55:915][696]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/E/AJ/UYJCU1SWENM5FOOX5BW4U6
+[2025.12.04-14.04.55:915][696]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/UYJCU1SWENM5FOOX5BW4U6DB303643471C775BF07A1C87DD19728A.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/E/AJ/UYJCU1SWENM5FOOX5BW4U6.uasset'
+[2025.12.04-14.04.55:923][696]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/9/RP/4LTH7FER0KG1B7NBMOG35Q
+[2025.12.04-14.04.55:923][696]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/4LTH7FER0KG1B7NBMOG35QE3DA1AB547F9E2F815DF49B63E9C9631.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/9/RP/4LTH7FER0KG1B7NBMOG35Q.uasset'
+[2025.12.04-14.04.55:931][696]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/C/Y6/CR49SNUZE6L32F7XHSEH5B
+[2025.12.04-14.04.55:931][696]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/CR49SNUZE6L32F7XHSEH5B1DE162AD4D5B01E6A13898BABA50C6A6.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/C/Y6/CR49SNUZE6L32F7XHSEH5B.uasset'
+[2025.12.04-14.04.55:940][696]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/0/N9/TBGLDH4GW64089EU7CQYRK
+[2025.12.04-14.04.55:940][696]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/TBGLDH4GW64089EU7CQYRK5A16A2134FD1314120B6EEB66910D230.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/0/N9/TBGLDH4GW64089EU7CQYRK.uasset'
+[2025.12.04-14.04.55:950][696]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/3/PI/SCTWIEYMM2XP6I1KKETFI2
+[2025.12.04-14.04.55:950][696]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/SCTWIEYMM2XP6I1KKETFI2EEBC712840F195CA1A2CAEA673DB9716.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/3/PI/SCTWIEYMM2XP6I1KKETFI2.uasset'
+[2025.12.04-14.04.55:959][696]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/6/LQ/AQ3XNFMEFXCLH39ZPUANJC
+[2025.12.04-14.04.55:959][696]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/AQ3XNFMEFXCLH39ZPUANJC8BAAEF1F40D730B3DF1417BD6C2BF33B.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/6/LQ/AQ3XNFMEFXCLH39ZPUANJC.uasset'
+[2025.12.04-14.04.55:984][696]LogFileHelpers: InternalPromptForCheckoutAndSave took 491.812 ms (total: 1.12 sec)
+[2025.12.04-14.04.56:073][696]LogContentValidation: Display: Starting to validate 31 assets
+[2025.12.04-14.04.56:073][696]LogContentValidation: Enabled validators:
+[2025.12.04-14.04.56:073][696]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.12.04-14.04.56:073][696]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.12.04-14.04.56:073][696]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.12.04-14.04.56:073][696]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.12.04-14.04.56:073][696]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.12.04-14.04.56:073][696]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.12.04-14.04.56:073][696]AssetCheck: /Game/TopDown/Lvl_TopDown Validating asset
+[2025.12.04-14.04.56:238][696]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/SourceControl/UncontrolledChangelists.json
+[2025.12.04-14.04.56:387][701]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.12.04-14.05.11:184][625]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.12.04-14.05.13:767][794]Cmd: DUPLICATE
+[2025.12.04-14.05.13:767][794]Cmd: ACTOR DUPLICATE
+[2025.12.04-14.05.32:696][ 30]Cmd: DUPLICATE
+[2025.12.04-14.05.32:696][ 30]Cmd: ACTOR DUPLICATE
+[2025.12.04-14.05.33:782][100]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.12.04-14.05.45:300][792]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 5562.061523
+[2025.12.04-14.05.45:451][805]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.12.04-14.05.45:452][805]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 5562.202148, Update Interval: 357.040924
+[2025.12.04-14.05.46:111][853]Cmd: DUPLICATE
+[2025.12.04-14.05.46:111][853]Cmd: ACTOR DUPLICATE
+[2025.12.04-14.05.47:000][908]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.12.04-14.06.01:784][895]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.12.04-14.06.09:251][388]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.12.04-14.06.09:346][388]LogUObjectHash: Compacting FUObjectHashTables data took   1.51ms
+[2025.12.04-14.06.09:379][388]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2025.12.04-14.06.09:416][388]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2025.12.04-14.06.09:424][388]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/0/N9/TBGLDH4GW64089EU7CQYRK
+[2025.12.04-14.06.09:426][388]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/TBGLDH4GW64089EU7CQYRK55CB3C3B4E97AF27100D95A185673656.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/0/N9/TBGLDH4GW64089EU7CQYRK.uasset'
+[2025.12.04-14.06.09:433][388]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/6/LQ/AQ3XNFMEFXCLH39ZPUANJC
+[2025.12.04-14.06.09:435][388]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/AQ3XNFMEFXCLH39ZPUANJC13C70A3F431DE98393E6609C265BF909.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/6/LQ/AQ3XNFMEFXCLH39ZPUANJC.uasset'
+[2025.12.04-14.06.09:442][388]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/2/75/TSJ0CTHSTJ46QXOAGDDJ11
+[2025.12.04-14.06.09:444][388]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/TSJ0CTHSTJ46QXOAGDDJ1110001C2647D8081E358EF08DDEBB36BD.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/2/75/TSJ0CTHSTJ46QXOAGDDJ11.uasset'
+[2025.12.04-14.06.09:452][388]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/3/PI/SCTWIEYMM2XP6I1KKETFI2
+[2025.12.04-14.06.09:454][388]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/SCTWIEYMM2XP6I1KKETFI2250F899747ED35E21CD9F88589F00095.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/3/PI/SCTWIEYMM2XP6I1KKETFI2.uasset'
+[2025.12.04-14.06.09:461][388]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/1/K9/JJWBO9FJGFAIBQU8OZ03Y3
+[2025.12.04-14.06.09:463][388]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/JJWBO9FJGFAIBQU8OZ03Y33B351D234EEFD943A4C85AA548A677E5.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/1/K9/JJWBO9FJGFAIBQU8OZ03Y3.uasset'
+[2025.12.04-14.06.09:471][388]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/B/9V/KLQ28SILBI62M24UEXKR7O
+[2025.12.04-14.06.09:473][388]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/KLQ28SILBI62M24UEXKR7OD196B20149A65A2015E4969964A138A5.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/B/9V/KLQ28SILBI62M24UEXKR7O.uasset'
+[2025.12.04-14.06.09:480][388]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/E/AJ/UYJCU1SWENM5FOOX5BW4U6
+[2025.12.04-14.06.09:481][388]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/UYJCU1SWENM5FOOX5BW4U60055575B40DA8E95C582F0AC72953AF1.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/E/AJ/UYJCU1SWENM5FOOX5BW4U6.uasset'
+[2025.12.04-14.06.09:489][388]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/9/RP/4LTH7FER0KG1B7NBMOG35Q
+[2025.12.04-14.06.09:491][388]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/4LTH7FER0KG1B7NBMOG35QAA31819E4ACA4994C0B31FA73427A6A4.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/9/RP/4LTH7FER0KG1B7NBMOG35Q.uasset'
+[2025.12.04-14.06.09:500][388]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/C/Y6/CR49SNUZE6L32F7XHSEH5B
+[2025.12.04-14.06.09:501][388]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/CR49SNUZE6L32F7XHSEH5B5F64B43A42F53144F02E348AB83E0476.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/C/Y6/CR49SNUZE6L32F7XHSEH5B.uasset'
+[2025.12.04-14.06.09:512][388]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/A/4O/0DOCI5HAOW2YAQVLUACJU7
+[2025.12.04-14.06.09:512][388]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/0DOCI5HAOW2YAQVLUACJU7A53376EE4D489C7424A31BB50AD211BA.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/A/4O/0DOCI5HAOW2YAQVLUACJU7.uasset'
+[2025.12.04-14.06.09:519][388]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/A/23/ETKQYHBOZ7WLU1J2SK4P10
+[2025.12.04-14.06.09:519][388]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/ETKQYHBOZ7WLU1J2SK4P1024F4AC4548C066494C70EAAD044AFF52.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/A/23/ETKQYHBOZ7WLU1J2SK4P10.uasset'
+[2025.12.04-14.06.09:527][388]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/7/NP/G9T02U8DXF8NH223DQ1PV7
+[2025.12.04-14.06.09:527][388]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/G9T02U8DXF8NH223DQ1PV7844D4DEB424707BB55EFD6BD36159088.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/7/NP/G9T02U8DXF8NH223DQ1PV7.uasset'
+[2025.12.04-14.06.09:535][388]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/E/JZ/W6L7N2XV0B9D0WYTNNRHPL
+[2025.12.04-14.06.09:535][388]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/W6L7N2XV0B9D0WYTNNRHPLA822650143ACEBA72071B99776AF9D05.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/E/JZ/W6L7N2XV0B9D0WYTNNRHPL.uasset'
+[2025.12.04-14.06.09:543][388]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/D/9W/LRGHFI1UMVEIA17UZ5ZS35
+[2025.12.04-14.06.09:543][388]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/LRGHFI1UMVEIA17UZ5ZS35E703F42C490ECE88EA1822B623FA6192.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/D/9W/LRGHFI1UMVEIA17UZ5ZS35.uasset'
+[2025.12.04-14.06.09:551][388]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/5/J7/2CV751XUIMZ4KW5R6Q0ZGB
+[2025.12.04-14.06.09:551][388]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/2CV751XUIMZ4KW5R6Q0ZGB67C6F947431CDC05E9B2289D8C82E61C.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/5/J7/2CV751XUIMZ4KW5R6Q0ZGB.uasset'
+[2025.12.04-14.06.09:559][388]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/1/8L/J37EG4ZGTZ153LDXNFJ9J8
+[2025.12.04-14.06.09:559][388]LogSavePackage: Moving '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/J37EG4ZGTZ153LDXNFJ9J8BA0DD5E24B5FB43A5327F3BDAB6DD733.tmp' to '../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Content/__ExternalActors__/TopDown/Lvl_TopDown/1/8L/J37EG4ZGTZ153LDXNFJ9J8.uasset'
+[2025.12.04-14.06.09:576][388]LogFileHelpers: InternalPromptForCheckoutAndSave took 325.025 ms (total: 1.44 sec)
+[2025.12.04-14.06.09:652][388]LogContentValidation: Display: Starting to validate 16 assets
+[2025.12.04-14.06.09:653][388]LogContentValidation: Enabled validators:
+[2025.12.04-14.06.09:653][388]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.12.04-14.06.09:653][388]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.12.04-14.06.09:653][388]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.12.04-14.06.09:653][388]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.12.04-14.06.09:653][388]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.12.04-14.06.09:653][388]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.12.04-14.06.09:653][388]AssetCheck: /Game/TopDown/Lvl_TopDown Validating asset
+[2025.12.04-14.06.09:689][388]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../../Users/24824452/OneDrive - MMU/Documents/GitHub/3DBlastGame/ThreeDBlastGame/Saved/SourceControl/UncontrolledChangelists.json
+[2025.12.04-14.06.12:151][554]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
